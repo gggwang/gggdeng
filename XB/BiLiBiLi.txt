@@ -1,0 +1,93 @@
+{"name": "BiLiBiLi",
+"url": "https://api.bilibili.com",  
+"User": "空",     
+"直接播放": "0",
+"横图显示": "1",
+"fenlei": "
+戏曲$/x/web-interface/search/type?search_type=video&keyword=戏曲&duration=3&page=#
+印度歌舞$/x/web-interface/search/type?search_type=video&keyword=印度歌舞&duration=3&page=#
+印度电影歌舞$/x/web-interface/search/type?search_type=video&keyword=印度电影歌舞&duration=3&page=#
+演唱会$/x/web-interface/search/type?search_type=video&keyword=演唱会&duration=4&page=#
+动物世界$/x/web-interface/search/type?search_type=video&keyword=动物世界&duration=3&page=#
+搞笑$/x/web-interface/search/type?search_type=video&keyword=娱乐&duration=3&page=#
+mv$/x/web-interface/search/type?search_type=video&keyword=mv&duration=3&page=#
+鬼畜$/x/web-interface/search/type?search_type=video&keyword=鬼畜&duration=3&page=#
+番剧$/x/web-interface/search/type?search_type=video&keyword=番剧&duration=3&page=#
+舞蹈$/x/web-interface/search/type?search_type=video&keyword=舞蹈&duration=3&page=#
+美食$/x/web-interface/search/type?search_type=video&keyword=美食&duration=3&page=#
+记录$/x/web-interface/search/type?search_type=video&keyword=纪录片&duration=3&page=#
+剧集$/x/web-interface/search/type?search_type=video&keyword=电视剧&duration=3&page=#
+国创$/x/web-interface/search/type?search_type=video&keyword=国创&duration=3&page=#
+综艺$/x/web-interface/search/type?search_type=video&keyword=综艺&duration=3&page=#
+动画$/x/web-interface/search/type?search_type=video&keyword=动画&duration=3&page=#
+娱乐$/x/web-interface/search/type?search_type=video&keyword=娱乐&duration=3&page=#
+电影$/x/web-interface/search/type?search_type=video&keyword=电影&duration=3&page=#
+游戏$/x/web-interface/search/type?search_type=video&keyword=游戏&duration=3&page=#
+科技$/x/web-interface/search/type?search_type=video&keyword=科技&duration=3&page=#
+资讯$/x/web-interface/search/type?search_type=video&keyword=资讯&duration=3&page=#
+汽车$/x/web-interface/search/type?search_type=video&keyword=汽车&duration=3&page=#
+时尚$/x/web-interface/search/type?search_type=video&keyword=时尚&duration=3&page=#
+运动$/x/web-interface/search/type?search_type=video&keyword=运动&duration=3&page=#
+公开课$/x/web-interface/search/type?search_type=video&keyword=公开课&duration=3&page=#
+单机游戏$/x/web-interface/search/type?search_type=video&keyword=单机游戏&duration=3&page=#
+生活$/x/web-interface/search/type?search_type=video&keyword=生活&duration=3&page=
+", 
+"houzhui": "",
+"shifouercijiequ": "0",
+"jiequqian": "空",
+"jiequhou": "空",
+"jiequshuzuqian": "{\"type",
+"jiequshuzuhou": "corner",
+"tupianqian": "\"pic\":\"", 
+"tupianhou": "\"",
+"tupianqianzhui": "http:",
+"biaotiqian": "author\":\"",
+"biaotihou": "\"",
+"lianjieqian": "\"bvid\":\"",
+"lianjiehou": "\"",
+"ljqianzhui": "https://www.bilibili.com/video/",
+"fubiaotiqian": "title\":\"",
+"fubiaotihou": "\"",
+"sousuohouzhui": "/voddetail/",
+"jspic": "pic",
+"jsname": "name",
+"jsid": "id",
+"sousuoqian": "/index.php/ajax/suggest?mid=1&wd=",
+"sousuohou": "&limit=500",
+"ssmoshi": "0",
+"sousuoshifouercijiequ": "0",
+"ssjiequqian": "空",
+"ssjiequhou": "空",
+"ssjiequshuzuqian": "空",
+"ssjiequshuzuhou": "空",
+"sstupianqian": "空",
+"sstupianhou": "空",
+"sstupianqianzhui": "空",
+"ssbiaotiqian": "空",
+"ssbiaotihou": "空",
+"sslianjieqian": "空",
+"sslianjiehou": "空",
+"ssljqianzhui": "空",
+"bfshifouercijiequ": "0",
+"bfjiequqian": "空",
+"bfjiequhou": "空",
+"bfjiequshuzuqian": "\"pages\"",
+"bfjiequshuzuhou": "]",
+"zhuangtaiqian": "tname\":\"",
+"zhuangtaihou": "\"",
+"daoyanqian": "空空",
+"daoyanhou": "空空",
+"zhuyanqian": "空空",
+"zhuyanhou": "空空",
+"juqingqian": "raw_text\":\"",
+"juqinghou": "\"",
+"bfyshifouercijiequ": "0",
+"bfyjiequqian": "空",
+"bfyjiequhou": "空",
+"bfyjiequshuzuqian": "{",
+"bfyjiequshuzuhou": "}",
+"bfbiaotiqian": "part\":\"",
+"bfbiaotihou": "\"",
+"bflianjieqian": "page\":",
+"bflianjiehou": ",",
+"bfqianzhui": "?p="},
