@@ -22,7 +22,7 @@
     "分类片单链接加前缀": "",
     "分类片单链接加后缀": "",
     "搜索请求头参数": "User-Agent$手机",
-    "搜索链接": "https://www.subaibaiys.com/grabble?q={wd}",
+    "搜索链接": "https://www.subaibaiys.com/search?q={wd}",
     "POST请求数据": "",
     "搜索截取模式": "1",
     "搜索列表数组规则": "body&&.bt_img&&li",
