@@ -14,9 +14,9 @@
     //首页推荐数据获取链接
     "rcmed_url": "https://kpkuang.org",
     //首页列表数组截取。
-    "home_arr_rule": "body&&.fed-list-item",
+    "home_arr_rule": "body&&.fed-list-item.fed-padding.fed-col-xs4.fed-col-sm3.fed-col-md2",
     //首页片单列表数组定位。
-    "hmepi_arr_rule": ".fed-list-pics",
+    "hmepi_arr_rule": ".fed-list-pics.fed-lazy.fed-part-2by3.uk-transition-scale-up.uk-transition-opaque",
     //首页片单信息jsoup与正则截取写法切换，只作用于html网页，1为jsoup写法(默认)，0为正则截取写法
     "home_is_jsoup":"1",
     
@@ -62,7 +62,7 @@
     //搜索截取模式,0为json搜索，只支持列表在list数组里的，其它数字为网页截取。
     "search_mode": "1",
     //搜索列表数组定位，不填默认内置list，最多支持3层，能力有限，不是所有页面都能支持。
-    "sea_arr_rule": "body&&.uk-text-center",
+    "sea_arr_rule": "body&&.fed-list-pics",
     //搜索片单信息jsoup与xb截取写法切换，只作用于html网页，1为jsoup写法(默认)，0为xb写法
     "sea_is_jsoup":"1",
     //搜索片单图片，支持自定义图片链接
