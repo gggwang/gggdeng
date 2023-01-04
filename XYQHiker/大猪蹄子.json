@@ -51,9 +51,8 @@
     "play_suffix": "#isVideo=true#", 
     "play_header": "authority$ku.peizq.online#Referer$https://play.peizq.online", 
     "proj_is_jsoup": "0", 
-    "proj_cate": "", 
-    "proj_year": "", 
-    "proj_area": "", 
+    "proj_cate": "class=\"module-info-tag\">&&<div class=\"module-mobile-play", 
+    "proj_year": "更新：</span>&&</div>", 
     "proj_actor": "主演：</span>&&</div>", 
     "proj_plot": "style=\"line-height: 20px;\">&&</p>", 
     "tab_arr_rule": ".module-tab-items-box&&span", 
@@ -65,8 +64,8 @@
     "epi_reverse": "0", 
     "epiurl_prefix": "https://www.dazhutizi.net", 
     "epiurl_suffix": "", 
-    "Anal_MacPlayer": "0", 
-    "ManualSniffer": "1", 
+    "Anal_MacPlayer": "2", 
+    "ManualSniffer": "0", 
     "VideoFormat": ".m3u8#.mp4#.flv", 
     "VideoFilter": ".html#=http"
 }
