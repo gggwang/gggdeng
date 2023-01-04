@@ -111,11 +111,11 @@
     //项目信息jsoup与xb截取写法切换，1为jsoup写法(默认)，0为xb写法
     "proj_is_jsoup":"0",
     //类型数据，截取前缀&&截取后缀
-    "proj_cate": "",
+    "proj_cate": "TAG：</span>&&</div>",
     //年代数据，截取前缀&&截取后缀
-    "proj_year": "",
+    "proj_year": "上映：</span>&&</div>",
     //地区数据，截取前缀&&截取后缀
-    "proj_area": "",
+    "proj_area": "class=\"tag-link\">&&</div>",
     //演员数据，截取前缀&&截取后缀
     "proj_actor": "主演：</span>&&</div>",
     //简介内容，截取前缀&&截取后缀
@@ -147,7 +147,7 @@
     //如果网页源码里没有这种请设置为0
     "Anal_MacPlayer":"2",
     //是否开启手动嗅探，只对网页嗅探有效，0否，1是
-    "ManualSniffer":"1",
+    "ManualSniffer":"0",
     //手动嗅探视频链接关键字，每个用#隔开
     "VideoFormat":".m3u8#.mp4#.flv",
     //手动嗅探视频链接过滤关键词,每个用#隔开

@@ -10,27 +10,16 @@
 	"首页片单列表数组规则": ".myui-vodlist__box",
 	"首页片单是否Jsoup写法": "1",
 	"firstpage": "1",
-	"class_url": "https://www.jiaozi.me/mlist/index{cateId}-{catePg}.html",
-	"class_name": "电影&剧集&动画&综艺",
-	"class_value": "1&2&41&44",
-	// "filterdata": {},
+	"class_url": "https://www.jiaozi.me/search.php?page={catePg}&searchtype=5&tid={cateId}&order=douban&tid=2&area={area}&year={year}&letter=&yuyan=&state=&money=&ver=&jq=",
+	"class_name": "电影&剧集&动画&综艺&美剧&韩剧&国产剧&泰剧",
+	"class_value": "1&2&41&44&15&16&14&29",
 	"筛选数据": "ext",
-	//{cateId}
 	"筛选子分类名称": "",
 	"筛选子分类替换词": "*",
-	//{class}
-	"筛选类型名称": "喜剧&爱情&恐怖&动作&科幻&剧情&战争&警匪&犯罪&动画&奇幻&武侠&冒险&枪战&恐怖&悬疑&惊悚&经典&青春&文艺&微电影&古装&历史&运动&农村&儿童&网络电影||古装&战争&青春偶像&喜剧&家庭&犯罪&动作&奇幻&剧情&历史&经典&乡村&情景&商战&网剧&其他||选秀&情感&访谈&播报&旅游&音乐&美食&纪实&曲艺&生活&游戏互动&财经&求职||",
-	"筛选类型替换词": "*",
-	//{area}
-	"筛选地区名称": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他||内地&韩国&香港&台湾&日本&美国&泰国&英国&新加坡&其他||内地&港台&日韩&欧美||",
+	"筛选地区名称": "全部&中国&美国&日本&韩国&泰国&英国",
 	"筛选地区替换词": "*",
-	//{year}
 	"筛选年份名称": "2022&2021&2020&2019&2018&2017&2016&2015&2014&2013&2012&2011&2010&2009&2008&2007&2006&2005&2004",
 	"筛选年份替换词": "*",
-	//{lang}
-	"筛选语言名称": "国语&英语&粤语&闽南语&韩语&日语&法语&德语&其它||国语&英语&粤语&闽南语&韩语&日语&其它||国语&英语&粤语&闽南语&韩语&日语&其它||",
-	"筛选语言替换词": "*",
-	//{by}
 	"筛选排序名称": "最新排序&人气排序&评分排序",
 	"筛选排序替换词": "time&hits&score",
 	"cat_mode": "1",
@@ -59,9 +48,9 @@
 	"play_suffix": "#isVideo=true#",
 	"play_header": "authority$ku.peizq.online#Referer$https://play.peizq.online",
 	"proj_is_jsoup": "0",
-	"proj_cate": "",
-	"proj_year": "",
-	"proj_area": "导演：</span>&&</p>",
+	"proj_cate": "豆瓣评分：</span>&&</p",
+	"proj_year": "年份：</span>&&</p>",
+	"proj_area": "地区：</span>&&</p>",
 	"proj_actor": "演员：</span>&&</p>",
 	"proj_plot": "简介：</span>&&</p>",
 	"tab_arr_rule": ".nav.nav-tabs.active&&li",
@@ -75,7 +64,7 @@
 	"epiurl_prefix": "https://www.jiaozi.me",
 	"epiurl_suffix": "",
 	"Anal_MacPlayer": "2",
-	"ManualSniffer": "1",
+	"ManualSniffer": "0",
 	"VideoFormat": ".mp4#.m3u8#.flv#.m3u8?#st=",
 	"VideoFilter": ".html#=http"
 }
