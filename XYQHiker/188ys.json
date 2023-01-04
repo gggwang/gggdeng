@@ -1,35 +1,19 @@
 {
-    //规则名
-    "title": "https://7k789.com/vod-play-id-262309-sid-2-nid-1.html",
-    //作者
-    "author": "sm",
-    //请求头UA,键名$键值，每一组用#分开，不填则默认okhttp/3.12.11，可填MOBILE_UA或PC_UA使用内置的手机版或电脑版UA
-    //多个请求头参数写法示例，"User-Agent$PC_UA#Referer$http://ww.baidu.com#Cookie$ser=ok",每一组用#分开。
-    //习惯查看手机源码写建议用手机版UA，习惯查看PC版源码写建议用电脑版UA
-    "Headers":"User-Agent$MOBILE_UA#Referer$https://7k789.com",
-    //图片是否需要代理
-    "PicNeedProxy":"0",
-    //是否开启获取首页数据，0关闭，1开启
-    "homeContent":"1",
-    //首页推荐数据获取链接
-    "rcmed_url": "https://7k789.com",
-    //首页列表数组截取。
-    "home_arr_rule": "body&&.module-items",
-    //首页片单列表数组定位。
-    "hmepi_arr_rule": "a",
-    //首页片单信息jsoup与正则截取写法切换，只作用于html网页，1为jsoup写法(默认)，0为正则截取写法
-    "home_is_jsoup":"1",
-    
-    //分类链接起始页码,禁止负数和含小数点。
-    "firstpage": "1",
-    //分类链接,{cateId}是分类，{catePg}是页码,第一页没有页码的可以这样写 第二页链接[firstPage=第一页的链接]
-    "class_url": "https://7k789.com/vod-show-area-{area}-by-{by}-id-{cateId}-lang-{lang}-page-{catePg}-year-{year}.html",
-    //分类名，分类1&分类2&分类3
-    "class_name": "电影&电视剧&动漫&综艺",
-    //分类名替换词，替换词1&替换词2&替换词3，替换词包含英文&的用两个中文＆＆代替，示例：＆＆id=0&＆＆id=1
-    "class_value": "1&2&4&3",
-    //筛选数据，json格式，参考xpath的筛选写法
-    "筛选数据": "ext",
+    "规则名": "188影视",
+    "规则作者": "香雅情",
+    "请求头参数": "User-Agent$MOBILE_UA#Referer$WebView",
+    "网页编码格式": "UTF-8",
+    "图片是否需要代理": "0",
+    "是否开启获取首页数据": "1",
+    "首页推荐链接": "https://188kan.com/label-new.html",
+    "首页列表数组规则": ".module-items",
+    "首页片单列表数组规则": ".module-item",
+    "首页片单是否Jsoup写法": "1",
+    "分类起始页码": "1",
+    "分类链接": "https://188kan.com/vod-show-area-{area}-by-{by}-id-{cateId}-lang-{lang}-year-{year}-page-{catePg}.html",
+    "分类名称": "电影&电视剧&综艺&动漫&纪录片",
+    "分类名称替换词": "1&2&3&4&5",
+        "筛选数据": "ext",
     "筛选子分类名称": "动作片&喜剧片&爱情片&恐怖片&犯罪片&科幻片&惊悚片&战争片&悬疑片&灾难片&谍战片&冒险片&剧情片&武侠片&奇幻片&伦理片&动画片&历史片&传记片&歌舞片||国产剧&港台剧&日韩剧&欧美剧&海外剧&泰国剧&其他剧||大陆综艺&港台综艺&日韩综艺&其他综艺||国产动漫&日韩动漫&欧美动漫",
     "筛选子分类替换词": "6&7&8&10&21&9&32&12&27&33&34&28&11&45&17&20&22&40&39&38||13&14&15&16&35&41&36||23&24&25&26||42&43&44",
     "筛选类型名称": "",
@@ -42,101 +26,49 @@
     "筛选语言替换词": "*",
     "筛选排序名称": "时间排序&人气排序&评分排序",
     "筛选排序替换词": "time&hits&score",
-    
-    //分类页面截取数据模式，0为json，其它数字为普通网页。
-    "cat_mode": "1",
-    //分类列表数组定位，最多支持3层，能力有限，不是所有页面都能支持
-    "cat_arr_rule": "body&&.module-item",
-    //分类片单信息jsoup与xb截取写法切换，只作用于html网页，1为jsoup写法(默认)，0为xb写法
-    "cat_is_jsoup":"1",
-    //分类片单标题
-    "cat_title": "a&&title",
-    //分类片单链接
-    "cat_url": "a&&href",
-    //分类片单图片，支持自定义图片链接
-    "cat_pic": ".lazy&&data-original",
-    //分类片单副标题
-    "cat_subtitle":".module-item-note&&Text",
-    //分类片单链接补前缀  
-    "cat_prefix": "https://188kan.com",
-    //分类片单链接补后缀
-    "cat_suffix": "",
-    
-    //搜索请求头参数,不填则默认okhttp/3.12.11，可填MOBILE_UA或PC_UA使用内置的手机版或电脑版UA
-    //多个请求头参数写法示例，键名$键值，每一组用#分开。"User-Agent$PC_UA#Referer$http://ww.baidu.com#Cookie$ser=ok"。
-    "SHeaders":"User-Agent$PC_UA",
-    //搜索链接，搜索关键字用{wd}表示，post请求的最后面加;post
-    //POST链接示例 http://www.lezhutv.com/index.php?m=vod-search;post
-    "search_url": "https://7k789.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=50",
-    //POST搜索body，填写搜索关键字的键值，一般常见的是searchword和wd，不是POST搜索的可留空或删除。
-    "sea_PtBody":"wd={wd}&search=",
-    
-    //搜索截取模式,0为json搜索，只支持列表在list数组里的，其它数字为网页截取。
-    "search_mode": "0",
-    //搜索列表数组定位，不填默认内置list，最多支持3层，能力有限，不是所有页面都能支持。
-    "sea_arr_rule": "list",
-    //搜索片单信息jsoup与xb截取写法切换，只作用于html网页，1为jsoup写法(默认)，0为xb写法
-    "sea_is_jsoup":"1",
-    //搜索片单图片，支持自定义图片链接
-    "sea_pic": "pic",
-    //搜索片单标题
-    "sea_title": "name",
-    //搜索片单链接
-    "sea_url": "id",
-    //搜索片单副标题
-    "sea_subtitle":"",
-    //搜索片单链接补前缀
-    "search_prefix": "https://7k789.com/vod-detail-id-",
-    //搜索片单链接补后缀，这个一般json搜索的需要
-    "search_suffix": ".html",
-    
-    //片单链接是否直接播放，0否，1分类片单链接直接播放，2详情选集链接直接播放。
-    //设置成直接播放后，后面3个参数请注意该留空的请务必留空。
-    "force_play": "0",
-    //直接播放链接补前缀
-    "play_prefix": "https://live.52sf.ga/huya/",
-    //直接播放链接补后缀，设置为#isVideo=true#可强制识别为视频链接
-    "play_suffix": "#isVideo=true#",
-    //直接播放链接设置请求头，只对直链视频有效，每一组用#分开
-    "play_header": "authority$ku.peizq.online#Referer$https://play.peizq.online",
-    
-    //项目信息jsoup与xb截取写法切换，1为jsoup写法(默认)，0为xb写法
-    "proj_is_jsoup":"0",
-    //类型数据，截取前缀&&截取后缀
-    "proj_cate": "更新：</span>&&</div>",
-    //年代数据，截取前缀&&截取后缀
-    "proj_year": "class=\"module-info-tag-link\">&&</div>",
-    //地区数据，截取前缀&&截取后缀
-    "proj_area": "集数：</span>&&</div>",
-    //演员数据，截取前缀&&截取后缀
-    "proj_actor": "主演：</span>&&</div>",
-    //简介内容，截取前缀&&截取后缀
-    "proj_plot": "class=\"module-info-introduction-content show-desc\" style=\"line-height: 20px;\">&&</p>",
-    
-    //线路截取区域，如果不需要请把tab_title或tab_arr_rule置空或者全部不要填。
-    //线路截取数组
-    "tab_arr_rule": "body&&.module-tab-item.tab-item",
-    //线路标题，截取前缀&&截取后缀
-    "tab_title": "span&&Text",
-    
-    //列表数组截取，必须
-    "list_arr_rule": "body&&.module-play-list",
-    //集数数组截取，必须
-    "epi_arr_rule": "a",
-    //集数标题，截取前缀&&截取后缀
-    "epi_title": "a&&Text",
-    //集数链接，截取前缀&&截取后缀
-    "epi_url": "a&&href",
-    //选集是否反转显示
-    "epi_reverse": "0",
-    //集数链接补前缀
-    "epiurl_prefix": "https://188kan.com/",
-    //集数链接补后缀
-    "epiurl_suffix": "",
-    
-   "分析MacPlayer": "1",
-    "是否开启手动嗅探": "1",
-    "手动嗅探视频链接关键词": ".m3u8#.mp4#.flv",
-    "手动嗅探视频链接过滤词": ".html#=http#=https"
+    "分类截取模式": "1",
+    "分类列表数组规则": "body&&.module-item",
+    "分类片单是否Jsoup写法": "1",
+    "分类片单标题": "a&&title",
+    "分类片单链接": "a&&href",
+    "分类片单图片": ".lazyload&&data-original",
+    "分类片单副标题": ".module-item-note&&Text",
+    "分类片单链接加前缀": "https://188kan.com",
+    "分类片单链接加后缀": "",
+    "搜索请求头参数": "User-Agent$MOBILE_UA",
+    "搜索链接": "https://188kan.com/vod-search.html?wd={wd}",
+    "POST请求数据": "",
+    "搜索截取模式": "1",
+    "搜索列表数组规则": "body&&.module-item",
+    "搜索片单是否Jsoup写法": "1",
+    "搜索片单图片": ".lazyload&&data-original",
+    "搜索片单标题": ".module-card-item-title&&Text",
+    "搜索片单链接": "a&&href",
+    "搜索片单副标题": ".module-item-note&&Text",
+    "搜索片单链接加前缀": "https://188kan.com",
+    "搜索片单链接加后缀": "",
+    "链接是否直接播放": "0",
+    "直接播放链接加前缀": "",
+    "直接播放链接加后缀": "#isVideo=true#",
+    "直接播放直链视频请求头": "",
+    "详情是否Jsoup写法": "0",
+    "类型详情": "更新：</span>&&</p>",
+    "年代详情": "class=\"module-info-tag\">&&</div>",
+    "导演详情": "导演：</span>&&</div>",
+    "演员详情": "主演：</span>&&</div>",
+    "简介详情": "introduction\">&&</p>",
+    "线路列表数组规则": "#y-playList&&.module-tab-item",
+    "线路标题": "span,0&&Text",
+    "播放列表数组规则": "body&&.module-play-list-content",
+    "选集列表数组规则": "a",
+    "选集标题链接是否Jsoup写法": "1",
+    "选集标题": "a&&Text",
+    "选集链接": "a&&href",
+    "是否反转选集序列": "0",
+    "选集链接加前缀": "https://188kan.com",
+    "选集链接加后缀": "",
+    "分析MacPlayer": "2",
+    "是否开启手动嗅探": "0",
+    "手动嗅探视频链接关键词": ".mp4#.m3u8#.flv#video/tos",
+    "手动嗅探视频链接过滤词": ".html#=http#next=#?url="
 }
-
