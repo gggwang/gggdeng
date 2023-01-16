@@ -8,7 +8,7 @@
   "数组": "<a class=\"stui-vodlist__thumb&&</a>",
   "图片": "data-original=\"&&\"",
   "标题": "title=\"&&\"",
-  "副标题": "class=\"pic-text text-right\">&&</span>",
+  "副标题": "class=\"pic-text text-right\">&&</span>+'+class=\"pic-text1 text-right\">&&</span>",
   "链接": "href=\"&&\"",
   "链接前缀": "https://www.bilituys.com",
  
