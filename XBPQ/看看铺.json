@@ -1,0 +1,33 @@
+{
+"作者":"",
+"站名":"看看铺",
+"请求头": "手机",
+"调试":"",
+//"起始页": "2",
+"分类url":"https://www.kankanpu.com/vshow/{cateId}-{catePg}--.html[firstPage=https://www.kankanpu.com/vshow/{cateId}-----------.html]",//[firstPage=https://www.kankanpu.com/vshow/{cateId}-----------.html]加在后面可以去掉起始页项
+"分类":"电影$1#电视剧$2#综艺$3#动漫$4",
+"主页url":"https://www.kankanpu.com/",
+"数组":"class=\"module-item-pic\"&&</div>",
+"图片":"data-original=\"&&\"",
+//"标题":"影片信息\">&&</div>",
+"链接":"href=\"&&\"",
+//"副标题":"<div class=\"movie-rating cor4\">&&</div>",
+"搜索模式":"1",
+"搜索图片":"data-original=\"&&\"",
+"搜索标题":"影片信息\">&&</div>",
+"搜索链接":"href=\"&&\"",
+"搜索后缀":"/v/",
+"线路数组":"class=\"module-tab-item*>&&</div>",
+"线路标题":"<span>&&</span>",
+"播放数组": "class=\"module-blocklist&&</div>",
+//"播放列表": "<a&&</a>",
+//"播放标题":">&&</a>",
+//"播放链接":"href=\"&&\"",
+"影片类型":"<div class=\"scroll-content\">&&</p>",
+"导演":"导演：&&</div>",
+"主演":"演员：&&</div>",
+"简介":"<div class=\"summary detailsTxt\"&&</div>",
+"免嗅":"0",
+"嗅探词":".m3u8#.mp4"
+//"过滤词":".jpg#.png#.ico#.gif#"
+}
