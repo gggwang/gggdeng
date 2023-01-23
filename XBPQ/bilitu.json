@@ -19,9 +19,11 @@
   "主演": "主演：&&</p>",
   "简介": "简介：</span>&&</p>",
   "播放数组": "<ul class=\"stui-content__playlist&&</ul>",
+  "播放链接前缀": "https://www.bilituys.com",
   
-  "免嗅": "0",
-  "嗅探词":".m3u8#.mp4",
+  "免嗅": "1",
+  "嗅探词":".m3u8#.mp4#banyung.vip#m3u8?",
+  "过滤词":".html#=http",
   "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
   "分类url": "https://www.bilituys.com/bilishow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
   "搜索模式": "1",
