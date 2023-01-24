@@ -1,0 +1,1150 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="theme-gitea">
+<head data-suburl="">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>gggwang/gggxuan - xBPQ/聚优久久热资源.json at main - Agit</title>
+	<meta name="theme-color" content="#6cc644">
+	<meta name="author" content="gggwang" />
+	<meta name="description" content="gggxuan" />
+	<meta name="keywords" content="go,git,self-hosted,gitea">
+	<meta name="referrer" content="no-referrer" />
+	<meta name="_csrf" content="T8bjulAo_nssLi9lTdtA7zWfCNo6MTY3NDU1Mjc3OTc1NzIxODMxNw" />
+	<meta name="_suburl" content="" />
+	
+		<meta name="_uid" content="720" />
+	
+	
+	
+
+	<script>
+		window.config = {
+			AppVer: 'gitea模板还原\u002b138-g943c8c71f',
+			AppSubUrl: '',
+			StaticUrlPrefix: '',
+			UseServiceWorker:  true ,
+			csrf: 'T8bjulAo_nssLi9lTdtA7zWfCNo6MTY3NDU1Mjc3OTc1NzIxODMxNw',
+			HighlightJS: false,
+			SimpleMDE: false,
+			Tribute: false,
+			U2F: false,
+			Heatmap: false,
+			heatmapUser: null,
+			NotificationSettings: {
+				MinTimeout:  10000 ,
+				TimeoutStep:   10000 ,
+				MaxTimeout:  60000 ,
+				EventSourceUpdateTime:  10000 ,
+			},
+			PageIsProjects: false,
+      
+		};
+	</script>
+	<link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+	<link rel="alternate icon" href="/img/favicon.png" type="image/png">
+	<link rel="mask-icon" href="/img/agit-safari.svg" color="#609926">
+	<link rel="fluid-icon" href="/img/agit-lg.png" title="Agit">
+
+
+	<link rel="stylesheet" href="/css/index.css?v=220846678a86246c9d7e7c46c21f20c2">
+	<noscript>
+		<style>
+      .dropdown:hover > .menu { display: block; }
+      .ui.secondary.menu .dropdown.item > .menu { margin-top: 0; }
+		</style>
+	</noscript>
+	<style class="list-search-style"></style>
+
+	
+		<meta property="og:title" content="gggxuan" />
+		<meta property="og:url" content="https://agit.ai/gggwang/gggxuan" />
+		
+	
+	<meta property="og:type" content="object" />
+	
+		<meta property="og:image" content="https://agit.ai/user/avatar/gggwang/-1" />
+	
+
+<meta property="og:site_name" content="Agit" />
+
+	
+
+
+<link rel="stylesheet" href="/vendor/plugins/xterm/xterm.css?v=220846678a86246c9d7e7c46c21f20c2" />
+
+
+</head>
+<body>
+	
+
+	<div class="full height">
+		<noscript>使用 JavaScript能使本网站更好的工作。</noscript>
+
+		
+
+		
+			
+			<div class="ui top secondary stackable main menu following bar light" style="background: #242628; height: 52px;">
+				
+<div class="ui container z-max" id="navbar" v-cloak style="position:fixed;">
+	<div class="i-flex i-align-center i-justify-between logo-img" style="margin-right:26px;height:52px;">
+		<a href="/">
+			<img class="share-nav-logo" src="/img/logo/nav-logo.svg">
+		</a>
+		<div class="ui basic icon button mobile-only" id="navbar-expand-toggle">
+			<i class="sidebar icon"></i>
+		</div>
+	</div>
+
+	
+		<a class="item " href="/">首页</a>
+		
+		<a class="item " href="/issues">讨论区</a>
+		
+		
+		<a class="item " href="/pulls">合并请求</a>
+		
+		<a class="mobile-only item " href="/explore/repos">探索</a>
+		<div class="ui input d-relative navbar-search not-mobile" :class="{active:menuVisible}">
+			<i class="icon iconfont icon-search"></i>
+			<input v-model="searchName" placeholder="搜索" type="text" autocomplete="off"  @focus="menuVisible = true">
+			<div v-show="searchName.trim() && menuVisible" class="ui segment transition z-menu" @focus="menuVisible = true">
+				<div class="ui list" @click="handleSearch('repos')">
+					<span class="mr-md">${searchName}</span> <span class="i-text-right">仓库</span>
+				</div>
+				<div class="ui list" @click="handleSearch('users')">
+					<span class="mr-md">${searchName}</span> <span class="i-text-right">用户</span>
+				</div>
+				<div class="ui list" @click="handleSearch('organizations')">
+					<span class="mr-md">${searchName}</span> <span class="i-text-right">组织</span>
+				</div>
+			</div>
+
+		</div>
+
+	
+	
+
+	
+
+
+	
+
+	<div class="right stackable menu header-right">
+		
+		<div class="ui dropdown jump item poping up active visible">
+			<i class="iconfont mr-3xs font-size-2xl" :class='{"icon-lang-zh2en":lan!=="en-US","icon-lang-en2zh":lan==="en-US"}'></i>
+			<span id="footerLang" class="hidden">简体中文</span>
+			<i class="caret down icon font-size-sm"></i>
+			<div class="menu">
+				
+				<span lang="zh-CN" class="item active selected" onclick="handleLanguage(&#34;zh-CN&#34;)">简体中文</span>
+				
+				<span lang="en-US" class="item " onclick="handleLanguage(&#34;en-US&#34;)">English</span>
+				
+			</div>
+		</div>
+
+		<a href="/notifications" class="item poping up" data-content='通知' data-variation="tiny inverted">
+				<span class="text d-relative">
+					<i class="iconfont icon-bell mr-none font-size-lg"></i>
+					<span class="sr-mobile-only">通知</span>
+					
+					
+						<span class="ui red label floating-notification">
+							20
+						</span>
+					
+				</span>
+		</a>
+
+		<div class="ui dropdown jump item poping up" data-content="创建…" data-variation="tiny inverted">
+		<span class="text">
+					<i class="iconfont icon-plus mr-3xs"></i>
+					<span class="sr-mobile-only">创建…</span>
+					<i class="caret down icon font-size-sm not-mobile"></i>
+				</span>
+		<div class="menu left">
+			<a class="item" href="/repo/create">
+				<i class="iconfont icon-create-repo"></i> 创建仓库
+			</a>
+			<a class="item" href="/repo/migrate">
+				<i class="iconfont icon-migrate-repo"></i> 迁移外部仓库
+			</a>
+			
+			<a class="item" href="/org/create">
+				<i class="iconfont icon-org-member"></i> 创建组织
+			</a>
+			
+		</div>
+	</div>
+
+	<div class="ui dropdown jump item poping up" data-position="bottom right" tabindex="-1" data-content="个人中心" data-variation="tiny inverted">
+	<span class="text">
+					<img class="ui tiny avatar image mr-3xs" src="/user/avatar/gggwang/-1">
+					<span class="sr-only">个人中心</span>
+					<span class="mobile-only">gggwang</span>
+					<i class="caret down icon font-size-sm not-mobile" tabindex="-1"></i>
+				</span>
+	<div class="menu user-menu" tabindex="-1">
+		<div class="ui header">
+			已登录用户 <strong>gggwang</strong>
+		</div>
+
+		<div class="divider"></div>
+
+		<a class="item" href="/gggwang">
+			<i class="iconfont icon-user"></i>
+			个人主页
+		</a>
+
+		<a class="item" href="/user/settings/profile">
+			<i class="iconfont icon-gear"></i>
+			账号管理
+		</a>
+
+		
+
+		<a class="item" href="/user/settings/computing">
+			<i class="iconfont icon-pkg-manage"></i>
+			资源管理
+		</a>
+
+		<div class="divider"></div>
+		<a  class="item link-action logout" href data-url="/user/logout" data-redirect="/" onclick="logoutMethod()">
+			<i class="iconfont icon-quit"></i>
+			退出
+		</a>
+	</div>
+</div>
+</div>
+
+
+</div>
+
+			</div>
+		
+
+
+<div id="repoHome" class="repository file list ">
+	<div class="header-wrapper">
+
+	<div class="ui container">
+		<div class="repo-header">
+			<div class="ui huge breadcrumb repo-title">
+				
+					<div class="repo-header-icon">
+	
+		
+			<svg viewBox="0 0 16 16" class="svg octicon-repo" width="32" height="32" aria-hidden="true"><path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"/></svg>
+			
+		
+	
+</div>
+
+				
+				<a href="/gggwang">gggwang</a>
+				<div class="divider"> / </div>
+				<a href="/gggwang/gggxuan">gggxuan</a>
+
+				<i class="iconfont icon-ai"></i>
+
+				
+					
+						
+					
+				
+				
+				
+				
+				
+			</div>
+			
+				<div class="repo-buttons">
+					<form method="post" action="/gggwang/gggxuan/action/watch?redirect_to=%2fgggwang%2fgggxuan%2fsrc%2fbranch%2fmain%2fxBPQ%2f%25E8%2581%259A%25E4%25BC%2598%25E4%25B9%2585%25E4%25B9%2585%25E7%2583%25AD%25E8%25B5%2584%25E6%25BA%2590.json">
+						<input type="hidden" name="_csrf" value="T8bjulAo_nssLi9lTdtA7zWfCNo6MTY3NDU1Mjc3OTc1NzIxODMxNw">
+						<div class="ui labeled button" tabindex="0">
+							<button type="submit" class="ui compact basic button">
+								<i class="iconfont mr-2xs icon-eye"></i>关注
+							</button>
+							<a class="ui basic label" href="/gggwang/gggxuan/watchers">
+								0
+							</a>
+						</div>
+					</form>
+					<form method="post" action="/gggwang/gggxuan/action/star?redirect_to=%2fgggwang%2fgggxuan%2fsrc%2fbranch%2fmain%2fxBPQ%2f%25E8%2581%259A%25E4%25BC%2598%25E4%25B9%2585%25E4%25B9%2585%25E7%2583%25AD%25E8%25B5%2584%25E6%25BA%2590.json">
+						<input type="hidden" name="_csrf" value="T8bjulAo_nssLi9lTdtA7zWfCNo6MTY3NDU1Mjc3OTc1NzIxODMxNw">
+						<div class="ui labeled button" tabindex="0">
+							<button type="submit" class="ui compact basic button">
+								<i class="mr-2xs iconfont icon-star"></i>点赞
+							</button>
+							<a class="ui basic label" href="/gggwang/gggxuan/stars">
+								0
+							</a>
+						</div>
+					</form>
+					
+						<div class="ui labeled button disabled-repo-button" tabindex="0">
+							<a class="ui compact basic button
+								poping up"
+								
+									data-content="无法派生已经拥有的仓库！"
+								 data-position="top center" data-variation="tiny">
+								<i class="mr-2xs iconfont icon-fork"></i>派生
+							</a>
+							<a class="ui basic label" href="/gggwang/gggxuan/forks">
+								0
+							</a>
+						</div>
+					
+				</div>
+			
+		</div>
+	</div>
+
+	<div class="ui tabs container">
+		
+			<div class="ui tabular stackable menu navbar">
+				
+				<a class="active item" href="/gggwang/gggxuan">
+					<i class="iconfont icon-code"></i> 代码
+				</a>
+				
+
+				
+					<a class=" item" href="/gggwang/gggxuan/issues">
+						<i class="iconfont icon-open"></i> 讨论 <span class="ui gray tiny label circular">0</span>
+					</a>
+				
+
+				
+
+				
+					<a class=" item" href="/gggwang/gggxuan/pulls">
+						<i class="iconfont icon-merge-request"></i> 合并请求 <span class="ui gray tiny label circular">0</span>
+					</a>
+				
+
+				
+					<a class=" item" href="/gggwang/gggxuan/wiki" >
+						<i class="iconfont icon-wiki"></i> 百科
+					</a>
+				
+
+				
+					<a class=" item" href="/gggwang/gggxuan/activity">
+						<i class="iconfont icon-activity"></i> 动态
+					</a>
+				
+
+				
+	<a class=" item" href="/gggwang/gggxuan/training">
+		<i class="iconfont icon-training"></i> 训练
+	</a>
+	<a class=" item" href="/gggwang/gggxuan/storage">
+		<i class="iconfont icon-save"></i> 存储
+	</a>
+
+
+
+				
+					<div class="right menu">
+						<a class=" item" href="/gggwang/gggxuan/settings">
+							<i class="iconfont icon-gear"></i> 仓库设置
+						</a>
+					</div>
+				
+			</div>
+		
+	</div>
+	<div class="ui tabs divider"></div>
+</div>
+
+	<span class="repo-url hidden">/gggwang/gggxuan</span>
+	<span class="repo-id hidden">9745</span>
+	<div class="ui container">
+		
+
+
+
+		<div class="ui repo-description">
+			<div id="repo-desc">
+				
+					<span class="no-description text-italic">暂无描述</span>
+				<a class="link" href=""></a>
+			</div>
+			
+		</div>
+		<div class="ui" id="repo-topics">
+		
+		
+		</div>
+		
+		<div class="ui repo-topic-edit grid form segment error" id="topic_edit" style="display:none">
+			<div class="fourteen wide column">
+				<div class="field">
+					<div class="ui fluid multiple search selection dropdown">
+						<input type="hidden" name="topics" value="">
+						
+						<div class="text"></div>
+					</div>
+				</div>
+			</div>
+			<div class="two wide column">
+				<a class="ui button primary" href="javascript:;" id="save_topic"
+				data-link="/gggwang/gggxuan/topics">保存</a>
+			</div>
+		</div>
+		
+		<div class="hide" id="validate_prompt">
+			<span id="count_prompt">您最多选择25个主题</span>
+			<span id="format_prompt">主题必须以字母或数字开头，可以包含连字符 (-)，并且长度不得超过35个字符</span>
+		</div>
+		
+		
+		
+			<div class="shareicon i-flex">
+					<span onclick="handleShare()" class="cur-pointer ml-auto mr-sm">
+						<i class="iconfont icon-share font-size-xs"></i>
+						匿名共享
+					</span>
+			</div>
+		
+
+		<div class="ui segments repository-summary shadow-0 is-lang-stats">
+	<div class="ui segment sub-menu repository-menu">
+		<div class="ui two horizontal center link list">
+			
+				<div class="item">
+					<a class="ui" href="/gggwang/gggxuan/commits/branch/main"><i class="iconfont icon-commit"></i> <b>840</b> 提交</a>
+				</div>
+			
+			
+				<div class="item">
+					<a class="ui" href="/gggwang/gggxuan/branches/"><i class="iconfont icon-branch-down"></i> <b>1</b> 分支</a>
+				</div>
+				<div class="item">
+					<span class="ui"><i class="iconfont icon-memory"></i> <b id="RepoSize">109 MB</b></span>
+				</div>
+			
+		</div>
+	</div>
+	
+	<div class="ui segment sub-menu language-stats-details" style="display: none">
+		<div class="ui horizontal center link list">
+			
+			<div class="item">
+				<span class="ui">
+				<i class="color-icon" style="background-color: #f1e05a"></i>
+				<b>
+					JavaScript
+				
+				</b> 64.8%</span>
+			</div>
+			
+			<div class="item">
+				<span class="ui">
+				<i class="color-icon" style="background-color: #3572A5"></i>
+				<b>
+					Python
+				
+				</b> 35.2%</span>
+			</div>
+			
+		</div>
+	</div>
+	<a class="ui segment language-stats">
+		
+		<div class="bar" style="width: 64.8%; background-color: #f1e05a">&nbsp;</div>
+		
+		<div class="bar" style="width: 35.2%; background-color: #3572A5">&nbsp;</div>
+		
+	</a>
+	
+</div>
+
+		<div class="ui stackable secondary menu mobile--margin-between-items mobile--no-negative-margins">
+			<div class="fitted item choose reference">
+	<div class="ui floating filter dropdown custom" data-can-create-branch="true" data-no-results="未找到结果">
+		<div id="branchSelect" class="ui basic small compact button" data-mode="branches" @click="menuVisible = !menuVisible" @keyup.enter="menuVisible = !menuVisible">
+			<span class="text">
+				<i class="iconfont icon-branch-down"></i>
+				分支:
+				<strong>main</strong>
+			</span>
+			<i class="dropdown icon"></i>
+		</div>
+		<div class="data" style="display: none" data-mode="branches">
+			
+				<div class="item branch selected" data-url="/gggwang/gggxuan/src/branch/main/xBPQ/%e8%81%9a%e4%bc%98%e4%b9%85%e4%b9%85%e7%83%ad%e8%b5%84%e6%ba%90.json">main</div>
+			
+			
+		</div>
+		<div class="menu transition" :class="{visible: menuVisible}" v-if="menuVisible" v-cloak>
+			<div class="ui icon search input">
+				<i class="filter icon"></i>
+				<input name="search" ref="searchField" v-model="searchTerm" @keydown="keydown($event)" placeholder="过滤分支或标签...">
+			</div>
+			<div class="header branch-tag-choice">
+				<div class="ui grid">
+					<div class="two column row">
+						<a class="reference column" href="#" @click="mode = 'branches'; focusSearchField()">
+							<span class="text" :class="{black: mode !== 'branches'}">
+								<i class="iconfont icon-branch-down"></i> 分支列表
+							</span>
+						</a>
+						<a class="reference column" href="#" @click="mode = 'tags'; focusSearchField()">
+							<span class="text" :class="{black: mode !== 'tags'}">
+								<i class="reference tags icon"></i> 标签列表
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="scrolling menu" ref="scrollContainer">
+				<div v-for="(item, index) in filteredItems" :key="item.name" class="item" :class="{selected: item.selected, active: active == index}" @click="selectItem(item)" :ref="'listItem' + index">${ item.name }</div>
+				<div class="item" v-if="showCreateNewBranch" :class="{active: active == filteredItems.length}" :ref="'listItem' + filteredItems.length">
+					<a href="#" @click="createNewBranch()">
+						<div>
+							<i class="iconfont icon-branch-down"></i>
+							创建分支 <strong>${ searchTerm }</strong>
+						</div>
+						<div class="text small">
+							
+								从 &#39;main&#39;
+							
+						</div>
+					</a>
+					<form ref="newBranchForm" action="/gggwang/gggxuan/branches/_new/branch/main" method="post">
+						<input type="hidden" name="_csrf" value="T8bjulAo_nssLi9lTdtA7zWfCNo6MTY3NDU1Mjc3OTc1NzIxODMxNw">
+						<input type="hidden" name="new_branch_name" v-model="searchTerm">
+					</form>
+				</div>
+			</div>
+			<div class="message" v-if="showNoResults">${ noResults }</div>
+		</div>
+	</div>
+</div>
+
+			
+			
+			
+			
+				<div class="fitted item">
+					<span class="ui breadcrumb repo-path">
+						<a class="section" href="/gggwang/gggxuan/src/branch/main" title="gggxuan">gggxuan</a>
+						
+							<span class="divider">/</span>
+							
+								<span class="section">
+									<a href="/gggwang/gggxuan/src/branch/main/xBPQ" title="xBPQ">xBPQ</a></span>
+						
+							<span class="divider">/</span>
+							
+								<span class="active section" title="聚优久久热资源.json">聚优久久热资源.json</span>
+							
+						</span></div>
+			
+			<div class="right fitted item" id="file-buttons">
+				<div>
+					
+						
+						
+					
+
+					
+					
+				</div>
+			</div>
+
+			<div class="fitted item">
+				
+				
+			</div>
+		</div>
+		
+			<div class="tab-size-8 non-diff-file-content">
+	<h4 class="file-header ui top attached header">
+		<div class="file-header-left df ac">
+			
+				<div class="file-info text grey normal mono">
+					
+					
+						<div class="file-info-entry">
+							25 行
+						</div>
+					
+					
+						<div class="file-info-entry">
+							1.2 KB
+						</div>
+					
+					
+				</div>
+			
+		</div>
+		
+		<div class="file-header-right df ac">
+			<div class="ui right file-actions">
+				<div class="ui buttons">
+					<a class="ui button" href="/gggwang/gggxuan/raw/branch/main/xBPQ/%e8%81%9a%e4%bc%98%e4%b9%85%e4%b9%85%e7%83%ad%e8%b5%84%e6%ba%90.json">原始文件</a>
+					
+						<a class="ui button" href="/gggwang/gggxuan/src/commit/da6e6e99656098e39fa82682524605aa5b21df44/xBPQ/%e8%81%9a%e4%bc%98%e4%b9%85%e4%b9%85%e7%83%ad%e8%b5%84%e6%ba%90.json">永久链接</a>
+					
+					
+						<a class="ui button" href="/gggwang/gggxuan/blame/branch/main/xBPQ/%e8%81%9a%e4%bc%98%e4%b9%85%e4%b9%85%e7%83%ad%e8%b5%84%e6%ba%90.json">Blame</a>
+					
+					<a class="ui button" href="/gggwang/gggxuan/commits/branch/main/xBPQ/%e8%81%9a%e4%bc%98%e4%b9%85%e4%b9%85%e7%83%ad%e8%b5%84%e6%ba%90.json">文件历史</a>
+				</div>
+				
+					
+						<a href="/gggwang/gggxuan/_edit/main/xBPQ/%e8%81%9a%e4%bc%98%e4%b9%85%e4%b9%85%e7%83%ad%e8%b5%84%e6%ba%90.json"><span class="btn-octicon poping up"  data-content="编辑文件" data-position="bottom center" data-variation="tiny inverted"><svg viewBox="0 0 16 16" class="svg octicon-pencil" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.013 1.427a1.75 1.75 0 012.474 0l1.086 1.086a1.75 1.75 0 010 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 01-.927-.928l.929-3.25a1.75 1.75 0 01.445-.758l8.61-8.61zm1.414 1.06a.25.25 0 00-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 000-.354l-1.086-1.086zM11.189 6.25L9.75 4.81l-6.286 6.287a.25.25 0 00-.064.108l-.558 1.953 1.953-.558a.249.249 0 00.108-.064l6.286-6.286z"/></svg></span></a>
+					
+					
+						<a href="/gggwang/gggxuan/_delete/main/xBPQ/%e8%81%9a%e4%bc%98%e4%b9%85%e4%b9%85%e7%83%ad%e8%b5%84%e6%ba%90.json"><span class="btn-octicon btn-octicon-danger poping up"  data-content="删除文件" data-position="bottom center" data-variation="tiny inverted"><svg viewBox="0 0 16 16" class="svg octicon-trashcan" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6.5 1.75a.25.25 0 01.25-.25h2.5a.25.25 0 01.25.25V3h-3V1.75zm4.5 0V3h2.25a.75.75 0 010 1.5H2.75a.75.75 0 010-1.5H5V1.75C5 .784 5.784 0 6.75 0h2.5C10.216 0 11 .784 11 1.75zM4.496 6.675a.75.75 0 10-1.492.15l.66 6.6A1.75 1.75 0 005.405 15h5.19c.9 0 1.652-.681 1.741-1.576l.66-6.6a.75.75 0 00-1.492-.149l-.66 6.6a.25.25 0 01-.249.225h-5.19a.25.25 0 01-.249-.225l-.66-6.6z"/></svg></span></a>
+					
+				
+			</div>
+		</div>
+		
+	</h4>
+	<div class="ui attached table unstackable segment">
+		<div class="file-view code-view">
+			
+				
+				<table>
+					<tbody>
+						
+						<tr>
+							<td id="L1" class="lines-num">
+								<span id="L1" data-line-number="1"></span>
+							</td>
+							<td rel="L1" class="lines-code chroma">
+								<code><span class="p">{</span></code>
+							</td>
+						</tr>
+						
+						<tr>
+							<td id="L2" class="lines-num">
+								<span id="L2" data-line-number="2"></span>
+							</td>
+							<td rel="L2" class="lines-code chroma">
+								<code><span class="nt">&#34;站名&#34;</span><span class="p">:</span><span class="s2">&#34;久久热资源&#34;</span><span class="p">,</span></code>
+							</td>
+						</tr>
+						
+						<tr>
+							<td id="L3" class="lines-num">
+								<span id="L3" data-line-number="3"></span>
+							</td>
+							<td rel="L3" class="lines-code chroma">
+								<code><span class="nt">&#34;主页url&#34;</span><span class="p">:</span><span class="s2">&#34;https://juyouxs.com/99re/&#34;</span><span class="p">,</span></code>
+							</td>
+						</tr>
+						
+						<tr>
+							<td id="L4" class="lines-num">
+								<span id="L4" data-line-number="4"></span>
+							</td>
+							<td rel="L4" class="lines-code chroma">
+								<code><span class="nt">&#34;直接播放&#34;</span><span class="p">:</span><span class="s2">&#34;1&#34;</span><span class="p">,</span></code>
+							</td>
+						</tr>
+						
+						<tr>
+							<td id="L5" class="lines-num">
+								<span id="L5" data-line-number="5"></span>
+							</td>
+							<td rel="L5" class="lines-code chroma">
+								<code><span class="nt">&#34;分类&#34;</span><span class="p">:</span><span class="s2">&#34;国产自拍$sr-kb#欧美$sr-R#中文字幕$sr-S#李宗瑞全集$sr-T#日本无码$sr-U#加勒比$sr-V#日本有码$sr-W#一本道$sr-X#高清$sr-Y#潮吹$sr-bb#会员认证作品$sr-cb#制服丝袜$sr-db#口爆颜射$sr-eb#肛交$sr-fb#东京热$sr-gb#$小格式综合sr-hb#女主播系列$sr-ib#成人动漫$sr-jb#SM性虐$sr-lb#韩国综合$sr-mb&#34;</span><span class="p">,</span></code>
+							</td>
+						</tr>
+						
+						<tr>
+							<td id="L6" class="lines-num">
+								<span id="L6" data-line-number="6"></span>
+							</td>
+							<td rel="L6" class="lines-code chroma">
+								<code><span class="err">/</span><span class="err">/</span><span class="nt">&#34;数组&#34;</span><span class="p">:</span><span class="s2">&#34;&lt;div class=\&#34;item\&#34;&amp;&amp;&lt;/div&gt;&#34;</span><span class="p">,</span></code>
+							</td>
+						</tr>
+						
+						<tr>
+							<td id="L7" class="lines-num">
+								<span id="L7" data-line-number="7"></span>
+							</td>
+							<td rel="L7" class="lines-code chroma">
+								<code><span class="nt">&#34;图片&#34;</span><span class="p">:</span><span class="s2">&#34;data-original=\&#34;&amp;&amp;\&#34;&#34;</span><span class="p">,</span></code>
+							</td>
+						</tr>
+						
+						<tr>
+							<td id="L8" class="lines-num">
+								<span id="L8" data-line-number="8"></span>
+							</td>
+							<td rel="L8" class="lines-code chroma">
+								<code><span class="nt">&#34;标题&#34;</span><span class="p">:</span><span class="s2">&#34;title=\&#34;&amp;&amp;\&#34;&#34;</span><span class="p">,</span></code>
+							</td>
+						</tr>
+						
+						<tr>
+							<td id="L9" class="lines-num">
+								<span id="L9" data-line-number="9"></span>
+							</td>
+							<td rel="L9" class="lines-code chroma">
+								<code><span class="nt">&#34;链接&#34;</span><span class="p">:</span><span class="s2">&#34;href=\&#34;/99re/rs&amp;&amp;.html\&#34;&#34;</span><span class="p">,</span></code>
+							</td>
+						</tr>
+						
+						<tr>
+							<td id="L10" class="lines-num">
+								<span id="L10" data-line-number="10"></span>
+							</td>
+							<td rel="L10" class="lines-code chroma">
+								<code><span class="nt">&#34;副标题&#34;</span><span class="p">:</span><span class="s2">&#34;&lt;div class=\&#34;duration\&#34;&gt;&amp;&amp;&lt;/div&gt;&#34;</span><span class="p">,</span></code>
+							</td>
+						</tr>
+						
+						<tr>
+							<td id="L11" class="lines-num">
+								<span id="L11" data-line-number="11"></span>
+							</td>
+							<td rel="L11" class="lines-code chroma">
+								<code><span class="nt">&#34;链接前缀&#34;</span><span class="p">:</span><span class="s2">&#34;https://juyouxs.com/99re/srplay&#34;</span><span class="p">,</span></code>
+							</td>
+						</tr>
+						
+						<tr>
+							<td id="L12" class="lines-num">
+								<span id="L12" data-line-number="12"></span>
+							</td>
+							<td rel="L12" class="lines-code chroma">
+								<code><span class="nt">&#34;链接后缀&#34;</span><span class="p">:</span> <span class="s2">&#34;-1-1.html&#34;</span><span class="p">,</span></code>
+							</td>
+						</tr>
+						
+						<tr>
+							<td id="L13" class="lines-num">
+								<span id="L13" data-line-number="13"></span>
+							</td>
+							<td rel="L13" class="lines-code chroma">
+								<code><span class="err">/</span><span class="err">/</span><span class="nt">&#34;搜索数组&#34;</span><span class="p">:</span><span class="s2">&#34;&lt;div class=\&#34;item\&#34;&amp;&amp;&lt;/div&gt;&#34;</span><span class="p">,</span></code>
+							</td>
+						</tr>
+						
+						<tr>
+							<td id="L14" class="lines-num">
+								<span id="L14" data-line-number="14"></span>
+							</td>
+							<td rel="L14" class="lines-code chroma">
+								<code><span class="nt">&#34;搜索图片&#34;</span><span class="p">:</span> <span class="s2">&#34;data-original=\&#34;&amp;&amp;\&#34;&#34;</span><span class="p">,</span></code>
+							</td>
+						</tr>
+						
+						<tr>
+							<td id="L15" class="lines-num">
+								<span id="L15" data-line-number="15"></span>
+							</td>
+							<td rel="L15" class="lines-code chroma">
+								<code><span class="nt">&#34;搜索标题&#34;</span><span class="p">:</span><span class="s2">&#34;title=\&#34;&amp;&amp;\&#34;&#34;</span><span class="p">,</span></code>
+							</td>
+						</tr>
+						
+						<tr>
+							<td id="L16" class="lines-num">
+								<span id="L16" data-line-number="16"></span>
+							</td>
+							<td rel="L16" class="lines-code chroma">
+								<code><span class="nt">&#34;搜索链接&#34;</span><span class="p">:</span> <span class="s2">&#34;href=\&#34;/99re/rs&amp;&amp;.html\&#34;&#34;</span><span class="p">,</span></code>
+							</td>
+						</tr>
+						
+						<tr>
+							<td id="L17" class="lines-num">
+								<span id="L17" data-line-number="17"></span>
+							</td>
+							<td rel="L17" class="lines-code chroma">
+								<code><span class="nt">&#34;搜索副标题&#34;</span><span class="p">:</span><span class="s2">&#34;&lt;div class=\&#34;duration\&#34;&gt;&amp;&amp;&lt;/div&gt;&#34;</span><span class="p">,</span></code>
+							</td>
+						</tr>
+						
+						<tr>
+							<td id="L18" class="lines-num">
+								<span id="L18" data-line-number="18"></span>
+							</td>
+							<td rel="L18" class="lines-code chroma">
+								<code><span class="nt">&#34;搜索模式&#34;</span><span class="p">:</span> <span class="s2">&#34;1&#34;</span><span class="p">,</span></code>
+							</td>
+						</tr>
+						
+						<tr>
+							<td id="L19" class="lines-num">
+								<span id="L19" data-line-number="19"></span>
+							</td>
+							<td rel="L19" class="lines-code chroma">
+								<code><span class="nt">&#34;搜索url&#34;</span><span class="p">:</span><span class="s2">&#34;https://juyouxs.com/99re/vod/search/wd/{wd}.html&#34;</span><span class="p">,</span></code>
+							</td>
+						</tr>
+						
+						<tr>
+							<td id="L20" class="lines-num">
+								<span id="L20" data-line-number="20"></span>
+							</td>
+							<td rel="L20" class="lines-code chroma">
+								<code><span class="nt">&#34;搜索链接前缀&#34;</span><span class="p">:</span><span class="s2">&#34;https://juyouxs.com/99re/srplay&#34;</span><span class="p">,</span></code>
+							</td>
+						</tr>
+						
+						<tr>
+							<td id="L21" class="lines-num">
+								<span id="L21" data-line-number="21"></span>
+							</td>
+							<td rel="L21" class="lines-code chroma">
+								<code><span class="nt">&#34;搜索链接后缀&#34;</span><span class="p">:</span><span class="s2">&#34;-1-1.html&#34;</span><span class="p">,</span></code>
+							</td>
+						</tr>
+						
+						<tr>
+							<td id="L22" class="lines-num">
+								<span id="L22" data-line-number="22"></span>
+							</td>
+							<td rel="L22" class="lines-code chroma">
+								<code><span class="nt">&#34;简介&#34;</span><span class="p">:</span><span class="s2">&#34;&lt;p&gt;&amp;&amp;&lt;/p&gt;&#34;</span><span class="p">,</span></code>
+							</td>
+						</tr>
+						
+						<tr>
+							<td id="L23" class="lines-num">
+								<span id="L23" data-line-number="23"></span>
+							</td>
+							<td rel="L23" class="lines-code chroma">
+								<code><span class="nt">&#34;分类url&#34;</span><span class="p">:</span><span class="s2">&#34;https://juyouxs.com/99re/{cateId}-{catePg}.html&#34;</span><span class="p">,</span></code>
+							</td>
+						</tr>
+						
+						<tr>
+							<td id="L24" class="lines-num">
+								<span id="L24" data-line-number="24"></span>
+							</td>
+							<td rel="L24" class="lines-code chroma">
+								<code><span class="nt">&#34;免嗅&#34;</span><span class="p">:</span><span class="s2">&#34;1&#34;</span></code>
+							</td>
+						</tr>
+						
+						<tr>
+							<td id="L25" class="lines-num">
+								<span id="L25" data-line-number="25"></span>
+							</td>
+							<td rel="L25" class="lines-code chroma">
+								<code><span class="p">}</span></code>
+							</td>
+						</tr>
+						
+					</tbody>
+				</table>
+				
+			
+		</div>
+	</div>
+</div>
+
+
+	<div class="i-text-center">
+		
+				
+					<button id="createTraining" class="ui primary button mt-md">创建训练</button>
+				
+		
+	</div>
+
+
+<script>
+function submitDeleteForm() {
+    var message = prompt("delete_confirm_message\n\ndelete_commit_summary", "Delete ''");
+    if (message != null) {
+        $("#delete-message").val(message);
+        $("#delete-file-form").submit()
+    }
+}
+</script>
+
+		
+	</div>
+	<div id="toListModel">
+		<div class="ui modal" id="toShare">
+			<i class="close icon black"></i>
+			<div class="header">共享</div>
+			<div class="content">
+				<form autocomplete="off" class="ui form training ignore-dirty">
+					
+					<div class="fields">
+						<p class="px-sm py-none mb-sm">共享页面将在匿名链接下呈现所选的代码和训练结果，不会显示项目的原始链接地址。但Agit系统不会自动处理代码和训练结果，因此如果需要为匿名盲审等场景提供匿名内容，还需要您自行保证代码内容和训练结果的匿名化。</p>
+					</div>
+
+					<div class="fields">
+						<div class="two wide field required">
+							<label>代码分支</label>
+						</div>
+						<div id="branchField" class="fourteen wide field">
+
+							<div class="fitted item choose">
+								<div class="ui floating filter dropdown custom">
+
+									<div class="ui basic small compact button" style="min-width: 200px;" @click="menuVisible = !menuVisible">
+										<span class="text">
+											<i class="iconfont icon-branch-down"></i>
+											<span v-text='isViewBranch?"分支":"目录树"'></span>:
+                      <strong v-text='isViewBranch?(selectedBranch?selectedBranch:"请选择"):(selectedTag?selectedTag:"请选择")'></strong>
+										</span>
+										<i class="dropdown icon" tabIndex="-1"></i>
+									</div>
+
+									<div tabindex="-1"  id="scrolling" class="menu transition menu-share" :class="{visible: menuVisible}" v-show="menuVisible" @blur="menuVisible = false">
+
+										<div class="ui icon search input" style="width: 200px;">
+											<i class="filter icon"></i>
+											<input name="search" v-model="searchTerm" @keydown="keydown($event)" placeholder="过滤分支或标签...">
+										</div>
+
+										<div class="header branch-tag-choice">
+											<div class="ui grid">
+												<div class="two column row">
+													<a class="reference column" href="javascript:;" @click="handleBranchTab(true)">
+														<span class="text" :class="{black: !isViewBranch}">
+															<i class="iconfont icon-branch-down"></i>
+															分支列表
+														</span>
+													</a>
+													<a class="reference column" href="javascript:;" @click="handleBranchTab(false)">
+														<span class="text" :class="{black: isViewBranch}">
+															<i class="reference tags icon"></i>
+															标签列表
+														</span>
+													</a>
+												</div>
+											</div>
+										</div>
+
+										<div v-show="isViewBranch" class="scrolling menu" ref="scrollContainer">
+											<div v-for="(item, index) in branches" v-show="item.name.includes(searchTerm)" :key="item.name" class="item" @click="handleBranchOrTag(item)">
+												<span v-text="item.name"></span>
+											</div>
+										</div>
+										<div v-show="!isViewBranch" class="scrolling menu" ref="scrollContainer">
+											<div v-for="(item, index) in tags" v-show="item.name.includes(searchTerm)" :key="item.name" class="item" @click="handleBranchOrTag(item)">
+												<span v-text="item.name"></span>
+											</div>
+										</div>
+
+										<div class="message" v-if="(isViewBranch && branches.length==0) || (!isViewBranch && tags.length==0)">未找到结果</div>
+									</div>
+
+									<div class="ui pointing red basic label" style="display:none;">
+										请选择分支或标签
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="fields" v-show="selectedBranch">
+						<div class="two wide field">
+							<label>提交</label>
+						</div>
+						<div id="commitWrap" class="fourteen wide field">
+							<select class="ui search selection dropdown commit-wrap" name="commit">
+								<option value=""></option>
+							</select>
+						</div>
+					</div>
+					<div class="fields">
+						<label class="two wide field  required">共享标题</label>
+						<div class="fourteen wide field trainName-filed">
+							<input v-model="shareName" type="text" name="shareName"  class="form-trainName" :maxlength="16"  placeholder="请输入标题内容，最多16个字符">
+						</div>
+					</div>
+					<div class="ui grid uioption">
+						<label class="required">链接有效期</label>
+					</div>
+					<div class="ui grid fields">
+						<div class="thirteen wide column">
+							<div class="ui four item stackable tabs menu ui-link-bg">
+								<a v-for="(item, index) in shareTimeList" :key="index" :class="['item', activeIdx === item.shareTimeId ? 'active' : '']" data-tab="oneday" @click="handleMenuChange(item)">
+									<span v-text="formatLinkTime(item.shareTimeName)"></span></a>
+							</div>
+						</div>
+						<div class="right aligned three wide column action mt-3xs">
+							<button class="ui primary button" @click="handleLink">
+								生成链接</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="ui modal" id="toCopyShareLink">
+			<i class="close icon black"></i>
+			<div class="header">共享链接已生成</div>
+			<div class="content ui form">
+				<div class="fields">
+					<div class="two wide field">
+						<label>链接地址:</label>
+					</div>
+					<div  class="fourteen wide field">
+						<p v-text="linkAddress" id="share_url"></p>
+					</div>
+				</div>
+				<div class="fields uioption">
+					<div class="two wide field">
+					<label>链接有效期:</label>
+					</div>
+					<div class="fourteen wide field">
+						<p v-text="linkExDate"></p>
+					</div>
+				</div>
+				<div class="fields uioption">
+							<div class="sixteen wide field" style="text-align: right">
+								<button class="ui basic icon button poping primary up clipboard share-button" id="share-button" data-original="复制链接" data-success="已复制链接" data-error="请按下 ⌘-C 或 Ctrl-C 复制" data-content="复制链接" data-variation="inverted tiny"  data-clipboard-target="#share_url">
+									复制
+								</button>
+							</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+</div>
+<div class="content">
+	<p></p>
+</div>
+</div>
+</div>
+
+
+
+
+		
+
+		</div>
+
+		
+
+		<footer>
+	<div class="base-footer-content i-footer mx-auto">
+		<div class="ui left">
+			<div class="p-logo i-flex i-align-center">
+				<img class="logo-icon" src="/img/logo/logo.svg">
+				<i class="logo-text">&copy; 2023 Agit Cloud Computing, Ltd.</i>
+				<a  id="version-a" style="margin-right: 16px; text-decoration: underline; font-size: 12px;" target="_blank" href="https://agit.ai/AgitDeveloper/AgitPythonExamples/wiki"></a>
+			</div>
+		</div>
+		<div class="ui right links p-logo">
+			<a style="margin-right: 16px; text-decoration: underline; font-size: 12px;" target="_blank" href="/agreement/terms">服务协议</a>
+<a style="margin-right: 16px; text-decoration: underline; font-size: 12px;" target="_blank" href="/agreement/privacy">隐私政策</a>
+<a style="text-decoration: underline; font-size: 12px; margin-right: 16px;" target="_blank" href="/opensource">开源软件</a>
+<a style="text-decoration: underline; font-size: 12px;" target="_blank" id="help-a" target="_blank" href="http://help.agit.ai/">帮助</a>
+
+		</div>
+	</div>
+</footer>
+
+
+
+		
+
+		
+		
+		
+		<script src="/js/index.js?v=220846678a86246c9d7e7c46c21f20c2"></script>
+
+		<script src="/vendor/plugins/vue/vue.min.js"></script>
+<script src="/minifyjs/head_navbar.base.js?v=220846678a86246c9d7e7c46c21f20c2"></script>
+<script src="/minifyjs/footer_content.base.js?v=220846678a86246c9d7e7c46c21f20c2"></script>
+
+
+<script src="/vendor/plugins/promise-polyfill/polyfill.min.js"></script>
+<script src="/vendor/plugins/cssrelpreload/loadCSS.min.js"></script>
+<script src="/vendor/plugins/cssrelpreload/cssrelpreload.min.js"></script>
+<script src="/vendor/plugins/vue-infinite-loading/vue-infinite-loading.js?v=220846678a86246c9d7e7c46c21f20c2"></script>
+<script src="/vendor/plugins/Qrcode/qrcode.min.js?v=220846678a86246c9d7e7c46c21f20c2"></script>
+<script src="/vendor/plugins/i-components/i.components.min.js?v=220846678a86246c9d7e7c46c21f20c2"></script>
+
+<script src="/vendor/plugins/vue-node-spec/node-spec.min.js?v=220846678a86246c9d7e7c46c21f20c2"></script>
+<script src="/vendor/plugins/jquery-migrate/jquery-migrate.min.js?v=3.0.1"></script>
+<script src="/vendor/plugins/jquery.areyousure/jquery.are-you-sure.js"></script>
+<script src="/vendor/plugins/emojify/emojify.custom.js"></script>
+<script src="/vendor/plugins/xterm/xterm.js"></script>
+
+
+
+
+
+
+
+
+
+	</body>
+	</html>
+
+<script>
+$("#createTraining").click(function(){
+
+	$api.trainReachUpperLimit({repoId:Number($('.repo-id').text())}).then(data => {
+        if (!data) return;
+		if(data.isUpperLimit){
+			$ITools.handleToast('error', $i18n.tr('code', 'trainCountLimit'))
+			return
+		}
+
+		const mode = $("#branchSelect").attr("data-mode"),
+	      	branch = $("#branchSelect").find("strong").text();
+		let path = ""
+		$(".repo-path a").each(function(index,item){
+			if(index === 0){
+				return
+			}
+			path += path === ""?$(this).attr("title"):("/"+$(this).attr("title"))
+		})
+		const params={
+			scriptPath: $(".repo-path").find(".active.section").attr("title"),
+			workSpace: path,
+			branchName: mode === "branches" ? branch : "",
+			tagName: mode === "branches" ? "" : branch
+		}
+		window.location.href = window.location.origin + $('.repo-url').text() + '/training/create?scriptFile=' + escapePound(JSON.stringify(params))
+      })
+
+
+})
+function toUpload(el) {
+
+const tempSplit = $("#RepoSize").text().split("GB")
+
+
+if (tempSplit.length === 2 && tempSplit[0] >= 1) {
+	$ITools.handleToast('error', $i18n.tr('valid', 'fileSizeLimit'))
+	return
+}
+window.location.href = $(el).attr("data-href")
+}
+function handleShare() {
+$('#toShare').modal('show')
+}
+function shareLink() {
+$('#toCopyShareLink').modal('show')
+}
+function escapePound(str){
+	let res=""
+	res=str.replaceAll("%","%25")
+	res=res.replaceAll("#","%23")
+	res=res.replaceAll(" ","%20")
+	res=res.replaceAll("?","%3F")
+	return res
+}
+</script>
+
+<script src="/minifyjs/auth.js?v=220846678a86246c9d7e7c46c21f20c2"></script>
+<script src="/minifyjs/repo_home.js?v=220846678a86246c9d7e7c46c21f20c2"></script>
+
