@@ -268,7 +268,7 @@
     "搜索链接": "https://yz.m.sm.cn/s?q={wd}+www.zjtu.cc+在线观看",
     "POST请求数据": "",
     "搜索截取模式": "1",
-    "搜索列表数组规则": "body&&.c-header--v1_0_0.c-title.c-flex",
+    "搜索列表数组规则": "body&&.c-header--v1_0_0:contains(追剧兔)",
     "搜索片单是否Jsoup写法": "1",
     "搜索片单图片": "https://agit.ai/xiaohewanwan/samllmi/raw/branch/master/1.jpg",
     "搜索片单标题": "a&&Text",
@@ -296,8 +296,8 @@
     "是否反转选集序列": "否",
     "选集链接加前缀": "https://www.zjtu.cc",
     "选集链接加后缀": "",
-    "分析MacPlayer": "否",
+    "分析MacPlayer": "0",
     "是否开启手动嗅探": "1",
-    "手动嗅探视频链接关键词": ".mp4#.m3u8#.flv",
+    "手动嗅探视频链接关键词": ".mp4#.m3u8#.flv#.mp4?#sign=",
     "手动嗅探视频链接过滤词": ".html#=http"
 }
