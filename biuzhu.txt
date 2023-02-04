@@ -13603,13 +13603,13 @@ cnzz.com",
 },
 
 {"name": "228-JAV目錄大全🔞",
-"url": "https://javmenu01.top/zh/",
+"url": "https://javmenu01.top/zh/censored/online",
 //"ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36",
 //"ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3",
 "User": "空",
 "直接播放": "1",
 "横图显示": "0",
-"fenlei": "无码$/uncensored/online?page=#有码$/censored/online?page=#FC2$/fc2/online?page=",
+"fenlei": "无码$/uncensored/online?page=#有码$/censored/online?page=#FC2$/fc2/online?page=#成人动画$/hanime/online?page=",
 "houzhui": "",
 "qishiye": "1",//可以自定义列表翻页起始页的页数，如果填上一个空字，则不使用起始页数，直接获取链接的数据。
 //影视列表
