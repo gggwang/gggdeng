@@ -19,6 +19,9 @@
 "播放请求头": "User-Agent$Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36#Referer$https://www.348z.pro/",
 "播放数组":"class=\"content_playlist&&</ul>",
 "播放链接前缀":"https://www.348z.com",
+"跳转播放链接": "https://lala.dianyingwang.top/?url=+vod_class*url\":\"&&\"",
+"二次跳转播放链接": "https://lala.dianyingwang.top/API.php",
+"三次跳转播放链接": "\"url\":*\"&&\"",
 "搜索url":"https://www.348z.com/vodsearch.html?wd={wd}",
 "搜索模式":"1",
 "搜索二次截取":"class=\"ec-search&&</ul",
@@ -29,7 +32,7 @@
 "搜索链接":"href=\"&&\"",
 "搜索链接前缀":"https://www.348z.com",	
 "分类":"电影$1#电视剧$2#综艺$3#动漫$4",
-"分类url":"https://www.348z.com/vodshow/{area}/{class}/id/{cateId}/page/{catePg}/{year}.html",
+"分类url":"https://www.348z.com/vodshow/{area}/{class}/id/{cateId}/page/{catePg}/{year}.html;;val",
 "筛选": {
 "1":[
 {"key":"class","name":"剧情","value":[
