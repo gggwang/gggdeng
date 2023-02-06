@@ -27,9 +27,12 @@
 "播放列表":"<a&&/a>",
 "播放标题":">&&<",
 "播放链接":"href=\"&&\"",
+"跳转播放链接": "https://www.codjx.com/?url=+Base64(vod_class*url\":\"&&\")",
+"二次跳转播放链接": "https://www.codjx.com/API.php;post;url=+\"url\"*\"&&\"+&time=+\"time\"*\"&&\"+&key=+\"key\"*\"&&\"",
+"三次跳转播放链接": "\"url\"*\"&&\"",
 "免嗅":"1",
 "分类":"电影$lyMovie#电视剧$lyTv#综艺$lyVariety#动漫$lyCartoon#记录$ydocumentary#直播$lyLive",
-"分类url":"https://www.leyupro.com/lys/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html",
+"分类url":"https://www.leyupro.com/lys/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html;;val",
 
 "筛选":
 {
