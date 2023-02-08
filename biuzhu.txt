@@ -173,10 +173,11 @@
 ],
 
 "zhujiexi": [
-{"name":"10％解析","url":"https://parse.ikunfk.cc/parse/sign/2ca0117312427cd73236c2ae995ed5d4?url="}, 
-{"name":"10％解析2","url":"https://parse.ikunfk.cc/parse/sign/a958ae3a45a36845506b5391793d32b2?url="}, 
-{"name":"Q1解析","url":"http://150.158.175.250:88/parse/sign/f9896629ab90ea403240d7bf07c86a88?url="}, 
-{"name":"Q1解析2","url":"http://150.158.175.250:88/parse/sign/0cf44521685ccbc13a4ffc8d751eaee0?url="}, 
+{"name":"星辰云解析","url":"https://json.xn--9kq078cdn3a.cc/api/?key=0df65667d8c8f1873016eecb600c447c&url="}, 
+{"name":"星辰","url":"https://json.xn--9kq078cdn3a.cc/api/?key=c9ef6da05b27b7529f4d69cee2cecab0&url="}, 
+{"name":"左岸解析","url":"http://110.42.2.115:880/analysis/json/?uid=2252&my=abdhikpqxCEHLQVY17&url="}, 
+{"name":"左岸解析1","url":"http://110.42.2.115:880/analysis/json/?uid=2379&my=bilmnpuBCKNPZ02459&url="}, 
+{"name":"万年","url":"https://jiexi.parses.repl.co/api.php?url="}, 
 {"name": "鑫总解析（熊猫）","url": "https://jiexi.hnslg.com.cn/home/api?type=ys&uid=11505586&key=denoqtuBJKLQRTVY79&url="},
 {"name": "龘驴", "url": "http://124.220.153.4/jx/dl.php?url="},
 {"name": "布蕾蓝光", "url": "https://www.bulei.cc/bfq/?url="},
