@@ -1,0 +1,55 @@
+{
+"站名":"7新影视",
+//"主页url":"https://www.9kzy.com/",
+"数组":"class=\"stui-vodlist__box\">&&</div>",
+"副标题":"pic-text text-right\">&&</span>",
+
+"搜索url": "/search.php;post;searchword={wd}",
+//"搜索数组":"class=\"stui-vodlist__box\">&&</div>",
+"搜索图片":"data-original=\"&&\"",
+"搜索标题":"title=\"&&\"",
+"搜索链接":"href=\"&&\"",
+"搜索副标题":"pic-text text-right\">&&</span>",
+"播放数组":"class=\"stui-content__playlist&&</ul>",
+"线路数组":"<div class=\"stui-pannel__hea&&</div>",
+"线路标题":"/>&&<",
+"导演":"导演：&&</a>",
+"主演":"主演：&&</p>",
+"简介":"<span class=\"detail-sketch\">&&</span>",
+"播放列表":"<li&&</li>",
+"播放标题":">&&</a>",
+"播放链接":"href=\"&&\"",
+"分类":"电影$dianying#电视剧$dianshiju#综艺$zongyi#动漫$dongman",
+"分类url":"http://www.9kzy.com/{cateId}/index{catePg}.html[http://www.9kzy.com/{cateId}/index.html]",
+"筛选":{
+"dianying":[
+{
+"key":"cateId",
+"name":"类型",
+"value":[
+{"n":"全部","v":""},
+{"n":"爱情片","v":"aiqingpian"},
+{"n":"科幻片","v":"kehuanpian"},
+{"n":"恐怖片","v":"kubupian"},
+{"n":"战争片","v":"zhanzhengpian"},
+{"n":"喜剧片","v":"xijupian"},
+{"n":"记录片","v":"jilupian"},
+{"n":"剧情片","v":"juqingpian"}
+]
+}
+],
+"dianshiju":[
+{
+"key":"cateId",
+"name":"类型",
+"value":[
+{"n":"全部","v":""},
+{"n":"国产剧","v":"guocanju"},
+{"n":"港台剧","v":"gangtaiju"},
+{"n":"欧美剧","v":"oumeiju"},
+{"n":"日韩剧","v":"rihanju"}
+]
+}
+]
+}
+}
