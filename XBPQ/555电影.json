@@ -4,7 +4,7 @@
   "主页url": "https://zhenfanjixie.com",
   
   "分类": "Netflix&电影&连续剧&动漫&综艺记录",
-  "分类值": "/label/netflix&/vodtype/1&/vodtype/2/vodtype/4&/vodtype/3",
+  "分类值": "/label/netflix&/vodtype/1&/vodtype/2&/vodtype/4&/vodtype/3",
   
   "分类url": "https://zhenfanjixie.com{cateId}/page/{catePg}.html",
   
@@ -18,7 +18,7 @@
   "简介": "<p>&&</p>",
   
   "线路数组": "data-dropdown-value=&&</div>",
-  "线路标题": "<span>&&</small>",
+  "线路标题": "<span>&&</small>[替换:</span><small>>>👉]+集♥",
   
   "播放数组": "module-play-list\">&&</div>"
 }
