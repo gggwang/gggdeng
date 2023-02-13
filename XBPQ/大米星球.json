@@ -1,0 +1,23 @@
+{
+  "站名": "大米星球",
+  "主页url": "https://dami2.me/",
+  
+  "分类": "Netflix&电影&连续剧&动漫&综艺记录&福利",
+  "分类值": "/label/netflix&/vodtype/20&/vodtype/21&/vodtype/22&/vodtype/23&/vodtype/35",
+  
+  "分类url": "https://dami2.me{cateId}/page/{catePg}.html",
+  
+  "副标题": "module-item-note\">&&</div>",
+  
+  "搜索模式": "0",
+  "搜索后缀":"/voddetail/",
+  
+  "导演": "导演：&&</div>",
+  "主演": "主演：&&</div>",
+  "简介": "<p>&&</p>",
+  
+  "线路数组": "data-dropdown-value=&&</div>",
+  "线路标题": "<span>&&</small>[替换:</span><small>>>👉]+集♥",
+  
+  "播放数组": "module-play-list\">&&</div>"
+}
