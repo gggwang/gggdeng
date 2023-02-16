@@ -55,6 +55,18 @@
 {
       "type_name": "泳装合集",
       "type_id": "泳装合集"
+    },
+{
+      "type_name": "诱人",
+      "type_id": "诱人"
+    },
+{
+      "type_name": "合集",
+      "type_id": "合集"
+    },
+{
+      "type_name": "性",
+      "type_id": "性"
     }
     
 
