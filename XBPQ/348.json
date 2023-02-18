@@ -20,16 +20,17 @@
 "跳转播放链接": "https://lala.dianyingwang.top/?url=+link_pre*url\":\"&&\"",
 "二次跳转播放链接": "https://lala.dianyingwang.top/API.php;post;url=+\"url\"*\"&&\"+&time=+\"time\"*\"&&\"+&key=+\"key\"*\"&&\"",
 "三次跳转播放链接": "\"url\"*\"&&\"",
-"搜索url":"https://www.348z.com/vodsearch.html?wd={wd}",
+"搜索url":"https://www.348z.com/vodsearch/page/1/wd/{wd}.html",
 "搜索模式":"1",
-"搜索数组":"class=\"aplus-exp ecimgbor&&</a",
+"搜索数组":"<a class=\"aplus-exp ecimgbor\"&&</a",
+"搜索链接":"href=\"&&\"",
 "搜索图片":"data-original=\"&&\"",
 "搜索标题":"title=\"&&\"",
 "搜索副标题":"class=\"pack-prb\"&&</span",
 
 	
 "分类":"电影$1#电视剧$2#综艺$3#动漫$4",
-"分类url":"https://www.348z.com/vodshow/{area}/{class}/id/{cateId}/page/{catePg}/{year}.html;;val",
+"分类url":"https://www.348z.com/vodshow/{area}/{class}/id/{cateId}/page/{catePg}/{year}.html;;v",
 "筛选": {
 "1":[
 {"key":"class","name":"剧情","value":[
