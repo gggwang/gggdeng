@@ -8,6 +8,12 @@
 "标题":"title=\"&&\"",
 "链接":"href=\"&&\"",
 "副标题":"class=\"pic-text text-right\">&&</span>",
+
+"搜索模式": "1",
+"搜索url": "https://www.kanxiw.com/search/-------------.html?wd={wd}&submit=",
+"搜索数组": "class=\"stui-vodlist__box\">&&</a>",
+
+"搜索副标题":"class=\"pic-text text-right\">&&</span>",
 "线路数组": "class=\"stui-vodlist__head\">&&</div>",
 "线路标题": "&ensp;&&</h4>",
 
