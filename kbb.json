@@ -1,6 +1,6 @@
 ﻿{
     "wallpaper": "https://picsum.photos/1280/720/?blur=10",
-    "spider": "https://agit.ai/gggwzj/gggdeng/raw/branch/master/JAR/lem0218.jar;md5;570C9FBB8089EE1200C186A819BC3F31",
+    "spider": "https://agit.ai/gggwzj/gggdeng/raw/branch/master/JAR/lem0223.jar;md5;230C9ED452FB75AD165B2A8A0FF34E58",
     "sites": [
         {
             "key": "csp_77",
@@ -21,16 +21,16 @@
             "filterable": 1,
             "ext": ""
         },
-{
-    "key": "csp_SP2345",
-    "name": "🥦2345(SP)",
-    "type": 3,
-    "api": "csp_SP2345",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "jar": "https://agit.ai/gggwzj/gggdeng/raw/branch/master/JAR/Yoursmile.jar;md5;6A090957BA13E25AC84C8AB6A87F6F22"
-},
+        {
+            "key": "csp_SP2345",
+            "name": "🥦2345(SP)",
+            "type": 3,
+            "api": "csp_SP2345",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "https://agit.ai/gggwzj/gggdeng/raw/branch/master/JAR/Yoursmile.jar;md5;6A090957BA13E25AC84C8AB6A87F6F22"
+        },
         {
             "key": "xBPQ_雷蒙影视4K直播",
             "name": "🏆世界杯频道🏆",
@@ -41,15 +41,15 @@
             "filterable": 0,
             "ext": "{ \"分类url\": \"https://agit.ai/lem85930/OneClickRun/raw/branch/master/L2X/{cateId}{catePg}.html\",\"分类\": \"雷蒙影视4K直播$雷蒙影视4K直播#MV$MV\",\"数组\": \"<li&&</li>\",\"图片\": \"https://wx4.sinaimg.cn/mw2000/46aa4ae9ly1h8coftp6uaj20af0afdfz.jpg\",\"标题\": \"href=\\\"/*/&&.html\\\"\",\"链接\": \"href=\\\"&&\\\"\",\"链接前缀\": \"https://agit.ai/lem85930/OneClickRun/raw/branch/master/L2X\",\"播放数组\": \"<div class=\\\"module-play-list-content&&</div>\",\"播放标题\": \"title=\\\"&&\\\"\",\"播放链接\": \"href=\\\"&&\\\"\" }"
         },
-{
-    "key": "T4_豆瓣聚合",
-    "name": "📡Le豆瓣聚合",
-    "type": 4,
-    "api": "http://42.192.248.11:8080/vod?sites=all&ali_token=https://agit.ai/Yoursmile7/TVBox/raw/branch/master/tok.txt",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1
-},
+        {
+            "key": "T4_豆瓣聚合",
+            "name": "📡豆瓣聚合",
+            "type": 4,
+            "api": "http://42.192.248.11:8080/vod?sites=all&ali_token=https://agit.ai/Yoursmile7/TVBox/raw/branch/master/tok.txt",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
         {
             "key": "drjs_豆瓣推荐",
             "name": "📡豆瓣推荐",
@@ -134,16 +134,16 @@
             "quickSearch": 1,
             "filterable": 1
         },
-{
-    "key": "csp_APPTT",
-    "name": "🗺图图影视(SP)",
-    "type": 3,
-    "api": "csp_AppTT",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "ext": "http://103.239.101.244:6677/$$$U1JLI2UlNFVZdFUjS2lFbyp2c1BxcHIwY0M0YnhBUVc=$$$bzZzWW1tKng1aG4jcmNDdA=="
-},
+        {
+            "key": "csp_APPTT",
+            "name": "🗺图图影视(SP)",
+            "type": 3,
+            "api": "csp_AppTT",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://103.239.101.244:6677/$$$U1JLI2UlNFVZdFUjS2lFbyp2c1BxcHIwY0M0YnhBUVc=$$$bzZzWW1tKng1aG4jcmNDdA=="
+        },
         {
             "key": "csp_AppTT_TS",
             "name": "🗺图图影视(备用)",
@@ -564,10 +564,10 @@
             "filterable": 1
         },
         {
-            "key": "csp_Bttoo",
+            "key": "csp_Bttwoo",
             "name": "✌2BT(SP)",
             "type": 3,
-            "api": "csp_Bttoo",
+            "api": "csp_Bttwoo",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -1038,66 +1038,66 @@
             "filterable": 1,
             "ext": "https://agit.ai/lem85930/OneClickRun/raw/branch/master/XP/Bdys.json"
         },
-{
-    "key": "csp_Paper",
-    "name": "📜小纸条(SP)",
-    "type": 3,
-    "api": "csp_Paper",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 0,
-    "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/tok.txt"
-},
-{
-    "key": "PanSou",
-    "name": "🐱盘搜(搜索)",
-    "type": 3,
-    "api": "csp_PanSou",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/tok.txt"
-},
-{
-    "key": "Zhaozy",
-    "name": "😺找资源(搜索)",
-    "type": 3,
-    "api": "csp_Zhaozy",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/tok.txt$$$crimetv$$$88888888"
-},
-{
-    "key": "YiSo",
-    "name": "😺易搜(搜索)",
-    "type": 3,
-    "api": "csp_YiSo",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/tok.txt"
-},
-{
-    "key": "UpYun",
-    "name": "😺云搜(搜索)",
-    "type": 3,
-    "api": "csp_UpYun",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/tok.txt"
-},
-{
-    "key": "push_agent",
-    "name": "😺推送",
-    "type": 3,
-    "api": "csp_Push",
-    "searchable": 0,
-    "quickSearch": 0,
-    "filterable": 0,
-    "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/tok.txt"
-},
+        {
+            "key": "csp_Paper",
+            "name": "📜小纸条(SP)",
+            "type": 3,
+            "api": "csp_Paper",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/tok.txt"
+        },
+        {
+            "key": "PanSou",
+            "name": "🐱盘搜(搜索)",
+            "type": 3,
+            "api": "csp_PanSou",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/tok.txt"
+        },
+        {
+            "key": "Zhaozy",
+            "name": "😺找资源(搜索)",
+            "type": 3,
+            "api": "csp_Zhaozy",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/tok.txt$$$crimetv$$$88888888"
+        },
+        {
+            "key": "YiSo",
+            "name": "😺易搜(搜索)",
+            "type": 3,
+            "api": "csp_YiSo",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/tok.txt"
+        },
+        {
+            "key": "UpYun",
+            "name": "😺云搜(搜索)",
+            "type": 3,
+            "api": "csp_UpYun",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/tok.txt"
+        },
+        {
+            "key": "push_agent",
+            "name": "😺推送",
+            "type": 3,
+            "api": "csp_Push",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/tok.txt"
+        },
         {
             "key": "UPanSo",
             "name": "😺优盘搜(搜索)",
@@ -2361,7 +2361,7 @@
             "filterable": 1,
             "ext": "{\"播放数组\":\"class=\\\"stui-content__playlist&&</ul>\",\"分类数组\":\"class=\\\"popup-body.col-pd&&</div>\",\"分类标题\": \">&&</a\",\"分类\": \"电影$1#电视剧$2#综艺$22#动漫$4#纪录片$3微电影$19#动作片$5#喜剧片$6#爱情片$7#科幻片$8恐怖片$9#剧情片$10#战争片$11#国产剧$12#香港剧$13台湾剧$16#韩剧$14#日剧$17#欧美剧$15#泰剧$20\",\"分类url\":\"http://www.buduche.org/vodshow/{cateId}--{by}------{catePg}---.html\"}"
         },
-     {
+        {
             "key": "无名小站",
             "name": "👍无名小站(XBPQ)",
             "type": 3,
@@ -2372,7 +2372,7 @@
             "playerType": "",
             "ext": "https://agit.ai/gggwzj/gggdeng/raw/branch/master/XBPQ/无名小站.json"
         },
-     {
+        {
             "key": "看戏影院",
             "name": "👍看戏影院(XBPQ)",
             "type": 3,
@@ -2383,7 +2383,7 @@
             "playerType": "",
             "ext": "https://agit.ai/gggwzj/gggdeng/raw/branch/master/XBPQ/看戏影院.json"
         },
-     {
+        {
             "key": "星辰影院",
             "name": "👍星辰影院(XBPQ)",
             "type": 3,
@@ -2394,7 +2394,7 @@
             "playerType": "",
             "ext": "https://agit.ai/gggwzj/gggdeng/raw/branch/master/XBPQ/星辰影院.json"
         },
-     {
+        {
             "key": "乐鱼影视",
             "name": "👍乐鱼影视(XBPQ)",
             "type": 3,
@@ -2405,18 +2405,18 @@
             "playerType": "",
             "ext": "https://agit.ai/gggwzj/gggdeng/raw/branch/master/XBPQ/乐鱼影视.json"
         },
-{
-    "key": "大豆网",
-    "name": "👍大豆网(XBPQ)",
-    "type": 3,
-    "api": "csp_xBPQ",
-    "filterable": 1,
-    "quickSearch": 1,
-    "searchable": 1,
-    "playerType": "",
-    "ext": "https://agit.ai/gggwzj/gggdeng/raw/branch/master/XBPQ/大豆网.json"
-},
-     {
+        {
+            "key": "大豆网",
+            "name": "👍大豆网(XBPQ)",
+            "type": 3,
+            "api": "csp_xBPQ",
+            "filterable": 1,
+            "quickSearch": 1,
+            "searchable": 1,
+            "playerType": "",
+            "ext": "https://agit.ai/gggwzj/gggdeng/raw/branch/master/XBPQ/大豆网.json"
+        },
+        {
             "key": "饭团影视HD",
             "name": "👍饭团影视HD(XBPQ)",
             "type": 3,
@@ -7518,20 +7518,69 @@
             "api": "https://agit.ai/lem85930/OneClickRun/raw/branch/master/LIB/alist.min.js",
             "ext": "https://agit.ai/n3rd/N3RD/raw/branch/master/T/li.json"
         },
-{
-    "key": "drjs_粤爱看",
-    "name": "👺粤爱看(DRPY)",
-    "type": 3,
-    "api": "https://agit.ai/lem85930/OneClickRun/raw/branch/master/LIB/drpy.min.js",
-    "ext": "https://agit.ai/lem85930/OneClickRun/raw/branch/master/JS/粤爱看.js"
-},
-{
-    "key": "drjs_萌番",
-    "name": "👺萌番(DRPY)",
-    "type": 3,
-    "api": "https://agit.ai/lem85930/OneClickRun/raw/branch/master/LIB/drpy.min.js",
-    "ext": "https://agit.ai/lem85930/OneClickRun/raw/branch/master/JS/萌番.js"
-},
+        {
+            "key": "drjs_酷6网",
+            "name": "👺酷6网(DRPY)",
+            "type": 3,
+            "api": "https://agit.ai/lem85930/OneClickRun/raw/branch/master/LIB/drpy.min.js",
+            "ext": "https://agit.ai/lem85930/OneClickRun/raw/branch/master/JS/酷6网.js"
+        },
+        {
+            "key": "drjs_网易公版影像",
+            "name": "👺网易公版影像(DRPY)",
+            "type": 3,
+            "api": "https://agit.ai/lem85930/OneClickRun/raw/branch/master/LIB/drpy.min.js",
+            "ext": "https://agit.ai/lem85930/OneClickRun/raw/branch/master/JS/网易公版影像.js"
+        },
+        {
+            "key": "drjs_A8音乐",
+            "name": "👺A8音乐(DRPY)",
+            "type": 3,
+            "api": "https://agit.ai/lem85930/OneClickRun/raw/branch/master/LIB/drpy.min.js",
+            "ext": "https://agit.ai/lem85930/OneClickRun/raw/branch/master/JS/A8音乐.js"
+        },
+        {
+            "key": "drjs_91free",
+            "name": "👺91free(DRPY)",
+            "type": 3,
+            "api": "https://agit.ai/lem85930/OneClickRun/raw/branch/master/LIB/drpy.min.js",
+            "ext": "https://agit.ai/lem85930/OneClickRun/raw/branch/master/JS/91free.js"
+        },
+        {
+            "key": "drjs_曲奇动漫",
+            "name": "👺曲奇动漫(DRPY)",
+            "type": 3,
+            "api": "https://agit.ai/lem85930/OneClickRun/raw/branch/master/LIB/drpy.min.js",
+            "ext": "https://agit.ai/lem85930/OneClickRun/raw/branch/master/JS/曲奇动漫.js"
+        },
+        {
+            "key": "drjs_去看吧",
+            "name": "👺去看吧(DRPY)",
+            "type": 3,
+            "api": "https://agit.ai/lem85930/OneClickRun/raw/branch/master/LIB/drpy.min.js",
+            "ext": "https://agit.ai/lem85930/OneClickRun/raw/branch/master/JS/去看吧.js"
+        },
+        {
+            "key": "drjs_六度TV",
+            "name": "👺六度TV(DRPY)",
+            "type": 3,
+            "api": "https://agit.ai/lem85930/OneClickRun/raw/branch/master/LIB/drpy.min.js",
+            "ext": "https://agit.ai/lem85930/OneClickRun/raw/branch/master/JS/六度TV.js"
+        },
+        {
+            "key": "drjs_粤爱看",
+            "name": "👺粤爱看(DRPY)",
+            "type": 3,
+            "api": "https://agit.ai/lem85930/OneClickRun/raw/branch/master/LIB/drpy.min.js",
+            "ext": "https://agit.ai/lem85930/OneClickRun/raw/branch/master/JS/粤爱看.js"
+        },
+        {
+            "key": "drjs_萌番",
+            "name": "👺萌番(DRPY)",
+            "type": 3,
+            "api": "https://agit.ai/lem85930/OneClickRun/raw/branch/master/LIB/drpy.min.js",
+            "ext": "https://agit.ai/lem85930/OneClickRun/raw/branch/master/JS/萌番.js"
+        },
         {
             "key": "drjs_NT动漫",
             "name": "👺NT动漫(DRPY)",
@@ -15342,7 +15391,7 @@
         },
         {
             "key": "XYQBiu_测试2",
-            "name": "🔞zb(XB)",
+            "name": "🔞聚优直播(XB)",
             "type": 3,
             "api": "csp_XYQBiu",
             "searchable": 1,
@@ -15785,16 +15834,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://agit.ai/gggwzj/gggdeng/raw/branch/master/XBPQ/掏爱撸.json"
-        },
-        {
-            "key": "聚优",
-            "name": "聚优🔞(csp_xBPQ)",
-            "type": 3,
-            "api": "csp_csp_xBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://agit.ai/gggwzj/gggdeng/raw/branch/master/csp_xBPQ/ju2.json"
         },
         {
             "key": "lover",
@@ -17347,14 +17386,14 @@
             "type": 1,
             "url": "http://xn--wnup5g.xn--z7x900a.love:63/Art/analysis.php?v="
         },
-{
-    "name": "小白解析",
-    "type": 1,
-    "url": "https://play.fuqizhishi.com/xiaobai/API.php?appkey=xiaoqun&url=",
-    "header": {
-        "User-Agent": "Mozilla/5.0"
-    }
-},
+        {
+            "name": "小白解析",
+            "type": 1,
+            "url": "https://play.fuqizhishi.com/xiaobai/API.php?appkey=xiaoqun&url=",
+            "header": {
+                "User-Agent": "Mozilla/5.0"
+            }
+        },
         {
             "name": "刚刚走过",
             "type": 1,
