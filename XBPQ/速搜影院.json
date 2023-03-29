@@ -17,8 +17,8 @@
 "播放链接":"href=\"&&\"",
 "免嗅":"1",
 
-"分类":"电影$1#剧集$2#综艺$3#动漫$4#记录$21",
-"分类url":"https://www.sstv.pw/vodshow-{cateId}/area/{area}/by/{by}/class/{class}/lang/{lang}/letter/{letter}/state/{state}/page/{catePg}/year/{year}/",
+"分类":"推荐电影$1#推荐剧集$2#推荐综艺$3#推荐动漫$4#推荐记录$21",
+"分类url":"https://www.sstv.pw/category-{cateId}/area/{area}/by/{by}/class/{class}/lang/{lang}/letter/{letter}/state/{state}/page/{catePg}/year/{year}/",
 "筛选":{
 "1":[
 {
