@@ -431,7 +431,7 @@
 
 ],
 
-"dianshizhibo": "https://cdn.staticaly.com/gh/tvbw/mytv/main/tv88",
+"dianshizhibo": "https://agit.ai/xiatian2022/Y/raw/branch/master/zby.txt",
  
 "嗅探词":"m3u8?#ixigua#.czspp#.m3u8#.mp4#.flv#.mp3#.m4a#?video_id=#.htm",
 
