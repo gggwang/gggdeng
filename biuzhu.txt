@@ -1184,7 +1184,6 @@
 "播放剧集链接前缀": "空",
 "播放剧集链接后缀": "空"},
 
- //备用网址：www.qiyoudy.info
 {"网站名字": "奇优影院",
 "网站地址": "http://www.qiyoudy2.com",
 "访问请求ua": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Mobile Safari/537.36",
@@ -6731,7 +6730,7 @@
   "bfbiaotihou": "</h3>", //状播放剧集标题后关键词
   "bflianjieqian": "rid=", //播放剧集链接前关键词
   "bflianjiehou": "\""
-}, //播放剧集链接后关键词
+}, 
 
 {
 "name": "51-手机看剧",
@@ -10855,7 +10854,7 @@ cnzz.com",
   "bfbiaotihou": "\"", //状播放剧集标题后关键词
   "bflianjieqian": "href=\"", //播放剧集链接前关键词
   "bflianjiehou": "\""
-} , //播放剧集链接后关键词
+} , 
 
 {
 "name": "119-乌龟影院",
@@ -12119,7 +12118,7 @@ cnzz.com",
   "bfbiaotihou": "<", //状播放剧集标题后关键词
   "bflianjieqian": "href=\"", //播放剧集链接前关键词
   "bflianjiehou": "\""
-},//播放剧集链接后关键词
+},
 
 {"name": "140-思古影视",
 "url": "https://hanlinmingyuan.com",
@@ -14018,7 +14017,7 @@ cnzz.com",
   "bfbiaotiqian": "header\">", //播放剧集标题前关键词
   "bfbiaotihou": "</h3>", //状播放剧集标题后关键词
   "bflianjieqian": "rid=", //播放剧集链接前关键词
-  "bflianjiehou": "\""}, //播放剧集链接后关键词
+  "bflianjiehou": "\""}, 
 
 {"author": "20220711",
 "name": "173-JustLive斗鱼",
@@ -20209,8 +20208,7 @@ cnzz.com",
 "bflianjieqian": "href=\"",
 "bflianjiehou": "\"",
 "bfqianzhui": "空",
-"bfhouzhui": "空"},
+"bfhouzhui": "空"}
  
-
 ]
 }
