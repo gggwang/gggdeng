@@ -156,9 +156,6 @@
 {"name":"🚬飞速资源","url":"http://fszy1.com/api.php"},
 {"name":"🔞易看资源(切)","url":"https://api.yikanapi.com/api.php"},
 {"name":"🔞91采集","url":"https://91md.me/api.php"},
-{"name":"🔞黄色资源","url":"https://hszy.vip/api.php/"},
-{"name":"🔞色南国资源","url":"https://api.sexnguon.com/api.php/"},
-{"name":"🔞91md","url":"https://91md.me/api.php/"},
 {"name":"🔞KK资源","url":"https://kkzy.me/api.php"}
 ],
 
