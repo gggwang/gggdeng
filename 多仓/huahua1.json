@@ -1,0 +1,71 @@
+//单多仓。本地+在线+测试。
+//高天流云本地包。高速下载地址https://codeload.github.com/gaotianliuyun/gao/zip/refs/heads/master
+//本地接口必须搭配本地包使用。压缩包解压到根目录（gao-master文件夹放根目录）。
+//（注意只有一层gao-master，而不是0/gao-master/gao-master/）。
+//JS-cp本地包（来源tg,JS-cp道长drpy压缩包）,JS文件夹必须放根目录。
+//单多仓配置地址https://agit.ai/butterfly/md/raw/branch/master/DCgao92.jpg
+//或使用多仓总接口https://agit.
+//1012.txt线路直播源https://agit.ai/138001380000/MHQTV/raw/branch/master/TV/0903zh.txt
+//🅰️1✘测试线路直播源https://agit.ai/guot54/ygbh/raw/branch/master/zB/zB.txt
+{
+  "urls": [
+    {
+      "url": "https://agit.ai/hu/hcr/raw/branch/master/1012.txt",
+      "name": "✘测试！慎用！"
+    },
+    {
+      "url": "https://raw.iqiq.io/gaotianliuyun/gao/master/9919.json",
+      "name": "✘测试！慎用！"
+    },
+    {
+      "url": "https://agit.ai/guot54/ygbh/raw/branch/master/PRO.json",
+      "name": "🅰️1✘测试"
+    },
+    {
+      "url": "https://agit.ai/guot54/ygbh/raw/branch/master/plus/PRO.json",
+      "name": "🅰️2✘测试"
+    },
+    {
+      "url": "https://agit.ai/guot54/ygbh/raw/branch/master/dxwoai18+.txt",
+      "name": "🅰️3✘测试"
+    },
+    {
+      "url": "https://agit.ai/138001380000/MHQTV/raw/branch/master/cr/nbsy.json",
+      "name": "🅰️4✘测试"
+    },
+    {
+      "url": "https://agit.ai/138001380000/MHQTV/raw/branch/master/cr/qiaoj.json",
+      "name": "🅰️5✘测试"
+    },
+    {
+      "url": "https://raw.iqiq.io/jie20091116/cat/main/TVBOX/se.json",
+      "name": "🅰️6✘测试"
+    },
+    {
+      "url": "https://raw.iqiq.io/FongMi/CatVodSpider/main/json/adult.json",
+      "name": "🅰️7✘测试"
+    },
+    {
+      "url": "https://agit.ai/fenwe/TVBox/raw/branch/master/dxwoai18+.json",
+      "name": "🅰️8✘测试"
+    },
+    {
+      "url": "https://agit.ai/fenwe/TVBox/raw/branch/master/adult.json",
+      "name": "🅰️9✘测试"
+    },
+    {
+      "url": "https://agit.ai/fenwe/TVBox/raw/branch/master/ziyong.json",
+      "name": "🅰️10✘测试"
+    }
+
+  ]
+}
+
+
+
+
+
+
+
+
+
