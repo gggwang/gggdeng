@@ -1,0 +1,24 @@
+{
+  "storeHouse": [{
+    "sourceName": "🌹🌹➊天天白嫖仓🌹🌹",
+    "sourceUrl":  "https://agit.ai/1058263215/TVBox/raw/branch/master/TTBaiPiaoXianLuHuiZong.json"
+  }, {
+    "sourceName": "🐮🐮➋大佬牛逼仓🐮🐮",
+    "sourceUrl":  "https://agit.ai/1058263215/TVBox/raw/branch/master/NBDC.json"
+  }, {
+    "sourceName": "🦊🦊➌大佬自建仓🦊🦊",
+    "sourceUrl":  "https://agit.ai/1058263215/TVBox/raw/branch/master/ZJ-DXL.json"
+  }, {
+    "sourceName": "🐷🐷➍大佬备用仓🐷🐷",
+    "sourceUrl":  "https://agit.ai/1058263215/TVBox/raw/branch/master/DC.json"
+  }, {
+    "sourceName": "🐽🐽➎福利普通仓🐽🐽",
+    "sourceUrl":  "https://agit.ai/1058263215/TVBox/raw/branch/master/FL-ZJ-DXL.json"
+  }, {
+    "sourceName": "🥰🥰➏福利精品仓🥰🥰",
+    "sourceUrl":  "https://agit.ai/1058263215/TVBox/raw/branch/master/huahua2.json"
+  }, {
+    "sourceName": "💖💖➐福利测试仓💖💖",
+    "sourceUrl":  "https://agit.ai/1058263215/TVBox/raw/branch/master/huahua1.json"
+  }]
+}
