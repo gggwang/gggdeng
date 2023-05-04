@@ -1,5 +1,5 @@
  {"name": "香蕉中文资源",
-"url": "https://avss.vip/",
+"url": "https://www.avjs.top/",
 //访问请求头
 "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36",
 //访问请求cookie
@@ -46,5 +46,5 @@
 "fubiaotihou": "",
 "lianjieqian": "href=\"/xjzy/c",
 "lianjiehou": ".html\"",
-"ljqianzhui": "https://avss.vip/xjzy/xplay",
+"ljqianzhui": "https://www.avjs.top/xjzy/xplay",
 "ljhouzhui": "-1-1.html"},
