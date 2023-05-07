@@ -21758,6 +21758,8 @@ cnzz.com",
 "列表链接": "href=\"$$\"",
 "列表链接前缀": "空",
 "列表链接后缀": "空"},
+
+
 {"网站名字": "草吧🔞",
 "网站地址": "https://caoba28.xyz/",//您有任何问题均可联系：caoba444@gmail.com
 "访问请求ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36",
@@ -25598,7 +25600,7 @@ cnzz.com",
 "播放页跳转看图": "0"},
  
  {"网站名字": "黄色仓库🔞",
-"网站地址": "http://dphsck.cc",  //http://emhsck.cc
+"网站地址": "http://5phsck.cc/",  //http://emhsck.cc
 "访问请求ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36",
 "访问请求cookie": "空",
 "访问请求referer": "http://dphsck.cc/",
