@@ -1,5 +1,5 @@
-{"网站名字": "香蕉中文资源",
-"网站地址": "https://99sese.cc/",  //https://660sav.vip/
+{"网站名字": "新香蕉国产传媒",
+"网站地址": "https://99sese.cc/", //https://660sav.vip/
 "访问请求ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36",
 "访问请求cookie": "空",
 "访问请求referer": "空",
@@ -37,7 +37,7 @@
 "列表显示": "0",
 "横图显示": "0",
 "列表起始页": "1",
-"列表分类": "中文无码$/xjzy/sd-zhongwenwuma-#中文综合$/xjzy/sd-zhongwenzonghe-#中文近亲$/xjzy/sd-zhongwenjingqing-#中文护士$/xjzy/sd-zhongwenhushi-#中文师生$/xjzy/sd-zhongwenshisheng-#中文强奸$/xjzy/sd-zhongwenqiangjian-#明星淫梦$/xjzy/sd-mingxingyinmeng-#国产自拍$/xjzy/sd-guochanzipai-#三级伦理$/xjzy/sd-sanjizonghe-#解说原片$/xjzy/sd-jieshuoyuanpian-",
+"列表分类": "综合传媒$/gccm/op-madouyuanchuang-#91制片厂$/gccm/op-91zhipianchang-#杏吧原创$/gccm/op-xingbayuanchuang-#糖心Vlgo$/gccm/op-tangxinVlgo-#天美传媒$/gccm/op-tianmeichuanmei-#蜜桃传媒$/gccm/op-mitaochuanmei-#星空传媒$/gccm/op-xingkongchuanmei-#精东影业$/gccm/op-jingdongyingye-#兔子先生$/gccm/op-tuzixiansheng-#大象传媒$/gccm/op-daxiangchuanmei-",
 "列表后缀": ".html",
 "列表二次截取": "空",
 "列表截取数组": "class=\"item\"$$</a>",
