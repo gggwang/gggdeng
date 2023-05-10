@@ -5,7 +5,6 @@ sys.path.append('..')
 from base.spider import Spider
 import json
 import math
-import re
 
 class Spider(Spider):
 	def getName(self):
@@ -115,14 +114,10 @@ class Spider(Spider):
 	def playerContent(self,flag,id,vipFlags):
 		result = {}
 		url = id
-		header = {
-					 'Referer': 'https://m.live.qq.com/',
-					 "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36"
-				 }
 		result["parse"] = 0
 		result["playUrl"] = ''
 		result["url"] = url
-		result["header"] = header
+		result["header"] = ''
 		return result
 
 	config = {
