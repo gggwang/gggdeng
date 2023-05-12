@@ -19368,6 +19368,80 @@ M1905,http://111.177.34.98/hlslive2.ks-cdn.m1905.com/live/LIVE8J4LTCXPI7QJ5/inde
 网页[
 
 名称##
+	时光影视
+##
+
+分类##
+
+	分类(电影|电视剧|独家|动漫|综艺)
+	分类地址(http://www.shigys.com/index.php/vod/show/id/1/page/页数.html|http://www.shigys.com/index.php/vod/show/id/2/page/页数.html|http://www.shigys.com/index.php/vod/show/id/41/page/页数.html|http://www.shigys.com/index.php/vod/show/id/4/page/页数.html|http://www.shigys.com/index.php/vod/show/id/3/page/页数.html)
+
+##
+
+列表##
+	//截取视频列表框数据块
+	列表数据头(<div class="hl-list-wrap">)
+	列表数据尾(<ul class="hl-page-wrap hl-text-center cleafix">)
+	
+	//截取所有视频数据
+	数组_列表头(<li)
+	数组_列表尾(</li>)
+	
+	//文本型
+	片名头(title=")
+	片名尾(")
+	
+	封面头(data-original=")
+	封面尾(")
+	
+	播放页url头(href=")
+	播放页url尾(")
+	
+	状态头(<span class="hl-lc-1 remarks">)
+	状态尾(</span>)
+
+	地址头(http://www.shigys.com)//这里写播放地址前面的域名之类的，就是补全播放页地址
+	地址尾()//这里写上播放地址后面数据,一般没有
+
+##
+
+剧集##
+
+	剧名头(<h2 class="hl-dc-title hl-data-menu">)
+	剧名尾(</h2>)
+
+	简介头(简介：</em>)
+	简介尾(</li>)
+	
+	//截取剧集数据块
+	剧集数据头(<div class="hl-play-source hl-hidden">)
+	剧集数据尾(<h3 class="hl-rb-title">剧情简介</h3>)
+	
+	//截取所有播放器的名字
+	数组_播放器头(alt=")
+	数组_播放器尾(")
+
+	//截取所有播放器的剧集数据
+	数组_剧集头(<ul class="hl-plays-list)
+	数组_剧集尾(</ul>)
+
+	//截取剧集名
+	剧集名头(html">)
+	剧集名尾(</a>)
+	//截取剧集地址
+	播放url头(href=")
+	播放url尾(")
+	
+	地址头(http://www.shigys.com)//如果地址数据不完整这里要写上前面的数据
+	地址尾()//后面还有数据的情况这里写上后面数据
+	
+##
+
+]
+
+网页[
+
+名称##
 	奇米奇米
 ##
 
@@ -19434,6 +19508,204 @@ M1905,http://111.177.34.98/hlslive2.ks-cdn.m1905.com/live/LIVE8J4LTCXPI7QJ5/inde
 	播放url尾(")
 	
 	地址头(http://www.qimiqimi.co)//如果地址数据不完整这里要写上前面的数据
+	地址尾()//后面还有数据的情况这里写上后面数据
+	
+##
+
+]
+
+网页[
+
+名称##
+	AnFuns
+##
+
+分类##
+
+	分类(新旧番剧|蓝光无修|动漫剧场|欧美动漫)
+	分类地址(https://www.anfuns.cc/type/1-页数.html|https://www.anfuns.cc/type/2-页数.html|https://www.anfuns.cc/type/3-页数.html|https://www.anfuns.cc/type/4-页数.html)
+
+##
+
+列表##
+	//截取视频列表框数据块
+	列表数据头(<div class="hl-list-wrap">)
+	列表数据尾(<ul class="hl-page-wrap)
+	
+	//截取所有视频数据
+	数组_列表头(<li class="hl-list-item)
+	数组_列表尾(</li>)
+	
+	//文本型
+	片名头(title=")
+	片名尾(")
+	
+	封面头(data-original=")
+	封面尾(")
+	
+	播放页url头(href=")
+	播放页url尾(")
+	
+	状态头(<span class="hl-lc-1 remarks">)
+	状态尾(</span>)
+
+	地址头(https://www.anfuns.cc)//这里写播放地址前面的域名之类的，就是补全播放页地址
+	地址尾()//这里写上播放地址后面数据,一般没有
+
+##
+
+搜索##
+    	搜索接口(https://www.anfuns.cc/search.html?wd=搜索&submit=)
+	//截取视频列表框数据块
+	列表数据头(<div class="hl-list-wrap">)//最好只有这一个头
+	列表数据尾(<div class="hl-rb-side clearfix">)
+	
+	//截取所有视频数据
+	数组_列表头(<li class="hl-list-item hl-col-xs-12">)
+	数组_列表尾(</li>)
+	
+	//文本型
+	片名头(title=")
+	片名尾(")
+	
+	封面头(data-original=")
+	封面尾(")
+	
+	播放页url头(href=")
+	播放页url尾(")
+	
+	状态头(<span class="hl-lc-1 remarks">)
+	状态尾(</span>)
+
+	地址头(https://www.anfuns.cc)//这里写播放地址前面的域名之类的，就是补全播放页地址
+	地址尾()//这里写上播放地址后面数据,一般没有
+
+##
+
+剧集##
+
+	剧名头(<h2 class="hl-dc-title hl-data-menu">)
+	剧名尾(</h2>)
+	简介头(<span class="hl-content-text"><em>)
+	简介尾(</em>)
+	
+	//截取剧集数据块
+	剧集数据头(<div class="hl-play-source hl-hidden">)
+	剧集数据尾(<h3 class="hl-rb-title">剧情简介</h3>)
+	
+	//截取所有播放器的名字
+	数组_播放器头(alt=")
+	数组_播放器尾(")
+	//截取所有播放器的剧集数据
+	数组_剧集头(<ul class="hl-plays-list)
+	数组_剧集尾(</ul>)
+	//截取剧集名
+	剧集名头(html">)
+	剧集名尾(</a>)
+	//截取剧集地址
+	播放url头(href=")
+	播放url尾(")
+	
+	地址头(https://www.anfuns.cc)//如果地址数据不完整这里要写上前面的数据
+	地址尾()//后面还有数据的情况这里写上后面数据
+	
+##
+
+]
+
+网页[
+
+名称##
+	风车动漫1
+##
+
+分类##
+
+	分类(日本|国产|欧美)
+	分类地址(https://www.fcdm.me/index.php/vod/show/id/20/page/页数.html|https://www.fcdm.me/index.php/vod/show/id/23/page/页数.html|https://www.fcdm.me/index.php/vod/show/id/22/page/页数.html)
+
+##
+
+列表##
+	//截取视频列表框数据块
+	列表数据头(<div class="hl-list-wrap">)
+	列表数据尾(<ul class="hl-page-wrap)
+	
+	//截取所有视频数据
+	数组_列表头(<li class="hl-list-item)
+	数组_列表尾(</li>)
+	
+	//文本型
+	片名头(title=")
+	片名尾(")
+	
+	封面头(data-original=")
+	封面尾(")
+	
+	播放页url头(href=")
+	播放页url尾(")
+	
+	状态头(<span class="hl-lc-1 remarks">)
+	状态尾(</span>)
+
+	地址头(https://www.fcdm.me)//这里写播放地址前面的域名之类的，就是补全播放页地址
+	地址尾()//这里写上播放地址后面数据,一般没有
+
+##
+
+搜索##
+    	搜索接口(https://www.fcdm.me/index.php/vod/search.html?wd=搜索&submit=)
+	//截取视频列表框数据块
+	列表数据头(<div class="hl-list-wrap">)//最好只有这一个头
+	列表数据尾(<ul class="hl-page-wrap)
+	
+	//截取所有视频数据
+	数组_列表头(<li class="hl-list-item hl-col-xs-12">)
+	数组_列表尾(</li>)
+	
+	//文本型
+	片名头(title=")
+	片名尾(")
+	
+	封面头(data-original=")
+	封面尾(")
+	
+	播放页url头(href=")
+	播放页url尾(")
+	
+	状态头(<span class="hl-lc-1 remarks">)
+	状态尾(</span>)
+
+	地址头(https://www.fcdm.me)//这里写播放地址前面的域名之类的，就是补全播放页地址
+	地址尾()//这里写上播放地址后面数据,一般没有
+
+##
+
+剧集##
+
+	剧名头(<h2 class="hl-dc-title hl-data-menu">)
+	剧名尾(</h2>)
+	简介头(简介：</em>)
+	简介尾(</li>)
+	
+	//截取剧集数据块
+	剧集数据头(<div class="hl-plays-wrap hl-tabs-swiper">)
+	剧集数据尾(<h3 class="hl-rb-title">剧情简介</h3>)
+	
+	//截取所有播放器的名字
+	数组_播放器头(alt=")
+	数组_播放器尾(")
+	//截取所有播放器的剧集数据
+	数组_剧集头(<ul class="hl-plays-list)
+	数组_剧集尾(</ul>)
+	//截取剧集名
+	剧集名头(html">)
+	剧集名尾(</a>)
+	//截取剧集地址
+	播放url头(href=")
+	播放url尾(")
+	
+	地址头(https://www.fcdm.me)//如果地址数据不完整这里要写上前面的数据
 	地址尾()//后面还有数据的情况这里写上后面数据
 	
 ##
