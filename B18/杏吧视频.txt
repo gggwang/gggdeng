@@ -1,8 +1,8 @@
 {"网站名字": "杏吧视频",
-"网站地址": "https://xb103.top/",// 发布页 https://www.xingbatv.top/
+"网站地址": "https://www.xb105.top/",// 发布页 https://www.xingbatv.top/
 "访问请求ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36",
 "访问请求cookie": "https://vip1.155bf.com/20230429/pgg4qJED/index.m3u8=1486.336248; ygmcxlastsearchtime=1682857258",
-"访问请求referer": "空",
+"访问请求referer": "referer$https://www.xingbatv.top/",
 "播放请求头": "User-Agent$123",
 "图片请求头": "空",
 "网页编码": "utf-8",
