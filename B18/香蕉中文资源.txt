@@ -1,43 +1,34 @@
 {"网站名字": "香蕉中文资源",
-"网站地址": "https://99sese.cc/",  //https://660sav.vip/
+"网站地址": "https://kk521.vip/",  //https://660sav.cc/  https://ju54321.vip/
 "访问请求ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36",
 "访问请求cookie": "空",
-"访问请求referer": "空",
+"访问请求referer": "referer$https://660sav.cc/",
 "播放请求头": "User-Agent$123",
 "图片请求头": "空",
 "网页编码": "utf-8",
- 
 //0：不禁用，1：禁用
 "禁用搜索": "0",
- 
 //0：不启用，1：启用
 "搜索手动验证": "0",
- 
 //0：否，1：是
 "集数倒序": "0",
- 
 //0：不启用，1：启用
 "是否启用解析模式": "0",
- 
 //需要点击播放的网站可以自己找网页的点击js字符
 "自动点击字符": "空",
- 
 //0：不启用，1：启用
 "启用js加载源码":"0",
 "js加载源码时间":"5",
- 
 "嗅探词": "m3u8?#.m3u8#.mp4#.flv#.mp3#.m4a",
 "过滤词": "?url=#?v=#.css#51.la#cnzz.com#baidu.com#bilibili.com",
- 
 //0：记录，1：不记录
 "是否记录历史": "0",
- 
 //0：否，1：是
 "直接播放": "0",
 "列表显示": "0",
 "横图显示": "0",
 "列表起始页": "1",
-"列表分类": "中文无码$/xjzy/sd-zhongwenwuma-#中文综合$/xjzy/sd-zhongwenzonghe-#中文近亲$/xjzy/sd-zhongwenjingqing-#中文护士$/xjzy/sd-zhongwenhushi-#中文师生$/xjzy/sd-zhongwenshisheng-#中文强奸$/xjzy/sd-zhongwenqiangjian-#明星淫梦$/xjzy/sd-mingxingyinmeng-#国产自拍$/xjzy/sd-guochanzipai-#三级伦理$/xjzy/sd-sanjizonghe-#解说原片$/xjzy/sd-jieshuoyuanpian-",
+"列表分类": "中文无码$/xjzy/xc-u-#中文综合$/xjzy/xc-v-#中文近亲$/xjzy/xc-w-#中文护士$/xjzy/xc-x-#中文师生$/xjzy/xc-y-#中文强奸$/xjzy/xc-z-#明星淫梦$/xjzy/xc-8-#国产自拍$/xjzy/xc-2-#三级伦理$/xjzy/xc-7-#解说原片$/xjzy/xc-9-",
 "列表后缀": ".html",
 "列表二次截取": "空",
 "列表截取数组": "class=\"item\"$$</a>",
@@ -48,7 +39,6 @@
 "列表链接": "href=\"$$\"",
 "列表链接前缀": "空",
 "列表链接后缀": "空",
- 
 //0：get方式，1：post方式，注意：如果用post方式，【搜索模式】要填：1
 "搜索请求方式": "0",
 "搜索模式": "1",
@@ -64,12 +54,10 @@
 "搜索链接": "href=\"$$\"",
 "搜索链接前缀": "空",
 "搜索链接后缀": "空",
-
 "播放页状态": "class=\"duration\">$$</div>",
 "播放页导演": "class=\"rating positive\">$$</div>",
 "播放页演员": "主演：$$</p>",
 "播放页剧情": "class=\"title\">$$</strong>",
-
 "播放页二次截取": "空",
 "播放页截取数组": "player_aaaa={\"$$\"vod_director\":",
 "播放剧集二次截取": "空",
