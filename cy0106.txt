@@ -3113,109 +3113,6 @@ Ziggo Sport 4K,http://live.iptvtotaal.com:8000/awpreneniptv/09HZaVeOmh/20560#
 网页[
 
 名称##
-	   PiANKU
-##
-
-分类##
-	//每个分类的名字 中间必须用"|"分割
-	分类(电影|电视剧|动漫|综艺|少儿)
-	//每个分类的地址,中间也必须用"|"分割!把相应的页面的页数换成"页数"
-	分类地址(https://www.piaku.cc/p/DY-页数/|https://www.piaku.cc/p/DSJ-页数/|https://www.piaku.cc/p/DM-页数/|https://www.piaku.cc/p/ZY-页数/|https://www.piaku.cc/p/SR-页数/)
-
-##
-
-列表##
-	//截取视频列表框数据块
-	列表数据头(<ul class="content-list" style="margin-top: 10px;">)//最好只有这一个头
-	列表数据尾(<div class="pages">)
-	
-	//截取所有视频数据
-	数组_列表头(<div class="li-img">)
-	数组_列表尾(</div>)
-	
-	//文本型
-	片名头(title=")
-	片名尾(")
-	
-	封面头(blank"><img src=")
-	封面尾(")
-	
-	播放页url头(href=")
-	播放页url尾(")
-	
-	状态头(3px;"></i>)
-	状态尾(</span>)
-
-	地址头(https://www.piaku.cc)//这里写播放地址前面的域名之类的，就是补全播放页地址
-	地址尾()//这里写上播放地址后面数据,一般没有
-
-##
-
-搜索##
-    	搜索接口(https://www.piaku.cc/s/-------------/?wd=搜索)
-	//截取视频列表框数据块
-	列表数据头(<div class="sr_lists">)//最好只有这一个头
-	列表数据尾(<div class="footer">)
-	
-	//截取所有视频数据
-	数组_列表头(<dl>)
-	数组_列表尾(<dd>)
-	
-	//文本型
-	片名头()
-	片名尾()
-	
-	封面头(<img src=")
-	封面尾(")
-	
-	播放页url头(href=")
-	播放页url尾(")
-	
-	状态头(3px;"></i>)
-	状态尾(</span>)
-
-	地址头(https://www.piaku.cc)//这里写播放地址前面的域名之类的，就是补全播放页地址
-	地址尾()//这里写上播放地址后面数据,一般没有
-
-##
-
-剧集##
-
-	剧名头(<h1>)
-	剧名尾(<span class="year">)
-
-	简介头(<p class="zkjj_a" style="">)
-	简介尾(<span class="zk_jj">)
-	
-	//截取剧集数据块
-	剧集数据头(<ul class="py-tabs">)
-	剧集数据尾(<h2>猜你喜欢</h2>)
-	
-	//截取所有播放器的名字
-	数组_播放器头(class="on">)
-	数组_播放器尾(</li>)
-
-	//截取所有播放器的剧集数据
-	数组_剧集头(<div class="bd">)
-	数组_剧集尾(</ul>)
-
-	//截取剧集名
-	剧集名头(target="_blank">)
-	剧集名尾(</a>)
-	//截取剧集地址
-	播放url头(href=")
-	播放url尾(")
-	
-	地址头(https://www.piaku.cc)//如果地址数据不完整这里要写上前面的数据
-	地址尾()//后面还有数据的情况这里写上后面数据
-	
-##
-
-]
-
-网页[
-
-名称##
 	  王者影视
                 
 ##
@@ -6613,211 +6510,6 @@ Ziggo Sport 4K,http://live.iptvtotaal.com:8000/awpreneniptv/09HZaVeOmh/20560#
 	播放url尾(")
 	
 	地址头(https://www.ikandy.fun)//如果地址数据不完整这里要写上前面的数据
-	地址尾()//后面还有数据的情况这里写上后面数据
-	
-##
-
-]
-
-网页[
-
-名称##
-	二次萌影视
-##
-
-分类##
-	//每个分类的名字 中间必须用"|"分割
-	分类(电影|连续剧|综艺|动漫)
-	//每个分类的地址,中间也必须用"|"分割!把相应的页面的页数换成"页数"
-	分类地址(https://ys.ccmoe.cc/vod/show/id/1/page/页数/|https://ys.ccmoe.cc/vod/show/id/2/page/页数/|https://ys.ccmoe.cc/vod/show/id/3/page/页数/|https://ys.ccmoe.cc/vod/show/id/4/page/页数/)
-
-##
-
-列表##
-	//截取视频列表框数据块
-	列表数据头(<div class="module-main module-page)//最好只有这一个头
-	列表数据尾(<div id="page">)
-	
-	//截取所有视频数据
-	数组_列表头(<a)
-	数组_列表尾(</a>)
-	
-	//文本型
-	片名头(title=")
-	片名尾(")
-	
-	封面头(data-original=")
-	封面尾(")
-	
-	播放页url头(href=")
-	播放页url尾(")
-	
-	状态头(<div class="module-item-note">)
-	状态尾(</div>)
-
-	地址头(https://ys.ccmoe.cc)//这里写播放地址前面的域名之类的，就是补全播放页地址
-	地址尾()//这里写上播放地址后面数据,一般没有
-
-##
-
-搜索##
-    	搜索接口(https://ys.ccmoe.cc/vodsearch/-------------/?wd=搜索)
-	//截取视频列表框数据块
-	列表数据头(<div class="module-main module-page">)//最好只有这一个头
-	列表数据尾(<div class="fixedGroup">)
-	
-	//截取所有视频数据
-	数组_列表头(<div class="module-card-item module-item">)
-	数组_列表尾(<div class="module-card-item-footer">)
-	
-	//文本型
-	片名头(alt=")
-	片名尾(")
-	
-	封面头(data-original=")
-	封面尾(")
-	
-	播放页url头(<a href=")
-	播放页url尾(")
-	
-	状态头(<div class="module-item-note">)
-	状态尾(</div>)
-
-	地址头(https://ys.ccmoe.cc)//这里写播放地址前面的域名之类的，就是补全播放页地址
-	地址尾()//这里写上播放地址后面数据,一般没有
-
-##
-
-剧集##
-
-	剧名头(<h1>)
-	剧名尾(</h1>)
-
-	简介头(<p>)
-	简介尾(</p>)
-	
-	//截取剧集数据块
-	剧集数据头(<div class="module-heading player-heading">)
-	剧集数据尾(<div class="module">)
-	
-	//截取所有播放器的名字
-	数组_播放器头(data-dropdown-value=")
-	数组_播放器尾(")
-
-	//截取所有播放器的剧集数据
-	数组_剧集头(<div class="module-play-list">)
-	数组_剧集尾(</div>)
-
-	//截取剧集名
-	剧集名头(<span>)
-	剧集名尾(</span>)
-	//截取剧集地址
-	播放url头(href=")
-	播放url尾(")
-	
-	地址头(https://ys.ccmoe.cc)//如果地址数据不完整这里要写上前面的数据
-	地址尾()//后面还有数据的情况这里写上后面数据
-	
-##
-
-]
-
-网页[
-
-名称##
-	大豆高清
-##
-
-分类##
-	//每个分类的名字 中间必须用"|"分割
-	分类(电影|连续剧|动漫|综艺|纪录片)
-	//每个分类的地址,中间也必须用"|"分割!把相应的页面的页数换成"页数"
-	分类地址(https://dadou.pro/vodshow/1--------页数---.html|https://dadou.pro/vodshow/2--------页数---.html|https://dadou.pro/vodshow/4--------页数---.html|https://dadou.pro/vodshow/3--------页数---.html|https://dadou.pro/vodshow/39--------页数---.html)
-
-##
-
-列表##
-	//截取视频列表框数据块
-	列表数据头(<div class="row">)//最好只有这一个头
-	列表数据尾(<ul class="hl-page-wrap hl-text-center cleafix">)
-	
-	//截取所有视频数据
-	数组_列表头(<li class="hl-list-item)
-	数组_列表尾(</li>)
-	
-	//文本型
-	片名头(title=")
-	片名尾(")
-	
-	封面头(data-original=")
-	封面尾(")
-	
-	播放页url头(href=")
-	播放页url尾(")
-	
-	状态头(<span class="hl-lc-1 remarks">)
-	状态尾(</span>)
-
-	地址头(https://dadou.pro)//这里写播放地址前面的域名之类的，就是补全播放页地址
-	地址尾()//这里写上播放地址后面数据,一般没有
-
-##
-
-搜索##
-    	搜索接口(https://dadou.pro/vodsearch/-------------.html?wd=搜索&submit=)
-	//截取视频列表框数据块
-	列表数据头(<div class="row">)//最好只有这一个头
-	列表数据尾(<div class="hl-rb-side clearfix">)
-	
-	//截取所有视频数据
-	数组_列表头(<li class="hl-list-item hl-col-xs-12">)
-	数组_列表尾(</li>)
-	
-	//文本型
-	片名头(title=")
-	片名尾(")
-	
-	封面头(data-original=")
-	封面尾(")
-	
-	播放页url头(href=")
-	播放页url尾(")
-	
-	状态头(<span class="hl-lc-1 remarks">)
-	状态尾(</span>)
-
-	地址头(https://dadou.pro)//这里写播放地址前面的域名之类的，就是补全播放页地址
-	地址尾()//这里写上播放地址后面数据,一般没有
-##
-
-剧集##
-
-	剧名头(<h2 class="hl-dc-title hl-data-menu">)
-	剧名尾(</h2>)
-
-	简介头(简介：</em>)
-	简介尾(</li>)
-	
-	//截取剧集数据块
-	剧集数据头(<div class="hl-play-source hl-hidden">)
-	剧集数据尾(<div class="hl-row-box hl-rb-downlist)
-	
-	//截取所有播放器的名字
-	数组_播放器头(alt=")
-	数组_播放器尾(")
-
-	//截取所有播放器的剧集数据
-	数组_剧集头(<ul class="hl-plays-list)
-	数组_剧集尾(</ul>)
-
-	//截取剧集名
-	剧集名头(html">)
-	剧集名尾(</a>)
-	//截取剧集地址
-	播放url头(href=")
-	播放url尾(")
-	
-	地址头(https://dadou.pro)//如果地址数据不完整这里要写上前面的数据
 	地址尾()//后面还有数据的情况这里写上后面数据
 	
 ##
@@ -17557,12 +17249,12 @@ Ziggo Sport 4K,http://live.iptvtotaal.com:8000/awpreneniptv/09HZaVeOmh/20560#
 
 列表##
 	//截取视频列表框数据块
-	列表数据头(<div class="module-main module-page)
-	列表数据尾(<div id="page">)
+	列表数据头(<ul class="myui-vodlist clearfix">)
+	列表数据尾(<ul class="myui-page text-center clearfix">)
 	
 	//截取所有视频数据
-	数组_列表头(<a)
-	数组_列表尾(</a>)
+	数组_列表头(<li)
+	数组_列表尾(</li>)
 	
 	//文本型
 	片名头(title=")
@@ -17574,8 +17266,8 @@ Ziggo Sport 4K,http://live.iptvtotaal.com:8000/awpreneniptv/09HZaVeOmh/20560#
 	播放页url头(href=")
 	播放页url尾(")
 	
-	状态头(<div class="module-item-note">)
-	状态尾(</div>)
+	状态头(<span class="pic-text text-right">)
+	状态尾(</span>)
 
 	地址头(https://www.ylxvideo.com)//这里写播放地址前面的域名之类的，就是补全播放页地址
 	地址尾()//这里写上播放地址后面数据,一般没有
@@ -17583,17 +17275,17 @@ Ziggo Sport 4K,http://live.iptvtotaal.com:8000/awpreneniptv/09HZaVeOmh/20560#
 ##
 
 搜索##
-    	搜索接口(https://www.ylxvideo.com/index.php/vod/search.html?wd=搜索)
+    	搜索接口(https://www.ylxvideo.com/index.php/vod/search.html?wd=搜索&submit=)
 	//截取视频列表框数据块
-	列表数据头(<div class="module-main module-page">)//最好只有这一个头
-	列表数据尾(<div class="fixedGroup">)
+	列表数据头(<div class="myui-panel_bd col-pd clearfix">)//最好只有这一个头
+	列表数据尾(<!-- 翻页 -->)
 	
 	//截取所有视频数据
-	数组_列表头(<div class="module-card-item module-item">)
-	数组_列表尾(<div class="module-card-item-footer">)
+	数组_列表头(<li class="clearfix">)
+	数组_列表尾(</li>)
 	
 	//文本型
-	片名头(alt=")
+	片名头(title=")
 	片名尾(")
 	
 	封面头(data-original=")
@@ -17602,8 +17294,8 @@ Ziggo Sport 4K,http://live.iptvtotaal.com:8000/awpreneniptv/09HZaVeOmh/20560#
 	播放页url头(href=")
 	播放页url尾(")
 	
-	状态头(<div class="module-item-note">)
-	状态尾(</div>)
+	状态头(<span class="pic-text text-right">)
+	状态尾(</span>)
 
 	地址头(https://www.ylxvideo.com)//这里写播放地址前面的域名之类的，就是补全播放页地址
 	地址尾()//这里写上播放地址后面数据,一般没有
@@ -17612,24 +17304,24 @@ Ziggo Sport 4K,http://live.iptvtotaal.com:8000/awpreneniptv/09HZaVeOmh/20560#
 
 剧集##
 
-	剧名头(<h1>)
+	剧名头(text-fff">)
 	剧名尾(</h1>)
-	简介头(<p>)
+	简介头(style="display: none;"><p>)
 	简介尾(</p>)
 	
 	//截取剧集数据块
-	剧集数据头(<div class="module-tab-items">)
-	剧集数据尾(<div class="module-heading">)
+	剧集数据头(<ul class="nav nav-tabs active">)
+	剧集数据尾(<!-- 播放地址-->)
 	
 	//截取所有播放器的名字
-	数组_播放器头(data-dropdown-value=")
-	数组_播放器尾(")
+	数组_播放器头(data-toggle="tab">)
+	数组_播放器尾(</a>)
 	//截取所有播放器的剧集数据
-	数组_剧集头(<div class="module-play-list">)
-	数组_剧集尾(</div>)
+	数组_剧集头(<ul class="myui-content__list)
+	数组_剧集尾(</ul>)
 	//截取剧集名
-	剧集名头(<span>)
-	剧集名尾(</span>)
+	剧集名头(html">)
+	剧集名尾(</a>)
 	//截取剧集地址
 	播放url头(href=")
 	播放url尾(")
@@ -20439,6 +20131,77 @@ Ziggo Sport 4K,http://live.iptvtotaal.com:8000/awpreneniptv/09HZaVeOmh/20560#
 	播放url尾(")
 	
 	地址头(https://www.icco.im)//如果地址数据不完整这里要写上前面的数据
+	地址尾()//后面还有数据的情况这里写上后面数据
+	
+##
+
+]
+
+网页[
+
+名称##
+	大米星球1
+##
+
+分类##
+
+	分类(电影|电视剧|动漫|综艺|纪录片)
+	分类地址(https://www.dm718.com/vodshow/1--------页数---.html|https://www.dm718.com/vodshow/2--------页数---.html|https://www.dm718.com/vodshow/4--------页数---.html|https://www.dm718.com/vodshow/3--------页数---.html|https://www.dm718.com/vodshow/5--------页数---.html)
+
+##
+
+列表##
+	//截取视频列表框数据块
+	列表数据头(<div class="module-main module-page)
+	列表数据尾(<div id="page">)
+	
+	//截取所有视频数据
+	数组_列表头(<a)
+	数组_列表尾(</a>)
+	
+	//文本型
+	片名头(title=")
+	片名尾(")
+	
+	封面头(data-original=")
+	封面尾(")
+	
+	播放页url头(href=")
+	播放页url尾(")
+	
+	状态头(<div class="module-item-note">)
+	状态尾(</div>)
+
+	地址头(https://www.dm718.com)//这里写播放地址前面的域名之类的，就是补全播放页地址
+	地址尾()//这里写上播放地址后面数据,一般没有
+
+##
+
+剧集##
+
+	剧名头(<h1>)
+	剧名尾(</h1>)
+	简介头(<p>)
+	简介尾(</p>)
+	
+	//截取剧集数据块
+	剧集数据头(<div class="module-tab-items">)
+	剧集数据尾(<div class="module-heading">)
+	
+	//截取所有播放器的名字
+	数组_播放器头(data-dropdown-value=")
+	数组_播放器尾(")
+	//截取所有播放器的剧集数据
+	数组_剧集头(<div class="module-play-list">)
+	数组_剧集尾(</div>)
+	//截取剧集名
+	剧集名头(<span>)
+	剧集名尾(</span>)
+	//截取剧集地址
+	播放url头(href=")
+	播放url尾(")
+	
+	地址头(https://www.dm718.com)//如果地址数据不完整这里要写上前面的数据
 	地址尾()//后面还有数据的情况这里写上后面数据
 	
 ##
