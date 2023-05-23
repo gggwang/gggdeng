@@ -6,7 +6,6 @@
 影视[影图(官源), https://cj.vodimg.top/api.php/provide/vod/at/xml,解析]
 影视[阳光资源网,http://www.xxzy.org/api.php/provide/vod/at/xml/,不解析]
 影视[新浪资源, https://api.xinlangapi.com/xinlangapi.php/provide/vod/from/xlm3u8/at/xml,无]
-影视[看剧吧, http://app.ishen520.com/api.php/v1.vod,解析]
 影视[书海动漫, https://app.shuhai99.com/api.php/v1.vod,不解析]
 影视[cs,https://www.zhanlangbu.com/ruifenglb_api.php/v1.vod,无]
 影视[每天看看, http://47.113.126.237:1234/api.php/provide/vod/at/xml,解析]
@@ -20,9 +19,7 @@
 影视[爱酷影视, https://www.zhanlangbu.com/ruifenglb_api.php/v1.vod,解析]
 影视[TVB云播, http://www.tvyb03.com/api.php/provide/vod/at/xml,解析]
 影视[小鸟动漫(官源),http://xydm.baicai.buzz/api.php/provide/vod/at/xml,解析]
-影视[小猫咪(官源),http://zy.xiaomaomi.cc/api.php/provide/vod/at/xml,解析]
 影视[M3U8(官源),https://www.zycaiji.net:7788/api.php/provide/vod/at/xml,解析]
-影视[佳佳影视(官源),https://www.jiajia.pub/api.php/v1.vod,解析]
 影视[花旗资源(官源),https://seacms.huaqi.live/zyapi.php,解析]
 影视[阿里影视(官源),http://aliys.cn:90/api.php/v1.vod,解析]
 影视[可可资源(采集),https://caiji.kekezyapi.com/api.php/provide/vod/at/xml,不解析]
@@ -37,7 +34,6 @@
 影视[非凡资源,http://cj.ffzyapi.com/api.php/provide/vod/at/xml,不解析]
 影视[光速资源,https://api.guangsuapi.com/api.php/provide/vod/at/xml,不解析]
 影视[量子资源(无广告),https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/at/xml,不解析]
-影视[天猫资源,https://www.tianmaozy.com/api.php/provide/vod/at/xml,不解析]
 影视[FOX资源,https://api.foxzyapi.com/api.php/provide/vod/from/foxm3u8/at/xml,不解析]
 影视[U酷资源,https://api.ukuapi.com/api.php/provide/vod/from/ukm3u8/at/xml,不解析]
 影视[易看资源,https://api.yikanapi.com/api.php/provide/vod/at/xml,不解析]
@@ -1375,6 +1371,206 @@ Ziggo Sport 4K,http://live.iptvtotaal.com:8000/awpreneniptv/09HZaVeOmh/20560#
 网页[
 
 名称##
+	看奈飞
+##
+
+分类##
+
+	分类(电影|电视剧|动漫|综艺)
+	分类地址(https://www.kanetflix.com/vodshow/-----------/id/1/page/页数.html|https://www.kanetflix.com/vodshow/-----------/id/2/page/页数.html|https://www.kanetflix.com/vodshow/-----------/id/4/page/页数.html|https://www.kanetflix.com/vodshow/-----------/id/3/page/页数.html)
+
+##
+
+列表##
+	//截取视频列表框数据块
+	列表数据头(<div class="module-main module-page)//最好只有这一个头
+	列表数据尾(<div id="page">)
+	
+	//截取所有视频数据
+	数组_列表头(<a)
+	数组_列表尾(</a>)
+	
+	//文本型
+	片名头(title=")
+	片名尾(")
+	
+	封面头(data-original=")
+	封面尾(")
+	
+	播放页url头(href=")
+	播放页url尾(")
+	
+	状态头(<div class="module-item-note">)
+	状态尾(</div>)
+
+	地址头(https://www.kanetflix.com)//这里写播放地址前面的域名之类的，就是补全播放页地址
+	地址尾()//这里写上播放地址后面数据,一般没有
+
+##
+
+搜索##
+    	搜索接口(https://www.kanetflix.com/vodsearch/-------------.html?wd=搜索)
+	//截取视频列表框数据块
+	列表数据头(<div class="module-main module-page">)//最好只有这一个头
+	列表数据尾(<div class="fixedGroup">)
+	
+	//截取所有视频数据
+	数组_列表头(<div class="module-card-item module-item">)
+	数组_列表尾(<div class="module-card-item-footer">)
+	
+	//文本型
+	片名头(alt=")
+	片名尾(")
+	
+	封面头(data-original=")
+	封面尾(")
+	
+	播放页url头(href=")
+	播放页url尾(")
+	
+	状态头(<div class="module-item-note">)
+	状态尾(</div>)
+
+	地址头(https://www.kanetflix.com)//这里写播放地址前面的域名之类的，就是补全播放页地址
+	地址尾()//这里写上播放地址后面数据,一般没有
+
+##
+剧集##
+
+	剧名头(<h1>)
+	剧名尾(</h1>)
+
+	简介头(<p>)
+	简介尾(</p>)
+	
+	//截取剧集数据块
+	剧集数据头(<div class="module-tab-items">)
+	剧集数据尾(<div class="module-heading">)
+	
+	//截取所有播放器的名字
+	数组_播放器头(data-dropdown-value=")
+	数组_播放器尾(")
+
+	//截取所有播放器的剧集数
+	数组_剧集头(<div class="module-play-list">)
+	数组_剧集尾(</div>)
+
+	//截取剧集名
+	剧集名头(<span>)
+	剧集名尾(</span>)
+
+	//截取剧集地址
+	播放url头(href=")
+	播放url尾(")
+	
+	地址头(https://www.kanetflix.com)//如果地址数据不完整这里要写上前面的数据
+	地址尾()//后面还有数据的情况这里写上后面数据
+	
+##
+
+]
+
+网页[
+
+名称##
+	 CHNNETFLIX
+##
+
+分类##
+
+	分类(电影|电视剧|纪录片|动漫)
+	分类地址(https://chnnetflix.com/vodshow/1--------页数---/|https://chnnetflix.com/vodshow/2--------页数---/|https://chnnetflix.com/vodshow/3--------页数---/|https://chnnetflix.com/vodshow/4--------页数---/)
+
+##
+
+列表##
+	//截取视频列表框数据块
+	列表数据头(<div class="box">)
+	列表数据尾(<div class="mac_pages">)
+	
+	//截取所有视频数据
+	数组_列表头(<li)
+	数组_列表尾(</li>)
+	
+	//文本型
+	片名头(<h2 class="tim-title">)
+	片名尾(</h2>)
+	
+	封面头(data-original=")
+	封面尾(")
+	
+	播放页url头(href=")
+	播放页url尾(")
+	
+	状态头(<span class="b">)
+	状态尾(</span>)
+
+	地址头(https://chnnetflix.com)//这里写播放地址前面的域名之类的，就是补全播放页地址
+	地址尾()//这里写上播放地址后面数据,一般没有
+
+##
+
+搜索##
+    搜索接口(https://chnnetflix.com/vodsearch/-------------/?wd=搜索)
+    //截取视频列表框数据块
+	列表数据头(<div class="box">)
+	列表数据尾(<div class="right vod-type">)
+	
+	//截取所有视频数据
+	数组_列表头(<li class="l-list-box rel">)
+	数组_列表尾(</li>)
+	
+	//文本型
+	片名头(<h2 class="tim-title">)
+	片名尾(</h2>)
+	
+	封面头(data-original=")
+	封面尾(")
+	
+	播放页url头(href=")
+	播放页url尾(")
+	
+	状态头(<span class="b">)
+	状态尾(</span>)
+
+	地址头(https://chnnetflix.com)//这里写播放地址前面的域名之类的，就是补全播放页地址
+	地址尾()//这里写上播放地址后面数据,一般没有
+##
+
+剧集##
+
+	剧名头(<h1 class="tim-title">)
+	剧名尾(</h1>)
+	简介头(<p> 简介：)
+	简介尾(</p>)
+	
+	//截取剧集数据块
+	剧集数据头(<div class="anthology flex nav-swiper">)
+	剧集数据尾(<div class="vod-report-box">)
+	
+	//截取所有播放器的名字
+	数组_播放器头(<a class="swiper-slide)
+	数组_播放器尾(</a>)
+	//截取所有播放器的剧集数据
+	数组_剧集头(<ul style="display:block">)
+	数组_剧集尾(</ul>)
+	//截取剧集名
+	剧集名头(</i>)
+	剧集名尾(</div>)
+	//截取剧集地址
+	播放url头(href=")
+	播放url尾(")
+	
+	地址头(https://chnnetflix.com)//如果地址数据不完整这里要写上前面的数据
+	地址尾()//后面还有数据的情况这里写上后面数据
+	
+##
+
+]
+
+网页[
+
+名称##
 	奈飞狗
 ##
 
@@ -2246,7 +2442,7 @@ Ziggo Sport 4K,http://live.iptvtotaal.com:8000/awpreneniptv/09HZaVeOmh/20560#
 	
 	//截取剧集数据块
 	剧集数据头(<div class="module-heading player-heading">)
-	剧集数据尾(<div class="text" style=" text-align:center;">)
+	剧集数据尾(function show_tip(text))
 	
 	//截取所有播放器的名字
 	数组_播放器头(data-dropdown-value=")
@@ -4777,108 +4973,6 @@ Ziggo Sport 4K,http://live.iptvtotaal.com:8000/awpreneniptv/09HZaVeOmh/20560#
 网页[
 
 名称##
-	映迷影院
-##
-
-分类##
-	//每个分类的名字 中间必须用"|"分割
-	分类(电影|电视剧|动漫|综艺)
-	//每个分类的地址,中间也必须用"|"分割!把相应的页面的页数换成"页数"
-	分类地址(https://www.inmi.app/index.php/vod/show/id/20/page/页数.html|https://www.inmi.app/index.php/vod/show/id/21/page/页数.html|https://www.inmi.app/index.php/vod/show/id/22/page/页数.html|https://www.inmi.app/index.php/vod/show/id/23/page/页数.html)
-
-##
-
-列表##
-	//截取视频列表框数据块
-	列表数据头(">評分排序</a>)//最好只有这一个头
-	列表数据尾(<div id="page">)
-	
-	//截取所有视频数据
-	数组_列表头(<a)
-	数组_列表尾(</a>)
-	
-	//文本型
-	片名头(title=")
-	片名尾(")
-	
-	封面头(data-original=")
-	封面尾(")
-	
-	播放页url头(href=")
-	播放页url尾(")
-	
-	状态头(<div class="module-item-note">)
-	状态尾(</div>)
-
-	地址头(https://www.inmi.app)//这里写播放地址前面的域名之类的，就是补全播放页地址
-	地址尾()//这里写上播放地址后面数据,一般没有
-
-##
-
-搜索##
-    	搜索接口(https://www.inmi.app/index.php/vod/search.html?wd=搜索)
-	//截取视频列表框数据块
-	列表数据头(<div class="module-main module-page">)//最好只有这一个头
-	列表数据尾(<div class="fixedGroup">)
-	
-	//截取所有视频数据
-	数组_列表头(<div class="module-card-item module-item">)
-	数组_列表尾(<div class="module-card-item-footer">)
-	
-	//文本型
-	片名头(<strong>)
-	片名尾(</strong>)
-	
-	封面头(data-original=")
-	封面尾(")
-	
-	播放页url头(<a href=")
-	播放页url尾(")
-	
-	状态头(<div class="module-item-note">)
-	状态尾(</div>)
-
-	地址头(https://www.inmi.app)//这里写播放地址前面的域名之类的，就是补全播放页地址
-	地址尾()//这里写上播放地址后面数据,一般没有
-##
-
-剧集##
-
-	剧名头(<h1>)
-	剧名尾(</h1>)
-
-	简介头(<p>)
-	简介尾(</p>)
-	
-	//截取剧集数据块
-	剧集数据头(<div class="module-heading player-heading">)
-	剧集数据尾(<div class="module">)
-	
-	//截取所有播放器的名字
-	数组_播放器头(data-dropdown-value=")
-	数组_播放器尾(")
-
-	//截取所有播放器的剧集数据
-	数组_剧集头(<div class="module-play-list">)
-	数组_剧集尾(</div>)
-
-	//截取剧集名
-	剧集名头(<span>)
-	剧集名尾(</span>)
-	//截取剧集地址
-	播放url头(href=")
-	播放url尾(")
-	
-	地址头(https://www.inmi.app)//如果地址数据不完整这里要写上前面的数据
-	地址尾()//后面还有数据的情况这里写上后面数据
-	
-##
-
-]
-
-网页[
-
-名称##
 	城市电影
 ##
 
@@ -5131,108 +5225,6 @@ Ziggo Sport 4K,http://live.iptvtotaal.com:8000/awpreneniptv/09HZaVeOmh/20560#
 网页[
 
 名称##
-	美果TV
-##
-
-分类##
-	//每个分类的名字 中间必须用"|"分割
-	分类(电影|电视剧|动漫|综艺)
-	//每个分类的地址,中间也必须用"|"分割!把相应的页面的页数换成"页数"
-	分类地址(https://www.mgtvyy.com/index.php/vod/show/id/1/page/页数.html|https://www.mgtvyy.com/index.php/vod/show/id/2/page/页数.html|https://www.mgtvyy.com/index.php/vod/show/id/4/page/页数.html|https://www.mgtvyy.com/index.php/vod/show/id/3/page/页数.html)
-
-##
-
-列表##
-	//截取视频列表框数据块
-	列表数据头(<div class="macplus-vodlist clearfix">)//最好只有这一个头
-	列表数据尾(<div class="macplus-page text-center clearfix">)
-	
-	//截取所有视频数据
-	数组_列表头(<li)
-	数组_列表尾(</li>)
-	
-	//文本型
-	片名头(title=")
-	片名尾(")
-	
-	封面头(data-original=")
-	封面尾(")
-	
-	播放页url头(href=")
-	播放页url尾(")
-	
-	状态头(<span class="pic-text text-right">)
-	状态尾(</span>)
-
-	地址头(https://www.mgtvyy.com)//这里写播放地址前面的域名之类的，就是补全播放页地址
-	地址尾()//这里写上播放地址后面数据,一般没有
-
-##
-
-搜索##
-    	搜索接口(https://www.mgtvyy.com/index.php/vod/search.html?wd=搜索)
-	//截取视频列表框数据块
-	列表数据头(<div class="macplus-pannel_bd clearfix">)//最好只有这一个头
-	列表数据尾(<div class="col-lg-wide-25 macplus-pannel-side visible-lg hide macplus-righter">)
-	
-	//截取所有视频数据
-	数组_列表头(<li class="bottom-line active clearfix">)
-	数组_列表尾(</li>)
-	
-	//文本型
-	片名头(title=")
-	片名尾(")
-	
-	封面头(data-original=")
-	封面尾(")
-	
-	播放页url头(href=")
-	播放页url尾(")
-	
-	状态头(<span class="pic-text text-right">)
-	状态尾(</span>)
-
-	地址头(https://www.mgtvyy.com)//这里写播放地址前面的域名之类的，就是补全播放页地址
-	地址尾()//这里写上播放地址后面数据,一般没有
-##
-
-剧集##
-
-	剧名头(<h1 class="title text-overflow">)
-	剧名尾(</h1>)
-
-	简介头(class="macplus-cText">)
-	简介尾(</span>)
-	
-	//截取剧集数据块
-	剧集数据头(<li class="dropdown mplayer active">)
-	剧集数据尾(<h3 class="title">猜你喜欢</h3>)
-	
-	//截取所有播放器的名字
-	数组_播放器头(data-toggle="tab">)
-	数组_播放器尾(</a>)
-
-	//截取所有播放器的剧集数据
-	数组_剧集头(<ul class="macplus-content__playlist column8 clearfix fade)
-	数组_剧集尾(</ul>)
-
-	//截取剧集名
-	剧集名头(html">)
-	剧集名尾(</a>)
-	//截取剧集地址
-	播放url头(href=")
-	播放url尾(")
-	
-	地址头(https://www.mgtvyy.com)//如果地址数据不完整这里要写上前面的数据
-	地址尾()//后面还有数据的情况这里写上后面数据
-	
-##
-
-]
-
-网页[
-
-名称##
 	白嫖电影网
 ##
 
@@ -5326,108 +5318,6 @@ Ziggo Sport 4K,http://live.iptvtotaal.com:8000/awpreneniptv/09HZaVeOmh/20560#
 	播放url尾(")
 	
 	地址头(https://dy.gduan.com)//如果地址数据不完整这里要写上前面的数据
-	地址尾()//后面还有数据的情况这里写上后面数据
-	
-##
-
-]
-
-网页[
-
-名称##
-	 艾菲影视
-##
-
-分类##
-
-	分类(电影|动漫|国产剧|美剧|日韩剧)
-	分类地址(https://www.ifimv.com/vodshow/1--------页数---.html|https://www.ifimv.com/vodshow/3--------页数---.html|https://www.ifimv.com/vodshow/2--------页数---.html|https://www.ifimv.com/vodshow/14--------页数---.html|https://www.ifimv.com/vodshow/15--------页数---.html)
-
-##
-
-列表##
-	//截取视频列表框数据块
-	列表数据头(<div class="module">)
-	列表数据尾(<div id="page">)
-	
-	//截取所有视频数据
-	数组_列表头(<div class="module-item-pic">)
-	数组_列表尾(div class="module-item-content">)
-	
-	//文本型
-	片名头(title=")
-	片名尾(")
-	
-	封面头(data-src=")
-	封面尾(")
-	
-	播放页url头(href=")
-	播放页url尾(")
-	
-	状态头(<span class="video-class">)
-	状态尾(</span>)
-
-	地址头(https://www.ifimv.com)//这里写播放地址前面的域名之类的，就是补全播放页地址
-	地址尾()//这里写上播放地址后面数据,一般没有
-
-##
-
-搜索##
-               搜索接口(https://www.ifimv.com/vsearch/--.html?wd=搜索)
-               //截取视频列表框数据块
-	列表数据头(<div class="module">)
-	列表数据尾(<footer id="footer" class="wrapper pd60">)
-	
-	//截取所有视频数据
-	数组_列表头(<div class="video-info">)
-	数组_列表尾(<div class="video-info-aux">)
-	
-	//文本型
-	片名头(title=")
-	片名尾(")
-	
-	封面头(data-original="/img.php?url=)
-	封面尾(")
-	
-	播放页url头(href=")
-	播放页url尾(")
-	
-	状态头(<div class="module-item-note">)
-	状态尾(</div>)
-
-	地址头(https://www.ifimv.com)//这里写播放地址前面的域名之类的，就是补全播放页地址
-	地址尾()//这里写上播放地址后面数据,一般没有
-
-##
-
-剧集##
-
-	剧名头(<h1 class="page-title">)
-	剧名尾(</h1>)
-
-	简介头(<div class="video-info-item video-info-content vod_content">)
-	简介尾(</span>)
-	
-	//截取剧集数据块
-	剧集数据头(<div class="module-tab module-player-tab ">)
-	剧集数据尾(<!-- 播放列表 -->)
-	
-	//截取所有播放器的名字
-	数组_播放器头(data-dropdown-value=")
-	数组_播放器尾(")
-
-	//截取所有播放器的剧集数据
-	数组_剧集头(<div class="module-blocklist">)
-	数组_剧集尾(</div>)
-
-	//截取剧集名
-	剧集名头(<span>)
-	剧集名尾(</span>)
-	//截取剧集地址
-	播放url头(href=")
-	播放url尾(")
-	
-	地址头(https://www.ifimv.com)//如果地址数据不完整这里要写上前面的数据
 	地址尾()//后面还有数据的情况这里写上后面数据
 	
 ##
@@ -7433,104 +7323,6 @@ Ziggo Sport 4K,http://live.iptvtotaal.com:8000/awpreneniptv/09HZaVeOmh/20560#
 	播放url尾(")
 	
 	地址头(http://plyy.cc)//如果地址数据不完整这里要写上前面的数据
-	地址尾()//后面还有数据的情况这里写上后面数据
-	
-##
-
-]
-
-网页[
-
-名称##
-	4K影视
-##
-
-分类##
-
-	分类(电影|电视剧|综艺|动漫)
-	分类地址(https://4kdv.com/fl/dianying_页数.html|https://4kdv.com/fl/lianxuju_页数.html|https://4kdv.com/fl/zongyi_页数.html|https://4kdv.com/fl/dongman_页数.html)
-
-##
-
-列表##
-	//截取视频列表框数据块
-	列表数据头(<ul class="myui-vodlist clearfix">)
-	列表数据尾(<ul class="myui-page text-center clearfix">)
-	
-	//截取所有视频数据
-	数组_列表头(<li)
-	数组_列表尾(</li>)
-	
-	//文本型
-	片名头(title=")
-	片名尾(")
-	
-	封面头(data-original=")
-	封面尾(")
-	
-	播放页url头(href=")
-	播放页url尾(")
-	
-	状态头(<span class="pic-text text-right">)
-	状态尾(</span>)
-
-	地址头(https://4kdv.com)//这里写播放地址前面的域名之类的，就是补全播放页地址
-	地址尾()//这里写上播放地址后面数据,一般没有
-
-##
-
-搜索##
-    搜索接口(https://4kdv.com/vodsearch/-------------.html?wd=搜索&submit=)
-    //截取视频列表框数据块
-	列表数据头(<div class="myui-panel_bd col-pd clearfix">)
-	列表数据尾(<div class="col-md-wide-3 col-xs-1 myui-sidebar">)
-	
-	//截取所有视频数据
-	数组_列表头(<li class="clearfix">)
-	数组_列表尾(</li>)
-	
-	//文本型
-	片名头(title=")
-	片名尾(")
-	
-	封面头(data-original=")
-	封面尾(")
-	
-	播放页url头(href=")
-	播放页url尾(")
-	
-	状态头(<span class="pic-text text-right">)
-	状态尾(</span>)
-
-	地址头(https://4kdv.com)//这里写播放地址前面的域名之类的，就是补全播放页地址
-	地址尾()//这里写上播放地址后面数据,一般没有
-##
-
-剧集##
-
-	剧名头(<h1 class="title">)
-	剧名尾(</h1>)
-	简介头(<span class="data" style="display: none;">)
-	简介尾(</span>)
-	
-	//截取剧集数据块
-	剧集数据头(<ul class="nav nav-tabs active">)
-	剧集数据尾(<h3 class="title">大家正在看</h3>)
-	
-	//截取所有播放器的名字
-	数组_播放器头(data-toggle="tab">)
-	数组_播放器尾(</a>)
-	//截取所有播放器的剧集数据
-	数组_剧集头(<ul class="myui-content__list)
-	数组_剧集尾(</ul>)
-	//截取剧集名
-	剧集名头(html">)
-	剧集名尾(</a>)
-	//截取剧集地址
-	播放url头(href=")
-	播放url尾(")
-	
-	地址头(https://4kdv.com)//如果地址数据不完整这里要写上前面的数据
 	地址尾()//后面还有数据的情况这里写上后面数据
 	
 ##
@@ -9835,104 +9627,6 @@ Ziggo Sport 4K,http://live.iptvtotaal.com:8000/awpreneniptv/09HZaVeOmh/20560#
 网页[
 
 名称##
-	 CHNNETFLIX
-##
-
-分类##
-
-	分类(电影|电视剧|纪录片|动漫)
-	分类地址(https://chnnetflix.com/vodshow/1--------页数---/|https://chnnetflix.com/vodshow/2--------页数---/|https://chnnetflix.com/vodshow/3--------页数---/|https://chnnetflix.com/vodshow/4--------页数---/)
-
-##
-
-列表##
-	//截取视频列表框数据块
-	列表数据头(<div class="box">)
-	列表数据尾(<div class="mac_pages">)
-	
-	//截取所有视频数据
-	数组_列表头(<li)
-	数组_列表尾(</li>)
-	
-	//文本型
-	片名头(<h2 class="tim-title">)
-	片名尾(</h2>)
-	
-	封面头(data-original=")
-	封面尾(")
-	
-	播放页url头(href=")
-	播放页url尾(")
-	
-	状态头(<span class="b">)
-	状态尾(</span>)
-
-	地址头(https://chnnetflix.com)//这里写播放地址前面的域名之类的，就是补全播放页地址
-	地址尾()//这里写上播放地址后面数据,一般没有
-
-##
-
-搜索##
-    搜索接口(https://chnnetflix.com/vodsearch/-------------/?wd=搜索)
-    //截取视频列表框数据块
-	列表数据头(<div class="box">)
-	列表数据尾(<div class="right vod-type">)
-	
-	//截取所有视频数据
-	数组_列表头(<li class="l-list-box rel">)
-	数组_列表尾(</li>)
-	
-	//文本型
-	片名头(<h2 class="tim-title">)
-	片名尾(</h2>)
-	
-	封面头(data-original=")
-	封面尾(")
-	
-	播放页url头(href=")
-	播放页url尾(")
-	
-	状态头(<span class="b">)
-	状态尾(</span>)
-
-	地址头(https://chnnetflix.com)//这里写播放地址前面的域名之类的，就是补全播放页地址
-	地址尾()//这里写上播放地址后面数据,一般没有
-##
-
-剧集##
-
-	剧名头(<h1 class="tim-title">)
-	剧名尾(</h1>)
-	简介头(<p> 简介：)
-	简介尾(</p>)
-	
-	//截取剧集数据块
-	剧集数据头(<div class="anthology flex nav-swiper">)
-	剧集数据尾(<div class="vod-report-box">)
-	
-	//截取所有播放器的名字
-	数组_播放器头(<a class="swiper-slide)
-	数组_播放器尾(</a>)
-	//截取所有播放器的剧集数据
-	数组_剧集头(<ul style="display:block">)
-	数组_剧集尾(</ul>)
-	//截取剧集名
-	剧集名头(</i>)
-	剧集名尾(</div>)
-	//截取剧集地址
-	播放url头(href=")
-	播放url尾(")
-	
-	地址头(https://chnnetflix.com)//如果地址数据不完整这里要写上前面的数据
-	地址尾()//后面还有数据的情况这里写上后面数据
-	
-##
-
-]
-
-网页[
-
-名称##
 	 爱迪影视
 ##
 
@@ -10935,110 +10629,6 @@ Ziggo Sport 4K,http://live.iptvtotaal.com:8000/awpreneniptv/09HZaVeOmh/20560#
 
 名称##
 
-	熊猫视频
-##
-
-分类##
-	//每个分类的名字 中间必须用"|"分割
-	分类(电影|电视剧|动漫|综艺|体育)
-	//每个分类的地址,中间也必须用"|"分割!把相应的页面的页数换成"页数"
-	分类地址(https://pandavod.com/vodshow/dianying/page/页数.html|https://pandavod.com/vodshow/lianxuju/page/页数.html|https://pandavod.com/vodshow/dongman/page/页数.html|https://pandavod.com/vodshow/zongyi/page/页数.html|https://pandavod.com/vodshow/tiyu/page/页数.html)
-
-##
-
-列表##
-	//截取视频列表框数据块
-	列表数据头(<div class="vodlist hotgrow)//最好只有这一个头
-	列表数据尾(<div class="page_info">)
-	
-	//截取所有视频数据
-	数组_列表头(<div class="pack-ykpack ">)
-	数组_列表尾(<div class="pack-infolist">)
-	
-	//文本型
-	片名头(title=")
-	片名尾(")
-	
-	封面头(data-original=")
-	封面尾(")
-	
-	播放页url头(href=")
-	播放页url尾(")
-	
-	状态头(<span class="pack-prb hidden">)
-	状态尾(</span>)
-
-	地址头(https://pandavod.com)//这里写播放地址前面的域名之类的，就是补全播放页地址
-	地址尾()//这里写上播放地址后面数据,一般没有
-
-##
-
-搜索##
-    	搜索接口(https://pandavod.com/vodsearch.html?wd=搜索)
-	//截取视频列表框数据块
-	列表数据头( <div class="ec-search">)//最好只有这一个头
-	列表数据尾(<div class="ui-bar list-page fn-clear">)
-	
-	//截取所有视频数据
-	数组_列表头(<li class="search-list cf">)
-	数组_列表尾(</li>)
-	
-	//文本型
-	片名头(title=")
-	片名尾(")
-	
-	封面头(data-original=")
-	封面尾(")
-	
-	播放页url头(href=")
-	播放页url尾(")
-	
-	状态头(<span class="pack-prb">)
-	状态尾(</span>)
-
-	地址头(https://pandavod.com)//这里写播放地址前面的域名之类的，就是补全播放页地址
-	地址尾()//这里写上播放地址后面数据,一般没有
-
-##
-
-剧集##
-
-	剧名头(class="fyy">)
-	剧名尾(</h1>)
-
-	简介头(<div class="desc_txt cf ec-palytcji cor3">)
-	简介尾(</span>)
-	
-	//截取剧集数据块
-	剧集数据头(<div class="play_source">)
-	剧集数据尾(MAC.Pop.Msg(100,20,'复制成功~',1000);)
-	
-	//截取所有播放器的名字
-	数组_播放器头(<i class="fa">&#xe8b4;</i>&nbsp;)
-	数组_播放器尾(</a>)
-
-	//截取所有播放器的剧集数据
-	数组_剧集头(<ul class="content_playlist cf">)
-	数组_剧集尾(</ul>)
-
-	//截取剧集名
-	剧集名头(html">)
-	剧集名尾(</a>)
-	//截取剧集地址
-	播放url头(href=")
-	播放url尾(")
-	
-	地址头(https://pandavod.com)//如果地址数据不完整这里要写上前面的数据
-	地址尾()//后面还有数据的情况这里写上后面数据
-	
-##
-
-]
-
-网页[
-
-名称##
-
 	土豪影视
 ##
 
@@ -11972,110 +11562,6 @@ Ziggo Sport 4K,http://live.iptvtotaal.com:8000/awpreneniptv/09HZaVeOmh/20560#
 网页[
 
 名称##
-	剧剧哟
-##
-
-分类##
-	//每个分类的名字 中间必须用"|"分割
-	分类(电影|电视剧|综艺|动漫|纪录片)
-	//每个分类的地址,中间也必须用"|"分割!把相应的页面的页数换成"页数"
-	分类地址(https://www.jjytv.com/jjy/dianying/page/页数.html|https://www.jjytv.com/jjy/dianshiju/page/页数.html|https://www.jjytv.com/jjy/zongyi/page/页数.html|https://www.jjytv.com/jjy/dongmna/page/页数.html|https://www.jjytv.com/jjy/jilupian/page/页数.html)
-
-##
-
-列表##
-	//截取视频列表框数据块
-	列表数据头(<ul class="stui-vodlist clearfix">)//最好只有这一个头
-	列表数据尾(<ul class="stui-page text-center clearfix">)
-	
-	//截取所有视频数据
-	数组_列表头(<li)
-	数组_列表尾(</li>)
-	
-	//文本型
-	片名头(title=")
-	片名尾(")
-	
-	封面头(data-original=")
-	封面尾(")
-	
-	播放页url头(href=")
-	播放页url尾(")
-	
-	状态头(<span class="pic-text text-right">)
-	状态尾(</span>)
-
-	地址头()//这里写播放地址前面的域名之类的，就是补全播放页地址
-	地址尾()//这里写上播放地址后面数据,一般没有
-
-##
-
-搜索##
-    	搜索接口(https://www.jjytv.com/so.html?wd=搜索)
-	//截取视频列表框数据块
-	列表数据头(<div class="stui-pannel_bd">)//最好只有这一个头
-	列表数据尾(<ul class="stui-page text-center clearfix">)
-	
-	//截取所有视频数据
-	数组_列表头(<li)
-	数组_列表尾(</li>)
-	
-	//文本型
-	片名头(title=")
-	片名尾(")
-	
-	封面头(data-original=")
-	封面尾(")
-	
-	播放页url头(href=")
-	播放页url尾(")
-	
-	状态头(<span class="pic-text text-right">)
-	状态尾(</span>)
-
-	地址头()//这里写播放地址前面的域名之类的，就是补全播放页地址
-	地址尾()//这里写上播放地址后面数据,一般没有
-
-
-##
-
-剧集##
-
-	剧名头(<h2 class="title">)
-	剧名尾( )
-
-	简介头(style="display: none;">)
-	简介尾(</span>)
-	
-	//截取剧集数据块
-	剧集数据头(<p class="text-muted">)
-	剧集数据尾(猜你喜欢</h2>)
-	
-	//截取所有播放器的名字
-	数组_播放器头(<h3 class="title">)
-	数组_播放器尾(</h3>)
-
-	//截取所有播放器的剧集数据
-	数组_剧集头(<ul class="stui-content__playlist)
-	数组_剧集尾(</ul>)
-
-	//截取剧集名
-	剧集名头(html">)
-	剧集名尾(</a>)
-	//截取剧集地址
-	播放url头(href=")
-	播放url尾(")
-	
-	地址头()//如果地址数据不完整这里要写上前面的数据
-	地址尾()//后面还有数据的情况这里写上后面数据
-	
-##
-
-]
-
-网页[
-
-名称##
 	 狮子影视
 ##
 
@@ -12663,25 +12149,24 @@ Ziggo Sport 4K,http://live.iptvtotaal.com:8000/awpreneniptv/09HZaVeOmh/20560#
 网页[
 
 名称##
-	 YOHU TV
+	YOHU TV
 ##
 
 分类##
-	//每个分类的名字 中间必须用"|"分割
-	分类(电影|电视剧|综艺|动漫|纪录片)
-	//每个分类的地址,中间也必须用"|"分割!把相应的页面的页数换成"页数"
-	分类地址(https://www.yohu.tv/vodtype/1-页数.html|https://www.yohu.tv/vodtype/2-页数.html|https://www.yohu.tv/vodtype/3-页数.html|https://www.yohu.tv/vodtype/4-页数.html|https://www.yohu.tv/vodtype/5-页数.html)
+
+	分类(电影|电视剧|动漫|综艺|电影解说)
+	分类地址(https://www.yohu.tv/vodshow/1--------页数---.html|https://www.yohu.tv/vodshow/2--------页数---.html|https://www.yohu.tv/vodshow/4--------页数---.html|https://www.yohu.tv/vodshow/3--------页数---.html|https://www.yohu.tv/vodshow/38--------页数---.html)
 
 ##
 
 列表##
 	//截取视频列表框数据块
-	列表数据头(<ul class="stui-vodlist clearfix">)//最好只有这一个头
-	列表数据尾(<ul class="stui-page__item text-center clearfix">)
+	列表数据头(<div class="module-main module-page)
+	列表数据尾(<div id="page">)
 	
 	//截取所有视频数据
-	数组_列表头(<li>)
-	数组_列表尾(</li>)
+	数组_列表头(<a)
+	数组_列表尾(</a>)
 	
 	//文本型
 	片名头(title=")
@@ -12693,8 +12178,8 @@ Ziggo Sport 4K,http://live.iptvtotaal.com:8000/awpreneniptv/09HZaVeOmh/20560#
 	播放页url头(href=")
 	播放页url尾(")
 	
-	状态头(<span class="pic-text text-right"><b>)
-	状态尾(</b>)
+	状态头(<div class="module-item-note">)
+	状态尾(</div>)
 
 	地址头(https://www.yohu.tv)//这里写播放地址前面的域名之类的，就是补全播放页地址
 	地址尾()//这里写上播放地址后面数据,一般没有
@@ -12702,17 +12187,17 @@ Ziggo Sport 4K,http://live.iptvtotaal.com:8000/awpreneniptv/09HZaVeOmh/20560#
 ##
 
 搜索##
-    	搜索接口(https://www.yohu.tv/vodsearch/搜索-------------.html)
+    	搜索接口(https://www.yohu.tv/vodsearch/-------------.html?wd=搜索)
 	//截取视频列表框数据块
-	列表数据头(<ul class="stui-vodlist clearfix">)//最好只有这一个头
-	列表数据尾(<ul class="stui-page__item text-center clearfix">)
+	列表数据头(<div class="module-main module-page">)//最好只有这一个头
+	列表数据尾(<div class="fixedGroup">)
 	
 	//截取所有视频数据
-	数组_列表头(<li class="col-md-6 col-sm-4 col-xs-3">)
-	数组_列表尾(</li>)
+	数组_列表头(<div class="module-card-item module-item">)
+	数组_列表尾(<div class="module-card-item-footer">)
 	
 	//文本型
-	片名头(title=")
+	片名头(alt=")
 	片名尾(")
 	
 	封面头(data-original=")
@@ -12721,36 +12206,34 @@ Ziggo Sport 4K,http://live.iptvtotaal.com:8000/awpreneniptv/09HZaVeOmh/20560#
 	播放页url头(href=")
 	播放页url尾(")
 	
-	状态头(<span class="pic-text text-right"><b>)
-	状态尾(</b>)
+	状态头(<div class="module-item-note">)
+	状态尾(</div>)
 
 	地址头(https://www.yohu.tv)//这里写播放地址前面的域名之类的，就是补全播放页地址
 	地址尾()//这里写上播放地址后面数据,一般没有
+
 ##
 
 剧集##
 
-	剧名头(<h1 class="title">)
+	剧名头(<h1>)
 	剧名尾(</h1>)
-
-	简介头(<span class="detail-content" style="display: none;">)
-	简介尾(</span>)
+	简介头(<p>)
+	简介尾(</p>)
 	
 	//截取剧集数据块
-	剧集数据头(<ul class="nav nav-tabs)
-	剧集数据尾(<h3>猜你喜欢</h3>)
+	剧集数据头(<div class="module-tab-items">)
+	剧集数据尾(<div class="module-heading">)
 	
 	//截取所有播放器的名字
-	数组_播放器头(data-toggle="tab">)
-	数组_播放器尾(</a>)
-
+	数组_播放器头(data-dropdown-value=")
+	数组_播放器尾(")
 	//截取所有播放器的剧集数据
-	数组_剧集头(<ul class="stui-content__playlist)
-	数组_剧集尾(</ul>)
-
+	数组_剧集头(<div class="module-play-list">)
+	数组_剧集尾(</div>)
 	//截取剧集名
-	剧集名头(html">)
-	剧集名尾(</a>)
+	剧集名头(<span>)
+	剧集名尾(</span>)
 	//截取剧集地址
 	播放url头(href=")
 	播放url尾(")
@@ -13396,8 +12879,8 @@ Ziggo Sport 4K,http://live.iptvtotaal.com:8000/awpreneniptv/09HZaVeOmh/20560#
 	播放页url头(href=")
 	播放页url尾(")
 	
-	状态头(<div class="module-item-note">)
-	状态尾(</div>)
+	状态头(<span>)
+	状态尾(</span>)
 
 	地址头(https://www.pyys.art)//这里写播放地址前面的域名之类的，就是补全播放页地址
 	地址尾()//这里写上播放地址后面数据,一般没有
@@ -15264,108 +14747,6 @@ Ziggo Sport 4K,http://live.iptvtotaal.com:8000/awpreneniptv/09HZaVeOmh/20560#
 网页[
 
 名称##
-	看奈飞
-##
-
-分类##
-
-	分类(电影|电视剧|动漫|综艺)
-	分类地址(https://www.kanetflix.com/vodshow/-----------/id/1/page/页数.html|https://www.kanetflix.com/vodshow/-----------/id/2/page/页数.html|https://www.kanetflix.com/vodshow/-----------/id/4/page/页数.html|https://www.kanetflix.com/vodshow/-----------/id/3/page/页数.html)
-
-##
-
-列表##
-	//截取视频列表框数据块
-	列表数据头(<div class="module-main module-page)//最好只有这一个头
-	列表数据尾(<div id="page">)
-	
-	//截取所有视频数据
-	数组_列表头(<a)
-	数组_列表尾(</a>)
-	
-	//文本型
-	片名头(title=")
-	片名尾(")
-	
-	封面头(data-original=")
-	封面尾(")
-	
-	播放页url头(href=")
-	播放页url尾(")
-	
-	状态头(<div class="module-item-note">)
-	状态尾(</div>)
-
-	地址头(https://www.kanetflix.com)//这里写播放地址前面的域名之类的，就是补全播放页地址
-	地址尾()//这里写上播放地址后面数据,一般没有
-
-##
-
-搜索##
-    	搜索接口(https://www.kanetflix.com/vodsearch/-------------.html?wd=搜索)
-	//截取视频列表框数据块
-	列表数据头(<div class="module-main module-page">)//最好只有这一个头
-	列表数据尾(<div class="fixedGroup">)
-	
-	//截取所有视频数据
-	数组_列表头(<div class="module-card-item module-item">)
-	数组_列表尾(<div class="module-card-item-footer">)
-	
-	//文本型
-	片名头(alt=")
-	片名尾(")
-	
-	封面头(data-original=")
-	封面尾(")
-	
-	播放页url头(href=")
-	播放页url尾(")
-	
-	状态头(<div class="module-item-note">)
-	状态尾(</div>)
-
-	地址头(https://www.kanetflix.com)//这里写播放地址前面的域名之类的，就是补全播放页地址
-	地址尾()//这里写上播放地址后面数据,一般没有
-
-##
-剧集##
-
-	剧名头(<h1>)
-	剧名尾(</h1>)
-
-	简介头(<p>)
-	简介尾(</p>)
-	
-	//截取剧集数据块
-	剧集数据头(<div class="module-tab-items">)
-	剧集数据尾(<div class="module-heading">)
-	
-	//截取所有播放器的名字
-	数组_播放器头(data-dropdown-value=")
-	数组_播放器尾(")
-
-	//截取所有播放器的剧集数
-	数组_剧集头(<div class="module-play-list">)
-	数组_剧集尾(</div>)
-
-	//截取剧集名
-	剧集名头(<span>)
-	剧集名尾(</span>)
-
-	//截取剧集地址
-	播放url头(href=")
-	播放url尾(")
-	
-	地址头(https://www.kanetflix.com)//如果地址数据不完整这里要写上前面的数据
-	地址尾()//后面还有数据的情况这里写上后面数据
-	
-##
-
-]
-
-网页[
-
-名称##
 	鸡婆影视
 ##
 
@@ -16888,247 +16269,6 @@ Ziggo Sport 4K,http://live.iptvtotaal.com:8000/awpreneniptv/09HZaVeOmh/20560#
 	播放url尾(")
 	
 	地址头(https://pandavod.com)//如果地址数据不完整这里要写上前面的数据
-	地址尾()//后面还有数据的情况这里写上后面数据
-	
-##
-
-]
-
-网页[
-
-名称##
-	优哩TV
-##
-
-分类##
-
-	分类(电影|电视剧|动漫|综艺)
-	分类地址(http://yolitv.com/lists/1/页数.html|http://yolitv.com/lists/2/页数.html|http://yolitv.com/lists/3/页数.html|http://yolitv.com/lists/4/页数.html)
-
-##
-
-列表##
-	//截取视频列表框数据块
-	列表数据头(<ul class="vod_list">)
-	列表数据尾(<div class="bottom">)
-	
-	//截取所有视频数据
-	数组_列表头(<li>)
-	数组_列表尾(</li>)
-	
-	//文本型
-	片名头(<div class="name">)
-	片名尾(</div>)
-	
-	封面头(lay-src=")
-	封面尾(")
-	
-	播放页url头(href=")
-	播放页url尾(")
-	
-	状态头(<div class="state">)
-	状态尾(</div>)
-
-	地址头(http://yolitv.com)//这里写播放地址前面的域名之类的，就是补全播放页地址
-	地址尾()//这里写上播放地址后面数据,一般没有
-
-##
-
-搜索##
-    	搜索接口(http://yolitv.com/search.html?key=搜索)
-	//截取视频列表框数据块
-	列表数据头(<ul class="vod_list">)//最好只有这一个头
-	列表数据尾(<div class="bottom">)
-	
-	//截取所有视频数据
-	数组_列表头(<li>)
-	数组_列表尾(</li>)
-	
-	//文本型
-	片名头(<div class="name">)
-	片名尾(</div>)
-	
-	封面头(lay-src=")
-	封面尾(")
-	
-	播放页url头(href=")
-	播放页url尾(")
-	
-	状态头(<div class="state">)
-	状态尾(</div>)
-
-	地址头(http://yolitv.com)//这里写播放地址前面的域名之类的，就是补全播放页地址
-	地址尾()//这里写上播放地址后面数据,一般没有
-
-##
-
-剧集##
-
-	剧名头(<h3>)
-	剧名尾(</h3>)
-	简介头(简介：</span>)
-	简介尾(</div>)
-	
-	//截取剧集数据块
-	剧集数据头(<div class="zu-box">)
-	剧集数据尾(<div class="layui-row box7">)
-	
-	//截取所有播放器的名字
-	数组_播放器头(class="on">)
-	数组_播放器尾(<em>)
-	//截取所有播放器的剧集数据
-	数组_剧集头(<ul id="zu-)
-	数组_剧集尾(</div>)
-	//截取剧集名
-	剧集名头(html">)
-	剧集名尾(</a>)
-	//截取剧集地址
-	播放url头(href=")
-	播放url尾(")
-	
-	地址头(http://yolitv.com)//如果地址数据不完整这里要写上前面的数据
-	地址尾()//后面还有数据的情况这里写上后面数据
-	
-##
-
-]
-
-网页[
-
-名称##
-	外剧迷
-##
-
-分类##
-
-	分类(电影|电视剧|动漫|综艺)
-	分类地址(https://www.waijumi.com/show/mov--------页数---.html|https://www.waijumi.com/show/tv--------页数---.html|https://www.waijumi.com/show/acg--------页数---.html|https://www.waijumi.com/show/zongyi--------页数---.html)
-
-##
-
-列表##
-	//截取视频列表框数据块
-	列表数据头(<div class="box-width wow fadeInUp animated">)
-	列表数据尾(<div class="page-info">)
-	
-	//截取所有视频数据
-	数组_列表头(<div class="public-list-div public-list-bj">)
-	数组_列表尾(<div class="public-list-button">)
-	
-	//文本型
-	片名头(title=")
-	片名尾(")
-	
-	封面头(data-original=")
-	封面尾(")
-	
-	播放页url头(href=")
-	播放页url尾(")
-	
-	状态头(<span class="public-list-prb hide ft2">)
-	状态尾(</span>)
-
-	地址头(https://www.waijumi.com)//这里写播放地址前面的域名之类的，就是补全播放页地址
-	地址尾()//这里写上播放地址后面数据,一般没有
-
-##
-
-剧集##
-
-	剧名头(<h3 class="slide-info-title hide">)
-	剧名尾(</h3>)
-	简介头(selected cor3">)
-	简介尾(</div>)
-	
-	//截取剧集数据块
-	剧集数据头(<div class="swiper-wrapper">)
-	剧集数据尾(<div class="title flex between">)
-	
-	//截取所有播放器的名字
-	数组_播放器头(&#xe8b4;</i>&nbsp;)
-	数组_播放器尾(</a>)
-	//截取所有播放器的剧集数据
-	数组_剧集头(<ul class="anthology-list-play size">)
-	数组_剧集尾(</ul>)
-	//截取剧集名
-	剧集名头(html">)
-	剧集名尾(</a>)
-	//截取剧集地址
-	播放url头(href=")
-	播放url尾(")
-	
-	地址头(https://www.waijumi.com)//如果地址数据不完整这里要写上前面的数据
-	地址尾()//后面还有数据的情况这里写上后面数据
-	
-##
-
-]
-
-网页[
-
-名称##
-	小猫咪影视
-##
-
-分类##
-
-	分类(电影|电视剧|动漫|综艺|纪录片)
-	分类地址(https://xmmi.xyz/vodshow/1--------页数---.html|https://xmmi.xyz/vodshow/2--------页数---.html|https://xmmi.xyz/vodshow/4--------页数---.html|https://xmmi.xyz/vodshow/3--------页数---.html|https://xmmi.xyz/vodshow/20--------页数---.html)
-
-##
-
-列表##
-	//截取视频列表框数据块
-	列表数据头(<ul class="fed-list-info fed-part-rows">)
-	列表数据尾(<div class="fed-page-info fed-text-center">)
-	
-	//截取所有视频数据
-	数组_列表头(<li class="fed-list-item)
-	数组_列表尾(</li>)
-	
-	//文本型
-	片名头(html" >)
-	片名尾(</a>)
-	
-	封面头(data-original=")
-	封面尾(")
-	
-	播放页url头(href=")
-	播放页url尾(")
-	
-	状态头(fed-text-white fed-text-center">)
-	状态尾(</span>)
-
-	地址头(https://xmmi.xyz)//这里写播放地址前面的域名之类的，就是补全播放页地址
-	地址尾()//这里写上播放地址后面数据,一般没有
-
-##
-
-剧集##
-
-	剧名头(<font color="#007711">：)
-	剧名尾(</font>)
-	简介头(简介：</span>)
-	简介尾(</div>)
-	
-	//截取剧集数据块
-	剧集数据头(<div class="fed-drop-boxs fed-drop-btms fed-matp-v">)
-	剧集数据尾(<div class="fed-tabs-item fed-hidden">)
-	
-	//截取所有播放器的名字
-	数组_播放器头(fed-col-xs4 fed-part-eone fed-font-xvi">)
-	数组_播放器尾(</li>)
-	//截取所有播放器的剧集数据
-	数组_剧集头(<ul class="fed-part-rows">)
-	数组_剧集尾(</ul>)
-	//截取剧集名
-	剧集名头(html">)
-	剧集名尾(</a>)
-	//截取剧集地址
-	播放url头(href=")
-	播放url尾(")
-	
-	地址头(https://xmmi.xyz)//如果地址数据不完整这里要写上前面的数据
 	地址尾()//后面还有数据的情况这里写上后面数据
 	
 ##
@@ -18764,118 +17904,19 @@ Ziggo Sport 4K,http://live.iptvtotaal.com:8000/awpreneniptv/09HZaVeOmh/20560#
 网页[
 
 名称##
-	思古看剧
-##
-
-分类##
-
-	分类(电影|电视剧|动漫|综艺)
-	分类地址(https://www.sigukanju.com/vodshow/dianying--------页数---.html|https://www.sigukanju.com/vodshow/lianxuju--------页数---.html|https://www.sigukanju.com/vodshow/dongman--------页数---.html|https://www.sigukanju.com/vodshow/zongyi--------页数---.html)
-
-##
-
-列表##
-	//截取视频列表框数据块
-	列表数据头(title="按评分排序">)
-	列表数据尾(<div id="page">)
-	
-	//截取所有视频数据
-	数组_列表头(<a )
-	数组_列表尾(</a>)
-	
-	//文本型
-	片名头(title=")
-	片名尾(")
-	
-	封面头(data-original=")
-	封面尾(")
-	
-	播放页url头(href=")
-	播放页url尾(")
-	
-	状态头(<div class="module-item-note">)
-	状态尾(</div>)
-
-	地址头(https://www.sigukanju.com)//这里写播放地址前面的域名之类的，就是补全播放页地址
-	地址尾()//这里写上播放地址后面数据,一般没有
-
-##
-
-搜索##
-    	搜索接口(https://www.sigukanju.com/vodsearch/-------------.html?wd=搜索)
-	//截取视频列表框数据块
-	列表数据头(<div class="module-main module-page">)//最好只有这一个头
-	列表数据尾(<div class="fixedGroup">)
-	
-	//截取所有视频数据
-	数组_列表头(<div class="module-card-item module-item">)
-	数组_列表尾(<div class="module-card-item-footer">)
-	
-	//文本型
-	片名头(alt=")
-	片名尾(")
-	
-	封面头(data-original=")
-	封面尾(")
-	
-	播放页url头(href=")
-	播放页url尾(")
-	
-	状态头(<div class="module-item-note">)
-	状态尾(</div>)
-
-	地址头(https://www.sigukanju.com)//这里写播放地址前面的域名之类的，就是补全播放页地址
-	地址尾()//这里写上播放地址后面数据,一般没有
-
-##
-
-剧集##
-
-	剧名头(<h1>)
-	剧名尾(</h1>)
-	简介头(<p>)
-	简介尾(</p>)
-	
-	//截取剧集数据块
-	剧集数据头(<div class="module-tab-items">)
-	剧集数据尾(<div class="module-heading">)
-	
-	//截取所有播放器的名字
-	数组_播放器头(data-dropdown-value=")
-	数组_播放器尾(")
-	//截取所有播放器的剧集数据
-	数组_剧集头(<div class="module-play-list">)
-	数组_剧集尾(</div>)
-	//截取剧集名
-	剧集名头(<span>)
-	剧集名尾(</span>)
-	//截取剧集地址
-	播放url头(href=")
-	播放url尾(")
-	
-	地址头(https://www.sigukanju.com)//如果地址数据不完整这里要写上前面的数据
-	地址尾()//后面还有数据的情况这里写上后面数据
-	
-##
-
-]
-
-网页[
-
-名称##
 	汪了个汪
 ##
 
 分类##
 
 	分类(电影|电视剧|动漫|综艺|体育)
-	分类地址(https://wlgwys.com/index.php/vod/show/id/1/page/页数.html|https://wlgwys.com/index.php/vod/show/id/2/page/页数.html|https://wlgwys.com/index.php/vod/show/id/4/page/页数.html|https://wlgwys.com/index.php/vod/show/id/3/page/页数.html|https://wlgwys.com/index.php/vod/show/id/20/page/页数.html)
+	分类地址(http://wlgwys.com/index.php/vod/show/id/1/page/页数.html|http://wlgwys.com/index.php/vod/show/id/2/page/页数.html|http://wlgwys.com/index.php/vod/show/id/4/page/页数.html|http://wlgwys.com/index.php/vod/show/id/3/page/页数.html|http://wlgwys.com/index.php/vod/show/id/20/page/页数.html)
 
 ##
 
 列表##
 	//截取视频列表框数据块
-	列表数据头(<div class="module-main module-page)
+	列表数据头(<div class="module-items module-poster)
 	列表数据尾(<div id="page">)
 	
 	//截取所有视频数据
@@ -18895,13 +17936,13 @@ Ziggo Sport 4K,http://live.iptvtotaal.com:8000/awpreneniptv/09HZaVeOmh/20560#
 	状态头(<div class="module-item-note">)
 	状态尾(</div>)
 
-	地址头(https://wlgwys.com)//这里写播放地址前面的域名之类的，就是补全播放页地址
+	地址头(http://wlgwys.com)//这里写播放地址前面的域名之类的，就是补全播放页地址
 	地址尾()//这里写上播放地址后面数据,一般没有
 
 ##
 
 搜索##
-    	搜索接口(https://wlgwys.com/index.php/vod/search.html?wd=搜索)
+    	搜索接口(http://wlgwys.com/index.php/vod/search.html?wd=搜索)
 	//截取视频列表框数据块
 	列表数据头(<div class="module-main module-page">)//最好只有这一个头
 	列表数据尾(<div id="page">)
@@ -18923,7 +17964,7 @@ Ziggo Sport 4K,http://live.iptvtotaal.com:8000/awpreneniptv/09HZaVeOmh/20560#
 	状态头(<div class="module-item-note">)
 	状态尾(</div>)
 
-	地址头(https://wlgwys.com)//这里写播放地址前面的域名之类的，就是补全播放页地址
+	地址头(http://wlgwys.com)//这里写播放地址前面的域名之类的，就是补全播放页地址
 	地址尾()//这里写上播放地址后面数据,一般没有
 
 ##
@@ -18952,7 +17993,7 @@ Ziggo Sport 4K,http://live.iptvtotaal.com:8000/awpreneniptv/09HZaVeOmh/20560#
 	播放url头(href=")
 	播放url尾(")
 	
-	地址头(https://wlgwys.com)//如果地址数据不完整这里要写上前面的数据
+	地址头(http://wlgwys.com)//如果地址数据不完整这里要写上前面的数据
 	地址尾()//后面还有数据的情况这里写上后面数据
 	
 ##
@@ -19349,80 +18390,6 @@ Ziggo Sport 4K,http://live.iptvtotaal.com:8000/awpreneniptv/09HZaVeOmh/20560#
 	播放url尾(")
 	
 	地址头(http://www.lililili.cc)//如果地址数据不完整这里要写上前面的数据
-	地址尾()//后面还有数据的情况这里写上后面数据
-	
-##
-
-]
-
-网页[
-
-名称##
-	时光影视
-##
-
-分类##
-
-	分类(电影|电视剧|独家|动漫|综艺)
-	分类地址(http://www.shigys.com/index.php/vod/show/id/1/page/页数.html|http://www.shigys.com/index.php/vod/show/id/2/page/页数.html|http://www.shigys.com/index.php/vod/show/id/41/page/页数.html|http://www.shigys.com/index.php/vod/show/id/4/page/页数.html|http://www.shigys.com/index.php/vod/show/id/3/page/页数.html)
-
-##
-
-列表##
-	//截取视频列表框数据块
-	列表数据头(<div class="hl-list-wrap">)
-	列表数据尾(<ul class="hl-page-wrap hl-text-center cleafix">)
-	
-	//截取所有视频数据
-	数组_列表头(<li)
-	数组_列表尾(</li>)
-	
-	//文本型
-	片名头(title=")
-	片名尾(")
-	
-	封面头(data-original=")
-	封面尾(")
-	
-	播放页url头(href=")
-	播放页url尾(")
-	
-	状态头(<span class="hl-lc-1 remarks">)
-	状态尾(</span>)
-
-	地址头(http://www.shigys.com)//这里写播放地址前面的域名之类的，就是补全播放页地址
-	地址尾()//这里写上播放地址后面数据,一般没有
-
-##
-
-剧集##
-
-	剧名头(<h2 class="hl-dc-title hl-data-menu">)
-	剧名尾(</h2>)
-
-	简介头(简介：</em>)
-	简介尾(</li>)
-	
-	//截取剧集数据块
-	剧集数据头(<div class="hl-play-source hl-hidden">)
-	剧集数据尾(<h3 class="hl-rb-title">剧情简介</h3>)
-	
-	//截取所有播放器的名字
-	数组_播放器头(alt=")
-	数组_播放器尾(")
-
-	//截取所有播放器的剧集数据
-	数组_剧集头(<ul class="hl-plays-list)
-	数组_剧集尾(</ul>)
-
-	//截取剧集名
-	剧集名头(html">)
-	剧集名尾(</a>)
-	//截取剧集地址
-	播放url头(href=")
-	播放url尾(")
-	
-	地址头(http://www.shigys.com)//如果地址数据不完整这里要写上前面的数据
 	地址尾()//后面还有数据的情况这里写上后面数据
 	
 ##
@@ -20054,7 +19021,7 @@ Ziggo Sport 4K,http://live.iptvtotaal.com:8000/awpreneniptv/09HZaVeOmh/20560#
 列表##
 	//截取视频列表框数据块
 	列表数据头(title="按评分排序">)
-	列表数据尾(<div id="page">)
+	列表数据尾(<div class="fixedGroup">)
 	
 	//截取所有视频数据
 	数组_列表头(<a)
