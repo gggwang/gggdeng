@@ -858,6 +858,7 @@
     "isActive": true,
     "status": true,
     "id": 78
+ },
   {
     "key": "飞速",
     "name": "FEISU影院〔采集〕",
@@ -2635,12 +2636,6 @@
     "id": 18
   },
   {
-    "name": "JSONPlayer",
-    "url": "https://jx.777jiexi.com/player/?url=",
-    "isActive": true,
-    "id": 106
-  },
-  {
     "name": "土豆",
     "url": "https://jx.tudo.fun/?url=",
     "isActive": true,
@@ -3067,10 +3062,16 @@
     "id": 89
   },
   {
+    "name": "JSONPlayer",
+    "url": "https://jx.777jiexi.com/player/?url=",
+    "isActive": true,
+    "id": 90
+  },
+  {
     "name": "RDHK",
     "url": "https://jx.rdhk.net/?v=",
     "isActive": true,
-    "id": 90
+    "id": 91
   }
 ]
 }
