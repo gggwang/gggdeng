@@ -1,6 +1,6 @@
 {
 "站名":"天天综合",
-"主页url":"https://www.880av.top/",
+"主页url":"https://521pp.vip/",
 "直接播放":"1",
 //"数组":"<div class=\"item\">&&</div>",
 "图片": "data-original=\"&&\"",
@@ -8,21 +8,18 @@
 "链接": "href=\"&&\"",
 "副标题":"<div class=\"duration\">&&</div>",
 "搜索模式": "1",
-"搜索url":"https://www.880av.top/vod/search/page/{pg}/wd/{wd}/",
+"搜索url":"https://521pp.vip/vod/search/page/{pg}/wd/{wd}/",
 //"搜索数组":"<div class=\"item\">&&</div>",
 "搜索图片": "data-original=\"&&\"",
 "搜索标题":"title=\"&&\"",
 "搜索链接": "href=\"&&\"",
 "搜索副标题":"<div class=\"duration\">&&</div>",
-"影片地区":"地区：&&</p>",
-"导演":"导演：&&</p>",
-"主演":"主演：&&</p>",
-"简介":"<h1&&</h1>",
-"分类":"天天综合$jjav",
-"分类url":"https://www.880av.top/JJav/{cateId}-{catePg}/",
-"免嗅":"1",
+
+"分类":"天天综合$zhongwenzonghe",
+"分类url":"https://521pp.vip/JJav/{cateId}-{catePg}/",
+
 "筛选":{
-"jjav":[
+"zhongwenzonghe":[
 {
 "key":"cateId",
 "name":"中文资源",
@@ -34,7 +31,6 @@
 {"n":"中文护士","v":"zhongwenhushi"},
 {"n":"中文师生","v":"zhongwenshisheng"},
 {"n":"中文强奸","v":"zhongwenqiangjian"},
-{"n":"明星淫梦","v":"mingxingyinmeng"},
 {"n":"美女主播","v":"meinvzhubo"},
 {"n":"三级综合","v":"sanjizonghe"}
 ]
