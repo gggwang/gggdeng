@@ -4689,90 +4689,59 @@ Ziggo Sport 4K,http://live.iptvtotaal.com:8000/awpreneniptv/09HZaVeOmh/20560#
 ##
 
 分类##
-	//每个分类的名字 中间必须用"|"分割
+
 	分类(电影|电视剧|动漫|综艺|纪录片)
-	//每个分类的地址,中间也必须用"|"分割!把相应的页面的页数换成"页数"
 	分类地址(https://www.citydy.com/type/id-1-页数.html|https://www.citydy.com/type/id-2-页数.html|https://www.citydy.com/type/id-4-页数.html|https://www.citydy.com/type/id-3-页数.html|https://www.citydy.com/type/id-5-页数.html)
 
 ##
 
 列表##
 	//截取视频列表框数据块
-	列表数据头(<ul class="img-list clearfix">)//最好只有这一个头
-	列表数据尾(<div id="page" class="mt-xs-10">)
+	列表数据头(<!-- end 筛选 -->)
+	列表数据尾(<div class="stui-pannel__ft">)
 	
 	//截取所有视频数据
-	数组_列表头(<li class="col-sm-6 col-xs-3 hide-actor">)
-	数组_列表尾(</li>)
+	数组_列表头(<li>)
+	数组_列表尾(</a>)
 	
 	//文本型
 	片名头(title=")
 	片名尾(")
 	
-	封面头(src=")
+	封面头(data-original=")
 	封面尾(")
 	
 	播放页url头(href=")
 	播放页url尾(")
 	
-	状态头(<span class="vtitle text-right">)
-	状态尾(</span>)
+	状态头(<span class="pic-text text-right"><b>)
+	状态尾(</b>)
 
 	地址头(https://www.citydy.com)//这里写播放地址前面的域名之类的，就是补全播放页地址
 	地址尾()//这里写上播放地址后面数据,一般没有
 
-##
-
-搜索##
-    	搜索接口(https://www.citydy.com/search.html?wd=搜索)
-	//截取视频列表框数据块
-	列表数据头(<div class="clearfix" id="content">)//最好只有这一个头
-	列表数据尾(<div id="page" class="mt-xs-10">)
-	
-	//截取所有视频数据
-	数组_列表头(<div class="col-md-4 col-sm-3 col-xs-wide-35 p-xs-0">)
-	数组_列表尾(<div class="text-overflow">)
-	
-	//文本型
-	片名头(title=")
-	片名尾(")
-	
-	封面头(src=")
-	封面尾(")
-	
-	播放页url头(href=")
-	播放页url尾(")
-	
-	状态头(<span class="title text-center text-overflow">)
-	状态尾(</span>)
-
-	地址头(https://www.citydy.com)//这里写播放地址前面的域名之类的，就是补全播放页地址
-	地址尾()//这里写上播放地址后面数据,一般没有
 ##
 
 剧集##
 
-	剧名头(<h1>)
+	剧名头(<h1 class="title wdetail">)
 	剧名尾(</h1>)
-
-	简介头(简介：</span>)
-	简介尾(</p>)
+	简介头(style="display: none;">)
+	简介尾(</span>)
 	
 	//截取剧集数据块
-	剧集数据头(<ul class="details-play-nav my-tab" id="Tab">)
-	剧集数据尾(<div class="container clearfix">)
+	剧集数据头(dpplay pull-right">)
+	剧集数据尾(<ul class="stui-vodlist clearfix">)
 	
 	//截取所有播放器的名字
-	数组_播放器头(href="javascript:void(0);">)
+	数组_播放器头(data-toggle="tab">)
 	数组_播放器尾(</a>)
-
 	//截取所有播放器的剧集数据
-	数组_剧集头(<div class="play-div-oa">)
-	数组_剧集尾(</div>)
-
+	数组_剧集头(<ul class="stui-content__playlist)
+	数组_剧集尾(</ul>)
 	//截取剧集名
-	剧集名头(html" title=")
-	剧集名尾(")
+	剧集名头(html">)
+	剧集名尾(</a>)
 	//截取剧集地址
 	播放url头(href=")
 	播放url尾(")
