@@ -3161,8 +3161,7 @@
     "isActive": true,
     "status": true,
     "id": 273
-  }
-
+  } 
 ]},
 "iptv":  {
   "default":1,
@@ -3756,61 +3755,61 @@
     "name": "全看",
     "url": "https://jx.quankan.app/?url=",
     "isActive": true,
-    "id": 102
+    "id": 93
   },
   {
     "name": "顾凌",
     "url": "https://bf.xxmlb.com/ikuik/?url=",
     "isActive": true,
-    "id": 103
+    "id": 94
   },
   {
     "name": "198830",
     "url": "https://vip.198830.com/?url=",
     "isActive": true,
-    "id": 104
+    "id": 95
   },
   {
     "name": "酷",
     "url": "https://18ka.xyz/?url=",
     "isActive": true,
-    "id": 105
+    "id": 96
   },
   {
     "name": "小七",
     "url": "https://2.08bk.com/?url=",
     "isActive": true,
-    "id": 106
+    "id": 97
   },
   {
     "name": "云",
     "url": "https://jx.iztyy.com/svip/?url=",
     "isActive": true,
-    "id": 107
+    "id": 98
   },
   {
     "name": "M3U8",
     "url": "https://www.playm3u8.cn/jiexi.php?url=",
     "isActive": true,
-    "id": 108
+    "id": 99
   },
   {
     "name": "H8",
     "url": "https://www.h8jx.com/jiexi.php?url=",
     "isActive": true,
-    "id": 109
+    "id": 100
   },
   {
     "name": "嘀哩嘀哩",
     "url": "https://player.jkydns.com/?url=",
     "isActive": true,
-    "id": 110
+    "id": 101
   },
   {
     "name": "198830",
     "url": "https://vip.198830.com/json/json.php?url=",
     "isActive": true,
-    "id": 111
+    "id": 102
   }
 ]
 }
