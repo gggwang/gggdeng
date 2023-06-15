@@ -433,7 +433,7 @@
   },
   {
     "key": "xml_肥猫蓝光",
-    "name": "🚀肥猫蓝光〔采集〕",
+    "name": "🚀肥猫蓝光",
     "type": 1,
     "api": "http://我是.肥猫.love:63/api.php/provide/vod/",
     "group": "tvbox",
@@ -465,7 +465,7 @@
   },
   {
     "key": "优质资源",
-    "name": "📱优质资源〔采集〕",
+    "name": "📱优质资源",
     "type": 1,
     "api": "https://api.1080zyku.com/inc/apijson.php/provide/vod/",
     "group": "tvbox",
@@ -476,7 +476,7 @@
   },
   {
     "key": "xml_新浪资源",
-    "name": "🚀新浪资源〔采集〕",
+    "name": "🚀新浪资源",
     "type": 1,
     "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/from/xlm3u8/?ac=list",
     "group": "tvbox",
@@ -487,7 +487,7 @@
   },
   {
     "key": "xml_多多资源",
-    "name": "🚀多多资源〔采集〕",
+    "name": "🚀多多资源",
     "type": 1,
     "api": "https://ddzyz1.com/api.php/provide/vod/",
     "group": "tvbox",
@@ -509,7 +509,7 @@
   },
   {
     "key": "zy_金鹰资源",
-    "name": "💪金鹰资源〔采集〕",
+    "name": "💪金鹰资源",
     "type": 1,
     "api": "https://jyzyapi.com/provide/vod/",
     "group": "tvbox",
@@ -520,7 +520,7 @@
   },
   {
     "key": "xml_无尽资源",
-    "name": "💪无尽资源〔采集〕",
+    "name": "💪无尽资源",
     "type": 1,
     "api": "https://api.wujinapi.me/api.php/provide/vod",
     "group": "tvbox",
@@ -531,7 +531,7 @@
   },
   {
     "key": "xml_1080资源",
-    "name": "💪1080资源〔采集〕",
+    "name": "💪1080资源",
     "type": 1,
     "api": "https://1080p.tv/api.php/provide/vod",
     "group": "tvbox",
@@ -542,7 +542,7 @@
   },
   {
     "key": "xml_234影视",
-    "name": "💪234影视〔采集〕",
+    "name": "💪234影视",
     "type": 1,
     "api": "https://www.knyu.net/api.php/provide/vod",
     "group": "tvbox",
@@ -553,7 +553,7 @@
   },
   {
     "key": "xml_速播",
-    "name": "💪速播〔采集〕",
+    "name": "💪速播",
     "type": 1,
     "api": "https://subocaiji.com/api.php/provide/vod",
     "group": "tvbox",
@@ -564,7 +564,7 @@
   },
   {
     "key": "xml_豌豆",
-    "name": "💪豌豆〔采集〕",
+    "name": "💪豌豆",
     "type": 1,
     "api": "https://ks.wandouzy.cc/api.php/provide/vod/",
     "group": "tvbox",
@@ -575,7 +575,7 @@
   },
   {
     "key": "xml_蜜蜂",
-    "name": "💪蜜蜂〔采集〕",
+    "name": "💪蜜蜂",
     "type": 1,
     "api": "https://www.beeyao.com/api.php/provide/vod",
     "group": "tvbox",
@@ -586,7 +586,7 @@
   },
   {
     "key": "xml_超多",
-    "name": "💪超多〔采集〕",
+    "name": "💪超多",
     "type": 1,
     "api": "https://www.ifengying.cn/api.php/provide/vod",
     "group": "tvbox",
@@ -597,7 +597,7 @@
   },
   {
     "key": "xml_TVB云播",
-    "name": "💪TVB云播〔采集〕",
+    "name": "💪TVB云播",
     "type": 1,
     "api": "http://www.tvyb03.com/api.php/provide/vod",
     "group": "tvbox",
@@ -608,7 +608,7 @@
   },
   {
     "key": "xml_快播",
-    "name": "💪快播〔采集〕",
+    "name": "💪快播",
     "type": 1,
     "api": "https://www.kuaibozy.com/api.php/provide/vod",
     "group": "tvbox",
@@ -619,7 +619,7 @@
   },
   {
     "key": "xml_8090资源",
-    "name": "💪8090资源〔采集〕",
+    "name": "💪8090资源",
     "type": 1,
     "api": "https://zy.yilans.net:8090/api.php/provide/vod/",
     "group": "tvbox",
@@ -630,7 +630,7 @@
   },
   {
     "key": "xml_明帝",
-    "name": "💪明帝〔采集〕",
+    "name": "💪明帝",
     "type": 1,
     "api": "http://cj.md214.cn/api.php/provide/vod/",
     "group": "tvbox",
@@ -641,7 +641,7 @@
   },
   {
     "key": "xml_诺讯",
-    "name": "💪诺讯〔采集〕",
+    "name": "💪诺讯",
     "type": 1,
     "api": "https://caiji.nxflv.com/api.php/provide/vod/",
     "group": "tvbox",
@@ -652,7 +652,7 @@
   },
   {
     "key": "xml_JSON官采",
-    "name": "💪JSON官采〔采集〕",
+    "name": "💪JSON官采",
     "type": 1,
     "api": "https://cms.json.vin/api.php/provide/vod/",
     "group": "tvbox",
@@ -663,7 +663,7 @@
   },
   {
     "key": "xml_M3U8TV",
-    "name": "💪M3U8TV〔采集〕",
+    "name": "💪M3U8TV",
     "type": 1,
     "api": "https://www.zycaiji.net:7788/api.php/provide/vod",
     "group": "tvbox",
@@ -674,7 +674,7 @@
   },
   {
     "key": "xml_追剧达人",
-    "name": "💪追剧达人〔采集〕",
+    "name": "💪追剧达人",
     "type": 1,
     "api": "http://zjdr.tv/api.php/provide/vod",
     "group": "tvbox",
@@ -685,7 +685,7 @@
   },
   {
     "key": "xml_最大资源",
-    "name": "💪最大资源〔采集〕",
+    "name": "💪最大资源",
     "type": 1,
     "api": "http://zuidazy.me/api.php/provide/vod",
     "group": "tvbox",
@@ -696,7 +696,7 @@
   },
   {
     "key": "xml_天猫资源",
-    "name": "💪天猫资源〔采集〕",
+    "name": "💪天猫资源",
     "type": 1,
     "api": "https://www.tianmaozy.com/api.php/provide/vod",
     "group": "tvbox",
@@ -707,7 +707,7 @@
   },
   {
     "key": "xml_快竞技资源",
-    "name": "💪快竞技资源〔采集〕",
+    "name": "💪快竞技资源",
     "type": 1,
     "api": "https://api.kjjapi.com/api.php/provide/vod/",
     "group": "tvbox",
@@ -718,7 +718,7 @@
   },
   {
     "key": "xml_42资源",
-    "name": "💪42资源〔采集〕",
+    "name": "💪42资源",
     "type": 1,
     "api": "https://www.42.la/api.php/provide/vod",
     "group": "tvbox",
@@ -729,7 +729,7 @@
   },
   {
     "key": "xml_阳光资源",
-    "name": "💪阳光资源〔采集〕",
+    "name": "💪阳光资源",
     "type": 1,
     "api": "https://xxzy.org/api.php/provide/vod",
     "group": "tvbox",
@@ -740,7 +740,7 @@
   },
   {
     "key": "xml_蘑菇资源",
-    "name": "💪蘑菇资源〔采集〕",
+    "name": "💪蘑菇资源",
     "type": 1,
     "api": "http://api.moguapi.com/api.php/provide/vod",
     "group": "tvbox",
@@ -751,7 +751,7 @@
   },
   {
     "key": "xml_优质资源库",
-    "name": "💪优质资源库〔采集〕",
+    "name": "💪优质资源库",
     "type": 1,
     "api": "http://hdzyk.com/inc/apijson.php",
     "group": "tvbox",
@@ -762,7 +762,7 @@
   },
   {
     "key": "xml_大眼资源",
-    "name": "💪大眼资源〔采集〕",
+    "name": "💪大眼资源",
     "type": 1,
     "api": "http://api.dyzy888.com/api/maccms/json/m3u8",
     "group": "tvbox",
@@ -773,7 +773,7 @@
   },
   {
     "key": "xml_天翼资源",
-    "name": "💪天翼资源〔采集〕",
+    "name": "💪天翼资源",
     "type": 1,
     "api": "https://www.911ysw.top/tianyi.php/provide/vod",
     "group": "tvbox",
@@ -784,7 +784,7 @@
   },
   {
     "key": "xml_干饭影视",
-    "name": "💪干饭影视〔采集〕",
+    "name": "💪干饭影视",
     "type": 1,
     "api": "http://124.220.183.81:83/api.php/provide/vod",
     "group": "tvbox",
@@ -817,7 +817,7 @@
   },
   {
     "key": "FF9资源",
-    "name": "FF9资源〔采集〕",
+    "name": "FF9资源",
     "type": 1,
     "api": "https://www.ff9.top/api.php/provide/vod/",
     "group": "tvbox",
@@ -828,7 +828,7 @@
   },
   {
     "key": "1080资源库",
-    "name": "1080资源库〔采集〕",
+    "name": "1080资源库",
     "type": 1,
     "api": "https://api.1080zyku.com/inc/api_mac10.php",
     "group": "tvbox",
@@ -839,7 +839,7 @@
   },
   {
     "key": "龙腾资源",
-    "name": "龙腾资源〔采集〕",
+    "name": "龙腾资源",
     "type": 1,
     "api": "http://175.178.7.35:2020/api.php/provide/vod/",
     "group": "tvbox",
@@ -850,7 +850,7 @@
   },
   {
     "key": "飞速",
-    "name": "FEISU影院〔采集〕",
+    "name": "FEISU影院",
     "type": 1,
     "api": "https://www.feisuzyapi.com/api.php/provide/vod/",
     "group": "tvbox",
@@ -861,7 +861,7 @@
   },
   {
     "key": "快播采集",
-    "name": "快播采集〔采集〕",
+    "name": "快播采集",
     "type": 0,
     "api": "http://www.kuaibocaiji.com/api.php/provide/vod/from/kbm3u8/at/xml",
     "group": "tvbox",
@@ -872,7 +872,7 @@
   },
   {
     "key": "lehoo资源",
-    "name": "lehoo资源〔采集〕",
+    "name": "lehoo资源",
     "type": 0,
     "api": "https://www.lehootv.com/api.php/provide/vod/at/xml",
     "group": "tvbox",
@@ -883,7 +883,7 @@
   },
   {
     "key": "八戒采集",
-    "name": "八戒采集〔采集〕",
+    "name": "八戒采集",
     "type": 0,
     "api": "http://cj.bajiecaiji.com/inc/bjm3u8.php",
     "group": "tvbox",
@@ -894,7 +894,7 @@
   },
   {
     "key": "映迷",
-    "name": "映迷〔采集〕",
+    "name": "映迷",
     "type": 1,
     "api": "https://www.inmi.app/api.php/provide/vod/",
     "group": "tvbox",
@@ -905,7 +905,7 @@
   },
   {
     "key": "小鸟动漫",
-    "name": "小鸟动漫〔采集〕",
+    "name": "小鸟动漫",
     "type": 1,
     "api": "http://xydm.baicai.buzz/api.php/provide/vod/",
     "group": "tvbox",
@@ -916,7 +916,7 @@
   },
   {
     "key": "阿里影视",
-    "name": "阿里影视〔采集〕",
+    "name": "阿里影视",
     "type": 1,
     "api": "http://aliys.cn:90/api.php/provide/vod/",
     "group": "tvbox",
