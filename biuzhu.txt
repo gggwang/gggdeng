@@ -229,10 +229,7 @@
 ],
 
 "zhujiexi": [
-{"name":"小苹果","url":"http://j.grelighting.cn/parser/?url="},
 {"name":"肥猫官解","url":"https://vip.ckllk.com/API.php?appkey=404164cdd1472561b4c61f1845e0bff8&url="},
-{"name":"主解1","url":"http://xxx.com?url="},
-{"name":"江湖主解析","url": "http://27.124.4.42:4567/jhjson/ceshi.php?url="}, 
 {"name":"爱酷解析","url":"https://api.json.icu/api/?key=75feb3f8fa69e3ccdcc2deb8e5ff9abe&url="}, 
 {"name":"IKM解析","url":"http://svip.ikumiao.icu/dm/?uid=2952733&key=ginsvwBGMOQTVWZ457&url="}, 
 {"name":"IIMKK解析","url":"https://pan.iimkk.cn/art/artplay.php?url="}, 
