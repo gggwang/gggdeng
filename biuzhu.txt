@@ -478,7 +478,7 @@
 {"name":"8k","url":"http://www.8kvod.com/player/?url="},
 {"name":"喵影视","url":"http://www.miaoys.cc/vip/?url="},
 {"name":" 橙皮","url":"https://www.cplive.icu/mplayer/?url="},
-{"name":"blskk","url":"https://www.kuaikanys.net/jiexi/jiexi-gf/?url="}
+{"name":"blskk","url":"https://www.kuaikanys.net/jiexi/jiexi-gf/?url="},
 {"name":"爱看","url":"https://jx1.idcdr.com/111/555/?url="},
 {"name":"夜幕","url":"https://www.yemu.xyz/?url="},
 {"name":"jsonplayer","url":"https://alijx.ddml.xyz/api.php?url="},
