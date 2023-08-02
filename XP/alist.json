@@ -1,6 +1,38 @@
 
 {"drives": [
   {"name":"SOD","server":"https://a.sodaz.xyz"},
+   {
+      "name": "小丫",
+      "server": "http://alist.xiaoya.pro"
+    },
+    {
+      "name": "EVCE",
+      "server": "https://pan.ecve.cn"
+    },
+    {
+      "name": "9T",
+      "server": "https://drive.9t.ee"
+    },
+    {
+      "name": "五星棒",
+      "server": "https://qwe.aifo10086.repl.co/"
+    },
+     {
+      "name": "资源站",
+      "server": "https://pan.ecve.cn" 
+    },
+     {
+      "name": "私房菜",
+      "server": "https://cnm.teamv1.repl.co/" 
+    },
+    {
+      "name": "珍藏",
+      "server": "https://alist.eduedu.eu.org/"
+    },
+    {
+      "name": "星梦",
+      "server": "https://pan.bashroot.top"
+    },
   {"name": "🔮东哥","server": "http://101.34.67.237:5244/"},
    {"name": "🐋一只鱼","server": "https://vtok.pp.ua"},
   {"name": "小雅的盘","server" :"http://alist.xiaoya.pro"},
