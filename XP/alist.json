@@ -9,6 +9,10 @@
       "name": "EVCE",
       "server": "https://pan.ecve.cn"
     },
+     {
+       "name": "💠悦享网盘",
+       "server": "https://nics.eu.org"
+       },
     {
       "name": "9T",
       "server": "https://drive.9t.ee"
@@ -44,7 +48,6 @@
   {"name": "✨星梦","server": "https://pan.bashroot.top"},
   {"name": "🎡资源小站","server": "https://960303.xyz/"},
   {"name": "🏝讯维云盘","server": "https://pan.xwbeta.com"},
-  {"name": "🏝悦享云盘","server": "https://pity.eu.org"},
   {"name": "🎢轻弹浅唱","server": "https://g.xiang.lol"}
 ]
 }
