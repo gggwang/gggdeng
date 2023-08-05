@@ -1,11 +1,11 @@
 {
 	"作者": "心魔",
-	"站名": "剧迷影视",
-	"主页url": "https://www.nxmusic.com/",
+	"站名": "看剧吧",
+	"主页url": "https://www.kjbaa.com/",
 	"热门": "",
-    "分类": "电影$dianying#电视剧$fenlei2#综艺$zongyi#动漫$dongman#",
+    "分类": "电影$1#电视剧$2#综艺$3#动漫$4#",
 
-	"分类url": "https://www.nxmusic.com/vodshow/{cateId}--{by}------{catePg}---.html",
+	"分类url": "https://www.kjbaa.com/search.php?page={catePg}&searchtype=5&order={by}&tid={cateId}",
 	"数组": "",
 	"副标题": "",
 	"图片": "data-original=\"&&\"",
@@ -22,11 +22,13 @@
 	"主演": "主演：&&</p>",
 	"简介": "description\" content=\"&& />",
 	"嗅探词":".m3u8#.mp4#.flv#.m4a#.avi#.mkv#.mov#.3gp#.asf#.rm#.rmvb#.wmv#.mpg#.mpeg#.mpe#.ts#.vob#.mp3#.wma",
-	"线路数组": "",
-	"线路标题": "",
-	"播放数组": "",
-	"播放列表": "",
-	"播放标题":"",
+	
+"线路二次截取": "\"nav nav-tabs active\"&&</ul>",
+	"线路数组": "<li>&&</li>",
+	"线路标题": "\">&&</a>",
+	"播放数组": "myui-content__list sort-list clearfix&&</ul>",
+	"播放列表": "<li>&&</li>",
+	"播放标题":">&&</a>",
 	"播放链接": "href=\"&&\"",
 	"筛选": {
 		"1": [
