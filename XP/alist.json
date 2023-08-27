@@ -1,6 +1,24 @@
 
 {"drives": [
-  {"name":"SOD","server":"https://a.sodaz.xyz"},
+  {
+    "name": "🦆小鸭",
+    "server": "http://shicheng.wang:555/",
+    "startPage": "/",
+    "showAll": false,
+    "search": true,
+    "params": {
+        "/abc": {
+            "password": "123"
+        },
+        "/abc/abc": {
+            "password": "123"
+        }
+    }
+},
+  {
+    "name": "SOD",
+    "server": "https://a.sodaz.xyz"
+},
    {
       "name": "小丫",
       "server": "http://alist.xiaoya.pro"
