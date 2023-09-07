@@ -1,5 +1,6 @@
 {
     "classes": [
+         "cookie":"SESSDATA=cd1b0c49%2C1709538244%2C05837%2A91; bili_jct=c3d88737c9dd767471d292b3448cf909; DedeUserID=408166576;DedeUserID__ckMd5=224942be8f762dbe;",
         {
             "type_name": "儿童早教",
             "type_id": "儿童早教"
