@@ -1,7 +1,6 @@
     {
     
-    "作者":"荷城茶秀",
-    
+
     "站点":"奇优影院",
     
     "主页url":"http://www.qiyoudy1.com/",
@@ -48,7 +47,7 @@
     
     "播放标题":">&&</a>",
         
-    "分类url":"http://www.qiyoudy1.com/list/{cateId}_{catePg}.html[http://www.qiyoudy1.com/list/{cateId}.html];;mal",
+    "分类url":"http://www.qiyoudy1.com/list/area/{area}/by/{by}/class/{class}/id/{cateId}/lang/{lang}/letter/{letter}/year/{year}.html",
     
     "分类":"电影$1#电视剧$2#动漫$3#综艺$4",
     
