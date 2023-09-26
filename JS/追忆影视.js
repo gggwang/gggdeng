@@ -18,7 +18,7 @@
         class_name: '电影&电视剧&动漫&综艺', // 分类筛选 /api.php/app/nav
         class_url: '1&7&8&3',
         play_parse: true,
-        lazy:'js:if(/m3u8|mp4/.test(input)){input}else{let purl=request("http://115.231.220.36:9999/jx/tvbox/jx.php?url="+input);input={jx:0,url:JSON.parse(purl).url,parse:0}}',
+        lazy:'js:if(/m3u8|mp4/.test(input)){input}else{let purl=request("http://115.231.220.36:9999/jx/tvbox/xtwl.php?url="+input);input={jx:0,url:JSON.parse(purl).url,parse:0}}',
         limit: 6,
         推荐: 'json:list[0].vlist;*;*;*;*',
         一级: 'json:list;vod_name;vod_pic;vod_remarks||vod_score;vod_id',
