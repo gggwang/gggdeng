@@ -4859,6 +4859,23 @@
                 "分类": "电影$2#国产剧$29#港台剧$33#韩剧$1#美剧$26#日剧$27#泰剧$30#海外剧$32#动漫$28"
             }
         },
+                        {
+            "key": "酷看9",
+            "name": "酷看〓BPQ",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": {
+  "主页url": "https://m.kukan9.com/",
+  "搜索": "https://m.kukan9.com/search={wd}",
+  "线路数组": "<span id=&&</span>",
+  "线路标题": "<a>&&</a>",
+  "播放数组":"<ul class=\"plau-ul-list&&</ul>", 
+  "播放标题": ">&&<",
+  "分类url": "https://m.kukan9.com/{cateId}/index_{class}_____{catePg}.html",
+  "分类": "电影$dianying#电视$dianshiju#动漫$dongman#综艺$zongyi"
+}
+        },
+
         {
             "key": "csp_XBPQ_南坊",
             "name": "南坊(XBPQ)",
