@@ -1,0 +1,19 @@
+{
+   
+"站名": "影视工场",
+    
+"主页url": "https://www.ysgc.fun/",
+    
+"播放数组": "<ul class=\"myui-content__list scrollbar sort-list clearfix&&/ul>",
+   
+"线路数组": "data-toggle=&&</li>",
+  
+"线路标题": ">&&</a>", 
+    
+"捜索url": "https://www.ysgc.fun/vodsearch/{wd}----------{catePg}---.html",
+    
+"分类url": "https://www.ysgc.fun/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html;;m",
+    
+"分类": "电影$1#电视剧$2#综艺$3#动漫$4"
+        
+}
