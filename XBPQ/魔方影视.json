@@ -1,0 +1,26 @@
+{
+
+"站名": "魔方影视", 
+  
+"主页url": "https://www.mfys.vip/",
+
+"简介":"<p>&&</p>",
+
+"搜索url":"https://www.mfys.vip/vodsearch/{wd}----------{catePg}---",
+
+"线路数组":"data-dropdown-value=&&</div>",
+
+"线路标题":"<span>&&</small>[替换:</span><small>>>共]+集",
+
+"播放数组":"<div class=\"module-play-list-content&&/div>",
+
+"播放列表":"<a&&/a>",
+
+"播放标题":"<span>&&</span>",
+
+"分类url": "https://www.mfys.vip/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year};;mak",
+
+"分类": "电影$3#电视剧$1#动漫$5#综艺$2"
+
+}
+
