@@ -1,0 +1,24 @@
+{
+
+"站名": "电影小镇", 
+  
+"主页url": "http://dyxz.tv/",
+
+"搜索url":"http://dyxz.tv/search.php",
+
+"线路数组":"data-toggle=&&</li>",
+
+"线路标题":">&&</a>",
+
+"播放数组":"stui-content__playlist&&/ul>",
+
+"播放列表":"<a&&/a>",
+
+"播放标题":">&&</a>",
+
+"分类url": "http://dyxz.tv/list/{cateId}_{catePg}.html;;mak",
+
+"分类": "电影$1#电视剧$2#动漫$3#综艺$4"
+
+}
+
