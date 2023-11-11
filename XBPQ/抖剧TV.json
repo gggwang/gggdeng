@@ -1,0 +1,25 @@
+{
+   
+"站名": "抖剧TV",
+    
+"主页url": "http://www.douju.xyz/",
+
+"简介":"简介：&&</li>",
+    
+"搜索url":"http://www.douju.xyz/vodsearch/{wd}----------{catePg}---.html",
+
+"线路数组":"\"javascript:void(0);&&</a>",
+
+"线路标题":"alt=\"&&\">",
+
+"播放数组":"\"hl-plays-list hl-sort-list&&/ul>",
+                                     
+"播放列表":"<li&&/li>",
+
+"播放标题":">&&</a>",
+
+"分类url":"http://www.douju.xyz/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html;;mak",
+
+"分类": "电影$dianying#连续剧$lianxuju#综艺$zongyi#动漫$dongman#福利$fuli" 
+}
+
