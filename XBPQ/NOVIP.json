@@ -1,0 +1,35 @@
+ {
+
+"站名": "NOVIPNOAD",
+
+"主页url": "https://novipnoad.vip/",
+
+"简介":"class=\"detail-content\" style=*>&&</span>",
+
+"数组": "stui-vodlist__box\">&&<li>",
+
+"图片": "data-original=\"&&\"",
+
+"链接": "href=\"&&\"",
+
+"标题": "title=\"&&\"",
+
+"副标题": "pic-text text-right\">&&</span>",
+
+"搜索url": "https://novipnoad.vip/search/{wd}----------{catePg}---.html",
+
+"线路数组": "data-toggle=&&</a>[不包含：视频下载(夸克网盘)]",
+
+"线路标题": ">&&</a>[替换:（>>共#）>>集]",
+
+"播放数组": "stui-content__playlist clearfix sort-list\">&&</ul>",
+
+"播放列表": "<a&&</a>",
+
+"播放标题": ">&&</a>",
+
+"分类url": "https://novipnoad.vip/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html;;mak",
+
+"分类": "电影$1#电视剧$2#动漫$3#综艺$4#纪录片$30#短剧$21#解说$24#体育$20#足球$26#篮球$27#网球$28#斯诺克$29"
+
+}

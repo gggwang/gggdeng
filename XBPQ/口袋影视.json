@@ -1,0 +1,25 @@
+ {
+
+"站名": "口袋影视",
+
+"主页url": "https://www.huamaomy.com/",
+
+"简介":"<div id=\"content\">&&</div>",
+
+"搜索url": "https://www.huamaomy.com/vodsearch/{wd}----------{catePg}---.html",
+
+"线路数组": "tab_con_playlist&&</li>[不包含:抖音云]",
+
+"线路标题": ">&&</a>",
+
+"播放数组": "con_c2_list\">&&</ul>",
+
+"播放列表": "<a&&</a>",
+
+"播放标题": ">&&</a>",
+
+"分类url": "https://www.huamaomy.com/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html;;ak",
+
+"分类": "电影$1#电视剧$2#综艺$3#动漫$4"
+
+}
