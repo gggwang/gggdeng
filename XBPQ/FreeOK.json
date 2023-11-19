@@ -1,0 +1,44 @@
+{
+    "站名": "FreeOK",  
+
+    "主页url": "https://www.freeok.vip", 
+
+    "分类url": "https://www.freeok.vip/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html;mak",  
+
+    "分类": "电影$1#剧集$2#动漫$3#综艺$4#少儿$5#热榜$hot#今日更新$new",  
+
+    "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
+        
+    "嗅探词": "m3u8#.m3u8#.mp4#freeok.mp4#/obj/",
+    
+    "简介":"<p>&&</p>",
+    
+    "导演":"导演：&&</div>",
+    
+    "主演":"主演：&&</div>",
+      
+    "影片状态":"集数：&&</div>",
+    
+    "数组":"<a&&/div></div></a>",
+    
+    "标题":"title=\"&&\"",
+    
+    "副标题":"note\">&&</div>",
+    
+    "图片":"data-original=\"&&\"",
+    
+    "链接":"href=\"&&\"",
+                     
+    "线路数组":"data-dropdown-value=&&</div>[不包含:夸克]",
+    
+    "线路标题":"<span>&&</small>[替换:</span><small>>>共]+集",
+    
+    "播放数组":"<div class=\"module-play-list-content&&</div>",
+    
+    "播放标题":"<span>&&</span>",
+    
+    "播放列表":"<a&&</a>"
+    
+    }
+
+
