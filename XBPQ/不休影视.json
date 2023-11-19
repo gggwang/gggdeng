@@ -1,0 +1,12 @@
+{
+    "站名": "不休影视",
+    "主页url": "https://www.bxgco.com",
+
+    "线路数组": "\"#playlist*\"&&</a>[不包含:线路1#线路2#线路3#线路4#线路5#不休影视②][排序:蓝光②]",
+    "线路标题": ">&&<",
+    "播放数组": "<ul class=\"stui-content__playlist&&</ul>",
+    "分类url": "https://www.bxgco.com/bxtop/{cateId}/area/{area}/page/{catePg}/year/{year}.html",
+    "分类": "电影$dianying#连续剧$dianshiju#动漫$dongmna#综艺$zongyi#纪录片$jilupian",
+    "免嗅": "0",
+    "简介": "剧情介绍&&</span>"
+}
