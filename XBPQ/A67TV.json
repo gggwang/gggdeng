@@ -1,0 +1,52 @@
+{
+  
+"站名": "A67TV",
+    
+"主页url": "https://m.a67.tv/",
+
+"导演": "导演：&&</div>",
+
+"主演": "主演：&&</div>",
+
+"简介":"module-info-introduction\">&&</p>",
+
+"影片类型":"module-info-tag\">&&<div class=\"module-mobile-play\">",
+
+"图片":"data-original=\"&&\"",
+
+"链接": "href=\"&&\"",
+
+"标题": "title=\"&&\"",
+
+"副标题": "module-item-note\">&&</div>",
+
+"搜索url":"https://m.a67.tv/vodsearch/{wd}----------{catePg}---.html",
+
+"搜索数组":"module-card-item module-item\">&&</div></div>",
+
+"搜索图片":"data-original=\"&&\"",
+
+"搜索链接": "href=\"&&\"",
+
+"搜索标题": "alt=\"&&\"",
+
+"线路数组":"data-dropdown-value=&&</div>",
+
+"线路标题":"<span>&&</small>[替换:</span><small>>>共]+集",
+
+"播放数组":"module-play-list-content&&</div>",
+                                     
+"播放列表":"<a&&/a>",
+
+"播放标题":"<span>&&</span>",
+
+"播放链接":"href=\"&&\"",
+
+"嗅探词": ".m3u8#.mp4#.flv",
+
+"分类url":"https://m.a67.tv/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html;;mak",
+
+"分类": "电影$fenlei1#连续剧$fenlei2#动漫$fenlei3#综艺$fenlei4#B站电影$dianyingBzhan#B站剧集$dianshijuBzhan" 
+
+}
+

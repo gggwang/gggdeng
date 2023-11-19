@@ -1,0 +1,43 @@
+{
+    
+"站名": "Hdmoli",
+    
+"主页url": "https://hdmoli.top/",
+
+"影片类型":"module-info-tag\">&&</div></div>",
+    
+"导演": "导演：&&</div>",
+    
+"演员": "主演：&&</div>",
+    
+"简介": "module-info-introduction\">&&</p>",
+    
+"图片": "data-original=\"&&\"",
+    
+"链接": "href=\"&&\"",
+    
+"标题": "title=\"&&\"",
+    
+"副标题":"module-item-note\">&&</div>",
+    
+"搜索url": "https://hdmoli.top/search/{wd}----------{catePg}---.html",
+    
+"线路数组":"data-dropdown-value=&&</div>[不包含:视频下载(夸克网盘)#蓝光-Ymv]",
+    
+"线路标题":"<span>&&</small>[替换:</span><small>>>共]+集",
+    
+"播放数组": "module-play-list-content&&</div>",
+
+"播放列表":"<a&&</a>",
+
+"播放标题":"<span>&&</span>",
+
+"播放链接":"href=\"&&\"",
+    
+"嗅探词": ".m3u8#.mp4#.flv",
+    
+"分类url": "https://hdmoli.top/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html;mak",
+    
+"分类": "电影$movie#电视剧$tvplay#动漫$anime#综艺$variety"
+       
+}

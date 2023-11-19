@@ -1,0 +1,53 @@
+{
+    
+"站名": "灰鸽子影院",
+    
+"主页url": "https://m.zkhbjc.cc/",
+
+"影片类型":"<p class=\"data\">&&</p>",
+
+"演员": "主演：&&</p>",
+    
+"导演": "导演：&&</p>",
+    
+"简介": "<p class=\"col-pd\">&&</div>",
+
+"数组":"stui-vodlist__box\">&&</div></li>",
+    
+"图片": "data-original=\"&&\"",
+    
+"链接": "href=\"&&\"",
+    
+"标题": "title=\"&&\"",
+    
+"副标题":"pic-text text-right\">&&</span>",
+      
+"搜索url": "https://m.zkhbjc.cc/vod/search/page/{catePg}/wd/{wd}/",
+     
+//"搜索数组":"v-thumb stui-vodlist__thumb lazyload\"&&</li>",
+    
+"捜索图片": "data-original=\"&&\"",
+
+"搜索链接":"href=\"&&\"",
+    
+"搜索标题": "title=\"&&\"",
+    
+"线路数组":"<h3 class=\"title\">&&</h3>",
+    
+"线路标题": ">&&</a>",
+
+"播放数组": "stui-content__playlist clearfix&&</ul>",
+
+"播放列表":"<a&&</a>",
+
+"播放标题":">&&</a>",
+
+"播放链接":"href=\"&&\"",
+    
+"嗅探词": ".m3u8#.mp4#.flv",
+    
+"分类url": "https://m.zkhbjc.cc/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}/;;mak",
+    
+"分类": "电影$1#电视剧$2#综艺$3#动漫$4"
+      
+}
