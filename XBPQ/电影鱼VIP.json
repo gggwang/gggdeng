@@ -1,0 +1,11 @@
+{
+"站名":"电影鱼VIP",
+"主页url":"https://dydyy.vip/",
+"数组":"<div class=\"module-item&&/div>",
+"线路数组":"<div class=\"module-tab-item&&/div>",
+"线路标题":"<span>&&</span>",
+"播放数组":"<div class=\"scroll-content&&/div>",
+"搜索url":"https://dydyy.vip/index.php/vod/search.html?wd={wd}",
+"分类url":"https://dydyy.vip/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html;;ak",
+"分类":"4K超清$1/version/4K超清#电影$1#连续剧$2#动漫$44#综艺$4#体育$37#短剧$35#电影解说$42"
+}

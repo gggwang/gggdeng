@@ -1,0 +1,41 @@
+{   
+    "站名":"午夜电影",
+    
+    "主页url":"http://www.wuyevod.com/",
+    
+    "简介":"<p class=\"pt-10 pb-10\" style=*>&&</p>",
+    
+    "影片状态":"状态：&&</span>",
+    
+    "影片类型":"分类：&&</span>",
+    
+    "数组":"pic\">&&</li>",
+
+    "图片": "data-original=\"&&\"",
+
+    "链接": "href=\"&&\"",
+
+    "标题": "title=\"&&\"",
+    
+    "副标题":"item-status text-overflow\">&&</p>",
+    
+    "搜索url":"http://www.wuyevod.com/vodsearch/-------------.html?wd={wd}",
+    
+    //"搜索数组":"pic\">&&</ul>",
+        
+    "线路数组":"role=\"group\"&&</em>",
+    
+    "线路标题":">午夜线路<",
+
+    "播放数组":"<div class=\"episode-box scrollbar\">&&</div>",
+
+    "播放列表": "<a&&</a>",
+
+    "播放标题": ">&&</a>",
+
+    "播放链接": "href=\"&&\"",
+    
+    "分类url":"http://www.wuyevod.com/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html;;mak",
+    
+    "分类":"电影$vod#电视剧$tv#动漫$dongman#综艺$zongyi#午夜电影$wuye"
+}
