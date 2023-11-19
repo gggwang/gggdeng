@@ -1,0 +1,22 @@
+{
+   
+"站名": "80S电影网",
+    
+"主页url": "http://www.zsfxlp.com/",
+
+"简介":"detail-content\">&&</p>",
+    
+"搜索url":"http://www.zsfxlp.com/search/-------------.html?wd={wd}",
+
+"播放数组":"stui-pannel_bd col-pd clearfix&&/div>",
+                                     
+"播放列表":"<a&&/a>",
+
+"播放标题":">&&</a>",
+
+"分类url":"http://www.zsfxlp.com/type/{cateId}/{catePg}.html;;mak",
+
+"分类": "电影$1#电视剧$2#综艺$3#动漫$4#理论$30#日韩$36"
+
+}
+

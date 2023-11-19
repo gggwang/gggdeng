@@ -1,0 +1,23 @@
+{
+   
+"站名": "1080电影网",
+    
+"主页url": "https://www.1080dyw.xyz/",
+    
+"搜索url":"https://www.1080dyw.xyz/vodsearch/{wd}----------{catePg}---/", 
+
+"线路数组":"data-dropdown-value=&&/div>",
+
+"线路标题":"<span>&&</small>[替换:</span><small>>>共]+集",
+
+"播放数组":"<div class=\"scroll-content&&/div>",
+
+"播放列表":"<a&&/a>",
+
+"播放标题":"<span>&&</span>",
+
+"分类url":"https://www.1080dyw.xyz/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html;;mak",
+
+"分类":"电影$1#连续剧$2#综艺$3#动漫$4"
+
+}
