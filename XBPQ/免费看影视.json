@@ -1,0 +1,45 @@
+{
+
+"站名":"免费看影视",
+
+"主页url": "https://qzy998-1.ysgq.xyz",
+
+"简介": "</span></h1>&&<a",
+
+"数组":"pack-packcover&&</div></div>",
+
+"图片":"data-original=\"&&\"",
+
+"链接": "href=\"&&\"",
+
+"标题": "title=\"&&\"",
+
+"副标题": "pack-prb hiddden\">&&</span>",
+
+"搜索url": "https://qzy998-1.ysgq.xyz/index.php/vod/search/page/{catePg}/wd/{wd}.html",
+
+"搜索数组":"search-list&&</li>",
+
+"搜索图片":"data-original=\"&&\"",
+
+"搜索链接": "href=\"&&\"",
+
+"搜索标题": "title=\"&&\"",
+
+"线路数组":"channelname swiper-slide&&</a>[排序:蓝光>TK>BD]",
+
+"线路标题":"</i>&&</a",
+
+"播放数组": "content_playlist&&</ul>",
+
+"播放列表": "<a&&</a>",
+
+"播放标题":">&&</a>",
+
+"播放链接": "href=\"&&\"",
+
+"分类url": "https://qzy998-1.ysgq.xyz/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html;;mak",
+
+"分类": "电影$1#连续剧$2#综艺$3#动漫$4#纪录片$5"
+
+}

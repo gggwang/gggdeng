@@ -1,0 +1,46 @@
+{
+  
+"站名": "火狐影视",
+    
+"主页url": "https://www.huohutv.net/",
+
+"导演": "导演：&&</li>",
+
+"主演": "主演：&&</li>",
+
+"简介":"剧情介绍</h2>&&</span>",
+
+"影片类型":"<li class=\"data\">&&</li>",
+
+"数组":"vodlist_item&&</li>",
+
+"图片":"data-original=\"&&\"",
+
+"链接": "href=\"&&\"",
+
+"标题": "title=\"&&\"",
+
+"副标题": "pic_text text_right\">&&</span>",
+
+"搜索url":"https://www.huohutv.net/index.php/vod-search-page-{catePg}-wd-{wd}.html",
+
+"线路数组":"href=\"javascript:void(0);\"&&</a>",
+
+"线路标题":"alt=\"&&\"",
+
+"播放数组":"content_playlist clearfix\">&&</ul>",
+                                     
+"播放列表":"<a&&/a>",
+
+"播放标题":">&&</a>",
+
+"播放链接":"href=\"&&\"",
+
+"嗅探词": ".m3u8#.mp4#.flv",
+
+"分类url":"https://www.huohutv.net/vod-show-area-{area}-by-{by}-class-{class}-id-{cateId}-page-{catePg}-year-{year}.html;;mak",
+
+"分类": "电影$1#电视剧$2#综艺$3#动漫$4#纪录$50" 
+
+}
+
