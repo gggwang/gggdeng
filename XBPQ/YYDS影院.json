@@ -4,7 +4,7 @@
   
 "站名": "YYDS影院",
     
-"主页url": "https://www.yyds.one/",
+"主页url": "https://www.yydstv.net/",
 
 "编码": "UTF-8",
 
@@ -28,7 +28,7 @@
 
 "副标题": "module-item-text\">&&</div>",
     
-"搜索url":"https://www.yyds.one/c/{wd}-------------.html",
+"搜索url":"https://www.yydstv.net/c/{wd}-------------.html",
 
 "线路数组":"data-dropdown-value=&&</div>[排序:线路二>线路七]",
 
@@ -44,7 +44,7 @@
 
 "嗅探词": ".m3u8#.mp4#.flv",
 
-"分类url":"https://www.yyds.one/s/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html;;mAk",
+"分类url":"https://www.yydstv.net/s/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html;;mAk",
 
 "分类": "电影$1#连续剧$2#综艺$3#动漫$4#纪录片$21" 
 
