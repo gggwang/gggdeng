@@ -1,0 +1,62 @@
+{
+ 
+"作者": "小可乐",
+  
+"站名": "龙辰影院",
+    
+"主页url": "https://www.yydsok.vip/",
+
+"编码": "UTF-8",
+
+"请求头": "手机",
+
+"影片类型":"module-info-tag\">&&</span></div>",
+
+"导演": "导演：&&</div>",
+
+"主演": "主演：&&</div>",
+
+"简介":"👶小可乐为您剧情介绍：+module-info-introduction\">&&</p>",
+
+//"数组":"<a&&</a>",
+
+"图片":"data-original=\"&&\"",
+
+"链接": "href=\"&&\"",
+
+"标题": "title=\"&&\"",
+
+"副标题": "module-item-note\">&&</div>",
+    
+"搜索url":"https://www.yydsok.vip/index.php/vod/search/page/{catePg}/wd/{wd}.html",
+
+//"搜索数组":"<div class=\"module-card-item module-item\">&&</a>",
+
+"搜索图片":"data-original=\"&&\"",
+
+"搜索链接": "href=\"&&\"",
+
+"搜索标题": "alt=\"&&\"",
+
+"搜索副标题": "module-item-note\">&&</div>",
+
+"线路数组":"data-dropdown-value=&&</div>",
+
+"线路标题":"龙辰+<span>&&</small>[替换:</span><small>>>共]+集",
+
+"播放数组":"module-play-list-content&&</div>",
+                                 
+"播放列表":"<a&&/a>",
+
+"播放标题":">&&</a>",
+
+"播放链接":"href=\"&&\"",
+
+"嗅探词": ".m3u8#.mp4#.flv",
+
+"分类url":"https://www.yydsok.vip/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html;;mAk",
+
+"分类": "电影$1#剧集$2#综艺$3#动漫$4" 
+
+}
+

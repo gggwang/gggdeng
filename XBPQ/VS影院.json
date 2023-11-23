@@ -1,0 +1,66 @@
+{
+ 
+"作者": "小可乐",
+  
+"站名": "VS影院",
+    
+"主页url": "https://www.ytshengde.com/",
+
+"编码": "UTF-8",
+
+"请求头": "手机",
+
+"影片类型":"分类：&&</a>",
+
+"影片年代":"年份：&&</a>",
+
+"影片地区":"地区：&&</a>",
+
+"导演": "导演：&&</p>",
+
+"主演": "主演：&&</p>",
+
+"简介":"onclick=\"MyTheme.Layer.Text('剧情简介','&&','500','350')",
+
+"数组":"myui-vodlist__box\">&&</a>",
+
+"图片":"data-original=\"&&\"",
+
+"链接": "href=\"&&\"",
+
+"标题": "title=\"&&\"",
+
+"副标题": "pic-text text-right\">&&</span>",
+    
+"搜索url":"https://www.ytshengde.com/sanyisc/{wd}----------{catePg}---.html",
+
+"搜索数组":"<div class=\"thumb\">&&</a>",
+
+"搜索图片":"data-original=\"&&\"",
+
+"搜索链接": "href=\"&&\"",
+
+"搜索标题": "title=\"&&\"",
+
+"搜索副标题": "pic-text text-right\">&&</span>",
+
+"线路数组":"#playlist&&</li>[排序:爱坤>优质>八戒>量子>无尽]",
+
+"线路标题":">&&</a>+线路",
+
+"播放数组":"myui-content__list sort-list clearfix&&</ul>",
+                                     
+"播放列表":"<a&&/a>",
+
+"播放标题":">&&</a>",
+
+"播放链接":"href=\"&&\"",
+
+"嗅探词": ".m3u8#.mp4#.flv",
+
+"分类url":"https://www.ytshengde.com/sanyisw/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html;;mak",
+
+"分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5#记录$13" 
+
+}
+

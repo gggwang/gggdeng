@@ -1,0 +1,65 @@
+{
+ 
+"作者": "小可乐",
+  
+"站名": "厂长资源",
+    
+"主页url": "https://czz9.com/",
+
+"编码": "UTF-8",
+
+"请求头": "手机",
+
+"影片类型":"类型：&&</li>",
+
+"影片年代":"年份：&&</li>",
+
+"影片地区":"地区：&&</li>",
+
+"导演": "导演：&&</li>",
+
+"主演": "主演：&&</li>",
+
+"简介":"👶小可乐为您剧情介绍：+Movie Details</span></div>&&</div>",
+
+"数组":"<li>&&</li>",
+
+"图片":"data-original=\"&&\"",
+
+"链接": "href=\"&&\"",
+
+"标题": "alt=\"&&\"",
+
+"副标题": "jidi\">&&</span>",
+    
+"搜索url":"https://czz9.com/xssearch?q={wd}f=_all&p={catePg}",
+
+//"搜索数组":"<li>&&</li>",
+
+"搜索图片":"data-original=\"&&\"",
+
+"搜索链接": "href=\"&&\"",
+
+"搜索标题": "alt=\"&&\"",
+
+"线路数组":"ypxingq_t\">在线播放&&</div>",
+
+"线路标题":"<span>&&</span>[替换：在线观看>>厂长线路]",
+
+"播放数组":"paly_list_btn\">&&</div>",
+                                     
+"播放列表":"<a&&/a>",
+
+"播放标题":">&&</a>",
+
+"播放链接":"href=\"&&\"",
+
+"嗅探词": ".m3u8#.mp4#.flv",
+
+"分类url":"https://czz9.com/{cateId}/page/{catePg};;mak",
+
+"分类": "全部$movie_bt#豆瓣电影Top250$dbtop250#最新电影$zuixindianying#热映中$reyingzhong#电视剧$dsj#国产剧$gcj#剧场版$dongmanjuchangban#美剧$meijutt#韩剧$hanjutv#番剧$fanju#海外剧$movie_bt/movie_bt_series/hwj/#动画$movie_bt/movie_bt_series/dohua/#华语电影$movie_bt/movie_bt_series/huayudianying/#日本电影$movie_bt/movie_bt_series/ribendianying/#韩国电影$movie_bt_series/hanguodianying/#欧美电影$movie_bt/movie_bt_series/meiguodianying/#俄罗斯电影$movie_bt/movie_bt_series/eluosidianying/#加拿大电影$movie_bt/movie_bt_series/jianadadianying/#印度电影$movie_bt/movie_bt_series/yindudianying/" 
+
+}
+
+
