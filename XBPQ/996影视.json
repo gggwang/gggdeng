@@ -1,0 +1,65 @@
+{
+ 
+"作者": "小可乐",
+  
+"站名": "996影视",
+    
+"主页url": "https://www.cs1369.com/",
+
+"编码": "UTF-8",
+
+"请求头": "手机",
+
+"影片类型":"类型：</span>&&</span>",
+
+"影片年代":"年份：&&</a>",
+
+"影片地区":"地区：&&</a>",
+
+"导演": "导演：&&</p>",
+
+"主演": "主演：&&</p>",
+
+"简介":"<p class=\"col-pd\">&&</p>",
+
+"数组":"stui-vodlist__box\">&&</li>",
+
+"图片":"data-original=\"&&\"",
+
+"链接": "href=\"&&\"",
+
+"标题": "title=\"&&\"",
+
+"副标题": "pic-text text-right\">&&</span>",
+    
+"搜索url":"https://www.cs1369.com/search.html?wd={wd}",
+
+"搜索数组":"<div class=\"thumb\">&&</a>",
+
+"搜索图片":"data-original=\"&&\"",
+
+"搜索链接": "href=\"&&\"",
+
+"搜索标题": "title=\"&&\"",
+
+"搜索副标题": "pic-text text-right\">&&</span>",
+
+"线路数组":"<h3&&</h3>",
+
+"线路标题":">&&</a>",
+
+"播放数组":"stui-content__playlist clearfix\"&&</ul>",
+                                     
+"播放列表":"<a&&/a>",
+
+"播放标题":">&&</a>",
+
+"播放链接":"href=\"&&\"",
+
+"嗅探词": ".m3u8#.mp4#.flv",
+
+"分类url":"https://www.cs1369.com/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html;;mak",
+
+"分类": "电影$1#电视剧$2#动漫$3#爽文短剧$4" 
+
+}
