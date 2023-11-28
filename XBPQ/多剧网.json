@@ -2,21 +2,48 @@
 
 "站名":"多剧网",
 
-"主页url": "https://www.duoju.vip/",
+"主页url": "https://duoju.vip/",
+
+"编码": "UTF-8",
+
+"首页": "电影$30",
+
+"请求头": "手机",
+
+"播放请求头": "手机",
+
+"嗅探词": ".m3u8#.mp4#.flv",
+
+"起始页": "1",
+
+
+"影片类型": "module-info-tag\">&&</div></div>",
+
+"影片状态":"更新：&&</p>",
 
 "导演": "导演：&&</div>",
 
 "主演": "主演：&&</div>",
 
-"影片类型": "module-info-tag\">&&立即播放",
+"简介": "👶小可乐为您剧情介绍：+module-info-introduction\">&&</p>",
 
-"简介": "module-info-introduction\">&&</p>",
 
-"嗅探词": "m3u8#.m3u8#.mp4#mp4",
+"分类url": "/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html;;mak",
 
-"搜索url": "https://www.duoju.vip/vodsearch/{wd}----------{catePg}---.html",
+"分类": "电影$1#剧集$2#综艺$4#动漫$5",
 
-"线路数组": "data-dropdown-value=&&</div>",
+//"数组":"<a class=\"module-poster-item module-item\">&&</a>",
+
+"图片":"data-original=\"&&\"",
+
+"标题": "title=\"&&\"",
+
+"副标题": "module-item-note\">&&</div>",
+
+"链接": "href=\"&&\"",
+
+
+"线路数组": "data-dropdown-value=&&</div>[排序:多剧超清]",
 
 "线路标题": "<span>&&</small>[替换:</span><small>>>共]+集",
 
@@ -28,8 +55,19 @@
 
 "播放链接": "href=\"&&\"",
 
-"分类url": "https://www.duoju.vip/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html;;mak",
 
-"分类": "电影$1#剧集$2#综艺$4#动漫$5"
+"搜索url": "/vodsearch/{wd}----------{catePg}---.html",
+
+"搜索模式":"1",
+
+//"搜索数组":"module-card-item module-item\">&&</a>",
+
+"搜索图片":"data-original=\"&&\"",
+
+"搜索标题": "alt=\"&&\"",
+
+"搜索副标题": "module-item-note\">&&</div>",
+
+"搜索链接": "href=\"&&\""
 
 }
