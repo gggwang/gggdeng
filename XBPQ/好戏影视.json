@@ -1,28 +1,80 @@
- {
-                "主页url": "https://haoxi.vip/",
-                "简介": "简介：&&</li>",
-                "导演": "导演：&&</li>",
-                "主演": "主演：&&</li>",
-                "影片状态": "状态：&&</li>",
-                "影片类型": "类型：&&</li>",
-                "影片地区": "地区：&&</li>",
-                "影片年代": "年份：&&</li>",
-                "数组": "_self\" class=\"public-list-exp\"&&</div>",
-                "标题": "title=\"&&\"",
-                "副标题": "public-list-prb hide ft2\">&&</span>",
-                "图片": "data-src=\"&&\"",
-                "搜索url": "/vodsearch/-------------/?wd={wd}",
-                "搜索数组": "a target=\"_self\" class=\"public-list-exp\"&&thumb-else cor5 hide\">",
-                "搜索标题": "<a target=\"_self\" href=*>&&</a>",
-                "搜索副标题": "public-list-prb hide ft2\">&&</span>",
-                "搜索图片": "data-src=\"&&\"",
-                "线路数组": "<i class=\"fa ds-dianying\">&&</a>[排序:好戏蓝光>>线路1]",
-                "线路标题": "</i>&&</span>",
-                "播放数组": "<ul class=\"anthology-list-play size\"&&</ul>",
-                "播放标题": ">&&</a>",
-                "播放列表": "<li&&</li>",
-                "线路二次截取": "<div class=\"swiper-wrapper\"&&</div>",
-                "分类url": "https://www.haoxi.vip/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}/",
-                "分类": "电影$1#连续剧$2#综艺$3#动漫$4#B站$5#电影解说$43"
-}
+{
+ 
+"作者": "小可乐",
+  
+"站名": "好戏影视",
+    
+"主页url": "https://haoxi.vip/",
 
+"编码": "UTF-8",
+
+"首页": "剧集$30",
+
+"请求头": "手机",
+
+"播放请求头": "手机",
+
+"嗅探词": ".m3u8#.mp4#.flv",
+
+"起始页": "1",
+
+
+"影片类型":"类型：&&</li>",
+
+"影片地区": "地区：&&</li>",
+                
+"影片年代": "年份：&&</li>",
+
+"影片状态":"状态：&&</li>",
+
+"导演": "导演：&&</li>",
+
+"主演": "演员：&&</li>",
+
+"简介":"👶小可乐为您剧情介绍：+简介：&&</li>",
+
+
+"分类url":"/vodshow/{cateId}-{area}-{by}-{class}--{letter}---{catePg}---{year}/;;mak",
+
+"分类": "电影$1#剧集$2#综艺$3#动漫$4#B站$5",
+
+"数组":"public-list-div public-list-bj\">&&</a>",
+
+"图片":"data-src=\"&&\"",
+
+"标题": "title=\"&&\"",
+
+"副标题": "public-list-prb hide ft2\">&&</span>",
+
+"链接": "href=\"&&\"",
+
+
+"线路数组":"<i class=\"fa ds-dianying\">&&</a>[排序:蓝光>HD]",
+
+"线路标题":"</i>&&</a>[替换:<span class=\"badge\">>>共]+集",
+
+
+"播放数组":"anthology-list-play size\"&&</ul>",
+                                 
+"播放列表":"<a&&</a>",
+
+"播放标题":">&&</a>",
+
+"播放链接":"href=\"&&\"",
+
+
+"搜索url":"/vodsearch/-------------/?wd={wd}",
+
+"搜索模式":"1",
+
+"搜索数组":"a target=\"_self\" class=\"public-list-exp\"&&thumb-else cor5 hide\">",
+
+"搜索图片":"data-src=\"&&\"",
+
+"搜索标题": "title=\"&&\"",
+
+"搜索副标题": "public-list-prb hide ft2\">&&</span>",
+
+"搜索链接": "href=\"&&\""
+
+}
