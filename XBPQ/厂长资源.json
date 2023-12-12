@@ -1,14 +1,54 @@
 {
  
-"作者": "小可乐",
+"作者": "小可乐/231212/第三版",
   
 "站名": "厂长资源",
     
-"主页url": "https://czz9.com/",
+"主页url": "https://www.czzy33.com/",
 
 "编码": "UTF-8",
 
+"热门推荐": "30",
+
 "请求头": "手机",
+
+"头部集合": "User-Agent$Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1#Referer$https://www.czzy33.com",
+
+"播放请求头": "手机",
+
+"嗅探词": ".m3u8#.mp4#.flv",
+
+"起始页": "1",
+
+
+"分类url":"/{cateId}/page/{catePg};;mak",
+
+"分类": "全部$movie_bt#电影$movie_bt/movie_bt_series/dyy#电视剧$movie_bt/movie_bt_series/dianshiju#动画$movie_bt/movie_bt_series/dohua#纪录片$movie_bt/movie_bt_tags/jlpp;;ma", 
+
+"数组":"<li>&&</li>",
+
+"图片":"data-original=\"&&\"",
+
+"标题": "alt=\"&&\"",
+
+"副标题": "jidi\">&&</span>",
+
+"链接": "href=\"&&\"",
+
+
+"线路数组":"ypxingq_t\">在线播放&&</div>",
+
+"线路标题":"<span>&&</span>[替换：在线观看>>厂长线路]",
+
+
+"播放数组":"paly_list_btn\">&&</div>",
+                                     
+"播放列表":"<a&&/a>",
+
+"播放标题":">&&<",
+
+"播放链接":"href=\"&&\"",
+
 
 "影片类型":"类型：&&</li>",
 
@@ -22,44 +62,40 @@
 
 "简介":"👶小可乐为您剧情介绍：+Movie Details</span></div>&&</div>",
 
-"数组":"<li>&&</li>",
 
-"图片":"data-original=\"&&\"",
+"搜索url":"/xssearch?q={wd}f=_all&p={catePg};post;searchword={wd}",
 
-"链接": "href=\"&&\"",
-
-"标题": "alt=\"&&\"",
-
-"副标题": "jidi\">&&</span>",
-    
-"搜索url":"https://czz9.com/xssearch?q={wd}f=_all&p={catePg}",
+"搜索模式":"1",
 
 //"搜索数组":"<li>&&</li>",
 
 "搜索图片":"data-original=\"&&\"",
 
-"搜索链接": "href=\"&&\"",
-
 "搜索标题": "alt=\"&&\"",
 
-"线路数组":"ypxingq_t\">在线播放&&</div>",
+"搜索副标题": "<span>&&</span>",
 
-"线路标题":"<span>&&</span>[替换：在线观看>>厂长线路]",
+"搜索链接": "href=\"&&\"",
 
-"播放数组":"paly_list_btn\">&&</div>",
-                                     
-"播放列表":"<a&&/a>",
 
-"播放标题":">&&</a>",
+"筛选":{
+"movie_bt":[
+{"key":"cateId","name":"分类","value":[{"n":"全部","v":""},{"n":"站长推荐","v":"movie_bt/movie_bt_series/zhanchangtuijian"},{"n":"会员专区","v":"movie_bt/movie_bt_series/huiyuanzhuanqu"}]},
+{"key":"cateId","name":"类型","value":[{"n":"全部","v":""},{"n":"传记","v":"movie_bt_tags/chuanji"},{"n":"儿童","v":"movie_bt_tags/etet"},{"n":"冒险","v":"movie_bt_tags/maoxian"},{"n":"剧情","v":"movie_bt_tags/juqing"},{"n":"动作","v":"movie_bt_tags/dozuo"},{"n":"动漫","v":"https://czz9.com/movie_bt_tags/doman"},{"n":"动画","v":"movie_bt_tags/dhh"},{"n":"历史","v":"movie_bt_tags/lishi"},{"n":"古装","v":"movie_bt_tags/guzhuang"},{"n":"同性","v":"movie_bt_tags/tongxing"},{"n":"喜剧","v":"movie_bt_tags/xiju"},{"n":"奇幻","v":"movie_bt_tags/qihuan"},{"n":"家庭","v":"movie_bt_tags/jiating"},{"n":"恐怖","v":"movie_bt_tags/kubu"},{"n":"悬疑","v":"movie_bt_tags/xuanyi"},{"n":"情色","v":"movie_bt_tags/qingse"},{"n":"惊悚","v":"movie_bt_tags/kingsong"},{"n":"战争","v":"movie_bt_tags/zhanzheng"},{"n":"歌舞","v":"movie_bt_tags/gw"},{"n":"武侠","v":"movie_bt_tags/wuxia"},{"n":"灾难","v":"movie_bt_tags/zainan"},{"n":"爱情","v":"movie_bt_tags/aiqing"},{"n":"犯罪","v":"movie_bt_tags/fanzui"},{"n":"真人秀","v":"movie_bt_tags/zrx"},{"n":"短片","v":"movie_bt_tags/dp"},{"n":"科幻","v":"movie_bt_tags/kh"},{"n":"西部","v":"movie_bt_tags/xb"},{"n":"运动","v":"movie_bt_tags/yd"},{"n":"音乐","v":"movie_bt_tags/yy"},{"n":"鬼怪","v":"movie_bt_tags/%e9%ac%bc%e6%80%aa"}]}
+],
 
-"播放链接":"href=\"&&\"",
+"movie_bt/movie_bt_series/dyy":[
+{"key":"cateId","name":"分类","value":[{"n":"全部","v":""},{"n":"豆瓣电影Top250","v":"dbtop250"},{"n":"最新电影","v":"zuixindianying"},{"n":"华语电影","v":"movie_bt/movie_bt_series/huayudianying"},{"n":"日本电影","v":"movie_bt/movie_bt_series/ribendianying"},{"n":"韩国电影","v":"movie_bt_series/hanguodianying"},{"n":"欧美电影","v":"movie_bt/movie_bt_series/meiguodianying"},{"n":"印度电影","v":"movie_bt/movie_bt_series/yindudianying"},{"n":"俄罗斯电影","v":"movie_bt/movie_bt_series/eluosidianying"},{"n":"加拿大电影","v":"movie_bt/movie_bt_series/jianadadianying"}]}
+],
 
-"嗅探词": ".m3u8#.mp4#.flv",
+"movie_bt/movie_bt_series/dianshiju":[
+{"key":"cateId","name":"分类","value":[{"n":"全部","v":""},{"n":"国产剧","v":"movie_bt/movie_bt_series/guochanju"},{"n":"美剧","v":"movie_bt/movie_bt_series/mj"},{"n":"日剧","v":"movie_bt/movie_bt_series/rj"},{"n":"韩剧","v":"movie_bt/movie_bt_series/hj"},{"n":"海外剧","v":"movie_bt/movie_bt_series/hwj"}]}
+],
 
-"分类url":"https://czz9.com/{cateId}/page/{catePg};;mak",
-
-"分类": "全部$movie_bt#豆瓣电影Top250$dbtop250#最新电影$zuixindianying#热映中$reyingzhong#电视剧$dsj#国产剧$gcj#剧场版$dongmanjuchangban#美剧$meijutt#韩剧$hanjutv#番剧$fanju#海外剧$movie_bt/movie_bt_series/hwj/#动画$movie_bt/movie_bt_series/dohua/#华语电影$movie_bt/movie_bt_series/huayudianying/#日本电影$movie_bt/movie_bt_series/ribendianying/#韩国电影$movie_bt_series/hanguodianying/#欧美电影$movie_bt/movie_bt_series/meiguodianying/#俄罗斯电影$movie_bt/movie_bt_series/eluosidianying/#加拿大电影$movie_bt/movie_bt_series/jianadadianying/#印度电影$movie_bt/movie_bt_series/yindudianying/" 
-
+"movie_bt/movie_bt_series/dohua":[
+{"key":"cateId","name":"分类","value":[{"n":"全部","v":""},{"n":"剧场版","v":"dongmanjuchangban"},{"n":"番剧","v":"fanju"}]}
+]
+}
 }
 
 
