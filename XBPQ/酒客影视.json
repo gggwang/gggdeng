@@ -1,0 +1,78 @@
+{
+ 
+"作者": "小可乐",
+  
+"站名": "酒客影视",
+    
+"主页url": "http://jiukeys.cn/",
+
+"编码": "UTF-8",
+
+"热门推荐": "30",
+
+"请求头": "手机",
+
+"播放请求头": "手机",
+
+"嗅探词": ".m3u8#.mp4#.flv",
+
+"起始页": "1",
+
+
+"分类url":"/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html;;arjk",
+
+"分类": "电影$1#剧集$2#综艺$4#动漫$3#短剧$5", 
+
+"数组":"module-item-pic\">&&module-item\">",
+
+"图片":"data-src=\"&&\"",
+
+"标题": "title=\"&&\"",
+
+"副标题": "module-item-text\">&&</div>",
+
+"链接": "href=\"&&\"",
+
+
+"线路数组":"data-dropdown-value=&&/small>",  
+
+"线路标题":"👶+>&&</span>+共+<small>&&<+集",
+
+
+"播放数组":"module-blocklist scroll-box scroll-box-y\">&&/a></div>",
+                                 
+"播放列表":"<a&&/a>",
+
+"播放标题":"<span>&&</span>+<em*>&&</em>",
+
+"播放链接":"href=\"&&\"",
+
+"跳转播放链接":"urlDecode(var player_*url\":\"&&\")",
+
+
+"影片类型":"<div class=\"tag-link\">&&</div>",
+
+"影片年代":"<a class=\"tag-link\"*>&&</a>",
+
+"导演": "导演：&&</div>",
+
+"主演": "主演：&&</div>",
+
+"简介":"👶小可乐为您剧情介绍：+video-info-content vod_content\"> &&</span>",
+
+
+"搜索url":"/index.php/vod/search/page/{pg}/wd/{wd}.html;post;searchword={wd}",
+
+"搜索模式":"1",
+
+//"搜索数组":"module-item-pic\">&&<h3>",
+
+"搜索图片":"data-src=\"&&\"",
+
+"搜索标题": "alt=\"&&\"",
+
+"搜索副标题": "video-serial*>&&</a>",
+
+"搜索链接": "href=\"&&\""
+
+}
