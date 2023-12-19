@@ -745,6 +745,7 @@ CHC家庭影院,http://hms2944nc1972666637.live.aikan.miguvideo.com/wh7f454c46tw
 赛事最经典,http://hms2924nc1972666635.live.aikan.miguvideo.com/wh7f454c46tw1600189817_1240880411/wd_r3/cctv/saishijingdian/600/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=139.198.127.250&timestamp=20230816073750&ContentId=265218921&timezone=UTC&mtv_session=ad75dc89299f0a12c357e9f06e860e18&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=031c3d52bbccef1849631b126460966f
 体坛名栏汇,http://hms2904nc1972666633.live.aikan.miguvideo.com/wh7f454c46tw1600458454_-832716323/wd_r3/cctv/titanminglan/600/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=139.198.127.250&timestamp=20230816073750&ContentId=265218759&timezone=UTC&mtv_session=b2e617f735c59ee2def1e133e7a80a5c&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=0c1268f6846ee93a05130bcd7741b787
 新片放映厅,http://hms2904nc1972666634.live.aikan.miguvideo.com/wh7f454c46tw1600732348_-360169236/wd-virtuallive5100030975-150/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=139.198.127.250&timestamp=20230816073750&ContentId=265218930&timezone=UTC&mtv_session=63000e2fea84d8a6504746c34e7d4d75&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=b6ef40cfda8ddfec090a09afb9dd2444
+
 郑州移动,#genre#
 CCTV1,http://iptv.my669.com:9901/tsfile/live/0001_1.m3u8
 CCTV2,http://iptv.my669.com:9901/tsfile/live/0002_1.m3u8
@@ -786,6 +787,7 @@ CCTV15,http://iptv.my669.com:9901/tsfile/live/0015_1.m3u8
 浙江卫视,http://iptv.my669.com:9901/tsfile/live/0124_1.m3u8
 东方卫视,http://iptv.my669.com:9901/tsfile/live/0107_1.m3u8
 重庆卫视,http://iptv.my669.com:9901/tsfile/live/0142_1.m3u8
+
 🌱河南移动,#genre#
 CCTV-1综合,http://222.175.159.226:808/hls/20231/index.m3u8
 
