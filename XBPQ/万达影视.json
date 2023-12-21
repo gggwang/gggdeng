@@ -1,0 +1,76 @@
+{
+ 
+"作者": "小可乐",
+  
+"站名": "万达影视",
+    
+"主页url": "https://web.w1988.cc/",
+
+"编码": "UTF-8",
+
+"热门推荐": "30",
+
+"请求头": "手机",
+
+"播放请求头": "手机",
+
+"嗅探词": ".m3u8#.mp4#.flv",
+
+"起始页": "1",
+
+
+"分类url":"/index.php/vod/type/id/{cateId}.html;;mark",
+
+"分类": "电影$1#剧集$2#综艺$3#动漫$4#体育$5#电视直播$64", 
+
+"数组":"<a&&</div></a>[不包含:预告片]",
+
+"图片":"data-original=\"&&\"",
+
+"标题": "alt=\"&&\"",
+
+"副标题": "module-item-note\">&&</div>",
+
+"链接": "href=\"&&\"",
+
+
+"线路数组":"module-tab-item tab-item&&/small>[替换:kuaiyun>>快云#snm3u8>>索尼高清]",
+
+"线路标题":"👶+>&&<small+共+<small*>&&<+集",
+
+
+"播放数组":"module-play-list-content&&</div></div>",
+                                 
+"播放列表":"<a&&</a>",
+
+"播放标题":"<span>&&</span>",
+
+"播放链接":"href=\"&&\"",
+
+"跳转播放链接":"urlDecode(var player_*url\":\"&&\")",
+
+
+"影片类型":"module-info-tag-link\">&&<div class=\"module-mobile-play\">",
+
+"导演": "导演：&&</div>",
+
+"主演": "主演：&&</div>",
+
+"简介":"👶小可乐为您剧情介绍：+show-desc\" style=*>&&</p>",
+
+
+"搜索url":"/index.php/vod/search/page/{pg}/wd/{wd}.html;post;searchword={wd}",
+
+"搜索模式":"1",
+
+//"搜索数组":"module-card-item module-item\">&&</a>",
+
+"搜索图片":"data-original=\"&&\"",
+
+"搜索标题": "alt=\"&&\"",
+
+"搜索副标题": "module-item-note\">&&</div>",
+
+"搜索链接": "href=\"&&\""
+
+}
