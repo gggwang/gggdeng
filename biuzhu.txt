@@ -345,7 +345,7 @@
 
 ],
 
-"dianshizhibo": "https://agit.ai/xiatian2022/Y/raw/branch/master/zby.txt",
+"dianshizhibo": "https://pan.shangui.cc/f/0Bynhj/zby.txt",
  
 "嗅探词":"m3u8?#ixigua#.czspp#.m3u8#.mp4#.flv#.mp3#.m4a#?video_id=#.htm",
 
