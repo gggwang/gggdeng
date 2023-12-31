@@ -1,6 +1,6 @@
 ﻿{
 "storeHouse": [
-{"sourceName":"自建一号仓","sourceUrl":"https://pan.shangui.cc/f/v67zhk/dc.txt"},
+{"sourceName":"自建一号仓","sourceUrl":"https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/dc.txt"},
 {"sourceName":"熊猫二号仓","sourceUrl":"https://gh.con.sh/https://raw.githubusercontent.com/xmbjm/xmbjm/main/xmbjmdc.json"},
 {"sourceName":"心动三号仓","sourceUrl":"http://rihou.vip:666"},
 {"sourceName": "💕恒星仓库💕","sourceUrl": "https://atomgit.com/hengxing/hx/raw/master/hxck1.txt"},
