@@ -1553,6 +1553,19 @@
             "ext": "http://127.0.0.1:9978/file/ctv/pg.txt$$$https://www.libvio.vip$$$null"
         },
         {
+            "key": "csp_PikPakShare_PG_MULTIJAR",
+            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/J/pg.jar",
+            "name": "💿PikPak分享(MULTI)",
+            "type": 3,
+            "api": "csp_PikPakShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "http://127.0.0.1:9978/file/ctv/pg.txt$$$./N3RD/T/p.json"
+        },
+        {
             "key": "csp_DDMJ_夜猫_MULTIJAR",
             "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/J/pg.jar",
             "name": "🐼夜猫(MULTI)",

@@ -1746,6 +1746,19 @@
             "ext": "http://127.0.0.1:9978/file/ctv/pg.txt$$$https://www.libvio.vip$$$null"
         },
         {
+            "key": "csp_PikPakShare_PG_MULTIJAR",
+            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/J/pg.jar",
+            "name": "💿PikPak分享(MULTI)",
+            "type": 3,
+            "api": "csp_PikPakShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "http://127.0.0.1:9978/file/ctv/pg.txt$$$./N3RD/T/p.json"
+        },
+        {
             "key": "csp_DDMJ_夜猫_MULTIJAR",
             "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/J/pg.jar",
             "name": "🐼夜猫(MULTI)",
@@ -5896,6 +5909,50 @@
                 "分类": "快手$2#抖音$3#都市$4#古装$5#重生$6#逆袭$7#虐恋$8#萌宝$9#言情$10#穿越$11#战神$12#神医$13#赘婿$14#甜宠$15#其它$16#短剧$1",
                 "搜索url": "http://web.zzdj.cc/index.php/vod/search.html?wd={wd}"
             },
+            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xkl1204.jar;md5;7d699a0db0ff690bec06772d1f818aee"
+        },
+        {
+            "key": "csp_XBPQ_达达猪",
+            "name": "👶达达猪(XBPQ)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/XBPQ/达达猪.json",
+            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xkl1204.jar;md5;7d699a0db0ff690bec06772d1f818aee"
+        },
+        {
+            "key": "csp_XBPQ_影视剧集网",
+            "name": "👶影视剧集网(XBPQ)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/XBPQ/影视剧集网.json",
+            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xkl1204.jar;md5;7d699a0db0ff690bec06772d1f818aee"
+        },
+        {
+            "key": "csp_XBPQ_片库网",
+            "name": "👶片库网(XBPQ)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/XBPQ/片库网.json",
+            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xkl1204.jar;md5;7d699a0db0ff690bec06772d1f818aee"
+        },
+        {
+            "key": "csp_XBPQ_9527影视网",
+            "name": "👶9527影视网(XBPQ)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/XBPQ/9527影视网.json",
             "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xkl1204.jar;md5;7d699a0db0ff690bec06772d1f818aee"
         },
         {
