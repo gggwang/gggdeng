@@ -393,15 +393,47 @@
             "jar": "https://files.zohopublic.com.cn/public/workdrive-public/download/uyv0t678c488189af47bb91dc108484d17431;md5;cf00cc8baef423e51187750ac973417d"
         },
         {
-            "key": "csp_XYQHikerAL_玩偶哥哥1",
-            "name": "📀玩偶哥哥(香版)",
+            "key": "csp_XYQHikerAL_‍玩偶哥哥",
+            "name": "💂‍玩偶☆香版",
             "type": 3,
             "api": "csp_XYQHikerAL",
-            "playerType": 1,
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/XYQHiker/玩偶哥哥.json",
+            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xkl1204.jar;md5;7d699a0db0ff690bec06772d1f818aee"
+        },
+        {
+            "key": "csp_XYQHikerAL_‍玩偶表哥",
+            "name": "💂玩偶☆表哥",
+            "type": 3,
+            "api": "csp_XYQHikerAL",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/XYQHiker/玩偶表哥.json",
+            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xkl1204.jar;md5;7d699a0db0ff690bec06772d1f818aee"
+        },
+        {
+            "key": "csp_XYQHikerAL_影视车",
+            "name": "💂影视☆车车",
+            "type": 3,
+            "api": "csp_XYQHikerAL",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/XYQHiker/影视车.json",
+            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xkl1204.jar;md5;7d699a0db0ff690bec06772d1f818aee"
+        },
+        {
+            "key": "csp_XYQHikerAL_PAN99",
+            "name": "💂PAN☆99",
+            "type": 3,
+            "api": "csp_XYQHikerAL",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/XYQHiker/PAN99.json",
             "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xkl1204.jar;md5;7d699a0db0ff690bec06772d1f818aee"
         },
         {
@@ -16475,7 +16507,7 @@
         },
         {
             "key": "csp_KungFu404_设置",
-            "name": "tk设置",
+            "name": "🔨tk设置",
             "type": 3,
             "api": "csp_KungFu404",
             "searchable": 0,
