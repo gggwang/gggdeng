@@ -2781,6 +2781,14 @@
             ]
         },
         {
+            "key": "火狐资源",
+            "name": "火狐",
+            "type": 1,
+            "api": "https://hhzyapi.com/api.php/provide/vod/from/hhm3u8/",
+            "searchable": 1,
+            "quickSearch": 1
+        },
+        {
             "key": "业余采集A",
             "name": "🎞️业余┃自营 ",
             "type": 1,
@@ -14214,6 +14222,13 @@
             "type": 3,
             "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/libs/drpy.min.js",
             "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/369影视.js"
+        },
+        {
+            "key": "drjs_996影视",
+            "name": "👺996影视(DRPY)",
+            "type": 3,
+            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/libs/drpy.min.js",
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/996影视.js"
         },
         {
             "key": "drjs_8号影院",

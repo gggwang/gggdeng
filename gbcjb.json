@@ -8219,6 +8219,13 @@
             "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/369影视.js"
         },
         {
+            "key": "drjs_996影视",
+            "name": "👺996影视(DRPY)",
+            "type": 3,
+            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/libs/drpy.min.js",
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/996影视.js"
+        },
+        {
             "key": "drjs_8号影院",
             "name": "👺8号影院(DRPY)",
             "type": 3,
