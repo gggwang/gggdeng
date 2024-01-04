@@ -1,23 +1,87 @@
 {
-  "站名": "大米星球",
-  "主页url": "https://dami2.me/",
+ 
+"作者": "小可乐/231229/第一版",
   
-  "分类": "Netflix&电影&连续剧&动漫&综艺记录&福利",
-  "分类值": "/label/netflix&/vodtype/20&/vodtype/21&/vodtype/22&/vodtype/23&/vodtype/35",
-  
-  "分类url": "https://dami2.me{cateId}/page/{catePg}.html",
-  
-  "副标题": "module-item-note\">&&</div>",
-  
-  "搜索模式": "0",
-  "搜索后缀":"/voddetail/",
-  
-  "导演": "导演：&&</div>",
-  "主演": "主演：&&</div>",
-  "简介": "<p>&&</p>",
-  
-  "线路数组": "data-dropdown-value=&&</div>",
-  "线路标题": "<span>&&</small>[替换:</span><small>>>👉]+集♥",
-  
-  "播放数组": "module-play-list\">&&</div>"
+"站名": "大米星球",
+    
+"主页url": "https://www.hk-bhgj.com/",
+
+"编码": "UTF-8",
+
+"首页": "30",
+
+"请求头": "手机",
+
+"播放请求头": "手机",
+
+"嗅探词": ".m3u8#.mp4#.flv",
+
+"过滤词": "",
+
+"起始页": "1",
+
+
+"分类url":"/channel_filter/{cateId}/area/{area}/by/{by}/page/{catePg}.html[https://www.hk-bhgj.com/channel_filter/{cateId}.html];;mark",
+
+"分类":"电影&剧集&综艺&动漫&纪录片", 
+
+"分类值":"dianying&dianshiju&zongyi&dongman&jilupian", 
+
+
+"数组":"stui-vodlist__item\">&&</p></li>",
+
+"图片":"data-original=\"&&\"",
+
+"标题": "title=\"&&\"",
+
+"副标题": "text-right\">&&</span>",
+
+"链接": "href=\"&&\"",
+
+
+"线路数组":"tab-nav&&/li>",
+
+"线路标题":"👶+</i>&&<",
+
+
+"播放二次截取":"fed-play-item&&</div></div>",
+
+"播放数组":"stui-content__playlist\">&&</ul>",
+                                 
+"播放列表":"<a&&/a>",
+
+"播放标题":"</em>&&<",
+
+"播放链接":"href=\"&&\"",
+
+"跳转播放链接":"urlDecode(var player_*url\":\"&&\")",
+
+
+"影片类型":"类型：&&</p>",
+
+"影片年代":"年份：&&</p>",
+
+"影片地区":"地区：&&</p>",
+
+"导演": "导演：&&</p>",
+
+"主演": "主演：&&</p>",
+
+"简介": "👶小可乐为您剧情介绍：+剧情：&&</p>",
+
+
+"搜索url":"/search.html;post;searchword={wd}",
+
+"搜索模式":"1",
+
+//"搜索数组":"stui-vodlist__item\">&&</li>",
+
+"搜索图片":"data-original=\"&&\"",
+
+"搜索标题": "title=\"&&\"",
+
+"搜索副标题": "text-right\">&&</span>",
+
+"搜索链接": "href=\"&&\""
+
 }
