@@ -415,6 +415,17 @@
             "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xkl1204.jar;md5;7d699a0db0ff690bec06772d1f818aee"
         },
         {
+            "key": "csp_XYQHikerAL_‍玩我哥哥",
+            "name": "💂‍玩我☆哥哥",
+            "type": 3,
+            "api": "csp_XYQHikerAL",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/XYQHiker/玩我哥哥.json",
+            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xkl1204.jar;md5;7d699a0db0ff690bec06772d1f818aee"
+        },
+        {
             "key": "csp_XYQHikerAL_影视车",
             "name": "💂影视☆车车",
             "type": 3,
@@ -5974,7 +5985,7 @@
             "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xkl1204.jar;md5;7d699a0db0ff690bec06772d1f818aee"
         },
         {
-            "key": "csp_XBPQ_大米星球",
+            "key": "csp_XBPQ_大米星球2",
             "name": "👶大米星球(XBPQ)",
             "type": 3,
             "api": "csp_XBPQ",
@@ -16627,6 +16638,72 @@
             "quickSearch": 1,
             "filterable": 0,
             "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/XYQHiker/橘子盘搜.json",
+            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xkl1204.jar;md5;7d699a0db0ff690bec06772d1f818aee"
+        },
+        {
+            "key": "csp_XYQHiker_55看",
+            "name": "👶55看☆影视",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/XYQHiker/55看影视.json",
+            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xkl1204.jar;md5;7d699a0db0ff690bec06772d1f818aee"
+        },
+        {
+            "key": "csp_XYQHiker_无心影视网",
+            "name": "👶无心☆影视",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/XYQHiker/无心影视网.json",
+            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xkl1204.jar;md5;7d699a0db0ff690bec06772d1f818aee"
+        },
+        {
+            "key": "csp_XYQHiker_大师兄影视",
+            "name": "👶师兄☆影视",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/XYQHiker/大师兄影视.json",
+            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xkl1204.jar;md5;7d699a0db0ff690bec06772d1f818aee"
+        },
+        {
+            "key": "csp_XYQHiker_3456影视",
+            "name": "👶3456☆影视",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/XYQHiker/3456影视.json",
+            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xkl1204.jar;md5;7d699a0db0ff690bec06772d1f818aee"
+        },
+        {
+            "key": "csp_XYQHiker_神马电影网",
+            "name": "👶神马☆电影",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/XYQHiker/神马电影网.json",
+            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xkl1204.jar;md5;7d699a0db0ff690bec06772d1f818aee"
+        },
+        {
+            "key": "csp_XYQHiker_榜一短剧",
+            "name": "榜一☆短剧",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/XYQHiker/榜一短剧.json",
             "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xkl1204.jar;md5;7d699a0db0ff690bec06772d1f818aee"
         },
         {
