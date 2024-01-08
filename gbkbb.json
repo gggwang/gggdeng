@@ -5344,6 +5344,39 @@
             }
         },
         {
+            "key": "csp_XBPQ_玩偶哥哥",
+            "name": "玩偶哥哥☆(XBPQ)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/XBPQ/玩偶哥哥.json",
+            "jar": "https://u.kstore.space/download/4927/xklwj/gjar/xbpqa.jar"
+        },
+        {
+            "key": "csp_XBPQ_影视车",
+            "name": "影视车☆(XBPQ)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/XBPQ/影视车.json",
+            "jar": "https://u.kstore.space/download/4927/xklwj/gjar/xbpqa.jar"
+        },
+        {
+            "key": "csp_XBPQ_玩偶表哥",
+            "name": "玩偶表哥☆(XBPQ)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/XBPQ/玩偶表哥.json",
+            "jar": "https://u.kstore.space/download/4927/xklwj/gjar/xbpqa.jar"
+        },
+        {
             "key": "csp_XBPQ_短剧",
             "name": "👶种子短剧(XBPQ)",
             "type": 3,
