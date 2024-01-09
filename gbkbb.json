@@ -13608,6 +13608,26 @@
             "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/PY/py_douyu.py"
         },
         {
+            "key": "hipy_t3_CCTV",
+            "name": "👺CCTV(HIPY_P3)",
+            "type": 3,
+            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/txt/hipy/cctv_spider.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/txt/hipy/cctv_spider.json"
+        },
+        {
+            "key": "hipy_t3_测试",
+            "name": "👺测试(HIPY_P3)",
+            "type": 3,
+            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/txt/hipy/base_spider.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/txt/hipy/base_spider.json"
+        },
+        {
             "key": "drjs_我的哔哩",
             "name": "👺我的哔哩(DRPY)",
             "type": 3,
@@ -13752,11 +13772,89 @@
             "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/369影视.js"
         },
         {
+            "key": "drjs_4k剧院",
+            "name": "👺4k剧院(DRPY)",
+            "type": 3,
+            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/libs/drpy.min.js",
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/4k剧院.js"
+        },
+        {
+            "key": "drjs_188影视",
+            "name": "👺188影视(DRPY)",
+            "type": 3,
+            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/libs/drpy.min.js",
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/188影视.js"
+        },
+        {
+            "key": "drjs_333影视",
+            "name": "👺333影视(DRPY)",
+            "type": 3,
+            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/libs/drpy.min.js",
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/333影视.js"
+        },
+        {
+            "key": "drjs_539影视",
+            "name": "👺539影视(DRPY)",
+            "type": 3,
+            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/libs/drpy.min.js",
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/539影视.js"
+        },
+        {
+            "key": "drjs_哔嘀影视",
+            "name": "👺哔嘀影视(DRPY)",
+            "type": 3,
+            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/libs/drpy.min.js",
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/哔嘀影视.js"
+        },
+        {
+            "key": "drjs_爱迪影视",
+            "name": "👺爱迪影视(DRPY)",
+            "type": 3,
+            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/libs/drpy.min.js",
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/爱迪影视.js"
+        },
+        {
+            "key": "drjs_动漫岛",
+            "name": "👺动漫岛(DRPY)",
+            "type": 3,
+            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/libs/drpy.min.js",
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/动漫岛.js"
+        },
+        {
+            "key": "drjs_兄弟影视",
+            "name": "👺兄弟影视(DRPY)",
+            "type": 3,
+            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/libs/drpy.min.js",
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/兄弟影视.js"
+        },
+        {
+            "key": "drjs_69美剧",
+            "name": "👺69美剧(DRPY)",
+            "type": 3,
+            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/libs/drpy.min.js",
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/69美剧.js"
+        },
+        {
+            "key": "drjs_69美剧[V2]",
+            "name": "👺69美剧[V2](DRPY)",
+            "type": 3,
+            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/libs/drpy.min.js",
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/69美剧[V2].js"
+        },
+        {
             "key": "drjs_996影视",
             "name": "👺996影视(DRPY)",
             "type": 3,
             "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/libs/drpy.min.js",
             "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/996影视.js"
+        },
+        {
+            "key": "drjs_88看球",
+            "name": "👺88看球(DRPY)",
+            "type": 3,
+            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/libs/drpy.min.js",
+            "searchable": 0,
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/88看球.js"
         },
         {
             "key": "drjs_8号影院",
@@ -14193,13 +14291,6 @@
             "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/起飞影院.js"
         },
         {
-            "key": "drjs_爱迪影视",
-            "name": "👺爱迪影视(DRPY)",
-            "type": 3,
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/libs/drpy.min.js",
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/爱迪影视.js"
-        },
-        {
             "key": "drjs_蜻蜓FM",
             "name": "👺蜻蜓FM(DRPY)",
             "type": 3,
@@ -14241,13 +14332,6 @@
             "type": 3,
             "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/libs/drpy.min.js",
             "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/007影视.js"
-        },
-        {
-            "key": "drjs_539影视",
-            "name": "👺539影视(DRPY)",
-            "type": 3,
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/libs/drpy.min.js",
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/539影视.js"
         },
         {
             "key": "drjs_Fun4K",
@@ -14642,13 +14726,6 @@
             "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/UM电影.js"
         },
         {
-            "key": "drjs_动漫岛",
-            "name": "👺动漫岛(DRPY)",
-            "type": 3,
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/libs/drpy.min.js",
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/动漫岛.js"
-        },
-        {
             "key": "drjs_啊班[V2]",
             "name": "👺啊班[V2](DRPY)",
             "type": 3,
@@ -14761,13 +14838,6 @@
             "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/TVB云播.js"
         },
         {
-            "key": "drjs_69美剧[V2]",
-            "name": "👺69美剧[V2](DRPY)",
-            "type": 3,
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/libs/drpy.min.js",
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/69美剧[V2].js"
-        },
-        {
             "key": "drjs_JRKAN直播",
             "name": "👺JRKAN直播(DRPY)",
             "type": 3,
@@ -14795,13 +14865,6 @@
             "type": 3,
             "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/libs/drpy.min.js",
             "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/路漫漫.js"
-        },
-        {
-            "key": "drjs_兄弟影视",
-            "name": "👺兄弟影视(DRPY)",
-            "type": 3,
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/libs/drpy.min.js",
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/兄弟影视.js"
         },
         {
             "key": "drjs_l0l",
@@ -15245,14 +15308,6 @@
             "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/DJ音乐.js"
         },
         {
-            "key": "drjs_88看球",
-            "name": "👺88看球(DRPY)",
-            "type": 3,
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/libs/drpy.min.js",
-            "searchable": 0,
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/88看球.js"
-        },
-        {
             "key": "drjs_星辰",
             "name": "👺星辰(DRPY)",
             "type": 3,
@@ -15567,13 +15622,6 @@
             "type": 3,
             "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/libs/drpy.min.js",
             "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/KOK影视.js"
-        },
-        {
-            "key": "drjs_8号影院",
-            "name": "👺8号影院(DRPY)",
-            "type": 3,
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/libs/drpy.min.js",
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/8号影院.js"
         },
         {
             "key": "drjs_天天视频",
@@ -16067,6 +16115,83 @@
             "quickSearch": 1,
             "filterable": 0,
             "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/XYQHiker/橘子盘搜.json",
+            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xkl1204.jar;md5;7d699a0db0ff690bec06772d1f818aee"
+        },
+        {
+            "key": "csp_XYQHiker_明帝影视",
+            "name": "👶明帝☆影视",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/XYQHiker/明帝影视.json",
+            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xkl1204.jar;md5;7d699a0db0ff690bec06772d1f818aee"
+        },
+        {
+            "key": "csp_XYQHiker_1080La",
+            "name": "👶1080☆La",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/XYQHiker/1080La.json",
+            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xkl1204.jar;md5;7d699a0db0ff690bec06772d1f818aee"
+        },
+        {
+            "key": "csp_XYQHiker_洋芋片",
+            "name": "👶洋芋☆影视",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/XYQHiker/洋芋片.json",
+            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xkl1204.jar;md5;7d699a0db0ff690bec06772d1f818aee"
+        },
+        {
+            "key": "csp_XYQHiker_时代电影网",
+            "name": "👶时代☆电影",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/XYQHiker/时代电影网.json",
+            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xkl1204.jar;md5;7d699a0db0ff690bec06772d1f818aee"
+        },
+        {
+            "key": "csp_XYQHiker_片多多",
+            "name": "👶片多☆影视",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/XYQHiker/片多多.json",
+            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xkl1204.jar;md5;7d699a0db0ff690bec06772d1f818aee"
+        },
+        {
+            "key": "csp_XYQHiker_多多影视",
+            "name": "👶多多☆影视",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/XYQHiker/多多影视.json",
+            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xkl1204.jar;md5;7d699a0db0ff690bec06772d1f818aee"
+        },
+        {
+            "key": "csp_XYQHiker_快影视",
+            "name": "👶快影☆影视",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/XYQHiker/快影视.json",
             "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xkl1204.jar;md5;7d699a0db0ff690bec06772d1f818aee"
         },
         {
