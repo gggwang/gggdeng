@@ -21284,22 +21284,44 @@
             "url": "http://119.91.123.253:2345/Api/yun.php?url="
         },
         {
+            "name": "爱优1",
+            "type": 1,
+            "url": "https://wuzei.serv00.net/jx/kk.php?url="
+        },
+        {
+            "name": "爱优2",
+            "type": 1,
+            "url": "https://wuzei.serv00.net/jx/bl.php?v="
+        },
+        {
             "name": "ovvo",
             "type": 0,
             "url": "https://json.ovvo.pro/jx.php?url="
         },
         {
-            "name": "土豆",
-            "type": 0,
-            "url": "https://jx.tudo.fun/?url=",
-            "header": {
-                "User-Agent": "Mozilla/5.0"
-            }
-        },
-        {
             "name": "冰豆",
             "type": 0,
             "url": "https://bd.jx.cn/?url="
+        },
+        {
+            "name": "🐱10号",
+            "type": 0,
+            "url": "https://jx.m3u8.tv/jiexi/?url=",
+            "ext": {
+                "header": {
+                    "User-Agent": "Mozilla/5.0"
+                }
+            }
+        },
+        {
+            "name": "🐱18号",
+            "type": 0,
+            "url": "http://api.wpsseo.cn/?v=",
+            "ext": {
+                "header": {
+                    "User-Agent": "Mozilla/5.0"
+                }
+            }
         },
         {
             "name": "🐱19号",
@@ -21341,9 +21363,40 @@
             }
         },
         {
-            "name": "手解①",
+            "name": "土豆",
             "type": 0,
-            "url": "https://jx.jsonplayer.com/player/?url="
+            "url": "https://jx.tudo.fun/?url=",
+            "header": {
+                "User-Agent": "Mozilla/5.0"
+            }
+        },
+        {
+            "name": "白嫖蓝光",
+            "type": 0,
+            "url": "https://app.gduan.com/player/?url=",
+            "header": {
+                "User-Agent": "Mozilla/5.0"
+            }
+        },
+        {
+            "name": "全看TX",
+            "type": 0,
+            "url": "https://jx.quankan.app/?url="
+        },
+        {
+            "name": "高清嗅探",
+            "type": 0,
+            "url": "https://www.8090g.cn/jiexi/?url=",
+            "ext": {
+                "header": {
+                    "User-Agent": "Mozilla/5.0"
+                }
+            }
+        },
+        {
+            "name": "看看",
+            "type": 0,
+            "url": "https://jx.m3u8.pw/?url="
         },
         {
             "name": "虾米",
@@ -21373,95 +21426,9 @@
             }
         },
         {
-            "name": "时光",
-            "type": 0,
-            "url": "http://v.ivtv.top:88/?url="
-        },
-        {
-            "name": "WEB2",
-            "type": 0,
-            "url": "https://jx.bozrc.com:4433/aliplayer/?url="
-        },
-        {
-            "name": "稀饭",
-            "type": 0,
-            "url": "https://jx.cqwy.xyz/m3u8/?url=",
-            "header": {
-                "User-Agent": "Mozilla/5.0"
-            }
-        },
-        {
-            "name": "猪蹄解析",
-            "type": 0,
-            "url": "https://jx.iztyy.com/svip/?url=",
-            "header": {
-                "User-Agent": "Mozilla/5.0"
-            }
-        },
-        {
-            "name": "parwix1",
-            "type": 0,
-            "url": "https://jx.bozrc.com:4433/player/?url=",
-            "ext": {
-                "flag": [
-                    "qq",
-                    "腾讯",
-                    "qiyi",
-                    "爱奇艺",
-                    "奇艺",
-                    "youku",
-                    "优酷",
-                    "mgtv",
-                    "芒果",
-                    "letv",
-                    "乐视",
-                    "pptv",
-                    "PPTV",
-                    "sohu",
-                    "bilibili",
-                    "哔哩哔哩",
-                    "哔哩"
-                ]
-            }
-        },
-        {
-            "name": "yparse",
-            "type": 0,
-            "url": "https://jx.yparse.com/index.php?url="
-        },
-        {
-            "name": "云逸解析",
-            "type": 0,
-            "url": "https://jx.iztyy.com/svip/?url=",
-            "header": {
-                "User-Agent": "Mozilla/5.0"
-            }
-        },
-        {
-            "name": "途城解析",
-            "type": 0,
-            "url": "https://player.haoyyds.top:1234/?url="
-        },
-        {
             "name": "VIP解析",
             "type": 0,
             "url": "https://tv.socarchina.com/vips/?url="
-        },
-        {
-            "name": "万能解析",
-            "type": 0,
-            "url": "https://www.wannengjiexi.com/jiexi1/?url=",
-            "header": {
-                "User-Agent": "Mozilla/5.0"
-            }
-        },
-        {
-            "name": "诺讯解析",
-            "type": 0,
-            "url": "https://yun.nunxun.com/?url=",
-            "header": {
-                "User-Agent": "Mozilla/5.0"
-            }
         },
         {
             "name": "CP解析",
@@ -21472,64 +21439,11 @@
             }
         },
         {
-            "name": "TC解析",
-            "type": 0,
-            "url": "https://chaxun.truechat365.com/?url=",
-            "header": {
-                "User-Agent": "Mozilla/5.0"
-            }
-        },
-        {
-            "name": "H8解析",
-            "type": 0,
-            "url": "https://h8jx.com/jiexi.php?url=",
-            "header": {
-                "User-Agent": "Mozilla/5.0"
-            }
-        },
-        {
             "name": "JY解析",
             "type": 0,
             "url": "https://jx.playerjy.com/?url=",
             "header": {
                 "User-Agent": "Mozilla/5.0"
-            }
-        },
-        {
-            "name": "🈶无名",
-            "type": 0,
-            "url": "https://www.administratorw.com/index.php?url=",
-            "ext": {
-                "header": {
-                    "User-Agent": "Mozilla/5.0"
-                }
-            }
-        },
-        {
-            "name": "8old",
-            "type": 0,
-            "url": "https://www.m3u8.tv.cdn.8old.cn/jx.php?url=",
-            "ext": {
-                "flag": [
-                    "qq",
-                    "腾讯",
-                    "qiyi",
-                    "iqiyi",
-                    "爱奇艺",
-                    "奇艺",
-                    "youku",
-                    "优酷",
-                    "mgtv",
-                    "芒果",
-                    "letv",
-                    "乐视",
-                    "pptv",
-                    "PPTV",
-                    "sohu",
-                    "bilibili",
-                    "哔哩哔哩",
-                    "哔哩"
-                ]
             }
         },
         {
@@ -21607,11 +21521,6 @@
             }
         },
         {
-            "name": "解析la",
-            "type": 0,
-            "url": "https://api.jiexi.la/?url="
-        },
-        {
             "name": "PM",
             "url": "https://www.playm3u8.cn/jiexi.php?url=",
             "type": 0,
@@ -21652,108 +21561,6 @@
             "name": "盘古解析",
             "type": 0,
             "url": "https://www.pangujiexi.com/pangu/?url="
-        },
-        {
-            "name": "无名解析",
-            "type": 0,
-            "url": "https://www.administratorw.com/admin.php?url="
-        },
-        {
-            "name": "学习解析",
-            "type": 0,
-            "url": "https://www.administratorw.com/index/qqvod.php?url="
-        },
-        {
-            "name": "学习解析2",
-            "type": 0,
-            "url": "https://www.administratorw.com/video.php?url="
-        },
-        {
-            "name": "dy6g",
-            "type": 0,
-            "url": "https://vip.lianfaka.com/vip/?url=",
-            "ext": {
-                "flag": [
-                    "qq",
-                    "腾讯",
-                    "企鹅",
-                    "IQiYi",
-                    "qiyi",
-                    "爱奇艺",
-                    "奇艺",
-                    "youku",
-                    "YouKu",
-                    "优酷",
-                    "sohu",
-                    "SoHu",
-                    "搜狐",
-                    "letv",
-                    "LeShi",
-                    "乐视",
-                    "imgo",
-                    "mgtv",
-                    "MangGuo",
-                    "芒果",
-                    "SLYS4k",
-                    "BYGA",
-                    "luanzi",
-                    "AliS",
-                    "dxzy",
-                    "bilibili",
-                    "QEYSS",
-                    "xigua",
-                    "西瓜视频",
-                    "腾讯视频",
-                    "奇艺视频",
-                    "优酷视频",
-                    "芒果视频",
-                    "乐视视频"
-                ],
-                "header": {
-                    "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
-                    "Referer": "https://www.dy6g.com/"
-                }
-            }
-        },
-        {
-            "name": "ltnb02",
-            "type": 0,
-            "url": "https://jx.zui.cm/?url=",
-            "ext": {
-                "flag": [
-                    "ltnb"
-                ]
-            }
-        },
-        {
-            "name": "ltnb04",
-            "type": 0,
-            "url": "https://vip.bljiex.com/?v=",
-            "ext": {
-                "flag": [
-                    "ltnb"
-                ]
-            }
-        },
-        {
-            "name": "抬杠解析",
-            "type": 0,
-            "url": "https://wds.ecsxs.com/217915.html?url="
-        },
-        {
-            "name": "免费VIP解析",
-            "type": 0,
-            "url": "https://jx.0ry.cn/?url="
-        },
-        {
-            "name": "BL解析",
-            "type": 0,
-            "url": "https://svip.bljiex.cc/?v="
-        },
-        {
-            "name": "BL解析2",
-            "type": 0,
-            "url": "https://vip.bljiex.cc/?v="
         },
         {
             "name": "🈯32MITYP",
@@ -21833,11 +21640,6 @@
                     "哔哩"
                 ]
             }
-        },
-        {
-            "name": "猪蹄解析1",
-            "type": 0,
-            "url": "https://api.iztyy.com/jiexi/?url="
         }
     ],
     "flags": [
