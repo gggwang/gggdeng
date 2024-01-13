@@ -16120,6 +16120,17 @@
             "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xkl1204.jar;md5;7d699a0db0ff690bec06772d1f818aee"
         },
         {
+            "key": "csp_XYQHiker_NETFLIX",
+            "name": "👶NETFLIX(XHiker)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/XYQHiker/NETFLIX.json",
+            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xkl1204.jar;md5;7d699a0db0ff690bec06772d1f818aee"
+        },
+        {
             "key": "csp_XYQHiker_片吧影院",
             "name": "👶片吧☆影院(XHiker)",
             "type": 3,
