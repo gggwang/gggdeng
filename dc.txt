@@ -2,7 +2,7 @@
     "urls": [
         {
             "name": "🐼熊猫不叫猫🐼",
-            "url": "https://ghproxy.net/https://raw.githubusercontent.com/xmbjm/xmbjm/main/xmbjm.json"
+            "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/xmbjm/xmbjm/main/xmbjm.json"
         },
         {
             "name": "🐯精简👙",
@@ -26,7 +26,7 @@
         },
         {
             "name": "🎯 业余打发在线🎯",
-            "url": "https://ghproxy.net/https://raw.githubusercontent.com/yydfys/yydf/main/yydf/yydfjk.json"
+            "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/yydfys/yydf/main/yydf/yydfjk.json"
         },
         {
             "name": "🍵荷城茶秀主用88接口🍵",
@@ -57,7 +57,7 @@
             "url": "http://jin.锦哥哥.love#你特么想上天？这就是我的接口"
         },
         {
-            "url": "https://ghproxy.net/https://raw.githubusercontent.com/yydfys/yydf/main/阿里/ali.json",
+            "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/yydfys/yydf/main/阿里/ali.json",
             "name": "业余打发·阿里接口🍃"
         },
         {
@@ -65,7 +65,7 @@
             "name": "家庭影院4KHDR"
         },
         {
-            "url": "https://ghproxy.net/https://raw.githubusercontent.com/xmbjm/xmbjm/main/xmbjm.json",
+            "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/xmbjm/xmbjm/main/xmbjm.json",
             "name": "时光机在线"
         },
         {
@@ -257,7 +257,7 @@
             "name": "⚜️云星家庭线路"
         },
         {
-            "url": "https://ghproxy.net/https://raw.githubusercontent.com//yydfys/yydf/main/XYQTVBox/xyq.json",
+            "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com//yydfys/yydf/main/XYQTVBox/xyq.json",
             "name": "⚜️香雅情1线路"
         },
         {
@@ -289,7 +289,7 @@
             "name": "⚜️春风影视线路"
         },
         {
-            "url": "https://ghproxy.net/raw.githubusercontent.com/FongMi/CatVodSpider/main/json/config.json",
+            "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/FongMi/CatVodSpider/main/json/config.json",
             "name": "⚜️蜂蜜线路"
         },
         {
@@ -321,7 +321,7 @@
             "name": "⚜️大眼仔线路"
         },
         {
-            "url": "https://ghproxy.net/https://raw.githubusercontent.com/tuji-2015/miao/main/TVBox/tvbox.json",
+            "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/tuji-2015/miao/main/TVBox/tvbox.json",
             "name": "⚜️喵影视线路"
         },
         {
@@ -433,7 +433,7 @@
             "name": "⚜️唐三线路"
         },
         {
-            "url": "https://ghproxy.net/https://raw.githubusercontent.com/wnddwc/daiweichun/main/waynfifdwj.json",
+            "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/wnddwc/daiweichun/main/waynfifdwj.json",
             "name": "⚜️民间大佬线路"
         },
         {
@@ -469,7 +469,7 @@
             "name": "⚜️未知线路2"
         },
         {
-            "url": "https://ghproxy.net/https://raw.githubusercontent.com/liu673cn/box/main/m.json",
+            "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/liu673cn/box/main/m.json",
             "name": "⚜️未知线路3"
         },
         {
@@ -486,7 +486,7 @@
         },
         {
             "name": "☪️民间大佬线路",
-            "url": "https://ghproxy.net/https://raw.githubusercontent.com/wnddwc/daiweichun/main/waynfifdwj.json"
+            "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/wnddwc/daiweichun/main/waynfifdwj.json"
         },
         {
             "name": "☪️爱音乐线路",
@@ -610,7 +610,7 @@
         },
         {
             "name": "💗4k",
-            "url": "https://ghproxy.net/https://raw.githubusercontent.com/pdscxz/TV/main/video/tv4k.json"
+            "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/pdscxz/TV/main/video/tv4k.json"
         },
         {
             "name": "😍短剧大全",
@@ -630,7 +630,7 @@
         },
         {
             "name": "💙群新荟萃",
-            "url": "https://ghproxy.net/https://raw.githubusercontent.com/yydfys/yydf/main/yydf/yydf.json"
+            "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/yydfys/yydf/main/yydf/yydf.json"
         },
         {
             "name": "👅非凡",
@@ -654,7 +654,7 @@
         },
         {
             "name": "🌺泥巴",
-            "url": "https://ghproxy.net/raw.githubusercontent.com/gaotianliuyun/gao/master/0827.json"
+            "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/0827.json"
         },
         {
             "name": "🌺香雅情",
@@ -662,7 +662,7 @@
         },
         {
             "name": "🌼圈圈",
-            "url": "https://ghproxy.net/https://raw.githubusercontent.com/PizazzGY/TVBox/main/api2.json"
+            "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/PizazzGY/TVBox/main/api2.json"
         },
         {
             "name": "💛心动",
@@ -670,7 +670,7 @@
         },
         {
             "name": "🥝蜂蜜",
-            "url": "https://ghproxy.net/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/影视/api.json"
+            "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/影视/api.json"
         },
         {
             "name": "🚒运输车",
@@ -698,7 +698,7 @@
         },
         {
             "name": "🎈民间大佬",
-            "url": "https://ghproxy.net/https://raw.githubusercontent.com/wnddwc/daiweichun/main/waynfifdwj.json"
+            "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/wnddwc/daiweichun/main/waynfifdwj.json"
         },
         {
             "name": "🛵爱音乐",
@@ -734,11 +734,11 @@
         },
         {
             "name": "月光宝盒",
-            "url": "https://ghproxy.net/https://raw.githubusercontent.com/guot55/YGBH/main/ygbox.json"
+            "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/YGBH/main/ygbox.json"
         },
         {
             "name": "荷城茶秀",
-            "url": "https://ghproxy.net/https://raw.githubusercontent.com/XiaoYiChaHang/tvbox/main/ysj.json"
+            "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/XiaoYiChaHang/tvbox/main/ysj.json"
         },
         {
             "name": "🌼夜魔👙",
@@ -786,7 +786,7 @@
         },
         {
             "name": "熊猫不叫猫🐼",
-            "url": "https://ghproxy.net/https://raw.githubusercontent.com/xmbjm/shiguang/main/shiguangdx.json"
+            "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/xmbjm/shiguang/main/shiguangdx.json"
         },
         {
             "name": "🦋拾光趣乐屋",
@@ -830,7 +830,7 @@
         },
         {
             "name": "🐍高天流云JS",
-            "url": "https://ghproxy.net/raw.githubusercontent.com/gaotianliuyun/gao/master/js.json"
+            "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/js.json"
         },
         {
             "name": "🐬影视仓",
@@ -866,7 +866,7 @@
         },
         {
             "name": "👯高天流水",
-            "url": "https://ghproxy.net/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json"
+            "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json"
         },
         {
             "name": "🧤南风",
@@ -886,7 +886,7 @@
         },
         {
             "name": "🐙阿里采集",
-            "url": "https://ghproxy.net/https://raw.githubusercontent.com/yydfys/yydf/main/阿里/ali.json"
+            "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/yydfys/yydf/main/阿里/ali.json"
         },
         {
             "name": "🙉4K视界",
@@ -1021,7 +1021,7 @@
             "url": "https://agit.ai/376242575/zzh/raw/branch/master/txt/影视.txt"
         },
         {
-            "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/TV/master/tv1.txt",
+            "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/lxhfans/TV/master/tv1.txt",
             "name": "乐享"
         },
         {
@@ -1029,7 +1029,7 @@
             "name": "潇洒"
         },
         {
-            "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
+            "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
             "name": "香情"
         },
         {
@@ -1201,7 +1201,7 @@
             "name": "欧歌阿里"
         },
         {
-            "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/DEMO/master/duanju.json",
+            "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/lxhfans/DEMO/master/duanju.json",
             "name": "乐享短剧"
         },
         {
@@ -1257,7 +1257,7 @@
             "name": "盒迷"
         },
         {
-            "url": "https://ghproxy.net/raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
+            "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
             "name": "高天"
         },
         {
@@ -1365,7 +1365,7 @@
             "name": "圆周CS"
         },
         {
-            "url": "https://ghproxy.net/https://raw.githubusercontent.com/ZTHA000/tvbox/main/thzx1.json",
+            "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/ZTHA000/tvbox/main/thzx1.json",
             "name": "挺好专享"
         },
         {
@@ -2401,7 +2401,7 @@
         },
         {
             "name": "🐝蜂窝接口",
-            "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/1.json"
+            "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/linshao/main/1.json"
         },
         {
             "name": "❤️艾艾接口",
@@ -2433,7 +2433,7 @@
         },
         {
             "name": "🌹香雅情缘",
-            "url": "https://ghproxy.net/https://raw.githubusercontent.com//yydfys/yydf/main/XYQTVBox/xyq.json"
+            "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com//yydfys/yydf/main/XYQTVBox/xyq.json"
         },
         {
             "name": "🔘精选接口",
