@@ -3273,17 +3273,6 @@
             "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/磁力熊[磁].js"
         },
         {
-            "key": "drjs_jiyingw_PG",
-            "name": "🧲极影网(DRPY)",
-            "type": 3,
-            "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/libs/drpy2.min.js",
-            "playerType": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/jiyingw.js"
-        },
-        {
             "key": "drjs_dygang_PG",
             "name": "🧲电影港(DRPY)",
             "type": 3,
@@ -3293,17 +3282,6 @@
             "quickSearch": 1,
             "changeable": 0,
             "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/dygang.js"
-        },
-        {
-            "key": "drjs_4khdr_PG",
-            "name": "🧲4KHDR(DRPY)",
-            "type": 3,
-            "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/libs/drpy2.min.js",
-            "playerType": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/4khdr.js"
         },
         {
             "key": "drjs_mp4us_PG",
@@ -3328,17 +3306,6 @@
             "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/kkpans.js"
         },
         {
-            "key": "drjs_kkpans_PG",
-            "name": "🧲KK网盘(DRPY)",
-            "type": 3,
-            "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/libs/drpy2.min.js",
-            "playerType": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/kkpans.js"
-        },
-        {
             "key": "drjs_kuba_PG",
             "name": "🧲酷吧(DRPY)",
             "type": 3,
@@ -3348,6 +3315,28 @@
             "quickSearch": 1,
             "changeable": 0,
             "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/kuba.js"
+        },
+        {
+            "key": "drjs_jiyingw_PG",
+            "name": "🧲极影网(DRPY)",
+            "type": 3,
+            "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/libs/drpy2.min.js",
+            "playerType": 1,
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/jiyingw.js"
+        },
+        {
+            "key": "drjs_4khdr_PG",
+            "name": "🧲4KHDR(DRPY)",
+            "type": 3,
+            "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/libs/drpy2.min.js",
+            "playerType": 1,
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/4khdr.js"
         },
         {
             "key": "drjs_meijumi_PG",
