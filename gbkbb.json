@@ -5383,6 +5383,28 @@
             "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xkl1204.jar;md5;7d699a0db0ff690bec06772d1f818aee"
         },
         {
+            "key": "csp_XBPQ_NO视频",
+            "name": "👶NO☆视频",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/XBPQ/NO视频.json",
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xkl1204.jar;md5;7d699a0db0ff690bec06772d1f818aee"
+        },
+        {
+            "key": "csp_XBPQ_毛驴影视",
+            "name": "👶毛驴☆影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/XBPQ/毛驴影视.json",
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xkl1204.jar;md5;7d699a0db0ff690bec06772d1f818aee"
+        },
+        {
             "key": "csp_XBPQ_时光影视",
             "name": "👶时光影视(XBPQ)",
             "type": 3,
@@ -16106,6 +16128,61 @@
             "quickSearch": 1,
             "filterable": 0,
             "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/XYQHiker/橘子盘搜.json",
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xkl1204.jar;md5;7d699a0db0ff690bec06772d1f818aee"
+        },
+        {
+            "key": "csp_XYQHiker_金刚影院",
+            "name": "👶金刚☆影院",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/XYQHiker/金刚影院.json",
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xkl1204.jar;md5;7d699a0db0ff690bec06772d1f818aee"
+        },
+        {
+            "key": "csp_XYQHiker_臻品电影网",
+            "name": "👶臻品☆电影",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/XYQHiker/臻品电影网.json",
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xkl1204.jar;md5;7d699a0db0ff690bec06772d1f818aee"
+        },
+        {
+            "key": "csp_XYQHiker_乐万家影院",
+            "name": "👶万家☆影院",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/XYQHiker/乐万家影院.json",
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xkl1204.jar;md5;7d699a0db0ff690bec06772d1f818aee"
+        },
+        {
+            "key": "csp_XYQHiker_猪泡泡影院",
+            "name": "👶猪泡☆影院",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/XYQHiker/猪泡泡影院.json",
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xkl1204.jar;md5;7d699a0db0ff690bec06772d1f818aee"
+        },
+        {
+            "key": "csp_XYQHiker_电影驿站",
+            "name": "👶电影☆驿站",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/XYQHiker/电影驿站.json",
             "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xkl1204.jar;md5;7d699a0db0ff690bec06772d1f818aee"
         },
         {
