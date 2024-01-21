@@ -1962,6 +1962,16 @@
                 "动漫"
             ]
         },
+{
+    "key": "xml_短剧",
+    "name": "🚀短剧",
+    "type": 1,
+    "api": "https://zzdj.cc/api.php/provide/vod",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+},
+
         {
             "key": "星影1080cms",
             "name": "星影1080〔采集〕",
