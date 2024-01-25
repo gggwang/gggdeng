@@ -67,6 +67,258 @@
             "ext": "http://rzys.xyz"
         },
         {
+            "key": "清茶(SP)",
+            "name": "清茶(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": "https://pan.shangui.cc/f/lxqlUk/清茶.json",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "https://pan.shangui.cc/f/mm25hb/fanhua.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "宝片(SP)",
+            "name": "宝片(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": "https://pan.shangui.cc/f/GbDksz/宝片.json",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "https://pan.shangui.cc/f/mm25hb/fanhua.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "气球(SP)",
+            "name": "气球(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": "https://pan.shangui.cc/f/B1DPFp/气球.json",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "https://pan.shangui.cc/f/mm25hb/fanhua.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "追剧猫(SP)",
+            "name": "追剧猫(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": "https://pan.shangui.cc/f/ymNZtK/追剧猫.json",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "https://pan.shangui.cc/f/mm25hb/fanhua.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "君离(SP)",
+            "name": "君离(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": "https://pan.shangui.cc/f/jjJys7/君离.json",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "https://pan.shangui.cc/f/mm25hb/fanhua.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "蜂鸟(SP)",
+            "name": "蜂鸟(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": "https://pan.shangui.cc/f/bXapS1/蜂鸟.json",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "https://pan.shangui.cc/f/mm25hb/fanhua.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "橘子(SP)",
+            "name": "橘子(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": "https://pan.shangui.cc/f/xxqEsZ/橘子.json",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "https://pan.shangui.cc/f/mm25hb/fanhua.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "皮皮虾(SP)",
+            "name": "皮皮虾(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": "https://pan.shangui.cc/f/mmq5Fb/皮皮虾.json",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "https://pan.shangui.cc/f/mm25hb/fanhua.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "晨曦(SP)",
+            "name": "晨曦(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": "https://pan.shangui.cc/f/XwG5Id/晨曦.json",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "https://pan.shangui.cc/f/mm25hb/fanhua.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "电影库(SP)",
+            "name": "电影库(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": "https://pan.shangui.cc/f/81Q3To/电影库.json",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "https://pan.shangui.cc/f/mm25hb/fanhua.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "TVB云播(SP)",
+            "name": "TVB云播(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": "https://pan.shangui.cc/f/RjpNFz/TVB云播.json",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "https://pan.shangui.cc/f/mm25hb/fanhua.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "柚子(SP)",
+            "name": "柚子(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": "https://pan.shangui.cc/f/wb0Jfg/柚子.json",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "https://pan.shangui.cc/f/mm25hb/fanhua.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "喵桃(SP)",
+            "name": "喵桃(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": "https://pan.shangui.cc/f/50EVCA/喵桃.json",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "https://pan.shangui.cc/f/mm25hb/fanhua.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "新光(SP)",
+            "name": "新光(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": "https://pan.shangui.cc/f/6VEaup/新光.json",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "https://pan.shangui.cc/f/mm25hb/fanhua.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "喵影视(SP)",
+            "name": "喵影视(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": "https://pan.shangui.cc/f/PkpXTK/喵影视.json",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "https://pan.shangui.cc/f/mm25hb/fanhua.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "剧多多(SP)",
+            "name": "剧多多(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": "https://pan.shangui.cc/f/pwleUL/剧多多.json",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "https://pan.shangui.cc/f/mm25hb/fanhua.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "小熊(SP)",
+            "name": "小熊(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": "https://pan.shangui.cc/f/N6QeCj/小熊.json",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "https://pan.shangui.cc/f/mm25hb/fanhua.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "土豪(SP)",
+            "name": "土豪(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": "https://pan.shangui.cc/f/VXnbu8/土豪.json",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "https://pan.shangui.cc/f/mm25hb/fanhua.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "觅视频(SP)",
+            "name": "觅视频(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": "https://pan.shangui.cc/f/gP27HV/觅视频.json",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "https://pan.shangui.cc/f/mm25hb/fanhua.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "双子(SP)",
+            "name": "双子(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": "https://pan.shangui.cc/f/QyKeFm/双子.json",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "https://pan.shangui.cc/f/mm25hb/fanhua.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "嘶哩(SP)",
+            "name": "嘶哩(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": "https://pan.shangui.cc/f/amRKh2/嘶哩.json",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "https://pan.shangui.cc/f/mm25hb/fanhua.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
             "key": "csp_SP33",
             "name": "️3️⃣360(SP)",
             "type": 3,
@@ -1962,16 +2214,15 @@
                 "动漫"
             ]
         },
-{
-    "key": "xml_短剧",
-    "name": "🚀短剧",
-    "type": 1,
-    "api": "https://zzdj.cc/api.php/provide/vod",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1
-},
-
+        {
+            "key": "xml_短剧",
+            "name": "🚀短剧",
+            "type": 1,
+            "api": "https://zzdj.cc/api.php/provide/vod",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
         {
             "key": "星影1080cms",
             "name": "星影1080〔采集〕",
@@ -12410,6 +12661,28 @@
             ]
         },
         {
+            "name": "非凡",
+            "hosts": [
+                "vip.ffzy",
+                "hd.ffzy"
+            ],
+            "regex": [
+                "25.0666",
+                "25.08",
+                "20.52"
+            ]
+        },
+        {
+            "name": "索尼",
+            "hosts": [
+                "suonizy"
+            ],
+            "regex": [
+                "15.1666",
+                "15.2666"
+            ]
+        },
+        {
             "name": "火山嗅探",
             "hosts": [
                 "huoshan.com"
@@ -12437,33 +12710,30 @@
             ]
         },
         {
-            "name": "非凡",
-            "hosts": [
-                "vip.ffzy",
-                "hd.ffzy"
-            ],
-            "regex": [
-                "25.0666",
-                "25.08"
-            ]
-        },
-        {
-            "name": "索尼",
-            "hosts": [
-                "suonizy"
-            ],
-            "regex": [
-                "15.1666",
-                "15.2666"
-            ]
-        },
-        {
             "name": "七新嗅探",
             "hosts": [
                 "api.52wyb.com"
             ],
             "regex": [
                 "m3u8?pt=m3u8"
+            ]
+        },
+        {
+            "name": "夜市",
+            "hosts": [
+                "yeslivetv.com"
+            ],
+            "script": [
+                "document.getElementsByClassName('vjs-big-play-button')[0].click()"
+            ]
+        },
+        {
+            "name": "毛驢",
+            "hosts": [
+                "www.maolvys.com"
+            ],
+            "script": [
+                "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
             ]
         },
         {
@@ -12514,12 +12784,34 @@
             ]
         },
         {
-            "name": "极速",
+            "name": "量子",
             "hosts": [
-                "jszy"
+                "v.cdnlz2"
             ],
             "regex": [
-                "#EXT-X-DISCONTINUITY\\r*\\n*[\\s\\S]*?#EXT-X-DISCONTINUITY"
+                "19.52"
+            ]
+        },
+        {
+            "name": "量子",
+            "hosts": [
+                "vip.lz",
+                "hd.lz",
+                "v.cdnlz1",
+                "v.cdnlz"
+            ],
+            "regex": [
+                "19.52"
+            ]
+        },
+        {
+            "name": "索尼",
+            "hosts": [
+                "suonizy"
+            ],
+            "regex": [
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7.680000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
             ]
         },
         {
@@ -12541,15 +12833,6 @@
             ]
         },
         {
-            "name": "一起看",
-            "hosts": [
-                "yqk88"
-            ],
-            "regex": [
-                "#EXT-X-DISCONTINUITY\\r*\\n*[\\s\\S]*?#EXT-X-CUE-IN"
-            ]
-        },
-        {
             "name": "非凡",
             "hosts": [
                 "vip.ffzy",
@@ -12561,31 +12844,94 @@
             ]
         },
         {
-            "name": "索尼",
+            "name": "非凡",
             "hosts": [
-                "suonizy"
+                "vip.ffzy",
+                "hd.ffzy"
             ],
             "regex": [
-                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7.680000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                "20.52",
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.400000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                "#EXTINF.*?\\s+.*?1170(20|32).*?\\.ts\\s+",
+                "#EXTINF.*?\\s+.*?116977.*?\\.ts\\s+"
+            ]
+        },
+        {
+            "name": "一起看",
+            "hosts": [
+                "yqk88"
+            ],
+            "regex": [
+                "#EXT-X-DISCONTINUITY\\r*\\n*[\\s\\S]*?#EXT-X-CUE-IN"
+            ]
+        },
+        {
+            "name": "一起看",
+            "hosts": [
+                "yqk88"
+            ],
+            "regex": [
+                "18.4",
+                "15.1666"
+            ]
+        },
+        {
+            "name": "极速",
+            "hosts": [
+                "jszy"
+            ],
+            "regex": [
+                "#EXT-X-DISCONTINUITY\\r*\\n*[\\s\\S]*?#EXT-X-DISCONTINUITY"
+            ]
+        },
+        {
+            "name": "极速",
+            "hosts": [
+                "jszy"
+            ],
+            "regex": [
+                "#EXTINF.*?\\s+.*?muguacdn*?\\.ts\\s+",
                 "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
             ]
         },
         {
-            "name": "夜市",
+            "name": "视觉",
             "hosts": [
-                "yeslivetv.com"
+                "Xinsj"
             ],
-            "script": [
-                "document.getElementsByClassName('vjs-big-play-button')[0].click()"
+            "regex": [
+                "#EXTINF.*?\\s+.*?muguacdn*?\\.ts\\s+",
+                "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
             ]
         },
         {
-            "name": "毛驢",
+            "name": "视觉",
             "hosts": [
-                "www.maolvys.com"
+                "Xinsj"
             ],
-            "script": [
-                "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
+            "regex": [
+                "#EXT-X-DISCONTINUITY\\r*\\n*[\\s\\S]*?#EXT-X-DISCONTINUITY"
+            ]
+        },
+        {
+            "name": "乐视",
+            "hosts": [
+                "leshiyuncdn"
+            ],
+            "regex": [
+                "15.92"
+            ]
+        },
+        {
+            "name": "网盘",
+            "hosts": [
+                "vip.123pan.cn",
+                "rescdn.wuxivlog.cn"
+            ],
+            "regex": [
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:20.840000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:10.120000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
             ]
         },
         {
