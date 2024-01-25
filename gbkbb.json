@@ -67,6 +67,1129 @@
             "ext": "http://rzys.xyz"
         },
         {
+            "key": "清茶(SP)",
+            "name": "清茶(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": {
+                //"SiteUrl": "http://video.zheme.cc/app/speedapi",
+                "SiteUrl": "https://xtao-1253811961.cos.ap-chengdu.myqcloud.com/skapp/yxq/api.txt",
+                //"SiteUrl": "http://video.zheme.cc",
+                "域名匹配": [
+                    ".txt",
+                    ".json"
+                ],
+                //"自动筛选": true,
+                //"授权验证": true,
+                "验证信息": {
+                    "Post": {
+                        "sign": "42f6d7d631d0ea04b5b34d1a17552f24"
+                    },
+                    "BuildCk": true,
+                    "CkFormat": "%s##5483##%s##ckzmbc",
+                    "AesKey": "ygcnbcrvaervztmw",
+                    "AesIv": "1212164105143708"
+                },
+                "AesKey": "ygcnbcbbdwhzrezt",
+                "AesIv": "6703263993143708",
+                "DecodeReplace": "FROMSKZZJM",
+                "FlagNameReplaceRegular": "\\-\\d+集",
+                //"直链解析": true,
+                //可以不要这个字段,
+                不存在这个字段默认值为false,
+                表示直链不走解析直接播放,
+                为true时直链走解析,
+                解析不出来直接播放//"线路替换": "lzm3u8->量子|ffm3u8->非凡",
+                //只有在用"FlagNameReplaceRegular"存在且不为空的情况下有效、用"->"替换、每个替换规则用"|"隔开、可以不要这个字段、如果存在这个字段并且替换了、那么"线路过滤"、"线路排序"、应用的是被替换后的线路"线路排序": "独家阿里->APP专线->独家①->独家②->独家③->独家④->独家⑤->独家⑥->独家⑦->备用①->备用②->备用③",
+                //用"->"隔开、排序根据"线路排序"中线路名的顺序、如果只有一个线路名则将这一个线路名排在最前面//"线路过滤": [
+                    "量子"
+                ],
+                "分类过滤": [
+                    "短剧",
+                    "体育",
+                    "解说",
+                    "电影解说"
+                ],
+                "GetUserAgent": "Dart/2.10 (dart:io)"
+            },
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "flagSort": 1,
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/lem1029.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "宝片(SP)",
+            "name": "宝片(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": {
+                //"SiteUrl": "http://172.247.189.145:8000/app/speedapi",
+                "SiteUrl": "http://172.247.189.145:8000",
+                "域名匹配": [
+                    ".txt",
+                    ".json"
+                ],
+                //"自动筛选": true,
+                "授权验证": true,
+                "验证信息": {
+                    "Post": {
+                        "sign": "3cc65cf712e1becb532de02f5770a1c9"
+                    },
+                    "BuildCk": true,
+                    "CkFormat": "%s##5483##%s##ckzmbc",
+                    "AesKey": "ygcnbcrvaervztmw",
+                    "AesIv": "1212164105143708"
+                },
+                "AesKey": "ygcnbchddfxlnpgp",
+                "AesIv": "5267232797143708",
+                "DecodeReplace": "FROMSKZZJM",
+                "FlagNameReplaceRegular": "\\-\\d+集",
+                //"直链解析": true,
+                //可以不要这个字段,
+                不存在这个字段默认值为false,
+                表示直链不走解析直接播放,
+                为true时直链走解析,
+                解析不出来直接播放//"线路替换": "lzm3u8->量子|ffm3u8->非凡",
+                //只有在用"FlagNameReplaceRegular"存在且不为空的情况下有效、用"->"替换、每个替换规则用"|"隔开、可以不要这个字段、如果存在这个字段并且替换了、那么"线路过滤"、"线路排序"、应用的是被替换后的线路"线路排序": "喵派->蚂蚁->三路->酷喵->左岸",
+                //用"->"隔开、排序根据"线路排序"中线路名的顺序、如果只有一个线路名则将这一个线路名排在最前面//"线路过滤": [
+                    "备用LZ线",
+                    "备用FF线",
+                    "备用BF线",
+                    "备用SN线"
+                ],
+                "分类过滤": [
+                    "短剧",
+                    "体育",
+                    "解说",
+                    "电影解说"
+                ],
+                "GetUserAgent": "Dart/2.10 (dart:io)"
+            },
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "flagSort": 1,
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/lem1029.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "气球(SP)",
+            "name": "气球(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": {
+                //"SiteUrl": "http://qq1.12ne.cn/app/speedapi",
+                "SiteUrl": "https://mhlive-1321629071.cos.ap-nanjing.myqcloud.com/cc1/api.txt",
+                //"SiteUrl": "http://qq1.12ne.cn",
+                "域名匹配": [
+                    ".txt",
+                    ".json"
+                ],
+                //"自动筛选": true,
+                "授权验证": true,
+                "验证信息": {
+                    "Post": {
+                        "sign": "e4b68f39366049a98b28a4f4b0f78cb2"
+                    },
+                    "BuildCk": true,
+                    "CkFormat": "%s##5483##%s##ckzmbc",
+                    "AesKey": "ygcnbcrvaervztmw",
+                    "AesIv": "1212164105143708"
+                },
+                "AesKey": "ygcnbcwbqpfkcica",
+                "AesIv": "1637029199143708",
+                "DecodeReplace": "FROMSKZZJM",
+                "FlagNameReplaceRegular": "\\-\\d+集",
+                //"直链解析": true,
+                //可以不要这个字段,
+                不存在这个字段默认值为false,
+                表示直链不走解析直接播放,
+                为true时直链走解析,
+                解析不出来直接播放//"线路替换": "lzm3u8->量子|ffm3u8->非凡",
+                //只有在用"FlagNameReplaceRegular"存在且不为空的情况下有效、用"->"替换、每个替换规则用"|"隔开、可以不要这个字段、如果存在这个字段并且替换了、那么"线路过滤"、"线路排序"、应用的是被替换后的线路"线路排序": "极速①线->极速②线->极速③线",
+                //用"->"隔开、排序根据"线路排序"中线路名的顺序、如果只有一个线路名则将这一个线路名排在最前面//"线路过滤": [
+                    "备用LZ线",
+                    "备用FF线",
+                    "备用BF线",
+                    "备用SN线"
+                ],
+                "分类过滤": [
+                    "短剧",
+                    "体育",
+                    "解说",
+                    "电影解说"
+                ],
+                "GetUserAgent": "Dart/2.10 (dart:io)"
+            },
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "flagSort": 1,
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/lem1029.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "追剧猫(SP)",
+            "name": "追剧猫(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": {
+                //"SiteUrl": "https://ysapp.lingutv.cn/app/speedapi|0",
+                "SiteUrl": "https://ysapp.lingutv.cn",
+                "域名匹配": [
+                    ".txt",
+                    ".json"
+                ],
+                //"自动筛选": true,
+                "授权验证": true,
+                "验证信息": {
+                    "Post": {
+                        "sign": "4522401aa446d398d53be24f9463cf86"
+                    },
+                    "BuildCk": true,
+                    "CkFormat": "%s##5483##%s##ckzmbc",
+                    "AesKey": "ygcnbcrvaervztmw",
+                    "AesIv": "1212164105143708"
+                },
+                "AesKey": "ygcnbczurlriwmoq",
+                "AesIv": "0659202017143708",
+                "DecodeReplace": "FROMSKZZJM",
+                "FlagNameReplaceRegular": "\\-\\d+集",
+                //"直链解析": true,
+                //可以不要这个字段,
+                不存在这个字段默认值为false,
+                表示直链不走解析直接播放,
+                为true时直链走解析,
+                解析不出来直接播放//"线路替换": "lzm3u8->量子|ffm3u8->非凡",
+                //只有在用"FlagNameReplaceRegular"存在且不为空的情况下有效、用"->"替换、每个替换规则用"|"隔开、可以不要这个字段、如果存在这个字段并且替换了、那么"线路过滤"、"线路排序"、应用的是被替换后的线路"线路排序": "自营一线->自营二线->自营三线",
+                //用"->"隔开、排序根据"线路排序"中线路名的顺序、如果只有一个线路名则将这一个线路名排在最前面"线路过滤": [
+                    "备用LZ线",
+                    "备用FF线",
+                    "备用BF线",
+                    "备用SN线"
+                ],
+                "分类过滤": [
+                    "短剧",
+                    "体育",
+                    "解说",
+                    "电影解说"
+                ],
+                "GetUserAgent": "Dart/2.10 (dart:io)"
+            },
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "flagSort": 1,
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/lem1029.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "君离(SP)",
+            "name": "君离(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": {
+                //"SiteUrl": "http://15645.jlzj.xyz/app/speedapi",
+                "SiteUrl": "http://sk.jlzj.xyz/app.txt",
+                //"SiteUrl": "http://15645.jlzj.xyz",
+                "域名匹配": [
+                    ".txt",
+                    ".json"
+                ],
+                //"自动筛选": true,
+                "授权验证": true,
+                "验证信息": {
+                    "Post": {
+                        "sign": "a758867cf74d7677533ec6c82f15ca76"
+                    },
+                    "BuildCk": true,
+                    "CkFormat": "%s##5483##%s##ckzmbc",
+                    "AesKey": "ygcnbcrvaervztmw",
+                    "AesIv": "1212164105143708"
+                },
+                "AesKey": "ygcnbclnqzsmebxd",
+                "AesIv": "8249692684143708",
+                "DecodeReplace": "FROMSKZZJM",
+                "FlagNameReplaceRegular": "\\-\\d+集",
+                //"直链解析": true,
+                //可以不要这个字段,
+                不存在这个字段默认值为false,
+                表示直链不走解析直接播放,
+                为true时直链走解析,
+                解析不出来直接播放//"线路替换": "lzm3u8->量子|ffm3u8->非凡",
+                //只有在用"FlagNameReplaceRegular"存在且不为空的情况下有效、用"->"替换、每个替换规则用"|"隔开、可以不要这个字段、如果存在这个字段并且替换了、那么"线路过滤"、"线路排序"、应用的是被替换后的线路"线路排序": "APP专用->APP备用->APP备用2->APP备用3->APP备用4->APP备用5",
+                //用"->"隔开、排序根据"线路排序"中线路名的顺序、如果只有一个线路名则将这一个线路名排在最前面//"线路过滤": [
+                    "量子",
+                    "非凡"
+                ],
+                "分类过滤": [
+                    "短剧",
+                    "体育",
+                    "解说"
+                ],
+                "GetUserAgent": "Dart/2.10 (dart:io)"
+            },
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "flagSort": 1,
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/lem1029.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "蜂鸟(SP)",
+            "name": "蜂鸟(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": {
+                "SiteUrl": "https://a.yyn123.xyz:2002/app/speedapi",
+                //"SiteUrl": "http://193.84.249.248:5005",
+                "域名匹配": [
+                    ".txt",
+                    ".json"
+                ],
+                //"自动筛选": true,
+                "授权验证": true,
+                "验证信息": {
+                    "Post": {
+                        "sign": "6e164209e8f46910f83bd0c004106dfe"
+                    },
+                    "BuildCk": true,
+                    "CkFormat": "%s##5483##%s##ckzmbc",
+                    "AesKey": "ygcnbcrvaervztmw",
+                    "AesIv": "1212164105143708"
+                },
+                "AesKey": "ygcnbcgodgpgxbbb",
+                "AesIv": "6727247577143708",
+                "DecodeReplace": "FROMSKZZJM",
+                "FlagNameReplaceRegular": "\\-\\d+集",
+                //"直链解析": true,
+                //可以不要这个字段,
+                不存在这个字段默认值为false,
+                表示直链不走解析直接播放,
+                为true时直链走解析,
+                解析不出来直接播放//"线路替换": "lzm3u8->量子|ffm3u8->非凡",
+                //只有在用"FlagNameReplaceRegular"存在且不为空的情况下有效、用"->"替换、每个替换规则用"|"隔开、可以不要这个字段、如果存在这个字段并且替换了、那么"线路过滤"、"线路排序"、应用的是被替换后的线路"线路排序": "VIP线路->VIP①->VIP②->VIP③",
+                //用"->"隔开、排序根据"线路排序"中线路名的顺序、如果只有一个线路名则将这一个线路名排在最前面//"线路过滤": [
+                    "量子",
+                    "非凡"
+                ],
+                "分类过滤": [
+                    "短剧",
+                    "体育",
+                    "解说"
+                ],
+                "GetUserAgent": "Dart/2.10 (dart:io)"
+            },
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "flagStor": 1,
+            "filterable": 1,
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/lem1029.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "橘子(SP)",
+            "name": "橘子(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": {
+                //"SiteUrl": "http://vd.bjgzy.vip/app/speedapi",
+                "SiteUrl": "http://vd.bjgzy.vip",
+                "域名匹配": [
+                    ".txt",
+                    ".json"
+                ],
+                //"自动筛选": true,
+                "授权验证": true,
+                "验证信息": {
+                    "Post": {
+                        "sign": "02ab3a5ac4219595a273663b93ee84e7"
+                    },
+                    "BuildCk": true,
+                    "CkFormat": "%s##5483##%s##ckzmbc",
+                    "AesKey": "ygcnbcrvaervztmw",
+                    "AesIv": "1212164105143708"
+                },
+                "AesKey": "ygcnbcravervztma",
+                "AesIv": "4105142701143708",
+                "DecodeReplace": "FROMSKZZJM",
+                "FlagNameReplaceRegular": "\\-\\d+集",
+                //"直链解析": true,
+                //可以不要这个字段,
+                不存在这个字段默认值为false,
+                表示直链不走解析直接播放,
+                为true时直链走解析,
+                解析不出来直接播放//"线路替换": "lzm3u8->量子|ffm3u8->非凡",
+                //只有在用"FlagNameReplaceRegular"存在且不为空的情况下有效、用"->"替换、每个替换规则用"|"隔开、可以不要这个字段、如果存在这个字段并且替换了、那么"线路过滤"、"线路排序"、应用的是被替换后的线路"线路排序": "极速线路->极速线路2->极速线路3->极速线路4->极速线路5",
+                //用"->"隔开、排序根据"线路排序"中线路名的顺序、如果只有一个线路名则将这一个线路名排在最前面//"线路过滤": [
+                    "量子",
+                    "非凡"
+                ],
+                "分类过滤": [
+                    "短剧",
+                    "体育",
+                    "解说"
+                ],
+                "GetUserAgent": "Dart/2.10 (dart:io)"
+            },
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "flagSort": 1,
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/lem1029.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "皮皮虾(SP)",
+            "name": "皮皮虾(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": {
+                "SiteUrl": "http://sk.shijie.chat/app.txt",
+                //"SiteUrl": "http://ppx.shijie.chat",
+                //"SiteUrl": "http://app.shijie.chat",
+                "域名匹配": [
+                    ".txt",
+                    ".json"
+                ],
+                //"自动筛选": true,
+                //"授权验证": true,
+                /*"验证信息": {
+                    "Post": {
+                        "sign": ""
+                    },
+                    //"BuildCk": true,
+                    "CkFormat": "%s##5483##%s##ckzmbc",
+                    "AesKey": "",
+                    "AesIv": ""
+                },
+                */"AesKey": "ygcnbctboavrghec",
+                "AesIv": "3435576720143708",
+                "DecodeReplace": "FROMSKZZJM",
+                "FlagNameReplaceRegular": "\\-\\d+集",
+                //"直链解析": true,
+                //可以不要这个字段,
+                不存在这个字段默认值为false,
+                表示直链不走解析直接播放,
+                为true时直链走解析,
+                解析不出来直接播放//"线路替换": "lzm3u8->量子|ffm3u8->非凡",
+                //只有在用"FlagNameReplaceRegular"存在且不为空的情况下有效、用"->"替换、每个替换规则用"|"隔开、可以不要这个字段、如果存在这个字段并且替换了、那么"线路过滤"、"线路排序"、应用的是被替换后的线路"线路排序": "极速线路->APP专享①->APP专享②->直连①->直连②->直连③->自营测试中",
+                //用"->"隔开、排序根据"线路排序"中线路名的顺序、如果只有一个线路名则将这一个线路名排在最前面//"线路过滤": [
+                    "量子",
+                    "非凡"
+                ],
+                "分类过滤": [
+                    "短剧",
+                    "体育",
+                    "解说"
+                ],
+                "GetUserAgent": "Dart/2.10 (dart:io)"
+            },
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "flagSort": 1,
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/lem1029.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "晨曦(SP)",
+            "name": "晨曦(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": {
+                "SiteUrl": "https://itcxo.cn/skapp.txt",
+                //"SiteUrl": "http://skapp.itcxo.cn/app/speedapi",
+                //"SiteUrl": "http://skapp.itcxo.cn",
+                "域名匹配": [
+                    ".txt",
+                    ".json"
+                ],
+                //"自动筛选": true,
+                //"授权验证": true,
+                /*"验证信息": {
+                    "Post": {
+                        "sign": ""
+                    },
+                    //"BuildCk": true,
+                    "CkFormat": "%s##5483##%s##ckzmbc",
+                    "AesKey": "",
+                    "AesIv": ""
+                },
+                */"AesKey": "ygcnbcwwmfrveays",
+                "AesIv": "9322761668143708",
+                "DecodeReplace": "FROMSKZZJM",
+                "FlagNameReplaceRegular": "\\-\\d+集",
+                //"直链解析": true,
+                //可以不要这个字段,
+                不存在这个字段默认值为false,
+                表示直链不走解析直接播放,
+                为true时直链走解析,
+                解析不出来直接播放//"线路替换": "lzm3u8->量子|ffm3u8->非凡",
+                //只有在用"FlagNameReplaceRegular"存在且不为空的情况下有效、用"->"替换、每个替换规则用"|"隔开、可以不要这个字段、如果存在这个字段并且替换了、那么"线路过滤"、"线路排序"、应用的是被替换后的线路"线路排序": "专线1号->晨曦专线->1号专线->2号专线->3号专线->初墨专线->①号->②号->③号",
+                //用"->"隔开、排序根据"线路排序"中线路名的顺序、如果只有一个线路名则将这一个线路名排在最前面//"线路过滤": [
+                    "备用LZ线",
+                    "备用FF线",
+                    "备用BF线",
+                    "备用SN线"
+                ],
+                "分类过滤": [
+                    "短剧",
+                    "体育",
+                    "解说",
+                    "电影解说"
+                ],
+                "GetUserAgent": "Dart/2.10 (dart:io)"
+            },
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "flagSort": 1,
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/lem1029.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "电影库(SP)",
+            "name": "电影库(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": {
+                "SiteUrl": "https://dy.dd123.us:8851/app/speedapi",
+                //"SiteUrl": "http://193.84.249.248:5004",
+                "域名匹配": [
+                    ".txt",
+                    ".json"
+                ],
+                //"自动筛选": true,
+                //"授权验证": true,
+                /*"验证信息": {
+                    "Post": {
+                        "sign": ""
+                    },
+                    //"BuildCk": true,
+                    "CkFormat": "%s##5483##%s##ckzmbc",
+                    "AesKey": "",
+                    "AesIv": ""
+                },
+                */"AesKey": "ygcnbcttgagdmfcz",
+                "AesIv": "2836976267143708",
+                "DecodeReplace": "FROMSKZZJM",
+                "FlagNameReplaceRegular": "\\-\\d+集",
+                //"直链解析": true,
+                //可以不要这个字段,
+                不存在这个字段默认值为false,
+                表示直链不走解析直接播放,
+                为true时直链走解析,
+                解析不出来直接播放//"线路替换": "lzm3u8->量子|ffm3u8->非凡",
+                //只有在用"FlagNameReplaceRegular"存在且不为空的情况下有效、用"->"替换、每个替换规则用"|"隔开、可以不要这个字段、如果存在这个字段并且替换了、那么"线路过滤"、"线路排序"、应用的是被替换后的线路"线路排序": "VIP线路->VIP①->VIP②->VIP③->VIP线路②",
+                //用"->"隔开、排序根据"线路排序"中线路名的顺序、如果只有一个线路名则将这一个线路名排在最前面//"线路过滤": [
+                    "量子",
+                    "非凡"
+                ],
+                "分类过滤": [
+                    "短剧",
+                    "体育",
+                    "解说"
+                ],
+                "GetUserAgent": "Dart/2.10 (dart:io)"
+            },
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "flagSort": 1,
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/lem1029.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "TVB云播(SP)",
+            "name": "TVB云播(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": {
+                //"SiteUrl": "http://skapp.1980dyy.com/app/speedapi",
+                "SiteUrl": "http://skapp.1980dyy.com",
+                "域名匹配": [
+                    ".txt",
+                    ".json"
+                ],
+                //"自动筛选": true,
+                //"授权验证": true,
+                /*"验证信息": {
+                    "Post": {
+                        "sign": ""
+                    },
+                    //"BuildCk": true,
+                    "CkFormat": "%s##5483##%s##ckzmbc",
+                    "AesKey": "",
+                    "AesIv": ""
+                },
+                */"AesKey": "ygcnbcravervztme",
+                "AesIv": "4105142705143708",
+                "DecodeReplace": "FROMSKZZJM",
+                "FlagNameReplaceRegular": "\\-\\d+集",
+                //"直链解析": true,
+                //可以不要这个字段,
+                不存在这个字段默认值为false,
+                表示直链不走解析直接播放,
+                为true时直链走解析,
+                解析不出来直接播放//"线路替换": "lzm3u8->量子|ffm3u8->非凡",
+                //只有在用"FlagNameReplaceRegular"存在且不为空的情况下有效、用"->"替换、每个替换规则用"|"隔开、可以不要这个字段、如果存在这个字段并且替换了、那么"线路过滤"、"线路排序"、应用的是被替换后的线路"线路排序": "极速专线->直连线路->国内极速",
+                //用"->"隔开、排序根据"线路排序"中线路名的顺序、如果只有一个线路名则将这一个线路名排在最前面"线路过滤": [
+                    "暴风线路",
+                    "备用线路",
+                    "备用线路2",
+                    "备用线路3"
+                ],
+                "分类过滤": [
+                    "短剧",
+                    "体育",
+                    "解说"
+                ],
+                "GetUserAgent": "Dart/2.10 (dart:io)"
+            },
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "flagSort": 1,
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/lem1029.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "柚子(SP)",
+            "name": "柚子(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": {
+                "SiteUrl": "https://yz.yzys.top:9777/app/speedapi",
+                //"SiteUrl": "https://yz.yzys.top:9777/app.txt",
+                //"SiteUrl": "https://yz.yzys.top:9777",
+                //"SiteUrl": "http://193.84.249.248:5001",
+                "域名匹配": [
+                    ".txt",
+                    ".json"
+                ],
+                //"自动筛选": true,
+                //"授权验证": true,
+                /*"验证信息": {
+                    "Post": {
+                        "sign": ""
+                    },
+                    //"BuildCk": true,
+                    "CkFormat": "%s##5483##%s##ckzmbc",
+                    "AesKey": "",
+                    "AesIv": ""
+                },
+                */"AesKey": "ygcnbcwqzaekvzed",
+                "AesIv": "4004296093143708",
+                "DecodeReplace": "FROMSKZZJM",
+                "FlagNameReplaceRegular": "\\-\\d+集",
+                //"直链解析": true,
+                //可以不要这个字段,
+                不存在这个字段默认值为false,
+                表示直链不走解析直接播放,
+                为true时直链走解析,
+                解析不出来直接播放//"线路替换": "lzm3u8->量子|ffm3u8->非凡",
+                //只有在用"FlagNameReplaceRegular"存在且不为空的情况下有效、用"->"替换、每个替换规则用"|"隔开、可以不要这个字段、如果存在这个字段并且替换了、那么"线路过滤"、"线路排序"、应用的是被替换后的线路"线路排序": "VIP线路->VIP①->VIP②->VIP③",
+                //用"->"隔开、排序根据"线路排序"中线路名的顺序、如果只有一个线路名则将这一个线路名排在最前面"线路过滤": [
+                    "备用LZ线",
+                    "备用FF线",
+                    "备用BF线",
+                    "备用SN线"
+                ],
+                "分类过滤": [
+                    "短剧",
+                    "体育",
+                    "解说"
+                ],
+                "GetUserAgent": "Dart/2.10 (dart:io)"
+            },
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "flagSort": 1,
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/lem1029.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "喵桃(SP)",
+            "name": "喵桃(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": {
+                //"SiteUrl": "http://103.133.177.191:3324/app/speedapi",
+                "SiteUrl": "https://pan-1302169428.cos.ap-nanjing.myqcloud.com/fb.txt",
+                //"SiteUrl": "http://103.133.177.191:3324",
+                "域名匹配": [
+                    ".txt",
+                    ".json"
+                ],
+                //"自动筛选": true,
+                "授权验证": true,
+                "验证信息": {
+                    "Post": {
+                        "sign": "944c2cb5caca0f7be758943e4507d98b"
+                    },
+                    "BuildCk": true,
+                    "CkFormat": "%s##5483##%s##ckzmbc",
+                    "AesKey": "ygcnbcrvaervztmw",
+                    "AesIv": "1212164105143708"
+                },
+                "AesKey": "ygcnbcmkracvgvkk",
+                "AesIv": "0714724189143708",
+                "DecodeReplace": "FROMSKZZJM",
+                "FlagNameReplaceRegular": "\\-\\d+集",
+                //"直链解析": true,
+                //可以不要这个字段,
+                不存在这个字段默认值为false,
+                表示直链不走解析直接播放,
+                为true时直链走解析,
+                解析不出来直接播放//"线路替换": "lzm3u8->量子|ffm3u8->非凡",
+                //只有在用"FlagNameReplaceRegular"存在且不为空的情况下有效、用"->"替换、每个替换规则用"|"隔开、可以不要这个字段、如果存在这个字段并且替换了、那么"线路过滤"、"线路排序"、应用的是被替换后的线路"线路排序": "蓝光主线",
+                //用"->"隔开、排序根据"线路排序"中线路名的顺序、如果只有一个线路名则将这一个线路名排在最前面//"线路过滤": [
+                    "量子"
+                ],
+                "分类过滤": [
+                    "短剧",
+                    "体育",
+                    "解说",
+                    "电影解说"
+                ],
+                "GetUserAgent": "Dart/2.10 (dart:io)"
+            },
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "flagSort": 1,
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/lem1029.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "新光(SP)",
+            "name": "新光(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": {
+                //"SiteUrl": "https://sk.newlight66.cc/app/speedapi",
+                "SiteUrl": "https://sk.newlight66.cc",
+                "域名匹配": [
+                    ".txt",
+                    ".json"
+                ],
+                //"自动筛选": true,
+                "授权验证": true,
+                "验证信息": {
+                    "Post": {
+                        "sign": "a054897fb541d26092730df4e76fb7a7"
+                    },
+                    "BuildCk": true,
+                    "CkFormat": "%s##5483##%s##ckzmbc",
+                    "AesKey": "ygcnbcrvaervztmw",
+                    "AesIv": "1212164105143708"
+                },
+                "AesKey": "ygcnbctfloaoxqbd",
+                "AesIv": "3089638442143708",
+                "DecodeReplace": "FROMSKZZJM",
+                "FlagNameReplaceRegular": "\\-\\d+集",
+                //"直链解析": true,
+                //可以不要这个字段,
+                不存在这个字段默认值为false,
+                表示直链不走解析直接播放,
+                为true时直链走解析,
+                解析不出来直接播放//"线路替换": "lzm3u8->量子|ffm3u8->非凡",
+                //只有在用"FlagNameReplaceRegular"存在且不为空的情况下有效、用"->"替换、每个替换规则用"|"隔开、可以不要这个字段、如果存在这个字段并且替换了、那么"线路过滤"、"线路排序"、应用的是被替换后的线路"线路排序": "蓝光1->蓝光2",
+                //用"->"隔开、排序根据"线路排序"中线路名的顺序、如果只有一个线路名则将这一个线路名排在最前面//"线路过滤": [
+                    "量子"
+                ],
+                "分类过滤": [
+                    "短剧",
+                    "体育",
+                    "解说",
+                    "电影解说"
+                ],
+                "GetUserAgent": "Dart/2.10 (dart:io)"
+            },
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "flagSort": 1,
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/lem1029.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "喵影视(SP)",
+            "name": "喵影视(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": {
+                //"SiteUrl": "https://connect.ixile.top/app/speedapi",
+                "SiteUrl": "https://connect.ixile.top",
+                "域名匹配": [
+                    ".txt",
+                    ".json"
+                ],
+                //"自动筛选": true,
+                //"授权验证": true,
+                "验证信息": {
+                    "Post": {
+                        "sign": "429aae9406927f43bda647a3ec485d2f"
+                    },
+                    "BuildCk": true,
+                    "CkFormat": "%s##5483##%s##ckzmbc",
+                    "AesKey": "ygcnbcrvaervztmw",
+                    "AesIv": "1212164105143708"
+                },
+                "AesKey": "ygcnbczzbxdyytar",
+                "AesIv": "0675335436143708",
+                "DecodeReplace": "FROMSKZZJM",
+                "FlagNameReplaceRegular": "\\-\\d+集",
+                //"直链解析": true,
+                //可以不要这个字段,
+                不存在这个字段默认值为false,
+                表示直链不走解析直接播放,
+                为true时直链走解析,
+                解析不出来直接播放//"线路替换": "lzm3u8->量子|ffm3u8->非凡",
+                //只有在用"FlagNameReplaceRegular"存在且不为空的情况下有效、用"->"替换、每个替换规则用"|"隔开、可以不要这个字段、如果存在这个字段并且替换了、那么"线路过滤"、"线路排序"、应用的是被替换后的线路//"线路排序": "SK视频",
+                //用"->"隔开、排序根据"线路排序"中线路名的顺序、如果只有一个线路名则将这一个线路名排在最前面//"线路过滤": [
+                    "量子"
+                ],
+                "分类过滤": [
+                    "短剧",
+                    "体育",
+                    "解说",
+                    "电影解说"
+                ],
+                "GetUserAgent": "Dart/2.10 (dart:io)"
+            },
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "flagSort": 1,
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/lem1029.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "剧多多(SP)",
+            "name": "剧多多(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": {
+                //"SiteUrl": "http://185.245.41.218:34534/app/speedapi",
+                "SiteUrl": "https://imagestore.ncer.top/juduoduo/update/api.txt",
+                //"SiteUrl": "http://185.245.41.218:34534",
+                "域名匹配": [
+                    ".txt",
+                    ".json"
+                ],
+                //"自动筛选": true,
+                "授权验证": true,
+                "验证信息": {
+                    "Post": {
+                        "sign": "86e30e2dc7ba8a291c008e37379af6d3"
+                    },
+                    "BuildCk": true,
+                    "CkFormat": "%s##5483##%s##ckzmbc",
+                    "AesKey": "ygcnbcrvaervztmw",
+                    "AesIv": "1212164105143708"
+                },
+                "AesKey": "ygcnbcukvecoprvg",
+                "AesIv": "8240959274143708",
+                "DecodeReplace": "FROMSKZZJM",
+                "FlagNameReplaceRegular": "\\-\\d+集",
+                //"直链解析": true,
+                //可以不要这个字段,
+                不存在这个字段默认值为false,
+                表示直链不走解析直接播放,
+                为true时直链走解析,
+                解析不出来直接播放//"线路替换": "lzm3u8->量子|ffm3u8->非凡",
+                //只有在用"FlagNameReplaceRegular"存在且不为空的情况下有效、用"->"替换、每个替换规则用"|"隔开、可以不要这个字段、如果存在这个字段并且替换了、那么"线路过滤"、"线路排序"、应用的是被替换后的线路"线路排序": "蓝光",
+                //用"->"隔开、排序根据"线路排序"中线路名的顺序、如果只有一个线路名则将这一个线路名排在最前面"线路过滤": [
+                    "不可用"
+                ],
+                "分类过滤": [
+                    "短剧",
+                    "体育",
+                    "解说",
+                    "电影解说"
+                ],
+                "GetUserAgent": "Dart/2.10 (dart:io)"
+            },
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "flagSort": 1,
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/lem1029.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "小熊(SP)",
+            "name": "小熊(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": {
+                "SiteUrl": "https://xx.xxys123.top:8787/app/speedapi|1",
+                //"SiteUrl": "http://175.178.160.41:5002",
+                "域名匹配": [
+                    ".txt",
+                    ".json"
+                ],
+                //"自动筛选": true,
+                /*"授权验证": true,
+                "验证信息": {
+                    "Post": {
+                        "sign": ""
+                    },
+                    "BuildCk": true,
+                    "CkFormat": "%s##5483##%s##ckzmbc",
+                    "AesKey": "ygcnbcrvaervztmw",
+                    "AesIv": "1212164105143708"
+                },
+                */"AesKey": "ygcnbcgdwzcdamug",
+                "AesIv": "9631775649143708",
+                "DecodeReplace": "FROMSKZZJM",
+                "FlagNameReplaceRegular": "\\-\\d+集",
+                //"直链解析": true,
+                //可以不要这个字段,
+                不存在这个字段默认值为false,
+                表示直链不走解析直接播放,
+                为true时直链走解析,
+                解析不出来直接播放//"线路替换": "lzm3u8->量子|ffm3u8->非凡",
+                //只有在用"FlagNameReplaceRegular"存在且不为空的情况下有效、用"->"替换、每个替换规则用"|"隔开、可以不要这个字段、如果存在这个字段并且替换了、那么"线路过滤"、"线路排序"、应用的是被替换后的线路"线路排序": "VIP线路",
+                //用"->"隔开、排序根据"线路排序"中线路名的顺序、如果只有一个线路名则将这一个线路名排在最前面//"线路过滤": [
+                    "量子"
+                ],
+                "分类过滤": [
+                    "短剧",
+                    "体育",
+                    "解说",
+                    "电影解说"
+                ],
+                "GetUserAgent": "Dart/2.10 (dart:io)"
+            },
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "flagSort": 1,
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/lem1029.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "土豪(SP)",
+            "name": "土豪(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": {
+                //"SiteUrl": "https://tuhao.212cm.com/app/speedapi",
+                "SiteUrl": "https://app.212cm.com/app.txt",
+                //"SiteUrl": "https://tuhao.212cm.com",
+                "域名匹配": [
+                    ".txt",
+                    ".json"
+                ],
+                //"自动筛选": true,
+                /*"授权验证": true,
+                "验证信息": {
+                    "Post": {
+                        "sign": ""
+                    },
+                    "BuildCk": true,
+                    "CkFormat": "%s##5483##%s##ckzmbc",
+                    "AesKey": "ygcnbcrvaervztmw",
+                    "AesIv": "1212164105143708"
+                },
+                */"AesKey": "ygcnbcfblhrkgtqo",
+                "AesIv": "0739303667143708",
+                "DecodeReplace": "FROMSKZZJM",
+                "FlagNameReplaceRegular": "\\-\\d+集",
+                //"直链解析": true,
+                //可以不要这个字段,
+                不存在这个字段默认值为false,
+                表示直链不走解析直接播放,
+                为true时直链走解析,
+                解析不出来直接播放//"线路替换": "lzm3u8->量子|ffm3u8->非凡",
+                //只有在用"FlagNameReplaceRegular"存在且不为空的情况下有效、用"->"替换、每个替换规则用"|"隔开、可以不要这个字段、如果存在这个字段并且替换了、那么"线路过滤"、"线路排序"、应用的是被替换后的线路//"线路排序": "",
+                //用"->"隔开、排序根据"线路排序"中线路名的顺序、如果只有一个线路名则将这一个线路名排在最前面//"线路过滤": [
+                    "量子"
+                ],
+                "分类过滤": [
+                    "短剧",
+                    "体育",
+                    "解说",
+                    "电影解说"
+                ],
+                "GetUserAgent": "Dart/2.10 (dart:io)"
+            },
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "flagSort": 1,
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/lem1029.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "觅视频(SP)",
+            "name": "觅视频(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": {
+                "SiteUrl": "http://app.xjrtv.cn:81",
+                "域名匹配": [
+                    ".txt",
+                    ".json"
+                ],
+                //"自动筛选": true,
+                //"授权验证": true,
+                /*"验证信息": {
+                    "Post": {
+                        "sign": ""
+                    },
+                    //"BuildCk": true,
+                    "CkFormat": "%s##5483##%s##ckzmbc",
+                    "AesKey": "",
+                    "AesIv": ""
+                },
+                */"AesKey": "ygcnbcravervztmn",
+                "AesIv": "4105142714143708",
+                //"AesKey": "ygcnbcravervztma",
+                //"AesIv": "4105142701143708",
+                "DecodeReplace": "FROMSKZZJM",
+                "FlagNameReplaceRegular": "\\-\\d+集",
+                //"直链解析": true,
+                //可以不要这个字段,
+                不存在这个字段默认值为false,
+                表示直链不走解析直接播放,
+                为true时直链走解析,
+                解析不出来直接播放//"线路替换": "lzm3u8->量子|ffm3u8->非凡",
+                //只有在用"FlagNameReplaceRegular"存在且不为空的情况下有效、用"->"替换、每个替换规则用"|"隔开、可以不要这个字段、如果存在这个字段并且替换了、那么"线路过滤"、"线路排序"、应用的是被替换后的线路//"线路排序": "腾讯->优酷->爱奇艺",
+                //用"->"隔开、排序根据"线路排序"中线路名的顺序、如果只有一个线路名则将这一个线路名排在最前面//"线路过滤": [
+                    "量子",
+                    "非凡"
+                ],
+                "分类过滤": [
+                    "短剧",
+                    "体育",
+                    "解说"
+                ],
+                "GetUserAgent": "Dart/2.10 (dart:io)"
+            },
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "flagSort": 1,
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/lem1029.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "双子(SP)",
+            "name": "双子(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": {
+                //"SiteUrl": "https://cdn.szxpay.top/app/speedapi",
+                "SiteUrl": "https://love.yulinyulin.xyz/json/api.txt",
+                //"SiteUrl": "https://cdn.szxpay.top",
+                "域名匹配": [
+                    ".txt",
+                    ".json"
+                ],
+                //"自动筛选": true,
+                /*"授权验证": true,
+                "验证信息": {
+                    "Post": {
+                        "sign": ""
+                    },
+                    "BuildCk": true,
+                    "CkFormat": "%s##5483##%s##ckzmbc",
+                    "AesKey": "ygcnbcrvaervztmw",
+                    "AesIv": "1212164105143708"
+                },
+                */"AesKey": "ygcnbcivwtmgxezp",
+                "AesIv": "3397705703143708",
+                "DecodeReplace": "FROMSKZZJM",
+                "FlagNameReplaceRegular": "\\-\\d+集",
+                //"直链解析": true,
+                //可以不要这个字段,
+                不存在这个字段默认值为false,
+                表示直链不走解析直接播放,
+                为true时直链走解析,
+                解析不出来直接播放//"线路替换": "lzm3u8->量子|ffm3u8->非凡",
+                //只有在用"FlagNameReplaceRegular"存在且不为空的情况下有效、用"->"替换、每个替换规则用"|"隔开、可以不要这个字段、如果存在这个字段并且替换了、那么"线路过滤"、"线路排序"、应用的是被替换后的线路"线路排序": "APP专线①->APP专线②->APP专线③->APP专线④->APP专线⑤->SZX-Z->APP专线⑧->高速线路①->高速线路②->APP专线⑦->APP专线->SZX-Y->APP专线⑥->极速线路①->极速线路②->APP专线⑩->主线路①->主线路②->主线路③->主线路⑤",
+                //用"->"隔开、排序根据"线路排序"中线路名的顺序、如果只有一个线路名则将这一个线路名排在最前面//"线路过滤": [
+                    "量子"
+                ],
+                "分类过滤": [
+                    "短剧",
+                    "体育",
+                    "解说",
+                    "电影解说"
+                ],
+                "GetUserAgent": "Dart/2.10 (dart:io)"
+            },
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "flagSort": 1,
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/lem1029.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
+            "key": "嘶哩(SP)",
+            "name": "嘶哩(SP)",
+            "type": 3,
+            "api": "csp_AppSk",
+            "ext": {
+                //"SiteUrl": "http://app.silisili.cc/app/speedapi|0",
+                //"SiteUrl": "http://app.silisili.cc/app/speedapi|1",
+                "SiteUrl": "https://xtao-1253811961.cos.ap-chengdu.myqcloud.com/skapp/api.txt",
+                //"SiteUrl": "http://www.silisili.one",
+                //"SiteUrl": "http://app.silisili.cc",
+                "域名匹配": [
+                    ".txt",
+                    ".json"
+                ],
+                //"自动筛选": true,
+                "授权验证": true,
+                "验证信息": {
+                    "Post": {
+                        "sign": "5ee84cdb542c425139a26d51e9114662"
+                    },
+                    "BuildCk": true,
+                    "CkFormat": "%s##5483##%s##ckzmbc",
+                    "AesKey": "ygcnbcrvaervztmw",
+                    "AesIv": "1212164105143708"
+                },
+                "AesKey": "ygcnbcznazmyrbdn",
+                "AesIv": "6571230062143708",
+                "DecodeReplace": "FROMSKZZJM",
+                "FlagNameReplaceRegular": "\\-\\d+集",
+                //"直链解析": true,
+                //可以不要这个字段,
+                不存在这个字段默认值为false,
+                表示直链不走解析直接播放,
+                为true时直链走解析,
+                解析不出来直接播放//"线路替换": "lzm3u8->量子|ffm3u8->非凡",
+                //只有在用"FlagNameReplaceRegular"存在且不为空的情况下有效、用"->"替换、每个替换规则用"|"隔开、可以不要这个字段、如果存在这个字段并且替换了、那么"线路过滤"、"线路排序"、应用的是被替换后的线路"线路排序": "APP->No.A->No.M->No.X",
+                //用"->"隔开、排序根据"线路排序"中线路名的顺序、如果只有一个线路名则将这一个线路名排在最前面//"线路过滤": [
+                    "No.F",
+                    "No.L"
+                ],
+                "分类过滤": [
+                    "短剧",
+                    "体育",
+                    "解说"
+                ],
+                "GetUserAgent": "Dart/2.10 (dart:io)"
+            },
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "flagSort": 1,
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/lem1029.jar;md5;1000908B2E5411018223A4EC0D323878"
+        },
+        {
             "key": "csp_SP33",
             "name": "️3️⃣360(SP)",
             "type": 3,
@@ -75,7 +1198,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "",
-            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/lem1029.jar;md5;801D65585F024263030763A8187B1E67"
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/fanhua.jar;md5;801D65585F024263030763A8187B1E67"
         },
         {
             "key": "csp_SP360",
@@ -2231,15 +3354,15 @@
                 "动漫"
             ]
         },
-{
-    "key": "xml_短剧",
-    "name": "🚀短剧",
-    "type": 1,
-    "api": "https://zzdj.cc/api.php/provide/vod",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1
-},
+        {
+            "key": "xml_短剧",
+            "name": "🚀短剧",
+            "type": 1,
+            "api": "https://zzdj.cc/api.php/provide/vod",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
         {
             "key": "xml_BENMX",
             "name": "🚀BENMX〔采集〕",
@@ -21046,15 +22169,6 @@
             ]
         },
         {
-            "name": "极速",
-            "hosts": [
-                "jszy"
-            ],
-            "regex": [
-                "#EXT-X-DISCONTINUITY\\r*\\n*[\\s\\S]*?#EXT-X-DISCONTINUITY"
-            ]
-        },
-        {
             "name": "蚂蚁",
             "hosts": [
                 "v.cdnlz1.com"
@@ -21073,12 +22187,13 @@
             ]
         },
         {
-            "name": "一起看",
+            "name": "索尼",
             "hosts": [
-                "yqk88"
+                "suonizy"
             ],
             "regex": [
-                "#EXT-X-DISCONTINUITY\\r*\\n*[\\s\\S]*?#EXT-X-CUE-IN"
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7.680000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
             ]
         },
         {
@@ -21093,12 +22208,93 @@
             ]
         },
         {
-            "name": "索尼",
+            "name": "非凡",
             "hosts": [
-                "suonizy"
+                "vip.ffzy",
+                "hd.ffzy"
             ],
             "regex": [
-                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7.680000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                "20.52",
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.400000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                "#EXTINF.*?\\s+.*?1170(20|32).*?\\.ts\\s+",
+                "#EXTINF.*?\\s+.*?116977.*?\\.ts\\s+"
+            ]
+        },
+        {
+            "name": "一起看",
+            "hosts": [
+                "yqk88"
+            ],
+            "regex": [
+                "#EXT-X-DISCONTINUITY\\r*\\n*[\\s\\S]*?#EXT-X-CUE-IN"
+            ]
+        },
+        {
+            "name": "一起看",
+            "hosts": [
+                "yqk88"
+            ],
+            "regex": [
+                "18.4",
+                "15.1666"
+            ]
+        },
+        {
+            "name": "极速",
+            "hosts": [
+                "jszy"
+            ],
+            "regex": [
+                "#EXT-X-DISCONTINUITY\\r*\\n*[\\s\\S]*?#EXT-X-DISCONTINUITY"
+            ]
+        },
+        {
+            "name": "极速",
+            "hosts": [
+                "jszy"
+            ],
+            "regex": [
+                "#EXTINF.*?\\s+.*?muguacdn*?\\.ts\\s+",
+                "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+            ]
+        },
+        {
+            "name": "视觉",
+            "hosts": [
+                "Xinsj"
+            ],
+            "regex": [
+                "#EXTINF.*?\\s+.*?muguacdn*?\\.ts\\s+",
+                "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+            ]
+        },
+        {
+            "name": "视觉",
+            "hosts": [
+                "Xinsj"
+            ],
+            "regex": [
+                "#EXT-X-DISCONTINUITY\\r*\\n*[\\s\\S]*?#EXT-X-DISCONTINUITY"
+            ]
+        },
+        {
+            "name": "乐视",
+            "hosts": [
+                "leshiyuncdn"
+            ],
+            "regex": [
+                "15.92"
+            ]
+        },
+        {
+            "name": "网盘",
+            "hosts": [
+                "vip.123pan.cn",
+                "rescdn.wuxivlog.cn"
+            ],
+            "regex": [
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:20.840000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:10.120000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
                 "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
             ]
         },
