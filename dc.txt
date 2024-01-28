@@ -1,14 +1,6 @@
 {
     "urls": [
 {
-            "name": "🐼自用狂飙版🐼",
-            "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/gbkbb.json"
-        },
-{
-            "name": "🐼自用纯净版🐼",
-            "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/gbcjb.json"
-        },
-{
             "name": "🐼LEM🐼",
             "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/lem.json"
         },
@@ -23,6 +15,10 @@
         {
             "name": "🐼熊猫不叫猫🐼",
             "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/xmbjm/xmbjm/main/xmbjm.json"
+        },
+{
+            "name": "📚拾光",
+            "url": "https://atomgit.com/xmbjm/vip/raw/main/vip.json"
         },
         {
             "name": "🐯精简👙",
