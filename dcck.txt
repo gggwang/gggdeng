@@ -1,10 +1,9 @@
 ﻿{
 "storeHouse": [
-{"sourceName":"自建一号仓","sourceUrl":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/dc.txt"},
-{"sourceName":"熊猫二号仓","sourceUrl":"https://gh.con.sh/https://raw.githubusercontent.com/xmbjm/xmbjm/main/xmbjmdc.json"},
+{"sourceName":"自建一号仓","sourceUrl":"https://pan.shangui.cc/f/v67zhk/dc.txt"},
+{"sourceName":"熊猫二号仓","sourceUrl":"https://d.kstore.space/download/4708/dc.json"},
 {"sourceName":"心动三号仓","sourceUrl":"http://rihou.vip:666"},
 {"sourceName": "💕恒星仓库💕","sourceUrl": "https://atomgit.com/hengxing/hx/raw/master/hxck1.txt"},
-{"sourceName": "💕拾光仓库💕","sourceUrl": "https://cn.kstore.space/download/4708/xmbjmdc.json"},
 {"sourceName": "💕心动仓库💕","sourceUrl": "https://atomgit.com/hengxing/hx/raw/master/XD.txt"},
 {"sourceName": "通知点进来看看","sourceUrl": "https://atomgit.com/hengxing/hx/raw/master/jjtz.txt"},
 {"sourceName":"🔃优秀","sourceUrl":"https://agit.ai/hkyh/ysm/raw/branch/master/7.json"},
