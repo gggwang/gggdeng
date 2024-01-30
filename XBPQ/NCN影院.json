@@ -1,43 +1,34 @@
 {
  
-"作者": "小可乐",
+"作者": "小可乐/240120/第三版",
   
 "站名": "NCN影院",
     
-"主页url": "https://xvod.cc/",
+"主页url": "https://cnys1.tv",
+
+"首页": "50",
 
 "编码": "UTF-8",
 
-"首页": "剧集$30",
-
 "请求头": "手机",
+
+"嗅探词": ".m3u8#.mp4#.flv#ali",
+
+"过滤词": "",
 
 "播放请求头": "手机",
 
-"嗅探词": ".m3u8#.mp4#.flv",
 
 "起始页": "1",
 
+"分类url":"/vodtype-{cateId}-page-{catePg}.html;;mar",
+
+"分类": "电影&剧集&综艺&动漫",
+
+"分类值": "1&2&3&4",
 
 
-"影片类型":"类型：&&</li>",
-
-"影片地区":"地区：&&</li>",
-
-"影片年代":"年份：&&</li>",
-
-"影片状态":"状态：&&</li>",
-
-"导演":"导演：&&</li>",
-
-"主演":"主演：&&</li>",
-
-"简介":"👶小可乐为您剧情介绍：+text cor3\">&&</div>",
-
-
-"分类url":"/vodshow-{cateId}-area-{area}-by-{by}-class-{class}-page-{catePg}-year-{year}.html;;mak",
-
-"分类": "电影$1#剧集$2#综艺$3#动漫$4#直播$54", 
+"二次截取":"",
 
 "数组":"public-list-div public-list-bj\">&&</a>",
 
@@ -45,36 +36,59 @@
 
 "标题":"title=\"&&\"",
 
-"副标题":"public-list-prb hide ft2\">&&</span>",
+"副标题":"public-list-subtitle hide ft2\">&&</span>",
 
 "链接":"href=\"&&\"",
 
 
-"线路数组":"<i class=\"fa ds-dianying\">&&</a>[排序:线路二>中国线路]",
+"线路二次截取":"",
 
-"线路标题":"</i>&&</a>[替换:<span class=\"badge\">>>共]+集",
+"线路数组":"<i class=\"fa ds-dianying\">&&</a>[排序:中国>全球>海外]",
 
+"线路标题":"👶+>&&<+共+<span*>&&</span>+集",
+
+
+"播放二次截取":"",
 
 "播放数组":"anthology-list-play size\">&&</ul>",
                                  
 "播放列表":"<a&&/a>",
 
-"播放标题":">&&</a>",
+"播放标题":">&&<",
 
 "播放链接":"href=\"&&\"",
 
+"倒序":"0",
 
-"搜索url":"/vodsearch-page-{catePg}-wd-{wd}.html",
+"跳转播放链接":"urlDecode(var player_*url\":\"&&\")",
+
+
+"影片类型":"-class-*>&&</span>",
+
+"影片年代":"vodsearch-year*>&&</a>",
+
+"影片地区":"vodsearch-未知*>&&</span>",
+
+"导演": "导演 :&&</div>",
+
+"主演": "演员 :&&</div>",
+
+"简介":"👶小可乐为您剧情介绍：+text cor4\">&&<div",
+
+
+"搜索url":"/vodsearch-page-{pg}-wd-{wd}.html",
 
 "搜索模式":"1",
 
-"搜索数组":"left public-list-bj\">&&</a>",
+"搜索二次截取":"",
+
+"搜索数组":"left public-list-bj\">&&</div></div>",
 
 "搜索图片":"data-src=\"&&\"",
 
 "搜索标题": "alt=\"&&封面图\"",
 
-"搜索副标题": "public-list-prb hide ft2\">&&</span>",
+"搜索副标题": "备注：&&</div>",
 
 "搜索链接": "href=\"&&\""
 
