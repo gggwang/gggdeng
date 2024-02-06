@@ -33,6 +33,11 @@
 
 "线路标题":"<span>&&</small>[替换:</span><small>>>共]+集",
 
+"播放数组":"<div class=\"module-play-list\"&&</div>",
+
+"播放标题":"<span>&&</span>",
+
 "分类url":"https://www.nkvod.com/show/{cateId}--{by}------{catePg}---{year}.html;;ak",
 
-"分类":"电影$1#电视剧$2#综艺$3#动漫$4"}
+"分类":"电影$1#电视剧$2#综艺$3#动漫$4"
+}
