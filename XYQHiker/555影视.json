@@ -11,8 +11,8 @@
     "首页片单是否Jsoup写法": "1",
     "分类起始页码": "1",
     "分类链接": "https://www.555ys4.com/{cateId}.html",
-    "分类名称": "Netflix&电影&电视剧&综艺&动漫",
-    "分类名称替换词": "label/netflix&vodtype/1&vodtype/2&vodtype/3&vodtype/4",
+    "分类名称": "Netflix&电影&电视剧&综艺&动漫&福利",
+    "分类名称替换词": "label/netflix&vodtype/1&vodtype/2&vodtype/3&vodtype/4&vodtype/124",
     "筛选数据": {},
     //"筛选数据": "ext",
     //{cateId}
