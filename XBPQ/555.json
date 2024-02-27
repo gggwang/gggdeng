@@ -1,8 +1,9 @@
 {
     "站名": "555电影",
     "主页url": "https://zhenfanjixie.com",
-"分类":"电影$1#电视剧$2#综艺纪录$3#动漫$4#福利$124",
-     "分类url":"https://zhenfanjixie.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
+    "分类": "Netflix&电影&连续剧&动漫&综艺记录&福利",
+    "分类值": "/label/netflix&/vodtype/1&/vodtype/2&/vodtype/4&/vodtype/3&/vodtype/124",
+    "分类url": "https://zhenfanjixie.com{cateId}/page/{catePg}.html",
     "副标题": "module-item-note\">&&</div>",
     "搜索模式": "0",
     "搜索后缀": "/voddetail/",
