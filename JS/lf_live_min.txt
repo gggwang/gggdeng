@@ -1,39 +1,62 @@
-#MV
-https://taijichadao.github.io/zhibo/mv.txt
 
-#精选
-https://taijichadao.github.io/zhibo/zb.txt
+#自用直播
+https://pan.shangui.cc/f/0Bynhj/zby.txt
 
-#肥猫
-http://我不是.肥猫.love:63/TV/tvzb.txt
 
-#饭太硬
-http://ftyyy.tk/live.txt
+#港澳新视界
+https://pan.shangui.cc/f/N4oNIj/港澳新视界222.txt
+
+#冰夏冰姐
+https://pan.shangui.cc/f/Q4MJtm/冰夏冰姐二次被端.txt
+
+#爱家
+https://cloud.lxweb.cn/f/ewdxca/爱家影视一窝端.txt
+
+#红猫
+https://pan.shangui.cc/f/g3ReIV/红猫收费一锅端.txt
+
+#TVB港台
+https://cloud.lxweb.cn/f/71qwIr/TVB港台一鍋端 (1).txt
+
+
+#清爽直播
+https://pan.shangui.cc/f/vdxzhk/清爽直播一锅端.txt
+
+#TVB港澳台
+https://pan.shangui.cc/f/aVvEc2/tvb港澳台直播源.txt
+
+#全球直播
+https://cloud.lxweb.cn/f/Arjyfa/全球直播（新）.txt
+
+#天一直播
+https://pan.shangui.cc/f/2eX8Hx/天一zhibo.txt
+
+#瑶瑶直播
+https://pan.shangui.cc/f/4ea5H0/瑶瑶直播一锅端.txt
+
+#松视直播
+https://pan.shangui.cc/f/EBwnCD/松视一锅端.txt
+
+#晴天直播
+https://pan.shangui.cc/f/qaynHG/晴天TV一锅端.txt
 
 #dxawi
 https://dxawi.github.io/0/tvlive.txt
 
-#范明明-global
-https://live.fanmingming.com/tv/m3u/global.m3u
-
 #范明明-ipv6
 https://live.fanmingming.com/tv/m3u/ipv6.m3u
 
-#范明明-Radio
-https://live.fanmingming.com/radio/m3u/index.m3u
+#野火
+https://cloud.lxweb.cn/f/xbXBcM/野火(1).txt
 
-#Ftindy-BESTV源
-https://ghproxy.com/https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/bestv.m3u
+#糖意
+https://cloud.lxweb.cn/f/PBpETb/糖意2024TV.txt
 
-#太阳
-http://111.67.196.181/zhibo.txt
+#徐老
+https://cloud.lxweb.cn/f/G8qWFg/%E5%85%A8%E5%A5%97%E5%BE%90%E8%80%81%E4%B8%80%E7%AA%9D%E7%AB%AF.txt
 
-#APTV-ipv6
-https://ghproxy.com/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u
+#ZBTV
+https://cloud.lxweb.cn/f/G8qWFg/%E5%85%A8%E5%A5%97%E5%BE%90%E8%80%81%E4%B8%80%E7%AA%9D%E7%AB%AF.txt
 
-#YueChan-ipv6
-https://ghproxy.com/https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u
-
-#16wMV
-file://xc/sub/16wMV.txt
-
+#小小
+https://pan.shangui.cc/f/XeXdud/小小TV_123456.txt
