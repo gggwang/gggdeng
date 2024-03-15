@@ -68,7 +68,7 @@
 
 "分类片单是否Jsoup写法": "1",
 
-"分类片单图片": "'https://150.109.69.134:5001'+img&&data-original",
+"分类片单图片": "'https://vres.vukfnqr.com'+img&&data-original",
 
 "分类片单标题": "img&&title",
 
@@ -104,7 +104,7 @@
 
 "选集链接加后缀": "",
 
-"分析MacPlayer": "1",
+"分析MacPlayer": "2",
 
 
     
@@ -134,7 +134,7 @@
 
 "搜索片单是否Jsoup写法": "1",
 
-"搜索片单图片": "'https://150.109.69.134:5001'+img&&data-original",
+"搜索片单图片": "'https://vres.vukfnqr.com'+img&&data-original",
 
 "搜索片单标题": "img&&title",
 
