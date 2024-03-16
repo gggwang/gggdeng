@@ -52,11 +52,11 @@
 
 "分类起始页码": "1",
 
-"分类链接": "https://gfvod.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
+"分类链接": "https://gfvod.com/index.php/vod/type/id/{cateId}/page/{catePg}.html",
 
 "分类名称": "电影&剧集&综艺&动漫&短剧",
 
-"分类名称替换词": "1&2&3&4&5",
+"分类名称替换词": "1&2&3&4&20",
 
 
 
@@ -124,7 +124,7 @@
 
 "搜索请求头参数": "User-Agent$手机",
 
-"搜索链接": "https://gfvod.com/vodsearch/{wd}----------{SearchPg}---.html",
+"搜索链接": "https://gfvod.com/index.php/vod/search/page/{SearchPg}/wd/{wd}.html",
 
 "POST请求数据": "searchword={wd}",
 
