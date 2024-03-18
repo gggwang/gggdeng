@@ -45,6 +45,9 @@ https://pan.shangui.cc/f/EBwnCD/松视一锅端.txt
 #晴天直播
 https://pan.shangui.cc/f/qaynHG/晴天TV一锅端.txt
 
+#红猫直播
+https://pan.shangui.cc/f/g3ReIV/红猫收费一锅端.txt
+
 #dxawi
 https://dxawi.github.io/0/tvlive.txt
 
