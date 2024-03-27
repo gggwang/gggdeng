@@ -33,7 +33,7 @@
     "播放列表":"<a&&</a>",
     "播放链接":"href='&&'",
     "分类url":"http://www.91dyk.com/{cateId}/{class}/index{catePg}.html[firstPage=http://m.91dyk.com/{cateId}/{class}]",
-    "分类":"电影$dianying#电视剧$dianshiju#综艺$zongyiyule#动漫$dongmandonghua#音乐MV$yuleMV#福利$dianying/fuli",
+    "分类":"电影$dianying#电视剧$dianshiju#综艺$zongyiyule#动漫$dongmandonghua#音乐MV$yuleMV",
     "嗅探词":".m3u8#m3u8?pt#.mp4?dis#.mp4?#.m3u8?#.m3u8#.mp4#.m3u8?#.mp4?#.m4a",
     "过滤词":"baidu.com#?pid#baidu.com#bilibili.com",
     //"播放请求头":"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36",
