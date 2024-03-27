@@ -1,5 +1,69 @@
 {
     "作者":"凯哥",
+    "站名":"98影视",
+    "编码":"gb2312",
+    //"主页url":"http://www.98kpb.com/http://www.9kdy.com/",
+    //"头部集合": "User-Agent$Mozilla/5.0 (Linux; Android 13; SM-A037U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36  uacq#Host$m.91dyk.com#Referer$http://m.91dyk.com/#Origin$http://m.91dyk.com#Cookie$ASPSESSIONIDACRDBRCA=FAPHEIFAIBEPDCIKMOAAFLAP",
+    "主页url":"http://www.91dyk.com/",
+    //"头部集合": "Host$m.91dyk.com#Content-Length$41#Cache-Control$max-age=0#Upgrade-Insecure-Requests$1#Origin$http://m.91dyk.com#Content-Type$application/x-www-form-urlencoded#User-Agent$Mozilla/5.0 (Linux; Android 13; SM-A037U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36  uacq#Accept$text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7#Referer$http://m.91dyk.com/#Accept-Encoding$gzip, deflate#Accept-Language$zh-CN,zh;q=0.9#Cookie$ASPSESSIONIDACRDBRCA=FAPHEIFAIBEPDCIKMOAAFLAP#sec-ch-ua-platform$\"Android\"#sec-ch-ua$\"Google Chrome\";v=\"112\", \"Chromium\";v=\"112\", \"Not=A?Brand\";v=\"24\"#sec-ch-ua-mobile$?1",
+    "二次截取":"<ul class=\"list_tab_img\"&&<div class\"ui-vpages\">",
+    "数组":"<li>&&</li>",
+    "图片":"data-original=\"&&\"",
+    "标题":"title=\"&&\"",
+    "链接":"href=\"&&\"",
+    "副标题":"\"name\">&&</label>",
+    "简介":"简介：&&</div>",
+    "导演":"导演：&&</p>",
+    "主演":"主演：&&</p>",
+    "影片年代":"年份：&&</p>",
+    "影片状态":"状态：&&</p>",
+    "搜索请求头": "Host$97dyu.com#Content-Length$17#Cache-Control$max-age=0#Upgrade-Insecure-Requests$1#Origin$http://97dyu.com#Content-Type$application/x-www-form-urlencoded#User-Agent$Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36#Accept$text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7#Referer$http://97dyu.com/#Accept-Encoding$gzip, deflate#Accept-Language$zh-CN,zh;q=0.9#sec-ch-ua-platform$\"Windows\"#sec-ch-ua$\"Google Chrome\";v=\"118\", \"Chromium\";v=\"118\", \"Not=A?Brand\";v=\"24\"#sec-ch-ua-mobile$?0",
+    "搜索url":"http://www.91dyk.com/so.asp;post;searchword={wd}&submit=",
+    "搜索模式":"1",
+    "搜索二次截取":"<ul class=\"show-list\"&&id=\"pages\">",
+    "搜索数组":"<li>&&</a>",
+    "搜索图片":"src=\"&&\"",
+    "搜索标题":"alt=\"&&\"",
+    "搜索链接":"href=\"&&\"",
+    //"搜索后缀":"/oftensdetail/",
+    "线路数组":"<div class=\"play-title\">&&</div>",
+    "线路标题":"<a>&&</a>[替换:优酷视频>>悠悠视频#奇艺视频>>琪琪视频#腾讯视频>>迅雷视频#西瓜视频>>南瓜视频#芒果视频>>果果视频]",
+    "播放数组":"<div class=\"content\">&&</div>",
+    "播放标题":"title='&&'",
+    "播放列表":"<a&&</a>",
+    "播放链接":"href='&&'",
+    "分类url":"http://www.91dyk.com/{cateId}/{class}/index{catePg}.html[firstPage=http://m.91dyk.com/{cateId}/{class}]",
+    "分类":"电影$dianying#电视剧$dianshiju#综艺$zongyiyule#动漫$dongmandonghua#音乐MV$yuleMV#福利$dianying/fuli",
+    "嗅探词":".m3u8#m3u8?pt#.mp4?dis#.mp4?#.m3u8?#.m3u8#.mp4#.m3u8?#.mp4?#.m4a",
+    "过滤词":"baidu.com#?pid#baidu.com#bilibili.com",
+    //"播放请求头":"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36",
+    //"免嗅":"0",
+ "筛选":{
+"dianshiju":[
+  {"key":"class","name":"类型","value":[
+  {"n":"全部","v":"dianshiju"},
+  {"n":"国产剧","v":"guochanju"},
+  {"n":"港台剧","v":"gangtaiju"},
+  {"n":"日韩剧","v":"rihanju"},
+  {"n":"欧美剧","v":"oumeiju"}]}
+  ],
+  
+"dianying":[
+  {"key":"class","name":"类型","value":[
+{"n":"全部","v":"dianyingpian"},
+{"n":"动作片","v":"dongzuopian"},
+{"n":"喜剧片","v":"xijupian"},
+{"n":"爱情片","v":"aiqingpian"},
+{"n":"科幻片","v":"kehuanpian"},
+{"n":"恐怖片","v":"kongbupian"},
+{"n":"剧情片","v":"juqingpian"},
+{"n":"战争片","v":"zhanzhengpian"},
+{"n":"动画片","v":"dinghuapian"}]}]
+  
+}
+}
+{
+    "作者":"凯哥",
     "站名":"91影视",
     "编码":"gb2312",
     //"主页url":"http://www.98kpb.com/http://www.9kdy.com/",
