@@ -1,0 +1,115 @@
+{
+ 
+"作者": "小可乐/240328/第一版",
+  
+"站名": "91电影网",
+    
+"请求头": "手机",
+
+"编码": "gb2312",
+
+"图片代理": "0",
+
+"免嗅": "1",
+
+"嗅探词": ".mp4#.m3u8",
+
+"过滤词": "",
+
+"直接播放": "0",
+
+"播放请求头": "",
+
+
+"主页url": "http://m.91dyk.com",
+
+"首页": "120",
+
+
+"起始页": "1",
+
+"分类url": "/{cateId}/index{catePg}.html[http://m.91dyk.com/{cateId}/];;rc",
+
+"分类": "电影&剧集&综艺&动漫&午夜&套图&MV&搞笑",
+
+"分类值": "dianying&dianshiju&zongyiyule&dongmandonghua&wuyejuchang&taotu&yuleMV&fun",
+
+
+"二次截取": "list_tab_img&&</body>",
+
+"数组": "<li>&&</li>",
+
+"标题": "title=\"&&\"",
+
+"图片": "data-original=\"&&\"",
+
+"副标题": "<label*>&&</label>",
+
+"链接": "href=\"&&\"",
+
+
+"线路二次截取": "",
+
+"线路数组": "<span id*>&&/a>",
+
+"线路标题": "👶+>&&<",
+
+
+"播放二次截取": "",
+
+"播放数组": "plau-ul-list\">&&</ul>",
+                                 
+"播放列表": "<a&&/a>",
+
+"播放标题": ">&&<",
+
+"播放链接": "href='&&'",
+
+"倒序": "0",
+
+"跳转解析": "",
+
+// "跳转播放数组": "play\">&&</div>",
+
+// "跳转播放链接": "http://m.91dyk.com+<script*src=\"&&\"",
+
+// "二次跳转播放数组": "VideoListJson&&urlinfo[替换:\\$>>接]",
+
+// "二次跳转播放链接": "接&&接",
+
+
+"影片类型": "类型：&&</p>",
+
+"影片年代": "年份：&&</p>",
+
+"影片地区": "地区：&&</p>",
+
+"导演": "导演：&&</p>",
+
+"主演": "主演：&&</p>",
+
+"简介": "👶+简介：&&</div>",
+
+
+"搜索url": "http://m.91dyk.com/so.asp?page={pg}&searchword={wd}&searchtype=-1",
+
+"搜索模式": "1",
+
+"搜索二次截取": "",
+
+//"搜索数组": "<li>&&</li>",
+
+"搜索标题": "title=\"&&\"",
+
+"搜索图片": "data-original=\"&&\"",
+
+"搜索副标题": "name\">&&</label>",
+
+"搜索链接": "href=\"&&\"",
+
+
+"筛选": "1",
+
+"类型": "动作片$dianying/dongzuopian#喜剧片$dianying/xijupian#爱情片$dianying/aiqingpian#科幻片$dianying/kehuanpian#恐怖片$dianying/kongbupian#剧情片$dianying/juqingpian#战争片$dianying/zhanzhengpian#纪录片$dianying/jilupian#福利片$dianying/fuli#动画片$dianying/dhdy||国产剧$dianshiju/guochanju#欧美剧$dianshiju/oumeiju#香港剧$dianshiju/xianggangju#韩国剧$dianshiju/hanguoju#台湾剧$dianshiju/taiwanju#日本剧$dianshiju/ribenju#泰国剧$dianshiju/taiguoju#海外剧$dianshiju/haiwaiju#微短剧$dianshiju/duanju||大陆综艺$zongyiyule/daluzongyi#香港综艺$zongyiyule/hongkongzongyi#台湾综艺$zongyiyule/taiwanzongyi#日韩综艺$zongyiyule/rihanzongyi#欧美综艺$zongyiyule/oumeizongyi#其他综艺$zongyiyule/qitazongyi||日本动漫$dongmandonghua/ribendongman#国产动漫$dongmandonghua/guochandonghua#欧美动漫$dongmandonghua/oumeidongman#韩国动漫$dongmandonghua/hanguodongman#其他动漫$dongmandonghua/qitadongman||伦理$wuyejuchang/lunli#写真$wuyejuchang/xiezhen#主播$wuyejuchang/zhubo||空||大陆$yuleMV/yanchanghui#港台$yuleMV/MV#日韩$yuleMV/KTV#欧美$yuleMV/bangjiangli||搞笑自拍$fun/gaoxiaozipai#恶搞短片$fun/egaoduanpian#搞笑动物$fun/gaoxiaodongwu"
+
+}
