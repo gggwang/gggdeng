@@ -1,0 +1,113 @@
+{
+                "请求头": "手机",
+                "编码": "GB2312",
+                "副标题": "time\">&&</label>",
+                "数组": "<li>&&</li>",
+                "二次截取": "pic-list pic-list-focus fn-right&&</ol>",
+                "主页url": "https://www.xbw20.com/",
+                "分类url": "https://www.xbw20.com/vod/{cateId}{catePg}.html[https://www.xbw20.com/vod/{cateId}.html]",
+                "搜索url": "https://www.xbw20.com/search.asp?searchword={wd}",
+                "分类": "电影$newmovie#电视剧$newTV#4K专区$new4K#动画片$newcartoon",
+                "起始页": 2,
+                "倒序": 1,
+                "播放数组": "迅雷下载</div>&&</div>",
+                "播放列表": "<li><&&</a >",
+                "筛选": {
+                    "newmovie": [
+                        {
+                            "key": "cateId",
+                            "name": "类型",
+                            "value": [
+                                {
+                                    "n": "全部",
+                                    "v": ""
+                                },
+                                {
+                                    "n": "科幻片",
+                                    "v": "newScience"
+                                },
+                                {
+                                    "n": "动作片",
+                                    "v": "newaction"
+                                },
+                                {
+                                    "n": "恐怖片",
+                                    "v": "newscary"
+                                },
+                                {
+                                    "n": "喜剧片",
+                                    "v": "newcomedy"
+                                },
+                                {
+                                    "n": "爱情片",
+                                    "v": "newromance"
+                                },
+                                {
+                                    "n": "战争片",
+                                    "v": "newwar"
+                                },
+                                {
+                                    "n": "剧情片",
+                                    "v": "newplot"
+                                },
+                                {
+                                    "n": "记录片",
+                                    "v": "newrecord"
+                                }
+                            ]
+                        }
+                    ],
+                    "newTV": [
+                        {
+                            "key": "cateId",
+                            "name": "分类",
+                            "value": [
+                                {
+                                    "n": "分类",
+                                    "v": ""
+                                },
+                                {
+                                    "n": "国产剧",
+                                    "v": "newmainland"
+                                },
+                                {
+                                    "n": "港剧",
+                                    "v": "newtvb"
+                                },
+                                {
+                                    "n": "台剧",
+                                    "v": "newtaiju"
+                                },
+                                {
+                                    "n": "美剧",
+                                    "v": "newoumeiju"
+                                },
+                                {
+                                    "n": "英剧",
+                                    "v": "newyingju"
+                                },
+                                {
+                                    "n": "韩剧",
+                                    "v": "newkorea"
+                                },
+                                {
+                                    "n": "日剧",
+                                    "v": "newriju"
+                                },
+                                {
+                                    "n": "泰剧",
+                                    "v": "newAsia"
+                                },
+                                {
+                                    "n": "印度剧",
+                                    "v": "newyinduju"
+                                },
+                                {
+                                    "n": "新加坡剧",
+                                    "v": "newxinjiapo"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
