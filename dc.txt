@@ -17,6 +17,10 @@
             "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/xmbjm/xmbjm/main/xmbjm.json"
         },
 {
+            "name": "📚王二小放牛",
+            "url": "http://tvbox.王二小放牛娃.top"
+        },
+{
             "name": "📚拾光",
             "url": "https://atomgit.com/xmbjm/vip/raw/main/vip.json"
         },
