@@ -1,7 +1,9 @@
 
 #自用直播
-https://pan.shangui.cc/f/0Bynhj/zby.txt
+https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/gggdeng/master/ZB/zby.txt
 
+#范明明-ipv6
+https://live.fanmingming.com/tv/m3u/ipv6.m3u
 
 #港澳新视界
 https://pan.shangui.cc/f/N4oNIj/港澳新视界222.txt
@@ -51,8 +53,6 @@ https://pan.shangui.cc/f/g3ReIV/红猫收费一锅端.txt
 #dxawi
 https://dxawi.github.io/0/tvlive.txt
 
-#范明明-ipv6
-https://live.fanmingming.com/tv/m3u/ipv6.m3u
 
 #野火
 https://cloud.lxweb.cn/f/xbXBcM/野火(1).txt
