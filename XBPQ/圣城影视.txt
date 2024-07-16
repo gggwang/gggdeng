@@ -18,11 +18,10 @@
         "搜索图片": "data-src=\"&&\"",
         "搜索链接": "href=\"&&\"",
         "线路数组": "data-dropdown-value=&&</div>[排序:蓝光C>蓝光Y[夸克秒播]>夸克专线1][不包含:蓝光Z#备用#鸡儿云#飞速云#新浪云#金鹰云#火狐云#独家蓝光#APP专线#腾讯视频#优酷视频#夸克专线2#芒果TV#乐视云#资源库#爱奇艺]",
-        "线路标题": "雷蒙影视-+<span>&&</small>[替换:</span><small>>>共]+集",
+        "线路标题": ".:雷蒙影视:.+<span>&&</small>[替换:</span><small>>>共]+集",
         "播放数组": "sort-item\"&&</div>",
         "播放标题": "<span>&&</span>",
         "播放列表": "<a&&</a>",
         "分类url": "https://sc1080.top/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html;;akm",
         "分类": "电视剧$2#电影$1#动漫$4#综艺$3"
-    }
-},
+    },
