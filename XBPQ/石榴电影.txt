@@ -28,7 +28,7 @@
         "导演": "props.pageProps.videoDetail.videoinfo.director[].name(♥)",
         "主演": "props.pageProps.videoDetail.videoinfo.starring[].name(♥)",
         "简介": "props.pageProps.videoDetail.videoinfo.introduction",
-        "线路标题": "雷蒙影视",
+        "线路标题": ".:雷蒙影视:.",
         "线路数组": "video-name&&</div>",
         "播放二次截取": "type=\"application/json\">&&</script>",
         "播放列表": "props.pageProps.videoDetail.videoepisode.data",
@@ -1285,4 +1285,3 @@
             ]
         }
     }
-},
