@@ -1,0 +1,49 @@
+{
+  "sites": [
+    { "name": "爱坤🐔蓝光", "api": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/" },
+    { "name": "索尼🐉蓝光", "api": "https://suoniapi.com/api.php/provide/vod/" },
+    { "name": "快云🦚蓝光", "api": "https://kuaiyun-api.com/api.php/provide/vod/" },
+    { "name": "四九🍒蓝光", "api": "https://49zyw.com/api.php/provide/vod/" },
+    { "name": "乐视🏜️蓝光", "api": "https://leshizyapi.com/api.php/provide/vod/" },
+    { "name": "量子🥑超清", "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/" },
+    { "name": "光速", "api": "https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/" },
+    { "name": "红牛", "api": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/" },
+    { "name": "飞速", "api": "https://m3u8.feisuzyapi.com/api.php/provide/vod/from/fsm3u8/" },
+    { "name": "天空", "api": "https://api.tiankongapi.com/api.php/provide/vod/from/tkm3u8/" },
+    { "name": "非凡", "api": "https://cj.ffzyapi.com/api.php/provide/vod/from/ffm3u8/" },
+    { "name": "映迷", "api": "https://www.inmi.app/api.php/provide/vod/" },
+    { "name": "优质", "api": "https://api.1080zyku.com/inc/apijson.php"  },
+    { "name": "海外看", "api": "https://haiwaikan.com/api.php/provide/vod/" }
+  ],
+  "lives": [
+    {
+      "group": "Live",
+      "channels": [
+        { "name": "CCTV1", "urls": ["http://36.129.204.120:880/CCD303.m3u8"] },
+        { "name": "CCTV2", "urls": ["http://36.129.204.120:880/DX2.m3u8"] },
+        { "name": "CCTV3", "urls": ["http://36.129.204.120:880/DX101.m3u8"] },
+        { "name": "CCTV5", "urls": ["http://36.129.204.120:880/DX99.m3u8"] },
+        { "name": "CCTV5+", "urls": ["http://36.129.204.120:880/DX5.m3u8"] },
+        { "name": "CCTV6", "urls": ["http://36.129.204.120:880/DX98.m3u8"] },
+        { "name": "CCTV10", "urls": ["http://36.129.204.120:880/DX11.m3u8"] },
+        { "name": "CCTV12", "urls": ["http://36.129.204.120:880/DX12.m3u8"] },
+        { "name": "CCTV13", "urls": ["http://36.129.204.120:880/DX92.m3u8"] },
+        { "name": "北京卫视", "urls": ["http://36.129.204.120:880/DX15.m3u8"] },
+        { "name": "江苏卫视", "urls": ["http://36.129.204.120:880/JSWS.m3u8"] },
+        { "name": "东方卫视", "urls": ["http://36.129.204.120:880/dx35.m3u8"] },
+        { "name": "浙江卫视", "urls": ["http://36.129.204.120:880/DXZJWS.m3u8"] },
+        { "name": "湖南卫视", "urls": ["http://36.129.204.120:880/DXHNWS.m3u8"] },
+        { "name": "广东卫视", "urls": ["http://36.129.204.120:880/CCN129.m3u8"] },
+        { "name": "辽宁卫视", "urls": ["http://36.129.204.120:880/DX14.m3u8"] },
+        { "name": "凤凰中文", "urls": ["http://playtv-live.ifeng.com/live/06OLEGEGM4G.m3u8"] },
+        { "name": "凤凰资讯", "urls": ["http://playtv-live.ifeng.com/live/06OLEEWQKN4.m3u8"] },
+        { "name": "TVBS", "urls": ["http://ali.hlspull.yximgs.com/live/huanqiuhklivejpjovdxjojfdejodsjxcvljjfvhnjljjjobjjjsvhjchtvbs.flv"] },
+        { "name": "TVBS新闻", "urls": ["http://ali.hlspull.yximgs.com/live/huanqiuhklivejojwhjxojhjjjlfhjljsjcnxjfvbhjdjwjfjjdsswvtvbsxw.flv"] },
+        { "name": "东森新闻", "urls": ["http://ali.hlspull.yximgs.com/live/huanqiuhklivemhjttujjcvbyjuojdjjejywefjjfbxfbxxvbjjjljjhjsxw.flv"] },
+        { "name": "中天新闻", "urls": ["http://ali.hlspull.yximgs.com/live/huanqiuhklivepjjtvvjjjyjuujjfvbscvjdjtwjfsjjsjjjcvuyjemjejtxw.flv"] },
+        { "name": "寰宇新闻", "urls": ["http://ali.hlspull.yximgs.com/live/huanqiuhklivephxehmffjuxcxjvejejyhmnjjxjjhjdhnjbnxfdjfhyxw.flv"] },
+        { "name": "非凡新闻", "urls": ["http://ali.hlspull.yximgs.com/live/huanqiuhklivesjtnfjjojdcbfcxvjfuujjwejjjsjyuhhdjsjhjynffxw.flv"] }
+      ]
+    }
+  ]
+}
