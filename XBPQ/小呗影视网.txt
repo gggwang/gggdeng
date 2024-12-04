@@ -1,0 +1,21 @@
+ {
+                        "作者":  "🐙安家小张🐙",
+                        "站名":  "小呗影视网",
+                        "编码":  "UTF-8",
+                        "请求头":  "User-Agent$Mozilla/5.0 ",
+                        "主页url":  "http://www.nanxiaoba.com/list6/",
+                        "起始页":  "1",
+                        "数组":  "<li class=\"col-&&</a",
+                        "图片":  "data-original=\"&&\"",
+                        "标题":  "alt=\"&&\"",
+                        "副标题":  "✨+continu\">&&</span>",
+                        "链接":  "href=\"&&\"",
+                        "简介":  "✨x教授为您介绍剧情✨+<div id=\"vod-content\">&&</div>",
+                        "线路数组":  "javascript:;&&/li",
+                        "线路标题":  "✨百度云+>&&<",
+                        "播放数组":  " <u&&</ul>",
+                        "播放标题":  "✨+>&&</a",
+                        "分类url":  "http://www.nanxiaoba.com/type/6--{cateId}----addtime-{catePg}.html",
+                        "分类":  "香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大",
+                        "分类值":  "*"            
+    }        
