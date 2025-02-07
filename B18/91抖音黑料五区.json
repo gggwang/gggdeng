@@ -1,0 +1,21 @@
+{
+    "主页url": "https://love.91dyhl.buzz/duoziyuan/tantan/",
+    "数组": "<dl>&&</dl>",
+    "直接播放": "",
+    "图片": "data-src=\"&&\"",
+    "标题": "title=\"&&\"",
+    "副标题": "<i>&&</i>",
+    "链接": "href=\"&&\"",
+    "跳转播放链接": "var player_*\"url\":\"&&\"",
+    "播放数组": "class=\"player-box\">&&</style>",
+    "播放标题": ">&&</a>[不包含:广告位置]",
+    "简介": "description\" content=\"&&\"",
+    "搜索模式": "1",
+    "搜索url": "https://love.91dyhl.buzz/duoziyuan/tantan/index.php/vod/search/page/{pg}/wd/{wd}.html",
+    "分类url": "https://love.91dyhl.buzz/duoziyuan/tantan/index.php/vod/type/id/{cateId}/page/{catePg}.html",
+    "分类数组": "<a&&</a>",
+    "分类标题": ">&&</a>[不包含:更多]",
+    "分类ID": "/type/id/&&.html",
+    "分类": "",
+    "分类值": ""
+}
