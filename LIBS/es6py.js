@@ -1,9 +1,9 @@
 if (typeof Object.assign != 'function') {
     Object.assign = function () {
-        var target = arguments[0];
-        for (var i = 1; i < arguments.length; i++) {
-            var source = arguments[i];
-            for (var key in source) {
+        let target = arguments[0];
+        for (let i = 1; i < arguments.length; i++) {
+            let source = arguments[i];
+            for (let key in source) {
                 if (Object.prototype.hasOwnProperty.call(source, key)) {
                     target[key] = source[key];
                 }
