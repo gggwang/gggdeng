@@ -1,4 +1,4 @@
-﻿
+
 //最新域名 www.btbdys.com，备用域名 bde4.icu,旧站https://www.mp4er.cc/,https://www.52bdys.com/
 {
 	"ua": "",
