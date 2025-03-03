@@ -1,4 +1,4 @@
-﻿{"Home": [
+{"Home": [
 {"key":"APP","title":"APP电影","pic":"https://pic.imgdb.cn/item/633100c516f2c2beb146912c.jpg"},
 {"key":"网页","title":"电影网站","pic":"https://pic.imgdb.cn/item/633100eb16f2c2beb146ace9.jpg"},
 {"key":"采集","title":"采集电影","pic":"https://pic.imgdb.cn/item/6331010816f2c2beb146c673.jpg"},
