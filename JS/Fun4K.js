@@ -1,4 +1,4 @@
-﻿muban.mxone5.二级.tabs = '.module-tab-item';
+muban.mxone5.二级.tabs = '.module-tab-item';
 muban.mxone5.二级.lists = '.module-player-list:eq(#id)&&.scroll-content&&a';
 var rule = Object.assign(muban.mxone5,{
 title:'Fun4K',
