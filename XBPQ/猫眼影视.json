@@ -1,0 +1,22 @@
+{
+	"站名": "猫眼影视",
+	"主页url": "https://maoyan8.xyz",
+	"请求头": "User-Agent$MOBILE_UA",
+    "编码": "UTF-8",
+	//"数组": "<ul class=\"mov_list\"&&</ul>",
+	"图片": "data-original=\"&&\"",
+	"标题": "title=\"&&\"",
+	"链接": "href=\"&&\"",
+	"副标题": "班长推荐",
+
+	"线路数组":"data-dropdown-value=&&</small>",
+	"线路标题":"🌸+>&&</span>",
+	"播放数组":"",
+	"播放链接": "href=\"&&\"",
+	"播放标题": "播放高清+span>&&</span>",
+	"搜索url": "/index.php/ajax/suggest?mid=1&wd={wd}&page={pg}&limit=30",
+    "搜索模式": "1",
+	"分类url":"https://maoyan8.xyz/index.php/vod/show/id/{cateId}/class/{class}/page/{catePg}/year/{year}.html",
+
+	"分类": "电影$20#电视剧$38#综艺$49#动漫$56"
+}
